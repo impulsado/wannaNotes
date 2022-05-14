@@ -1,0 +1,32 @@
+# Intro
+| Dificulty | OS | Start Date | End Date | Help? |
+|---|---|---|---|---|
+| Very Easy | Linux | 10/05/2022 | 10/05/2022 | Yes |
+
+
+# Thought process
+1. View services that were running with nmap.
+2. Check if there were subdirectories with the dirbust.
+3. Since it was a LogIn, see if SQL Injection can be done.
+
+
+# Resolution
+The Login of a Web is a SELECT to the database, but if in the Login you write **admin'--** the rest of the query is commented out and does not look for a password. SQL Injection. 
+
+> Normal Login Query
+```sql
+SELECT * FROM users WHERE name='admin' and password='123456aA'
+```
+
+> Query with SQL Injection
+```sql
+SELECT * FROM members WHERE username = 'admin'--' AND password = '123456aA'
+```
+
+
+# Links
+[SQL Injection Cheat Sheet](https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/)
+
+
+# Tags
+#SQL #SQL_Injection

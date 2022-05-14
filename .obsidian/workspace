@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "84237dae226a0a7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "344e9c8d543a9f0f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/HTB/Appointment/00 - General.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d1dddf76bab2425",
+    "type": "split",
+    "children": [
+      {
+        "id": "084628c8b5c55077",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb16501202afdbc8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8a99a63bc7c2a0ae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 194
+  },
+  "right": {
+    "id": "8a784ea1809df1a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "9410448794c68d77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07c79628dd55aeac",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Writeups/HTB/Appointment/00 - General.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "344e9c8d543a9f0f",
+  "lastOpenFiles": [
+    "Writeups/HTB/Appointment/00 - General.md",
+    "Cheat Sheet/Common/Gobuster.md",
+    "Cheat Sheet/Common/nmap.md"
+  ]
+}
