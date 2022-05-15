@@ -20,21 +20,17 @@ The data retrieval time is very small and are commonly used as cache.
 - List Databases `CONFIG GET databases`
 - Select database `select`
 - Show keys `KEYS *`
-- Vie
-per a interactuar es fa amb `redis-cli`
-per a obtenir informació del server fer `INFO`
-per a seleccionar base de dades `select`
-per llistar base de dades `CONFIG GET databases`
-per veure keys `KEYS *`
-per obtenir valor d'una clau `get name_key`
+- View value of stored key `get key_name`
 
-> Basic
+> Connect to redis server
 ```bash
 redis-cli -h @IP -p 6379
 ```
 
 
 # Resolution
+First I listed keys in the server and i say that there was one call it "flag".
+I searched in google how to get the value of a key
 
 # Tags
 #redis
