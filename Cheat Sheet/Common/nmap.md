@@ -1,7 +1,7 @@
 # nmap
 Check ports status of a certain @IP or range @IP.
 
-> Basic
+> General Purpose
 ```bash
 $ namp -p- -sC -sV -oA nmap @IP/Domain
 ```
