@@ -11,7 +11,7 @@
 
 
 # redis
-Redis is a in-memory data structure store which means that is faster beacuse it stores the data in RAM. Commonly used as cache and if this doesn't have the info, 
+Redis is an 'in-memory' data structure store which means that is faster beacuse it stores the data in RAM. Commonly used as cache and if this doesn't have the info, 
 
 per a interactuar es fa amb `redis-cli`
 per a obtenir informació del server fer `INFO`
