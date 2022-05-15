@@ -14,6 +14,18 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "e27173940cbcf08e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/HTB/Redeemer/00 - General.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -87,9 +99,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "344e9c8d543a9f0f",
+  "active": "e27173940cbcf08e",
   "lastOpenFiles": [
     "Writeups/HTB/Redeemer/00 - General.md",
+    "conflict-files-obsidian-git.md",
     "Writeups/HTB/Appointment/00 - General.md",
     "Cheat Sheet/Common/Gobuster.md",
     "Cheat Sheet/Common/nmap.md",
