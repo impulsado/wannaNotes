@@ -5,13 +5,13 @@
 
 
 # Thought process
-1. View services that were running with nmap.
+1. View running services with nmap.
 2. Check if there were subdirectories with the dirbust.
 3. Since it was a LogIn, see if SQL Injection can be done.
 
 
 # Resolution
-The Login of a Web is a SELECT to the database, but if in the Login you write **admin'--** the rest of the query is commented out and does not look for a password. SQL Injection. 
+To Login a Web is just a SELECT to the database, but if in the username you write **admin'--** the rest of the query is commented out and does not look for a password. SQL Injection. 
 
 > Normal Login Query
 ```sql
