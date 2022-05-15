@@ -25,6 +25,10 @@ $ nmap -sV a.b.c.d
 $ nmap -O a.b.c.d
 ```
 
+Some services run only over UDP, and may be missed by a standard TCP scan. Scan UDP with the `-sU` flag:
+```bash
+$ nmap -sU a.b.c.d
+```
 
 
 #Cheat_Sheet #nmap
