@@ -12,8 +12,11 @@
 
 # redis
 Redis is an 'in-memory' database. In-memory databases is managed in the RAM of the System in contrast to databases that stores in Disks/SSD (MySQL). 
-The data retrieval time is very small and are commonly used as cache and if this doesn't have the info, 
+The data retrieval time is very small and are commonly used as cache.
 
+## Commands
+- Interact with DB `redis-cli`
+- 
 per a interactuar es fa amb `redis-cli`
 per a obtenir informació del server fer `INFO`
 per a seleccionar base de dades `select`
