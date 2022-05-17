@@ -34,4 +34,4 @@ I searched in google how to get the value of a key. After the research I found t
 
 
 # Tags
-#redis
+#redis #HTB 
