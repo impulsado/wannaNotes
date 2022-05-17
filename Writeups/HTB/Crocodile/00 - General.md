@@ -15,7 +15,7 @@
 # Resolution
 After checking which ports are open, I make an ftp connection. 
 ```bash
-ftp -h @IP
+ftp @IP
 ```
 
 
