@@ -19,7 +19,14 @@ ftp @IP
 ```
 
 I listed the Directories `ls` and downloaded the username and password files `get`.
-[lcd]: 
+[lcd]: Change directory on your local system.
+
+The web didn't display any LogIn so I `dirbust` trying to find any `.php`
+```bash
+dirbust
+```
+
+
 # Tags
 #ftp
 mirar que es lo de anonyumous code
