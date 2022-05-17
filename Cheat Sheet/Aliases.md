@@ -14,3 +14,7 @@ source ~/.bashrc
 # Running VPN
 alias htbvpn="sudo openvpn ~/HTB/impulsado.opvn"
 ```
+
+
+# Tags
+#aliases #Cheat_Sheet 

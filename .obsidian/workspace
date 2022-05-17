@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/HTB/Very Easy/Sequel/00 - General.md",
+            "file": "Troubleshooting/Credentials GitHub.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Sequel/00 - General.md",
+                "file": "Troubleshooting/Credentials GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Troubleshooting/Credentials GitHub.md",
+    "Cheat Sheet/Aliases.md",
+    "Cheat Sheet/Common/nmap.md",
     "Writeups/HTB/Very Easy/Sequel/00 - General.md",
     "Writeups/HTB/Very Easy/Appointment/00 - General.md",
     "Writeups/HTB/Very Easy/Crocodile/00 - General.md",
     "Writeups/HTB/Very Easy/Redeemer/00 - General.md",
     "Cheat Sheet/Common/ftp.md",
-    "Cheat Sheet/Aliases.md",
     "Cheat Sheet/Common/Gobuster.md",
-    "Cheat Sheet/Common/nmap.md",
-    "Writeups/HTB/Cocodrile/00 - General.md",
-    "Writeups/WRITEUP.md"
+    "Writeups/HTB/Cocodrile/00 - General.md"
   ]
 }

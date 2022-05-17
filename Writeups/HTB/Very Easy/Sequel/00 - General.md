@@ -24,13 +24,12 @@ I listed the Databases and Selected the one call it "htb"
 SHOW databases; /* */ USE dName;
 ```
 
-Once inside a Database I listed 
+Once inside a Database I listed the Tables and made a simple SELECT.
+> Show Tables and Simple Select
+```sql
+SHOW tables; /**/ SELECT * FROM tNAME;
+```
 
 
-especificar nom usuari `-u`
-logg in MariaDB without password= root
-Entrar a MariaDB `mysql -h @IP -u uNAME`
-Mostrar Base De Dades `SHOW DATABASES;`
-Utilitzar Base de Dades `USE dNAME`
-Mostrar Taules `SHOW TABLES;`
-Fer select bàsic `SELECT * FROM tNAME;`
+# Tags
+#SQL 
