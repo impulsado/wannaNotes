@@ -11,7 +11,10 @@ per entrar en ftp sense contrasenya username = anonymous
 
 
 proces
-entro en ftp com anonymous (unica opcio en els server)
+entro en ftp com anonymous (unica opcio en el server)
+llisto directoris i descarrego fitxers amb usuaris i contrasenyes
+faig dirbuster per veure si hi ha login.php
+Entro com admin gracies a que estava en els documents
 
 
 
