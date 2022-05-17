@@ -8,6 +8,17 @@
 1. View running services with `nmap`.
 2. LogIn to MariaDB using root (Doesn't need password)
 3. `Show databases` and `use` one.
+4. `Select` content of the tables.
+
+
+# Resolution
+After seeing that the machine had a MariaDB server, I tried to login as root (by default it has no password).
+
+> LogIn to MariaDB
+```sql
+
+```
+
 especificar nom usuari `-u`
 logg in MariaDB without password= root
 Entrar a MariaDB `mysql -h @IP -u uNAME`
