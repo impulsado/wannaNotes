@@ -7,8 +7,12 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/HTB/Sequel/Untitled.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Writeups/HTB/Sequel/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,13 +89,12 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Writeups/WRITEUP.md",
+    "Writeups/HTB/Sequel/Untitled.md",
+    "Writeups/HTB/Redeemer/00 - General.md",
+    "conflict-files-obsidian-git.md",
+    "Writeups/HTB/Appointment/00 - General.md",
     "Cheat Sheet/Common/Gobuster.md",
     "Cheat Sheet/Common/nmap.md",
-    "Writeups/HTB/Redeemer/00 - General.md",
-    "Writeups/HTB/Appointment/00 - General.md",
-    "Untitled.md",
-    "README.md",
-    "Writeups/maquia 20.md"
+    "README.md"
   ]
 }
