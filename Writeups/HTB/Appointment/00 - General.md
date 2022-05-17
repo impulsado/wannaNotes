@@ -5,8 +5,8 @@
 
 
 # Thought process
-1. View running services with nmap.
-2. Check if there were subdirectories with the dirbust.
+1. View running services with `nmap`.
+2. Check if there were subdirectories with the `dirbust`.
 3. Since it was a LogIn, see if SQL Injection can be done.
 
 

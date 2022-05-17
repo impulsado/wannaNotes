@@ -3,10 +3,13 @@
 |---|---|---|---|---|
 | Very Easy | Linux | 17/05/2022 | 17/05/2022 | No |
 
+
 # Thought process
-1. View running services with nmap.
-2. Connect with ftp (Anonymous User)
-3. List Directories and `get` im
+1. View running services with `nmap`.
+2. Connect with `ftp`(Anonymous User).
+3. List Directories and `get` interesting files. (Usernames+Password File)
+4. `Dirbust` @IP to find if there's any `login.php`.
+5. Login as "admin".
 
 
 
@@ -15,13 +18,6 @@ descarregar coses amb ftp `get`
 wappalyzer per analitzar webs
 per entrar en ftp sense contrasenya username = anonymous
 
-
-proces
-entro en ftp com anonymous (unica opcio en el server)
-llisto directoris i descarrego fitxers amb usuaris i contrasenyes
-faig dirbuster per veure si hi ha login.php
-Entro com admin gracies a que estava en els documents
-sortir?
 
 
 
