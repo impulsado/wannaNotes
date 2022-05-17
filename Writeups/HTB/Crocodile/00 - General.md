@@ -12,7 +12,15 @@
 5. Login as "admin".
 
 
+# Resolution
+After checking which ports are open, I make an ftp connection. 
+```bash
+ftp -h @IP
+```
 
+
+# Tags
+#ftp
 mirar que es lo de anonyumous code
 descarregar coses amb ftp `get`
 wappalyzer per analitzar webs

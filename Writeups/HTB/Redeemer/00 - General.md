@@ -5,7 +5,7 @@
 
 
 # Thought process
-1. View running services with nmap.
+1. View running services with `nmap`.
 2. List database KEYS.
 3. Get the value of the KEY.
 
