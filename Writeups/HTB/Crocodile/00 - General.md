@@ -3,6 +3,12 @@
 |---|---|---|---|---|
 | Very Easy | Linux | 17/05/2022 | 17/05/2022 | No |
 
+# Thought process
+1. View running services with nmap.
+2. Connect with ftp (Anonymous User)
+3. List Directories and `get` im
+
+
 
 mirar que es lo de anonyumous code
 descarregar coses amb ftp `get`
