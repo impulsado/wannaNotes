@@ -1,0 +1,1 @@
+https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/

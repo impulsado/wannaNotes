@@ -13,7 +13,7 @@
 
 
 # Resolution
-After checking which ports are open, I make an ftp connection. 
+After checking which ports are open, I make an ftp connection using "anonymous" username.
 ```bash
 $ ftp @IP
 ```
@@ -31,17 +31,6 @@ In the end it found a file called `login.php` so I typed it in the browser. Once
 
 # Others
 Users could connect to the FTP server anonymously if the server is configured to allow it, meaning that we could use it even if we had no valid credentials. (nmap shows if it's possible).
-We can use "anonymous"
 
 # Tags
 #ftp
-mirar que es lo de anonyumous code
-descarregar coses amb ftp `get`
-wappalyzer per analitzar webs
-per entrar en ftp sense contrasenya username = anonymous
-
-
-
-
-fer common de ftp
-https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/
