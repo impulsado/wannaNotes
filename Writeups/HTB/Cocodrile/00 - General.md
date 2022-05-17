@@ -5,3 +5,5 @@
 
 
 mirar que es lo de anonyumous code
+descarregar coses amb ftp `get`
+wappalyzer per analitzar webs
