@@ -26,7 +26,11 @@ The web didn't display any LogIn so I `dirbust` trying to find any `.php`
 $ gobuster dir -u @IP/Domain -w /path/to/wordlist -x php
 ```
 
-It found a file named `login.php` so I wrote the U
+In the end it found a file called `login.php` so I typed it in the browser. Once there, I tried with the user "admin" which was in the files.
+
+
+# Others
+
 
 # Tags
 #ftp
