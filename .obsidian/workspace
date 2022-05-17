@@ -7,12 +7,8 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Troubleshooting/Credentials GitHub.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Troubleshooting/Credentials GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +84,7 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Troubleshooting/Credentials GitHub.md",
+    "Troubleshooting/GitHub Credentials.md",
     "Cheat Sheet/Aliases.md",
     "Cheat Sheet/Common/nmap.md",
     "Writeups/HTB/Very Easy/Sequel/00 - General.md",
