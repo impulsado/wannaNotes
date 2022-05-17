@@ -32,5 +32,6 @@ In the end it found a file called `login.php` so I typed it in the browser. Once
 # Others
 Users could connect to the FTP server anonymously if the server is configured to allow it, meaning that we could use it even if we had no valid credentials. (nmap shows if it's possible).
 
+
 # Tags
 #ftp
