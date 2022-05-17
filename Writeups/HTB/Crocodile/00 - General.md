@@ -18,7 +18,8 @@ After checking which ports are open, I make an ftp connection.
 ftp @IP
 ```
 
-
+I listed the Directories `ls` and downloaded the username and password files `get`.
+[lcd]: 
 # Tags
 #ftp
 mirar que es lo de anonyumous code
