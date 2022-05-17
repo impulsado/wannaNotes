@@ -7,8 +7,12 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Troubleshooting/GitHub Credentials.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Troubleshooting/GitHub Credentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,11 +89,11 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Sequel/00 - General.md",
-    "Writeups/HTB/Very Easy/Redeemer/00 - General.md",
-    "Writeups/HTB/Very Easy/Crocodile/00 - General.md",
-    "Writeups/HTB/Very Easy/Appointment/00 - General.md",
     "Troubleshooting/GitHub Credentials.md",
+    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
+    "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
+    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
+    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
     "Cheat Sheet/Aliases.md",
     "Cheat Sheet/Common/nmap.md",
     "Cheat Sheet/Common/ftp.md",
