@@ -5,3 +5,7 @@
 
 especificar nom usuari `-u`
 logg in MariaDB without password= root
+Entrar a MariaDB `mysql -h @IP -u uNAME`
+Mostrar Base De Dades `SHOW DATABASES;`
+Utilitzar Base de Dades `USE dNAME`
+Mostrar Taules `SHOW TABLES;`
