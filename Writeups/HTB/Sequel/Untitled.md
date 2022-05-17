@@ -3,3 +3,5 @@
 |---|---|---|---|---|
 | Very Easy | Linux | 17/05/2022 | 17/05/2022 |  |
 
+especificar nom usuari `-u`
+logg in MariaDB without password= root
