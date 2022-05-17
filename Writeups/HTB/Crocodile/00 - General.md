@@ -15,7 +15,7 @@
 # Resolution
 After checking which ports are open, I make an ftp connection. 
 ```bash
-ftp @IP
+$ ftp @IP
 ```
 
 I listed the Directories `ls` and downloaded the username and password files `get`.
@@ -23,9 +23,10 @@ I listed the Directories `ls` and downloaded the username and password files `ge
 
 The web didn't display any LogIn so I `dirbust` trying to find any `.php`
 ```bash
-dirbust
+$ gobuster dir -u @IP/Domain -w /path/to/wordlist -x php
 ```
 
+It found a file named `login.php` so I wrote the U
 
 # Tags
 #ftp

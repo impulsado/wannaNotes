@@ -24,7 +24,7 @@ The data retrieval time is very small and are commonly used as cache.
 
 > Connect to redis server
 ```bash
-redis-cli -h @IP -p 6379
+$ redis-cli -h @IP -p 6379
 ```
 
 
