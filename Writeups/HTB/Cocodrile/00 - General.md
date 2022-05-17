@@ -15,6 +15,7 @@ entro en ftp com anonymous (unica opcio en el server)
 llisto directoris i descarrego fitxers amb usuaris i contrasenyes
 faig dirbuster per veure si hi ha login.php
 Entro com admin gracies a que estava en els documents
+sortir?
 
 
 
