@@ -7,12 +7,8 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Writeups/HTB/Cocodrile/00 - General.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Cocodrile/00 - General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
