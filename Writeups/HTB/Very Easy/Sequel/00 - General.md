@@ -13,11 +13,19 @@
 
 # Resolution
 After seeing that the machine had a MariaDB server, I tried to login as root (by default it has no password).
-
 > LogIn to MariaDB
-```sql
-
+```bash
+$ mysql -h @IP -u root
 ```
+
+I listed the Databases and Selected the one call it "htb"
+> Show Databases and Use it
+```sql
+SHOW databases; /* */ USE dName;
+```
+
+Once inside a Database I listed 
+
 
 especificar nom usuari `-u`
 logg in MariaDB without password= root
