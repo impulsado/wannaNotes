@@ -9,5 +9,11 @@ descarregar coses amb ftp `get`
 wappalyzer per analitzar webs
 per entrar en ftp sense contrasenya username = anonymous
 
+
+proces
+entro en ftp com anonymous (unica opcio en els server)
+
+
+
 fer common de ftp
 https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/
