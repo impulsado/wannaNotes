@@ -11,3 +11,8 @@ https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion
 NTLM
 include()
 https://www.php.net/manual/en/function.include.php
+
+https://www.ionos.com/digitalguide/server/know-how/ntlm-nt-lan-manager/
+
+Instal·lar responder = caturar hash del NTLM
+
