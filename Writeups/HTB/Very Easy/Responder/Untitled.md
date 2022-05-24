@@ -6,4 +6,6 @@ php for scripting webpage
 
 [Veure mes sobre php]
 LFI?
+https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt
 
+NTLM
