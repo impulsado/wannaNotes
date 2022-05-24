@@ -3,9 +3,9 @@ These are some examples of personal aliases I've used. They allow me to quickly 
 
 ## Adding Aliases
 ```bash
-nano ~/.zshrc
+nano ~/.bashrc
 [...]
-source ~/.zshrc
+source ~/.bashrc
 ```
 
 
