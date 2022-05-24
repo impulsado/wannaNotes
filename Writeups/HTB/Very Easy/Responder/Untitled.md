@@ -16,3 +16,5 @@ https://www.ionos.com/digitalguide/server/know-how/ntlm-nt-lan-manager/
 
 Instal·lar responder = caturar hash del NTLM
 
+john per hash (John The Ripper)
+
