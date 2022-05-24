@@ -24,3 +24,5 @@ Connectar-se a la maquina utilitzant WinRM (aplicació EvilWinRM)
 ```bash
 $ evil-winrm -i 10.129.52.23 -u administrator -p badminton
 ```
+
+en el directori no hi ha res i anem al user mike on alli té la flag
