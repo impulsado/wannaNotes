@@ -18,3 +18,7 @@ Instal·lar responder = caturar hash del NTLM
 
 john per hash (John The Ripper)
 
+Connectar-se a la maquina utilitzant WinRM (aplicació EvilWinRM)
+[//]: Powershell no està instal·lat en windows sino seria: ?????FERRRRRRRr
+
+
