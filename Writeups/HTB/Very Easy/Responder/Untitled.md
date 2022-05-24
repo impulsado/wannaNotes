@@ -9,3 +9,5 @@ LFI?
 https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt
 
 NTLM
+include()
+https://www.php.net/manual/en/function.include.php
