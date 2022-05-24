@@ -5,3 +5,5 @@ editar el /etc/hosts amb la relacio
 php for scripting webpage
 
 [Veure mes sobre php]
+LFI?
+
