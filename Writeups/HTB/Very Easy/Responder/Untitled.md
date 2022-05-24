@@ -21,4 +21,6 @@ john per hash (John The Ripper)
 Connectar-se a la maquina utilitzant WinRM (aplicació EvilWinRM)
 [//]: Powershell no està instal·lat en windows sino seria: ?????FERRRRRRRr
 
-
+```bash
+$ evil-winrm -i 10.129.52.23 -u administrator -p badminton
+```
