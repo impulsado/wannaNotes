@@ -12,6 +12,11 @@ smbclient \\\\@IP\\folder_name
 
 https://tldp.org/HOWTO/SMB-HOWTO-8.html
 
+get file_name
+[//]: La ruta es desde on has executat la terminal de Kali
+
+# FINDS
+ARCHETYPE\sql_svc = M3g4c0rp123
 
 
 

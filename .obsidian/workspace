@@ -7,8 +7,12 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -45,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,10 +89,10 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
     "Writeups/HTB/Very Easy/Archetype/TO DO.md",
-    "Writeups/HTB/Very Easy/Responder/TO DO.md",
     "Troubleshooting/GitHub Credentials.md",
+    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
+    "Writeups/HTB/Very Easy/Responder/TO DO.md",
     "Cheat Sheet/Aliases.md",
     "Cheat Sheet/Common/nmap.md",
     "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
