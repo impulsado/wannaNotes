@@ -18,6 +18,7 @@ get file_name
 # FINDS
 ARCHETYPE\sql_svc = M3g4c0rp123
 
+mssqlclient.py
 
 
 
