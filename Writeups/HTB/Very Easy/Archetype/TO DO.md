@@ -20,6 +20,9 @@ get file_name
 └─$ python3 mssqlclient.py ARCHETYPE/sql_svc@10.129.90.161 -windows-auth
 ```
 
+un cop en el server, s'ha de permettre `enable_xp_cmdshell` perque despres farem comandos de windows al servidor.
+Ara volem llistar que hi ha en el direcrtori (no hi ha res xd)
+
 
 
 
