@@ -9,3 +9,14 @@ Això llista els disc/impresores que poden compartir amb l'usuari.
 ```
 smbclient \\\\@IP\\folder_name
 ```
+
+https://tldp.org/HOWTO/SMB-HOWTO-8.html
+
+
+
+
+
+
+
+
+

@@ -7,12 +7,8 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Cheat_Sheet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +85,7 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
     "Writeups/HTB/Very Easy/Archetype/TO DO.md",
     "Writeups/HTB/Very Easy/Responder/TO DO.md",
     "Troubleshooting/GitHub Credentials.md",
@@ -96,7 +93,6 @@
     "Cheat Sheet/Common/nmap.md",
     "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
     "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
-    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
     "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
     "Cheat Sheet/Common/ftp.md"
   ]
