@@ -22,10 +22,15 @@ get file_name
 
 
 
+
+
+
+
 # FINDS
 ARCHETYPE\sql_svc = M3g4c0rp123
 
-mssqlclient.py (Execute Windows Command Shell on Microsoft SQL)
+mssqlclient.py (Estavlir conexio autentificada amb el servidor SQL)
+xp_cmdshell (Executar Consola de Comandos de Windows en Microsoft SQL)
 winpeas (Privilegie Escalation)
 
 
