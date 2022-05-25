@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/HTB/Very Easy/Responder/CH1.md",
+            "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Responder/CH1.md",
+                "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,8 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Responder/CH1.md",
+    "Writeups/HTB/Very Easy/Archetype/TO DO.md",
+    "Writeups/HTB/Very Easy/Responder/TO DO.md",
     "Troubleshooting/GitHub Credentials.md",
     "Cheat Sheet/Aliases.md",
     "Cheat Sheet/Common/nmap.md",
@@ -97,7 +98,6 @@
     "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
     "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
     "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
-    "Cheat Sheet/Common/ftp.md",
-    "Cheat Sheet/Common/Gobuster.md"
+    "Cheat Sheet/Common/ftp.md"
   ]
 }
