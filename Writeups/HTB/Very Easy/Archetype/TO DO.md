@@ -28,7 +28,6 @@ un cop en el server, s'ha de permettre `enable_xp_cmdshell` perque despres farem
 
 
 
-
 # FINDS
 ARCHETYPE\sql_svc = M3g4c0rp123
 
