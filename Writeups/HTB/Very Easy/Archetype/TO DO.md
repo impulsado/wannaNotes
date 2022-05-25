@@ -1,0 +1,1 @@
+smbclient -N -L @IP
