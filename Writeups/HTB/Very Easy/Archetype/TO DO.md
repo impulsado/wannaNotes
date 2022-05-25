@@ -21,8 +21,8 @@ get file_name
 ```
 
 un cop en el server, s'ha de permettre `enable_xp_cmdshell` perque despres farem comandos de windows al servidor.
-Ara volem llistar que hi ha en el direcrtori (no hi ha res xd)
 
+???perque collons ers lo de responder
 
 
 
