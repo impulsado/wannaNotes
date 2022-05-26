@@ -6,8 +6,15 @@
 
 # Thought process
 1. View running services with `nmap`.
-2. Edit 
+2. Edit `/etc/hosts` for being able to see the web.
+3. 
 
+
+# Resolution
+Edit `/etc/hosts` like this:
+```bash
+10.129.136.91 unika.htb
+```
 si busco la ip en el navegador em redirecciona amb un domini.
 
 editar el /etc/hosts amb la relacio
