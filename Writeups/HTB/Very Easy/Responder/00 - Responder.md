@@ -8,6 +8,8 @@
 1. View running services with `nmap`.
 2. Edit `/etc/hosts` for being able to see the web.
 3. Check how web works and think if I can attack doing File Inclusion.
+4. Capture Administrator NTLM.
+5. Trying to connect with WinRM.
 
 
 # Resolution
@@ -37,6 +39,13 @@ The server will try to finde the file but it doesn't exists. Mean while, we capt
 $ john -w=/usr/share/wordlists/rockyou.txt hash.txt
 ```
 [hash.txt]: Is the hash captured with Responder and redirected to a file.
+
+Finally, with the username and password, we can WinRM the machine to find if there's any file with the Flag.
+```bash
+$ evil-winrm -i @IP_Server -u administrator -p badminton
+```
+[type]: Command to view the content.
+
 
 # WinRM
 Windows-native built-in remote management protocol that basically uses Simple Object Access Protocol to interact with remote computers and servers, as well as Operating Systems and applications. 
