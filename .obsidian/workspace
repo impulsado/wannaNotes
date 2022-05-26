@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "344e9c8d543a9f0f",
+        "id": "b461a1319d3068f8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Troubleshooting/responder.py Daemon TO DO.md",
+            "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Troubleshooting/responder.py Daemon TO DO.md",
+                "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "344e9c8d543a9f0f",
+  "active": "b461a1319d3068f8",
   "lastOpenFiles": [
-    "Troubleshooting/responder.py Daemon TO DO.md",
     "Writeups/HTB/Very Easy/Archetype/TO DO.md",
+    "conflict-files-obsidian-git.md",
+    "Troubleshooting/responder.py Daemon TO DO.md",
     "Writeups/HTB/Very Easy/Responder/TO DO.md",
     "Troubleshooting/GitHub Credentials.md",
     "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
     "Cheat Sheet/Aliases.md",
     "Cheat Sheet/Common/nmap.md",
     "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
-    "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
-    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md"
+    "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md"
   ]
 }
