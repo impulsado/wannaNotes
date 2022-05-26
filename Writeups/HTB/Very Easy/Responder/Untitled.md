@@ -17,7 +17,10 @@ Edit `/etc/hosts` like this:
 ```
 
 Test the "page" parameter to see if we can access to some commonly known files that will have the same name across networks, Windows domains, and systems. [Link](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt)
-The most commo
+The most common file to check as Pentester is `WINDOWS\System32\drivers\etc\hosts`.
+Final URL: `page=../../../../../../../../windows/system32/drivers/etc/hosts` 
+The file incluson was made possible thanks to `include()` method of php. 
+
 
 # WinRM
 Windows-native built-in remote management protocol that basically uses Simple Object Access Protocol to interact with remote computers and servers, as well as Operating Systems and applications. 
