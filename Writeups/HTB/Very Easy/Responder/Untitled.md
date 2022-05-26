@@ -26,7 +26,9 @@ WinRM allows the user to :
 [//]: We can find credentials (typically username and password) for a user who has remote management privileges and execute PS.
 
 
-# FD
+# File Inclusion Vulnerability
+Dynamic websites include HTML pages on the fly based on some of the parameters (Cookies, POST parameters...)
+
 
 php for scripting webpage
 
