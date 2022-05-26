@@ -21,8 +21,13 @@ The most common file to check as Pentester is `WINDOWS\System32\drivers\etc\host
 Final URL: `page=../../../../../../../../windows/system32/drivers/etc/hosts` 
 The file incluson was made possible thanks to `include()` method of php is being used by page parameter to load differents `.html` depending the lengague of the site.
 
-In the PHP configuration file php.ini , "allow_url_include" wrapper is set to "Off" by default, indicating that PHP does not load remote HTTP or FTP URLs to prevent remote file inclusion attacks. However, even if allow_url_include and allow_url_fopen are set to "Off", PHP will not prevent the loading of SMB URLs.
+In the PHP configuration file `php.ini` , "allow_url_include" wrapper is set to "Off" by default, indicating that PHP does not load remote HTTP or FTP URLs to prevent remote file inclusion attacks. However, even if allow_url_include and allow_url_fopen are set to "Off", PHP will not prevent the loading of SMB URLs. 
+We can use `Responder` to steal NTLM hash.
+```bash
+$ sudo python3 Responder.py -I tun0
+```
 
+Now we tell the server to include a resource from our SMB Server
 
 # WinRM
 Windows-native built-in remote management protocol that basically uses Simple Object Access Protocol to interact with remote computers and servers, as well as Operating Systems and applications. 
