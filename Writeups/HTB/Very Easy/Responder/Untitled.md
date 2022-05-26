@@ -29,6 +29,9 @@ WinRM allows the user to :
 # File Inclusion Vulnerability
 Dynamic websites include HTML pages on the fly based on some of the parameters (Cookies, POST parameters...)
 
+## Local
+Local File Inclusion occurs when an attacker is able to get a website to include a file that was not intended to be an option for this application. A common example 
+
 
 php for scripting webpage
 
