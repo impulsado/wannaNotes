@@ -19,7 +19,7 @@ Edit `/etc/hosts` like this:
 Test the "page" parameter to see if we can access to some commonly known files that will have the same name across networks, Windows domains, and systems. [Link](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt)
 The most common file to check as Pentester is `WINDOWS\System32\drivers\etc\hosts`.
 Final URL: `page=../../../../../../../../windows/system32/drivers/etc/hosts` 
-The file incluson was made possible thanks to `include()` method of php. 
+The file incluson was made possible thanks to `include()` method of php is being used by page parameter to load differents `.html` depending the lengague of the site.
 
 
 # WinRM
@@ -40,17 +40,34 @@ Local File Inclusion occurs when an attacker is able to get a website to include
 ## Remote
 Similar to LFI but in this case it is possible for an attacker to load a remote file on the host using protocols like HTTP, FTP etc.
 
+# include()
+```php
+File 1 --> vars.php 
+<?php
 
-php for scripting webpage
+$color = 'green';
+$fruit = 'apple';
 
-[Veure mes sobre php]
-LFI?
-https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt
+?>
+
+############################################# 
+
+File 2 --> test.php
+<?php
+
+echo "A $color $fruit"; // output = "A"
+include 'vars.php';
+echo "A $color $fruit"; // output = "A green apple"
+
+?>
+```
+More info about php include(). [Link](https://www.php.net/manual/en/function.include.php)
+
+
+
+
 
 NTLM
-include()
-https://www.php.net/manual/en/function.include.php
-
 https://www.ionos.com/digitalguide/server/know-how/ntlm-nt-lan-manager/
 
 Instal·lar responder = caturar hash del NTLM
