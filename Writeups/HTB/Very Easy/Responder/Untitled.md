@@ -16,6 +16,8 @@ Edit `/etc/hosts` like this:
 @IP unika.htb
 ```
 
+Test the "page" parameter to see if we can access to some commonly known files that will have the same name across networks, Windows domains, and systems. [Link](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt)
+The most commo
 
 # WinRM
 Windows-native built-in remote management protocol that basically uses Simple Object Access Protocol to interact with remote computers and servers, as well as Operating Systems and applications. 
@@ -33,6 +35,7 @@ Dynamic websites include HTML pages on the fly based on some of the parameters (
 Local File Inclusion occurs when an attacker is able to get a website to include a file that was not intended to be an option for this application. A common example is when the attacker can use `../` in the inputted file and view sensitive files of the server.
 
 ## Remote
+Similar to LFI but in this case it is possible for an attacker to load a remote file on the host using protocols like HTTP, FTP etc.
 
 
 php for scripting webpage
