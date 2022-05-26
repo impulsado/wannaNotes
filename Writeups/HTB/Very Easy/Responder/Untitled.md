@@ -40,6 +40,7 @@ Local File Inclusion occurs when an attacker is able to get a website to include
 ## Remote
 Similar to LFI but in this case it is possible for an attacker to load a remote file on the host using protocols like HTTP, FTP etc.
 
+
 # include()
 ```php
 File 1 --> vars.php 
