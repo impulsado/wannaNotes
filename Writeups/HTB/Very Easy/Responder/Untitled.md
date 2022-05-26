@@ -1,3 +1,13 @@
+# Intro
+| Dificulty | OS | Start Date | End Date | Help? |
+|---|---|---|---|---|
+| Very Easy | Windows | 24/05/2022 | 24/05/2022 | Yes |
+
+
+# Thought process
+1. View running services with `nmap`.
+2. Edit 
+
 si busco la ip en el navegador em redirecciona amb un domini.
 
 editar el /etc/hosts amb la relacio
