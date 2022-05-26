@@ -7,17 +7,26 @@
 # Thought process
 1. View running services with `nmap`.
 2. Edit `/etc/hosts` for being able to see the web.
-3. 
+3. Check how web works and think if I can attack doing File Inclusion.
 
 
 # Resolution
 Edit `/etc/hosts` like this:
 ```bash
-10.129.136.91 unika.htb
+@IP unika.htb
 ```
-si busco la ip en el navegador em redirecciona amb un domini.
 
-editar el /etc/hosts amb la relacio
+
+# WinRM
+Windows-native built-in remote management protocol that basically uses Simple Object Access Protocol to interact with remote computers and servers, as well as Operating Systems and applications. 
+WinRM allows the user to : 
+	→ Remotely communicate and interface with hosts 
+	→ Execute commands remotely on systems that are not local to you but are network accessible. 
+	→ Monitor, manage and configure servers, operating systems and client machines from a remote location
+[//]: We can find credentials (typically username and password) for a user who has remote management privileges and execute PS.
+
+
+# FD
 
 php for scripting webpage
 
