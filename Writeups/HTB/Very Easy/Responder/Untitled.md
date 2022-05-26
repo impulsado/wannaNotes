@@ -65,11 +65,19 @@ echo "A $color $fruit"; // output = "A green apple"
 More info about php include(). [Link](https://www.php.net/manual/en/function.include.php)
 
 
+# NTLM
+Collection of authentication protocols created by Microsoft. It is a challenge-response authentication protocol used to authenticate a client to a resource on an Active Directory domain.
+1. The client sends the user name and domain name to the server. 
+2. The server generates a random character string, referred to as the challenge. 
+3. The client encrypts the challenge with the NTLM hash of the user password and sends it back to the server. 
+4. The server retrieves the user password (or equivilent). 
+5. The server uses the hash value retrieved from the security account database to encrypt the challenge string. The value is then compared to the value received from the client. If the values match, the client is authenticated.
+
+More info about NTLM. [Link](https://www.ionos.com/digitalguide/server/know-how/ntlm-nt-lan-manager/)
 
 
+# Responder
 
-NTLM
-https://www.ionos.com/digitalguide/server/know-how/ntlm-nt-lan-manager/
 
 Instal·lar responder = caturar hash del NTLM
 
