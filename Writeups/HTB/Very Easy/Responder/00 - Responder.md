@@ -21,6 +21,8 @@ The most common file to check as Pentester is `WINDOWS\System32\drivers\etc\host
 Final URL: `page=../../../../../../../../windows/system32/drivers/etc/hosts` 
 The file incluson was made possible thanks to `include()` method of php is being used by page parameter to load differents `.html` depending the lengague of the site.
 
+In the PHP configuration file php.ini , "allow_url_include" wrapper is set to "Off" by default, indicating that PHP does not load remote HTTP or FTP URLs to prevent remote file inclusion attacks. However, even if allow_url_include and allow_url_fopen are set to "Off", PHP will not prevent the loading of SMB URLs.
+
 
 # WinRM
 Windows-native built-in remote management protocol that basically uses Simple Object Access Protocol to interact with remote computers and servers, as well as Operating Systems and applications. 
@@ -77,6 +79,9 @@ More info about NTLM. [Link](https://www.ionos.com/digitalguide/server/know-how/
 
 
 # Responder
+! It can be used in a lot of ways, in this CTF is going to recreate a SMB Server.
+
+When the target machine attempts to perform the NTLM authentication to that server, Responder sends a challenge back for the server to encrypt with the user's password. When the server responds, Responder will use the challenge and the encrypted response to generate the NetNTLMv2. While we can't reverse the NetNTLMv2, we can try many different common passwords to see if any generate the same challenge response, and if we find one, we know that is the password.
 
 
 Instal·lar responder = caturar hash del NTLM
