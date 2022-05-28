@@ -13,7 +13,8 @@ source ~/.zshrc
 ```bash
 # Running VPN
 alias htbvpn='sudo openvpn ~/HTB/impulsado.opvn'
-alias mkt='mkdir {enum,exploits,content}'
+alias mkt='mkdir {nmap,exploits,content}'
+alias serv80='cd ~/Documents; sudo python3 -m http.server'
 ```
 
 
