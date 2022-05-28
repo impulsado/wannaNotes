@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Aliases.md",
+            "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Aliases.md",
+                "file": "Writeups/HTB/Very Easy/Archetype/TO DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Cheat Sheet/Aliases.md",
-    "Writeups/HTB/Very Easy/Responder/00 - Responder.md",
-    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
-    "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
+    "Writeups/HTB/Very Easy/Archetype/TO DO.md",
+    "Pasted image 20220528174821.png.md",
+    "Photos/Pasted image 20220528174801.png",
+    "Photos/Pasted image 20220528174821.png",
+    "Pasted image 20220528093504.png.md",
     "TO-DO List.md",
-    "Cheat Sheet/John The Reapper TO DO.md",
-    "Troubleshooting/GitHub Credentials.md",
-    "Cheat Sheet/Common/nmap.md",
-    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
-    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md"
+    "README.md",
+    "conflict-files-obsidian-git.md",
+    "Writeups/HTB/Very Easy/Responder/TO DO.md",
+    "Writeups/HTB/Very Easy/Responder/00 - Responder.md"
   ]
 }
