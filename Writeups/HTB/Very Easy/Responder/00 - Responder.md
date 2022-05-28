@@ -9,7 +9,8 @@
 2. Edit `/etc/hosts` for being able to see the web.
 3. Check how web works and think if I can attack doing File Inclusion.
 4. Capture Administrator NTLM.
-5. Trying to connect with WinRM.
+5. Dump hash file to get Administrator Password.
+6. Connect with WinRM and find flag file.
 
 
 # Resolution
@@ -105,20 +106,3 @@ More info about NTLM. [Link](https://www.ionos.com/digitalguide/server/know-how/
 ! It can be used in a lot of ways, in this CTF is going to recreate a SMB Server.
 
 When the target machine attempts to perform the NTLM authentication to that server, Responder sends a challenge back for the server to encrypt with the user's password. When the server responds, Responder will use the challenge and the encrypted response to generate the NetNTLMv2. While we can't reverse the NetNTLMv2, we can try many different common passwords to see if any generate the same challenge response, and if we find one, we know that is the password.
-
-
-
-
-
-Instal·lar responder = caturar hash del NTLM
-
-john per hash (John The Ripper)
-
-Connectar-se a la maquina utilitzant WinRM (aplicació EvilWinRM)
-[//]: Powershell no està instal·lat en windows sino seria: ?????FERRRRRRRr
-
-```bash
-$ evil-winrm -i 10.129.52.23 -u administrator -p badminton
-```
-
-en el directori no hi ha res i anem al user mike on alli té la flag
