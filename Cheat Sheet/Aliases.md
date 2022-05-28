@@ -12,7 +12,8 @@ source ~/.zshrc
 ## Useful Aliases
 ```bash
 # Running VPN
-alias htbvpn="sudo openvpn ~/HTB/impulsado.opvn"
+alias htbvpn='sudo openvpn ~/HTB/impulsado.opvn'
+alias mkt='mkdir {enum,exploits,content}'
 ```
 
 
