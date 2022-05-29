@@ -1,0 +1,5 @@
+> Start tmux
+```bash
+$ tmux
+```
+
