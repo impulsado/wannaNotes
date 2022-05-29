@@ -6,24 +6,24 @@ Use netcat to listen for connections. What this does is open a port (either tcp 
 
 > Basic Listener
 ```bash
-$ nc -lvnp 8080
+$ nc -lvnp PORT
 ```
+[-l]: Listen incoming connection
+[-v]: Verbose output
+[-n]: Do not do DNS
+[-p]: Specifies source port nc should use
 
-I.e. connect to an arbitrary port on an IP address:
+To listen on UDP must use `-u`.
 
+## Client Mode
+Use netcat to connect to an open port on a system. This can be beneficial for manually checking service banners or just checking if the port is open.
+
+> Basic Connection
 ```bash
-$ nc [IP] [PORT]
+$ nc -vn @IP PORT
 ```
 
-## 
-
-Basic Listener
-
-I.e. receive connections on an arbitrary port:
-
-```bash
-$ nc -lp [PORT]
-```
+For a udp connection we only add the `-u` option.
 
 ## 
 
