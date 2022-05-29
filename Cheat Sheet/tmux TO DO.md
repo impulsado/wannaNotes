@@ -22,14 +22,12 @@ Configure [Link](https://youtu.be/cPWEX2446B4)
 |Shortcut | Function |
 | --- | --- |
 | c | Create Window |
-| w | list windows|
-|n  |next window|
-|p | previous window|
-|f | find window|
-|,  |name window|
-|& | kill window|
+| , | Change window name|
+| & | Kill Window|
 | m | Mouse Mode |
-
+| - | Split Horizontal |
+| _ | Split Veritcal |
+| J |
 
 Configure Oh-My-Tmux [Link](https://youtu.be/cPWEX2446B4)
 
