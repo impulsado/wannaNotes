@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/HTB/Very Easy/Archetype/Untitled.md",
+            "file": "Writeups/HTB/Very Easy/Archetype/05 - Enumeration.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Archetype/Untitled.md",
+                "file": "Writeups/HTB/Very Easy/Archetype/05 - Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Archetype/Untitled.md",
+    "Writeups/HTB/Very Easy/Archetype/05 - Enumeration.md",
     "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
     "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
     "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
