@@ -31,20 +31,9 @@ Don’t really care about which is the server and which is the client because th
 
 > Transfer file on Server1 to Server2
 ```bash
-nc -lvnp 8080 < infile (Server1) 
-nc 192.168.125.10 8080 > outfile (Server2)
-```
-Setup a listener on host that pushes to an outfile:
-
-```bash
-$ nc -lp [PORT] > /path/to/outfile
+nc 192.168.125.10 8080 > /path/to/outfile 
 ```
 
-From the client (remote machine), push a file back to the listener:
-
-```bash
-$ nc -w3 [IP] [PORT] < /path/to/infile
-```
 
 ## 
 
