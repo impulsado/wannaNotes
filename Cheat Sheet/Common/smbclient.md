@@ -60,3 +60,7 @@ smb: \> dir
 ```bash
 smb: \> lcd LOCAL_DIRECTORY_PATH
 ```
+
+
+# Tags
+#Cheat_Sheet #smb
