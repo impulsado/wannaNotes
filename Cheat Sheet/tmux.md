@@ -1,15 +1,20 @@
 # tmux
-Based on sessions. First session is = 0. * specifies currtent session.
+Allows multiple terminal sessions to be accessed simultaneously in a single window.
 
 > Start tmux
 ```bash
 $ tmux
 ```
 
-> Rename window
-```
-Ctrl+B ,
-```
+| Function | Shortcut |
+| --- | --- |
+| Rename Window | `Ctrl+b` `,` |
+| Rename Window | `Ctrl+b` `,` |
+| Rename Window | `Ctrl+b` `,` |
+| Rename Window | `Ctrl+b` `,` |
+| Rename Window | `Ctrl+b` `,` |
+
+
 
 
 
