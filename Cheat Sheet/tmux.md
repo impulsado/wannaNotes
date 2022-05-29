@@ -6,6 +6,9 @@ Based on windows. First windows is = 0. * specifie currtent window.
 $ tmux
 ```
 
+> Rename session
+
+
 
 
 # Tags
