@@ -130,7 +130,13 @@ The user flag is in the user's Desktop.
 
 # Privilege Escalation
 ## winPEAS
+Is Windows Local Privilege Escalation Vector tool .
+Download [Link](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS)
 
+> Simple HTTP Server
+```bash
+$ sudo python3 -m http.server 80
+```
 
 
 
