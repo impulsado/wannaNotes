@@ -1,9 +1,10 @@
 # tmux
 Allows multiple terminal sessions to be accessed simultaneously in a single window.
+More information [Link](https://www.shortcutfoo.com/app/dojos/tmux/cheatsheet)
 
 > Start tmux
 ```bash
-$ tmux
+$ tmux new -s NAME
 ```
 
 | Shortcut | Function |
