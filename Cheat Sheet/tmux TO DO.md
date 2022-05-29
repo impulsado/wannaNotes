@@ -18,5 +18,7 @@ $ tmux new -s NAME
 |& | kill window|
 
 
+Configure Oh-My-Tmux [Link](https://youtu.be/cPWEX2446B4)
+
 # Tags
 #tmux #Cheat_Sheet 
