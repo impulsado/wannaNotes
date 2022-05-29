@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TO-DO List.md",
+            "file": "Cheat Sheet/Common/smbclient.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "3937b33beeae8d13",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO List.md",
+                "file": "Cheat Sheet/Common/smbclient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +101,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "TO-DO List.md",
     "Cheat Sheet/Common/smbclient.md",
+    "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
     "Cheat Sheet/Password Cracking/John The Reapper TO DO.md",
+    "TO-DO List.md",
     "Cheat Sheet/Common/netcat.md",
     "Cheat Sheet/Common/nmap.md",
     "Cheat Sheet/tmux.md",
     "Cheat Sheet/Aliases.md",
     "Cheat Sheet/Common/Gobuster.md",
-    "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
     "Writeups/HTB/Very Easy/Responder/00 - Responder.md"
   ]
 }
