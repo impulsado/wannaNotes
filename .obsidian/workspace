@@ -91,13 +91,13 @@
   "lastOpenFiles": [
     "Cheat Sheet/Common/netcat.md",
     "Cheat Sheet/Common/nmap.md",
+    "Cheat Sheet/tmux.md",
+    "Cheat Sheet/John The Reapper TO DO.md",
+    "Cheat Sheet/Aliases.md",
     "Cheat Sheet/Common/Gobuster.md",
     "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
-    "Cheat Sheet/John The Reapper TO DO.md",
     "TO-DO List.md",
     "Writeups/HTB/Very Easy/Responder/00 - Responder.md",
-    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
-    "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
-    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md"
+    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md"
   ]
 }
