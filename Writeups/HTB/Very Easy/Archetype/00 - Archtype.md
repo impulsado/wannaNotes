@@ -45,11 +45,13 @@ Impacket  is focused on providing low-level programmatic access to the packets a
 
 Download [Link](https://github.com/SecureAuthCorp/impacket)
 
+> Connect to MSSQL
 ```bash
 ~/HTB/impacket/examples
 └─$ python3 mssqlclient.py username@Target_IP -windows-auth
 ```
-[-windows-auth]: 
+[-windows-auth]: Use Windows Authentication (Default False)
+
 
 un cop en el server, s'ha de permettre `enable_xp_cmdshell` perque despres farem comandos de windows al servidor.
 
