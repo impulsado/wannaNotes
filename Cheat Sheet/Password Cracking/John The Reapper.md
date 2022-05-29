@@ -13,3 +13,6 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hashfile
 john --incremental hashfile
 ```
 
+
+# Tags
+#Cheat_Sheet #john_the_reapper
