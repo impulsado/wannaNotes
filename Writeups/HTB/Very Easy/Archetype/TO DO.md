@@ -5,7 +5,18 @@
 
 
 # Thought process
-1. Enumeration
+1. Common enumeration
+2. Check smbclient
+
+
+
+
+# smbclient
+Check Windows Samba server from Linux
+```bash
+$ smbclient -N -L @Target_IP
+```
+[-N]: No Password
 
 
 ```
