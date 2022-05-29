@@ -20,10 +20,11 @@ $ smbclient -N -L @Target_IP
 [-N]: Suppresess the normal password prompt from the client to the user
 [-L]: List what services are aviable
 
+There's a folder call it "backups" that probably has more information.
 
-
-```
-smbclient \\\\@IP\\folder_name
+> Access Samba folder
+```bash
+$ smbclient \\\\@Target_IP\\folder_name
 ```
 
 https://tldp.org/HOWTO/SMB-HOWTO-8.html
