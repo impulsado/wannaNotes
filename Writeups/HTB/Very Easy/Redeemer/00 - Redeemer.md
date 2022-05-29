@@ -1,7 +1,7 @@
 # Intro
-| Dificulty | OS | Start Date | End Date | Help? |
-|---|---|---|---|---|
-| Very Easy | Linux | 15/05/2022 | 15/05/2022 | Yes |
+| Dificulty | OS | Start Date | End Date |
+|---|---|---|---|
+| Very Easy | Linux | 15/05/2022 | 15/05/2022 | 
 
 
 # Thought process

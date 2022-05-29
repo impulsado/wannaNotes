@@ -1,6 +1,6 @@
 # Intro
 | Dificulty | OS | Start Date | End Date |
-|---|---|---|---|---|
+|---|---|---|---|
 | Very Easy | Windows | 26/05/2022 | 28/05/2022 |
 
 
@@ -177,3 +177,7 @@ Now execute `psexec.py` from impacket to get a shell as the administrator
 ```
 
 The root flag can be found in the Desktop of the Administrator user.
+
+
+# Tags
+#winPEAS #MSSQL
