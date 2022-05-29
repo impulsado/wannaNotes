@@ -10,6 +10,6 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hashfile
 
 > BruteForce
 ```bash
-
+john --incremental hashfile
 ```
 
