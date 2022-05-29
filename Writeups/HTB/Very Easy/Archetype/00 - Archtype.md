@@ -8,9 +8,7 @@
 1. Common enumeration
 2. Check `smbclient`
 3. Use `impacket`
-4. 
-
-
+4. Try to execute reverse shell
 
 
 # smbclient
@@ -102,11 +100,13 @@ $ sudo nc -lvnp 443
 [-n]: Do not do DNS
 [-p]: Specifies source port nc should use
 
+Check the actual server directory. If the user doesn't have permission, change it.
+> Server Directory
+```sql
+SQ
+```
 
 
-
-
-?¿ Quina és la diferencia
 
 > Saber directori del server
 ```sql
