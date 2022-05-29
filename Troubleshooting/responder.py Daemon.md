@@ -1,5 +1,9 @@
+# setDaemon Deprecated
 In the python 3.10 version there is an error and it does not work correctly.
-Need to change the code.
+`setDaemon` has been deprecated in favor of setting daemon attribute directly.
+To solve it, it is necessary to change the code.
+
+Solution found in: [Link](https://github.com/dsanson/termpdf.py/pull/21/commits/449f60fa17d9ffd4d04147bf7d33885cd8c66eab)
 
 > From
 ```python
@@ -10,5 +14,4 @@ Need to change the code.
 ```python
 .daemon = True
 ```
-https://github.com/dsanson/termpdf.py/pull/21/commits/449f60fa17d9ffd4d04147bf7d33885cd8c66eab
 
