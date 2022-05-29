@@ -8,13 +8,13 @@ $ tmux
 
 | Function | Shortcut |
 | --- | --- |
-| Rename Window | `Ctrl+b` `,` |
-| Rename Window | `Ctrl+b` `,` |
-| Rename Window | `Ctrl+b` `,` |
-| Rename Window | `Ctrl+b` `,` |
-| Rename Window | `Ctrl+b` `,` |
-
-
+| c | create window |
+| w | list windows|
+|n  |next window|
+|p | previous window|
+|f | find window|
+|,  |name window|
+|& | kill window|
 
 
 
