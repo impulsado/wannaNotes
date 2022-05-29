@@ -6,26 +6,21 @@
 
 # Thought process
 1. Common enumeration
-2. Check smbclient
+2. Check `smbclient`
+3. 
 
 
 
 
 # smbclient
-Check Windows Samba server from Linux
+> Check Samba Server from Linux
 ```bash
 $ smbclient -N -L @Target_IP
 ```
-[-N]: No Password
+[-N]: Suppresess the normal password prompt from the client to the user
+[-L]: List what services are aviable
 
 
-```
-smbclient -N -L @IP
-```
-Veure desde Linux el Samba Server.
-Això llista els disc/impresores que poden compartir amb l'usuari.
-[-L]: Per especificar host
-[-N]: NOSE
 
 ```
 smbclient \\\\@IP\\folder_name
