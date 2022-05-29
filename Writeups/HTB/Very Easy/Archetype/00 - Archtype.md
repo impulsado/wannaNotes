@@ -6,7 +6,7 @@
 
 # Thought process
 1. Common enumeration
-2. Check `smbclient`
+2. Check `smbclient` and 
 3. 
 
 
@@ -24,10 +24,10 @@ There's a folder call it "backups" that probably has more information.
 
 > Access Samba folder
 ```bash
-$ smbclient \\\\@Target_IP\\folder_name
+$ smbclient -N \\\\@Target_IP\\folder_name
 ```
 
-https://tldp.org/HOWTO/SMB-HOWTO-8.html
+
 
 get file_name
 [//]: La ruta es desde on has executat la terminal de Kali
