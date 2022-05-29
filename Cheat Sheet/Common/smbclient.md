@@ -19,11 +19,25 @@ $ smbclient -N -L @Target_IP
 [-N]: Suppresess the normal password prompt from the client to the user
 [-L]: List what services are aviable
 
-> Download a File
+> Download File
 ```bash
-$ smbclient '//Target_IP/Share' -c 'lcd [DOWNLOAD_PATH]; cd [DIRECTORY]; get [FILENAME]'
+$ smbclient '//@Target_IP/SHARE' -c 'lcd DOWNLOAD_PATH; cd DIRECTORY; get FILENAME'
+```
+[-c]: Run serie of commands
+
+> Upload File
+```bash
+$ smbclient '//@Target_IP/SHARE' -c 'cd REMOTE_PATH; lcd LOCAL_DIRECTORY; put LOCAL_FILENAME'
 ```
 
+> Mount Share
+```bash
+$ sudo mkdir /mnt/SHARE
+
+$ sudo apt install cifs-utils
+
+$ sudo mount -t cifs //@Target_IP/SHARE /mnt/SHARE
+```
 
 ## Commands
 > Download
