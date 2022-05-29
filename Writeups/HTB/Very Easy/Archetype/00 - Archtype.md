@@ -53,26 +53,17 @@ Download [Link](https://github.com/SecureAuthCorp/impacket)
 [-windows-auth]: Use Windows Authentication (Default False)
 
 
-# 
-un cop en el server, s'ha de permettre `enable_xp_cmdshell` perque despres farem comandos de windows al servidor.
+# MSSQL Server
+Exploration Journey Link:
+[Link 1](https://book.hacktricks.xyz/pentesting/pentesting-mssql-microsoft-sql-server)
+[Link 2](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)
 
-???perque collons ers lo de responder
+First check what role does the user has `SELECT is_srvrolemember('sysadmin');`
+[//]: 1 = True
 
+We can set up command ex
 
-
-
-
-# FINDS
-ARCHETYPE\sql_svc = M3g4c0rp123
-
-mssqlclient.py (Estavlir conexio autentificada amb el servidor SQL)
-xp_cmdshell (Executar Consola de Comandos de Windows en Microsoft SQL)
-winpeas (Privilegie Escalation)
-
----
 # Archetype
-https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server
-https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet
 
 username: dbo
 system_user: sql_svc
