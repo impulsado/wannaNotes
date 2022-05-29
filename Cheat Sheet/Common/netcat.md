@@ -1,8 +1,13 @@
 # Netcat
-Read and Write data in the network using TCP or UDP.
+Netcat is a tool that reads and writes data across network connections, using TCP or UDP protocol. More information [Link](https://blog.ikuamike.io/posts/2021/netcat/)
 
-## Commands
+## Server Mode
+Use netcat to listen for connections. What this does is open a port (either tcp or udp) on the system. By default netcat listens on tcp.
 
+> Basic Listener
+```bash
+$ nc -lvnp 8080
+```
 
 I.e. connect to an arbitrary port on an IP address:
 
