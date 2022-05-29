@@ -22,12 +22,13 @@ Configure [Link](https://youtu.be/cPWEX2446B4)
 |Shortcut | Function |
 | --- | --- |
 | c | Create Window |
-| , | Change window name|
+| , | Change Window Name |
 | & | Kill Window|
 | m | Mouse Mode |
 | - | Split Horizontal |
 | _ | Split Veritcal |
-| J |
+| J or K  | Resize Window (Up/Down) |
+| H or L | Resize Window (Right/Left) |
 
 Configure Oh-My-Tmux [Link](https://youtu.be/cPWEX2446B4)
 
