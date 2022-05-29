@@ -6,9 +6,9 @@ Allows multiple terminal sessions to be accessed simultaneously in a single wind
 $ tmux
 ```
 
-| Function | Shortcut |
+| Shortcut | Function |
 | --- | --- |
-| c | create window |
+| c | Create Window |
 | w | list windows|
 |n  |next window|
 |p | previous window|
