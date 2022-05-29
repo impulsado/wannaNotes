@@ -3,6 +3,12 @@ Advanced offline password cracker, which supports hundreds of hash and cipher ty
 
 Download [Link](https://github.com/openwall/john)
 
+> Dicctionary Attack
+```bash
+john --wordlist=/usr/share/wordlists/rockyou.txt hashfile
+```
+
+> BruteForce
 ```bash
 
 ```
