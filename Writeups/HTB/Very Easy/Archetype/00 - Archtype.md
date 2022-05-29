@@ -96,22 +96,15 @@ $ sudo python3 -m http.server 80
 ```bash
 $ sudo nc -lvnp 443
 ```
-[netcat]: Allows to op
+[netcat]: Read and Write data in the network.
+[-l]: Listen incoming connection
+[-v]: Verbose output
+[-n]: Do not do DNS
+[-p]: Specifies source port nc should use
 
 
 
 
-!! Com que ja podem executar commandes, intentarem executar una reverse shell. (nc64.exe)
-
-> Escoltar port 80 local (Python)
-```bash
-$ sudo python3 -m http.server 80
-```
-
-> Escoltar port 80 local (netcat)
-```bash
-$ sudo nc -lvnp 443
-```
 
 ?¿ Quina és la diferencia
 
