@@ -1,3 +1,13 @@
+# Intro
+| Dificulty | OS | Start Date | End Date | Help? |
+|---|---|---|---|---|
+| Very Easy | Windows | 26/05/2022 | 28/05/2022 | Yes |
+
+
+# Thought process
+1. Enumeration
+
+
 ```
 smbclient -N -L @IP
 ```
