@@ -29,10 +29,16 @@ For a UDP connection we only add the `-u` option.
 Transfer files over the connection from one system to another without distortion.
 Don’t really care about which is the server and which is the client because the transfer can go either direction but we need to run the listener first.
 
-> Transfer file on Server1 to Server2
+> Listener
 ```bash
-nc 192.168.125.10 8080 > /path/to/outfile 
+nc -lp PORT > /path/to/outfile 
 ```
+
+> Client
+```bash
+$ nc -w3 @Listener_IP PORT < /path/to/infile
+```
+[-w]: Define the timeout in seconds.
 
 
 ## 
