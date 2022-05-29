@@ -81,6 +81,12 @@ Now the server permits system commands.
 SQL> xp_cmdshell "whoami"
 ```
 
+
+# Reverse Shell
+Now, attempt to get stable reverse shell. 
+Use `nc64.exe` to execute interactive `cmd.exe` process on our listening port.
+
+
 # Archetype
 
 
