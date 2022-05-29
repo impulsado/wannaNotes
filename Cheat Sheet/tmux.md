@@ -6,7 +6,7 @@ Based on sessions. First session is = 0. * specifies currtent session.
 $ tmux
 ```
 
-> Rename session
+> Rename window
 ```
 Ctrl+B ,
 ```
