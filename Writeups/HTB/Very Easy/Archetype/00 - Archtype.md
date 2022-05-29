@@ -27,7 +27,8 @@ There's a folder call it "backups" that probably has more information.
 $ smbclient -N \\\\@Target_IP\\folder_name
 ```
 
-
+`get file_name` To download file to our local machine.
+[//]: The file is located in the directory from which the connection was established.
 
 get file_name
 [//]: La ruta es desde on has executat la terminal de Kali
