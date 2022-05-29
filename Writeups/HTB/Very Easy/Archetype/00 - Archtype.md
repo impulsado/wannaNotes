@@ -154,13 +154,18 @@ PS C:\Users\sql_svc\Downloads> .\winPEASx64.exe
 
 Can observer that we have [SeImpersonatePrivilege](https://docs.microsoft.com/en-us/troubleshoot/windows-server/windows-security/seimpersonateprivilege-secreateglobalprivilege), which is also vulnerable to [juicy potato exploit](https://book.hacktricks.xyz/windows/windows-local-privilege-escalation/juicypotato).
 
-sql_svc is a normal user so it's worth checking for frequently access files or executed commands. Check the Powershell history file.
+sql_svc is a normal user so it's worth checking for frequently access files or executed commands. Check the Powershell history file `ConsoleHost_history.txt`.
 
-````    
+```bash
+cd C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline
 ```
-ConsoleHost_history.txt`
 
-
+The file contains Administrator password.
+> Bounty
+```
+administrator
+MEGACORP_4dm1n!!
+```
 
 
 ---
