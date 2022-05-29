@@ -23,12 +23,17 @@ Use netcat to connect to an open port on a system. This can be beneficial for ma
 $ nc -vn @IP PORT
 ```
 
-For a udp connection we only add the `-u` option.
+For a UDP connection we only add the `-u` option.
 
-## 
+## File Transfer
+Transfer files over the connection from one system to another without distortion.
+Don’t really care about which is the server and which is the client because the transfer can go either direction but we need to run the listener first.
 
-File Transfer
-
+> Transfer file on Server1 to Server2
+```bash
+nc -lvnp 8080 < infile (Server1) 
+nc 192.168.125.10 8080 > outfile (Server2)
+```
 Setup a listener on host that pushes to an outfile:
 
 ```bash
