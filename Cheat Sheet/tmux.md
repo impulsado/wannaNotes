@@ -1,5 +1,5 @@
 # tmux
-Based on windows. First windows is = 0. * specifie currtent window.
+Based on sessions. First session is = 0. * specifies currtent session.
 
 > Start tmux
 ```bash
@@ -7,6 +7,10 @@ $ tmux
 ```
 
 > Rename session
+```
+Ctrl+B ,
+```
+
 
 
 
