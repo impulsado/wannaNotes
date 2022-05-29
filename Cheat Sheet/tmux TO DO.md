@@ -14,9 +14,11 @@ Download [Link](https://github.com/gpakosz/.tmux)
 Configure [Link](https://youtu.be/cPWEX2446B4)
 ! Install xclip 
 
--   `<prefix> -` splits the current pane vertically
--   `<prefix> _` splits the current pane horizontally
 
+
+
+Coinfigurar status line
+https://www.youtube.com/watch?v=9e8850-1pg8&ab_channel=sarrost
 
 ## Shortcuts
 |Shortcut | Function |
@@ -30,13 +32,6 @@ Configure [Link](https://youtu.be/cPWEX2446B4)
 | , | Change Window Name |
 | & | Kill Window|
 | m | Mouse Mode |
-
-
-
-
-
-Configure Oh-My-Tmux [Link](https://youtu.be/cPWEX2446B4)
-
 
 
 
