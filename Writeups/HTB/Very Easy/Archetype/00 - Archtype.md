@@ -6,8 +6,9 @@
 
 # Thought process
 1. Common enumeration
-2. Check `smbclient` and 
-3. 
+2. Check `smbclient`
+3. Use `impacket`
+4. 
 
 
 
@@ -30,8 +31,15 @@ $ smbclient -N \\\\@Target_IP\\folder_name
 `get file_name` To download file to our local machine.
 [//]: The file is located in the directory from which the connection was established.
 
-get file_name
-[//]: La ruta es desde on has executat la terminal de Kali
+In these file we can see that there's a usrname:password.
+
+```
+ARCHETYPE\ sql_svc
+M3g4c0rp123
+```
+
+
+# impacket
 
 ```
 ~/HTB/impacket/examples
