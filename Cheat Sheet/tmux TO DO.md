@@ -17,8 +17,5 @@ $ tmux
 |& | kill window|
 
 
-
-
-
 # Tags
 #tmux #Cheat_Sheet 
