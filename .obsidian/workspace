@@ -14,18 +14,6 @@
             "source": false
           }
         }
-      },
-      {
-        "id": "3937b33beeae8d13",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
-            "mode": "source",
-            "source": false
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -102,14 +90,14 @@
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
     "Cheat Sheet/Common/smbclient.md",
+    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
+    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
+    "Writeups/HTB/Very Easy/Responder/00 - Responder.md",
+    "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
+    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
     "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
     "Cheat Sheet/Password Cracking/John The Reapper TO DO.md",
     "TO-DO List.md",
-    "Cheat Sheet/Common/netcat.md",
-    "Cheat Sheet/Common/nmap.md",
-    "Cheat Sheet/tmux.md",
-    "Cheat Sheet/Aliases.md",
-    "Cheat Sheet/Common/Gobuster.md",
-    "Writeups/HTB/Very Easy/Responder/00 - Responder.md"
+    "Cheat Sheet/Common/netcat.md"
   ]
 }
