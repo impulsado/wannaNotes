@@ -53,6 +53,7 @@ Download [Link](https://github.com/SecureAuthCorp/impacket)
 [-windows-auth]: Use Windows Authentication (Default False)
 
 
+# 
 un cop en el server, s'ha de permettre `enable_xp_cmdshell` perque despres farem comandos de windows al servidor.
 
 ???perque collons ers lo de responder
