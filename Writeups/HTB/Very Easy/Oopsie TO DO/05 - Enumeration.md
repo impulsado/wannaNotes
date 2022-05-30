@@ -17,3 +17,16 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 # web
 ![[Pasted image 20220530182601.png]]
 
+# dirbuster
+```ruby
+/images               (Status: 301) [Size: 315] [--> http://10.129.17.254/images/]                                                       
+/.html                (Status: 403) [Size: 278]                                                                                          
+/js                   (Status: 301) [Size: 311] [--> http://10.129.17.254/js/]                                                           
+/themes               (Status: 301) [Size: 315] [--> http://10.129.17.254/themes/]                                                       
+/css                  (Status: 301) [Size: 312] [--> http://10.129.17.254/css/]                                                          
+/.htm                 (Status: 403) [Size: 278]                                                                                          
+/uploads              (Status: 301) [Size: 316] [--> http://10.129.17.254/uploads/]                                                      
+/.                    (Status: 200) [Size: 10932]                                                                                        
+/fonts                (Status: 301) [Size: 314] [--> http://10.129.17.254/fonts/] 
+/cdn-cgi              (Status: 301) [Size: 316] [--> http://10.129.17.254/cdn-cgi/]
+```
