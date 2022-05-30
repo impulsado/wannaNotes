@@ -12,4 +12,4 @@ Cookies are text files with small pieces of data created by the web server, stor
 ```
 
 In the URL we can see `id=2` so change it to `id=1`.
-Now ther
+Now there is new information. 

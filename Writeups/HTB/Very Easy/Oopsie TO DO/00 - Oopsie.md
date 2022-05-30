@@ -10,7 +10,7 @@ Mirar info sobre cookies
 # Process
 1. Common enumeration
 2. Use Burp Suite to find new directories (Can use Burpsuite too)
-3. 
+3. Manipulate cookies to be admin.
 
 
 # Burpsuite
@@ -20,3 +20,5 @@ Mirar info sobre cookies
 4. Disable interception in Burp as it's 
 5. Proxy > Intercept > Intercept in on (Disable)
 
+# Cookies 
+Found that admin was id=34322 so change the Guest id to simulate he's the admin.
