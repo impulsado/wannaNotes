@@ -3,9 +3,9 @@ proxy per interceptar tràfic web (Fer explicació)
 
 https://www.youtube.com/watch?v=YmZLdJRBKv0&t=3953s&ab_channel=S4viOnLive 43:07 sudo
 
-He vist en el còdi font que és pot hi ha directori amb login
-
 Mirar info sobre cookies
+
+Maybe file inclusion? For later?
 
 # Process
 1. Common enumeration
@@ -22,3 +22,4 @@ Mirar info sobre cookies
 
 # Cookies 
 Found that admin was id=34322 so change the Guest id to simulate he's the admin.
+![[Pasted image 20220530192240.png]]
