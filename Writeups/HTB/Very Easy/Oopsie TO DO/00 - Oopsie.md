@@ -7,3 +7,4 @@ He vist en el còdi font que és pot hi ha directori amb login
 
 Mirar info sobre cookies
 
+
