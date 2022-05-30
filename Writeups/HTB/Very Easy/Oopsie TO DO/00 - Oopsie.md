@@ -7,4 +7,7 @@ He vist en el còdi font que és pot hi ha directori amb login
 
 Mirar info sobre cookies
 
+# Process
+1. Common enumeration
+2. Use Burp Suite to check what information
 
