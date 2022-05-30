@@ -30,3 +30,6 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 /fonts                (Status: 301) [Size: 314] [--> http://10.129.17.254/fonts/] 
 /cdn-cgi              (Status: 301) [Size: 316] [--> http://10.129.17.254/cdn-cgi/]
 ```
+
+# Burp Suite
+![[Pasted image 20220530191533.png]]

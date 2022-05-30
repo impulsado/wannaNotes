@@ -14,7 +14,7 @@ Mirar info sobre cookies
 
 # Burpsuite
 1. Configure Firefox to send traffic trought the proxy.
-2. Menu > Preferences > Search "Proxy" > Settings.
+2. Settings > Search "Proxy" > Settings.
 3. Change to Manual proxy. Enter Loopback @IP and port 8080
 4. Disable interception in Burp as it's 
 5. Proxy > Intercept > Intercept in on (Disable)
