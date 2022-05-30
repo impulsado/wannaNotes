@@ -44,5 +44,6 @@ In order to have a functional shell can execute this command:
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
-Search for common directories. This is a Web Server so is a good idea to check 
-PROBLEMES DE VPN 
+Search for common directories. This is a Web Server so is a good idea to check `/var/www/html/xxx/`
+
+!!! PROBLEMES DE VPN 
