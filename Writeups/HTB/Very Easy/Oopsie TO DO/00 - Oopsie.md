@@ -29,5 +29,5 @@ Found that admin was id=34322 so change the Guest id to simulate he's the admin.
 # Reverse Shell
 Located in `/usr/share/webshells/php/php-reverse-shell.php`
 Change port and ip. Upload the file. Dirbust the site again to find `.php`.
-Dir Bust the site but this time to find .php
+
 Set up a netcat listener 
