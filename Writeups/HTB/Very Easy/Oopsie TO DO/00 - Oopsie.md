@@ -9,7 +9,8 @@ Mirar info sobre cookies
 
 # Process
 1. Common enumeration
-2. Use Burp Suite to redirect requests
+2. Use Burp Suite to find new directories (Can use Burpsuite too)
+3. 
 
 
 # Burpsuite
