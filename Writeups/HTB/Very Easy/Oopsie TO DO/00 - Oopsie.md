@@ -8,9 +8,10 @@ Mirar info sobre cookies
 Maybe file inclusion? For later?
 
 # Process
-1. Common enumeration
-2. Use Burp Suite to find new directories (Can use Burpsuite too)
+1. Common enumeration.
+2. Use Burp Suite to find new directories.
 3. Manipulate cookies to be admin.
+4. Dirbust the site to find where are the uploads located.
 
 
 # Burpsuite
