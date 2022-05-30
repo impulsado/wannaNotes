@@ -9,5 +9,11 @@ Mirar info sobre cookies
 
 # Process
 1. Common enumeration
-2. Use Burp Suite to check what information
+2. Use Burp Suite to redirect requests
+
+
+# Burpsuite
+1. Configure Firefox to send traffic trought the proxy.
+2. Menu > Preferences > Search "Proxy" > Settings > 
+3. 
 
