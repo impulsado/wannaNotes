@@ -7,6 +7,11 @@ More information [Link](https://www.shortcutfoo.com/app/dojos/tmux/cheatsheet)
 $ tmux new -s NAME
 ```
 
+> Kill Session
+```bash
+$ tmux kill-session -t NAME
+```
+
 
 ## Oh-My-Tmux
 A better option is to install Oh-My-Tmux.
@@ -16,6 +21,7 @@ Configure [Link](https://youtu.be/cPWEX2446B4)
 
 Coinfigurar status line
 https://www.youtube.com/watch?v=9e8850-1pg8&ab_channel=sarrost
+
 
 ## Shortcuts
 |Shortcut | Function |
