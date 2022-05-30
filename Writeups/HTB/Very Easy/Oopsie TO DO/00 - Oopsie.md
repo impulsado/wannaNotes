@@ -25,3 +25,6 @@ Maybe file inclusion? For later?
 # Cookies 
 Found that admin was id=34322 so change the Guest id to simulate he's the admin.
 ![[Pasted image 20220530192240.png]]
+
+# Reverse Shell
+Located in `/usr/share/webshells/php/php-reverse-shell.php`
