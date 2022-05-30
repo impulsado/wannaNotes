@@ -14,9 +14,6 @@ Download [Link](https://github.com/gpakosz/.tmux)
 Configure [Link](https://youtu.be/cPWEX2446B4)
 ! Install xclip 
 
-
-
-
 Coinfigurar status line
 https://www.youtube.com/watch?v=9e8850-1pg8&ab_channel=sarrost
 
