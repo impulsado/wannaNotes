@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Common/netcat.md",
+            "file": "Writeups/HTB/Very Easy/Oopsie TO DO/99 - Bounty.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Common/netcat.md",
+                "file": "Writeups/HTB/Very Easy/Oopsie TO DO/99 - Bounty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Writeups/HTB/Very Easy/Oopsie TO DO/99 - Bounty.md",
     "Cheat Sheet/Common/netcat.md",
     "Writeups/HTB/Very Easy/Oopsie TO DO/00 - Oopsie.md",
     "Writeups/HTB/Very Easy/Oopsie TO DO/10 - Web.md",
-    "Writeups/HTB/Very Easy/Oopsie TO DO/99 - Bounty.md",
     "Writeups/HTB/Very Easy/Oopsie TO DO/05 - Enumeration.md",
     "Cheat Sheet/Web/Burp Suite TO DO.md",
     "TO-DO List.md",
