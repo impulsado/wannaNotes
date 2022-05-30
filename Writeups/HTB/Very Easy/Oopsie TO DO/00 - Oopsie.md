@@ -43,3 +43,6 @@ In order to have a functional shell can execute this command:
 ```bash
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
+
+Search for common directories. This is a Web Server so is a good idea to check 
+PROBLEMES DE VPN 
