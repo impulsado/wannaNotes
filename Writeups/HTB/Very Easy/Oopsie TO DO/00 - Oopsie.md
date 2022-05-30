@@ -10,8 +10,9 @@ Maybe file inclusion? For later?
 # Process
 1. Common enumeration.
 2. Use Burp Suite to find new directories.
-3. Manipulate cookies to be admin.
+3. Manipulate cookies to be admin and upload files.
 4. Dirbust the site to find where are the uploads located.
+5. Upload reverse shell 
 
 
 # Burpsuite
