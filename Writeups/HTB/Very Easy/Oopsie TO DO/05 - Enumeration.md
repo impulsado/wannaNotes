@@ -1,4 +1,5 @@
-```
+# nmap
+```ruby
 PORT   STATE SERVICE VERSION                                                            
 22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)       
 | ssh-hostkey:                                                                          
@@ -12,3 +13,7 @@ PORT   STATE SERVICE VERSION
 |_http-server-header: Apache/2.4.29 (Ubuntu) 
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
+
+# web
+![[Pasted image 20220530182601.png]]
+
