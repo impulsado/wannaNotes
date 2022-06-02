@@ -12,6 +12,10 @@ $ tmux new -s NAME
 $ tmux kill-session -t NAME
 ```
 
+> List All Sessions
+```bash
+$ tmux list-sessions
+```
 
 ## Cheatsheet
 [Link](https://gist.github.com/MohamedAlaa/2961058)
