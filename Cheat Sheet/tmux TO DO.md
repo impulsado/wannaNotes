@@ -13,6 +13,10 @@ $ tmux kill-session -t NAME
 ```
 
 
+## Cheatsheet
+[Link](https://gist.github.com/MohamedAlaa/2961058)
+
+
 ## Oh-My-Tmux
 A better option is to install Oh-My-Tmux.
 Download [Link](https://github.com/gpakosz/.tmux)
