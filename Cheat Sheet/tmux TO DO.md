@@ -14,8 +14,9 @@ $ tmux kill-session -t NAME
 
 > List All Sessions
 ```bash
-$ tmux list-sessions
+$ tmux ls
 ```
+
 
 ## Cheatsheet
 [Link](https://gist.github.com/MohamedAlaa/2961058)
@@ -26,9 +27,6 @@ A better option is to install Oh-My-Tmux.
 Download [Link](https://github.com/gpakosz/.tmux)
 Configure [Link](https://youtu.be/cPWEX2446B4)
 ! Install xclip 
-
-Coinfigurar status line
-https://www.youtube.com/watch?v=9e8850-1pg8&ab_channel=sarrost
 
 
 ## Shortcuts
@@ -43,8 +41,6 @@ https://www.youtube.com/watch?v=9e8850-1pg8&ab_channel=sarrost
 | , | Change Window Name |
 | & | Kill Window|
 | m | Mouse Mode |
-
-
 
 
 # Tags
