@@ -18,3 +18,10 @@
 ```bash
 $ git clone https://github.com/impulsado/cybersecNotes.git
 ```
+
+
+# Obsidian
+1. Once you have cloned the repository, open Obsidian and click "Open folder as valut".
+2. Select "cybersecNotes" folder.
+
+More about [Obsidian](https://www.youtube.com/results?search_query=obsidian+note+taking)
