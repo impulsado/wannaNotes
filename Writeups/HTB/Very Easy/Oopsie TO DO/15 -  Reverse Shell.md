@@ -39,5 +39,6 @@ robert:x:1000:1000:robert:/home/robert:/bin/bash
 
 ## group
 ```bash
-robert
+robert:x:1000:lxd
+bugtracker:x:1001:robert
 ```
