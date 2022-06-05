@@ -10855,24 +10855,31 @@ var SimpleGit = class extends GitManager {
       this.plugin.setState(PluginState.idle);
       return {
         changed: status.files.filter((e) => e.working_dir !== " ").map((e) => {
-          const res = this.formatPath(e.path);
+          const res = this.formatPath(e);
           e.path = res.path;
           e.from = res.from;
           e.working_dir = e.working_dir === "?" ? "U" : e.working_dir;
           return e;
         }),
         staged: status.files.filter((e) => e.index !== " " && e.index != "?").map((e) => {
-          const res = this.formatPath(e.path, e.index === "R");
+          const res = this.formatPath(e, e.index === "R");
           e.path = res.path;
           e.from = res.from;
           return e;
         }),
-        conflicted: status.conflicted.map((e) => this.formatPath(e).path)
+        conflicted: status.conflicted.map((e) => this.formatPath({
+          path: e,
+          from: void 0,
+          index: void 0,
+          working_dir: void 0
+        }).path)
       };
     });
   }
   formatPath(path3, renamed = false) {
     function format(path4) {
+      if (path4 == void 0)
+        return void 0;
       if (path4.startsWith('"') && path4.endsWith('"')) {
         return path4.substring(1, path4.length - 1);
       } else {
@@ -10880,14 +10887,13 @@ var SimpleGit = class extends GitManager {
       }
     }
     if (renamed) {
-      const paths = path3.split(" -> ").map((e) => format(e));
       return {
-        from: paths[0],
-        path: paths[1]
+        from: format(path3.from),
+        path: format(path3.path)
       };
     } else {
       return {
-        path: format(path3)
+        path: format(path3.path)
       };
     }
   }
@@ -11024,7 +11030,7 @@ var SimpleGit = class extends GitManager {
       const status = yield this.git.status();
       const trackingBranch = status.tracking;
       const currentBranch = status.current;
-      const remoteChangedFiles = (yield this.git.diffSummary([currentBranch, trackingBranch])).changed;
+      const remoteChangedFiles = (yield this.git.diffSummary([currentBranch, trackingBranch], (err) => this.onError(err))).changed;
       this.plugin.setState(PluginState.push);
       if (this.plugin.settings.updateSubmodules) {
         yield this.git.env(__spreadProps(__spreadValues({}, process.env), { "OBSIDIAN_GIT": 1 })).subModule(["foreach", "--recursive", `tracking=$(git for-each-ref --format='%(upstream:short)' "$(git symbolic-ref -q HEAD)"); echo $tracking; if [ ! -z "$(git diff --shortstat $tracking)" ]; then git push; fi`], (err) => this.onError(err));
@@ -11256,8 +11262,8 @@ var DiffView = class extends import_obsidian7.ItemView {
 // src/ui/modals/generalModal.ts
 var import_obsidian8 = __toModule(require("obsidian"));
 var GeneralModal = class extends import_obsidian8.SuggestModal {
-  constructor(app, remotes, placeholder) {
-    super(app);
+  constructor(app2, remotes, placeholder) {
+    super(app2);
     this.resolve = null;
     this.list = remotes;
     this.setPlaceholder(placeholder);
@@ -11963,7 +11969,7 @@ var feather = __toModule(require_feather());
 var import_obsidian9 = __toModule(require("obsidian"));
 function hoverPreview(event, view, to) {
   const targetEl = event.target;
-  view.app.workspace.trigger("hover-link", {
+  app.workspace.trigger("hover-link", {
     event,
     source: view.getViewType(),
     hoverParent: view,
@@ -11971,7 +11977,7 @@ function hoverPreview(event, view, to) {
     linktext: to
   });
 }
-function createNewMDNote(app, newName, currFilePath = "") {
+function createNewMDNote(newName, currFilePath = "") {
   return __async(this, null, function* () {
     const newFileFolder = app.fileManager.getNewFileParent(currFilePath).path;
     const newFilePath = (0, import_obsidian9.normalizePath)(`${newFileFolder}${newFileFolder === "/" ? "" : "/"}${addMD(newName)}`);
@@ -11979,14 +11985,14 @@ function createNewMDNote(app, newName, currFilePath = "") {
   });
 }
 var addMD = (noteName) => {
-  return noteName.endsWith(".md") ? noteName : noteName + ".md";
+  return noteName.match(/\.MD$|\.md$/m) ? noteName : noteName + ".md";
 };
-function openOrSwitch(_0, _1, _2) {
-  return __async(this, arguments, function* (app, dest, event, options = { createNewFile: true }) {
+function openOrSwitch(_0, _1) {
+  return __async(this, arguments, function* (dest, event, options = { createNewFile: true }) {
     const { workspace } = app;
     let destFile = app.metadataCache.getFirstLinkpathDest(dest, "");
     if (!destFile && options.createNewFile) {
-      destFile = yield createNewMDNote(app, dest);
+      destFile = yield createNewMDNote(dest);
     } else if (!destFile && !options.createNewFile)
       return;
     const leavesWithDestAlreadyOpen = [];
@@ -12012,8 +12018,8 @@ function openOrSwitch(_0, _1, _2) {
 // src/ui/modals/discardModal.ts
 var import_obsidian10 = __toModule(require("obsidian"));
 var DiscardModal = class extends import_obsidian10.Modal {
-  constructor(app, deletion, filename) {
-    super(app);
+  constructor(app2, deletion, filename) {
+    super(app2);
     this.deletion = deletion;
     this.filename = filename;
     this.resolve = null;
