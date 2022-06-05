@@ -7,3 +7,8 @@
 2. Execute this command `/path/to/Obsidian-0.11.9.AppImage --no-sanbox`
 [//]: You can create an [alias](obsidian://open?vault=cybersecNotes&file=Cheat%20Sheet%2FAliases) for this. 
 
+# Download cybersecNotes
+## Windows
+
+1. Download git or github Desktop
+2. 
