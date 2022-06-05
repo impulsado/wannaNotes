@@ -1,6 +1,7 @@
 # Burp Suite
 Security testing application that can be used to perform web requests on web  
-applications, mobile apps, and thick clients. Burp offers multiple capabilities such as web crawler, scanner,  proxy, repeater, intruder and many more.
+applications, mobile apps, and thick clients. Burp offers multiple capabilities such as web crawler, scanner,  proxy, repeater, intruder and many more. 
+More Information [Link](https://www.geeksforgeeks.org/what-is-burp-suite/)
 
 
 ## Tools
@@ -28,5 +29,6 @@ The Repeater is used for:
 -   What values is the server expecting in an input parameter/request header?
 - [More]
 
-### Sequencer
 
+# Tags
+#Burp_Suite #Cheat_Sheet 
