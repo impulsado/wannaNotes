@@ -10,9 +10,10 @@ Can upload files but only as Admin.
 # Manipulate cookies
 In the URL there is `id=2`  so changing it to `id=1` shows new information.
 
-```cookies
+```ad-info
 Cookies are text files with small pieces of data created by the web server, stored by the browser into the computer file system and being used to identify a user while is browsing a website.
 ```
+
 
 # Media
 `/uploads` is where the files are located.

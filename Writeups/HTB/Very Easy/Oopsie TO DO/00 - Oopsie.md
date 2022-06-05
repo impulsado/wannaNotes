@@ -38,8 +38,7 @@ Found executable file in `/usr/bin/` named `bugtracker` that only `bugtracker` g
 execute.
 
 
-
-
+# SUID
 
 
 

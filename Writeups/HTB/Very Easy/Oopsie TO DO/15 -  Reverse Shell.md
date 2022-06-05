@@ -44,5 +44,9 @@ bugtracker:x:1001:robert
 ```
 
 
-# /usr/bin
-Found a file with `find / -group bugtracker` that only members of `bugtracker` can execute. Must login with robert.
+# SUID
+Found a file with `find / -group bugtracker` that only members of `bugtracker` can execute. It has the SUID flag.
+
+```ad-info
+SUID allows an alternate user to run an executable with the same permissions as the owner of the file instead of the permissions of the alternate user.
+```
