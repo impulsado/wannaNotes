@@ -6,10 +6,13 @@ This compilation includes:
 - Articles
 - [more] 
 
-## Pentesting Labs
+## CTF Webs
 - [HackTheBox](https://www.hackthebox.eu)
 - [TryHackMe](https://tryhackme.com/)
 - [Vulnhub](https://www.vulnhub.com/)
 
 ## Articles
 - [GTFOBins](https://gtfobins.github.io/)
+- [Hacksplaining](https://gtfobins.github.io/)
+- [ippsec Web](https://ippsec.rocks)
+- 
