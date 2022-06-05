@@ -9,9 +9,11 @@ This compilation includes:
 
 ## CheatSheet
 - [nmap](obsidian://open?vault=cybersecNotes&file=Cheat%20Sheet%2FCommon%2Fnmap)
-- [netcat]
-- []
-- []
+- [netcat](obsidian://open?vault=cybersecNotes&file=Cheat%20Sheet%2FCommon%2Fnetcat)
+- [smbclient](obsidian://open?vault=cybersecNotes&file=Cheat%20Sheet%2FCommon%2Fsmbclient)
+- [Gobuster](obsidian://open?vault=cybersecNotes&file=Cheat%20Sheet%2FCommon%2FGobuster)
+- [Brup Suite](obsidian://open?vault=cybersecNotes&file=Cheat%20Sheet%2FWeb%2FBurp%20Suite)
+
 
 ## Training Sites
 - [HackTheBox](https://www.hackthebox.eu)
@@ -29,3 +31,7 @@ This compilation includes:
 ## Walkthroughs and Writeups
 - [ippsec Web](https://ippsec.rocks) - Searcheable directory with HackTheBox Walkthrougs.
 - [snowscan](https://snowscan.io/#) - HTB writeups
+
+
+## Others
+- [Resources | ]
