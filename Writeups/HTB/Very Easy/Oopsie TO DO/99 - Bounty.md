@@ -6,10 +6,9 @@ admin@megacorp.com
 | 34322 | admin | admin@megacorp.com |
 | 86575 | ??? | ??? |
 
-
-
 | Client id | Name | email |
 |--- | --- | --- |
 | 2 | client | client@client.htb |
 
 www-data@oopsie
+

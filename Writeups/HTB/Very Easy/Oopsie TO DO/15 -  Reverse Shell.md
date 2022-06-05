@@ -20,4 +20,9 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 Username is `www-data` and the machine is named `oopsie`.
 
 Search in the directory `/var/www/html/xxx/` the folder `login`. There are 4 files in that folder. 
+
 ## admin.php
+Inside the file there's a new id `86575` but no username related.
+
+## db.php
+In the first lines appears the username `robert` with a password `M3g4C0rpUs3r!` and the word `garage`.
