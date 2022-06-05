@@ -34,6 +34,7 @@ Found that admin was id=34322 so change the Guest id to simulate he's the admin.
 # Reverse Shell
 Search for common directories. This is a Web Server so is a good idea to check `/var/www/html/xxx/`. 
 There is a username and a password. Find the user group and the files that belong to it.
+Found executable file in `/usr/bin/  c
 
 
 
