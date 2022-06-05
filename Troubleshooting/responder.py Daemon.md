@@ -15,3 +15,7 @@ Solution found in: [Link](https://github.com/dsanson/termpdf.py/pull/21/commits/
 .daemon = True
 ```
 
+
+# Tags
+#Troubleshooting 
+

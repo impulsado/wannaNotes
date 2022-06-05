@@ -180,4 +180,4 @@ The root flag can be found in the Desktop of the Administrator user.
 
 
 # Tags
-#winPEAS #MSSQL
+#winPEAS #MSSQL #HTB 
