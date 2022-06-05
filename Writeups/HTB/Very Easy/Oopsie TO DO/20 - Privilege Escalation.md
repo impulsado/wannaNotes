@@ -1,4 +1,3 @@
-# Privilege Escalation
 # SUID
 Found a file with `find / -group bugtracker 2>/dev/null` that only members of `bugtracker` can execute. It has the SUID flag with root privileges.
 
@@ -26,5 +25,7 @@ export PATH=/tmp:$PATH
 PATH is an enviroment variable on Unix-like operating systems, DOS, OS/2, and Microsoft Windows, specifying a set of directorioes where executable programs are located.
 ```
 
-4. Execute `bugtracker` from `/tmp` directory
+4. Execute `bugtracker` in `/tmp` directory.
+
+5. Flag can be found in `/root` directory.
 

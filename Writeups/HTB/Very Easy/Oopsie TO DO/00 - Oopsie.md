@@ -1,7 +1,7 @@
 # TO DO
 - [ ] More about Cookies
 - [ ] Esc + Esc = sudo. [Link](https://youtu.be/YmZLdJRBKv0?t=2578https://youtu.be/YmZLdJRBKv0?t=2578)
-- [ ] Check all
+- [x] Check all
 
 
 # Intro
@@ -15,7 +15,10 @@
 2. Use Burp Suite to find new directories.
 3. Manipulate cookies to be admin and upload files.
 4. Dirbust the site to find where are the uploads located.
-5. Upload reverse shell 
+5. Upload reverse shell
+6. Search for other users
+7. Login with that user and search the user flag.
+8. Privilege Escalation with SUID.
 
 
 # Burpsuite
@@ -29,6 +32,7 @@
 # Cookies 
 Found that admin was id=34322 so change the Guest id to simulate he's the admin.
 ![[Pasted image 20220530192240.png]]
+
 
 
 # Reverse Shell
