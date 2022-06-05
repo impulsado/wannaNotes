@@ -31,3 +31,13 @@ In the first lines appears the username `robert` with a password `M3g4C0rpUs3r!`
 Maybe ssh with robert user?
 ```
 
+# cat /etc/xxx
+## passwd
+```bash
+robert:x:1000:1000:robert:/home/robert:/bin/bash
+```
+
+## group
+```bash
+robert
+```
