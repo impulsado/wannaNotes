@@ -26,3 +26,8 @@ Inside the file there's a new id `86575` but no username related.
 
 ## db.php
 In the first lines appears the username `robert` with a password `M3g4C0rpUs3r!` and the word `garage`.
+
+```ad-question
+Maybe ssh with robert user?
+```
+
