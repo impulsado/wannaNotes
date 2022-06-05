@@ -16,3 +16,7 @@ In order to have a functional shell can execute this command:
 ```bash
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
+
+Username is `www-data` and the machine is named `oopsie`.
+
+Search in the directory `/var/www/html/xxx/`
