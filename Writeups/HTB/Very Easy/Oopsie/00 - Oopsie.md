@@ -1,9 +1,3 @@
-# TO DO
-- [ ] More about Cookies
-- [ ] Esc + Esc = sudo. [Link](https://youtu.be/YmZLdJRBKv0?t=2578https://youtu.be/YmZLdJRBKv0?t=2578)
-- [x] Check all
-
-
 # Intro
 | Dificulty | OS | Start Date | End Date | 
 |---|---|---|---|
@@ -42,10 +36,6 @@ There is a username and a password. Login as robert and search the ``user.txt``.
 Find the user group and the files that belong to it.
 Found executable file in `/usr/bin/` named `bugtracker` that only `bugtracker` group can 
 execute.
-
-
-# SUID
-
 
 
 # Tags
