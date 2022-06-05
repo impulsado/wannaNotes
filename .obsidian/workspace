@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "General/Obsidian.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "General/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "General/Obsidian.md",
     "README.md",
     "General/TO-DO List.md",
     "General/Resources.md",
@@ -97,7 +98,6 @@
     "Cheat Sheet/Web/Burp Suite.md",
     "Cheat Sheet/Aliases.md",
     "Cheat Sheet/tmux.md",
-    "Writeups/HTB/Very Easy/Oopsie TO DO/00 - Oopsie.md",
-    "Writeups/HTB/Very Easy/Oopsie TO DO/05 - Enumeration.md"
+    "Writeups/HTB/Very Easy/Oopsie TO DO/00 - Oopsie.md"
   ]
 }
