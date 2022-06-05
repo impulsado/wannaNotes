@@ -42,11 +42,3 @@ robert:x:1000:1000:robert:/home/robert:/bin/bash
 robert:x:1000:lxd
 bugtracker:x:1001:robert
 ```
-
-
-# SUID
-Found a file with `find / -group bugtracker 2>/dev/null` that only members of `bugtracker` can execute. It has the SUID flag with root privileges.
-
-```ad-info
-SUID allows an alternate user to run an executable with the same permissions as the owner of the file instead of the permissions of the alternate user.
-```
