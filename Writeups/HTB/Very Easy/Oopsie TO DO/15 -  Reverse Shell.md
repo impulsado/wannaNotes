@@ -42,3 +42,7 @@ robert:x:1000:1000:robert:/home/robert:/bin/bash
 robert:x:1000:lxd
 bugtracker:x:1001:robert
 ```
+
+
+# /usr/bin
+Found a file with `find / -group bugtracker` that only members of `bugtracker` can execute. Must login with robert.
