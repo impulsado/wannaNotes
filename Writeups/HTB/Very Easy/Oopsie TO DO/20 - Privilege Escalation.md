@@ -19,6 +19,12 @@ $ chmod +x cat
 ```
 
 3. Add /tmp directory to $PATH environmental variable.
-```ad-info
-PATH is an enviroment variable on Unix-like operating systems, DOS, OS/2, and Microsoft Windows, specifying a set of directorio
+```bash
+export $PATH=/tmp:$PATH
 ```
+```ad-info
+PATH is an enviroment variable on Unix-like operating systems, DOS, OS/2, and Microsoft Windows, specifying a set of directorioes where executable programs are located.
+```
+
+4. Execute `bugtracker` from `/tmp` directory
+
