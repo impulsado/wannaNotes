@@ -31,6 +31,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 | example | example |
 | quote | quote, cite |
 
+Reference [Link](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) of how these admotions look like.
+
 
 # Tags
 #Cheat_Sheet #Admonition
