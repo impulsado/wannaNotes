@@ -1,7 +1,7 @@
-# login
+# main
+There is a login page where you can enter as Guest.
 ![[Pasted image 20220530185246.png]]
 
-Can Login as Guest
 
 Can upload files but only as Admin. Maybe reverse shell?
 

