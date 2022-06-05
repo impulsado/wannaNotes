@@ -11,5 +11,22 @@ A web crawler (also known as a web spider or web robot) is a program or automate
 ```
 
 ### Proxy
-Intercepting proxy that lets the user see and modify the contents of requests and responses while they are in transit.
+Intercepting proxy that lets the user see and modify the contents of requests and responses while they are in transit. The proxy server can be adjusted to run on a specific loop-back ip and a port.
+
+### Intruder
+It is a fuzzer. This is used to run a set of values through an input point. The values are run and the output is observed for success/failure and content length.
+The intruder is used for:
+-   Brute-force attacks on password forms, pin forms, and other such forms.
+-   The dictionary attack on password forms, fields that are suspected of being vulnerable to XSS or SQL injection.
+-   Testing and attacking rate limiting on the web-app.
+
+### Repeater
+Lets a user send requests repeatedly with manual modifications.
+The Repeater is used for:
+-   Verifying whether the user-supplied values are being verified.
+-   If user-supplied values are being verified, how well is it being done?
+-   What values is the server expecting in an input parameter/request header?
+- [More]
+
+### Sequencer
 
