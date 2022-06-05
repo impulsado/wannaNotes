@@ -31,7 +31,10 @@ This compilation includes:
 ## Walkthroughs and Writeups
 - [ippsec Web](https://ippsec.rocks) - Searcheable directory with HackTheBox Walkthrougs.
 - [snowscan](https://snowscan.io/#) - HTB writeups
+- [S4vitaar](https://www.twitch.tv/s4vitaar) - Spanish Twitch streamer afiliated to HackTheBox
 
 
 ## Others
-- [Resources | ]
+- [Resources I](https://github.com/Aksheet10/Cyber-Security-Resources#amazing-sites)
+- [Resources II](https://github.com/alex-bellon/cybersecurity-resources)
+ 
