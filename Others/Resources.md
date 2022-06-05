@@ -6,13 +6,13 @@ This compilation includes:
 - Articles
 - [more] 
 
-## CTF Webs
+## Training Sites
 - [HackTheBox](https://www.hackthebox.eu)
 - [TryHackMe](https://tryhackme.com/)
 - [Vulnhub](https://www.vulnhub.com/)
 
 ## Articles
-- [GTFOBins](https://gtfobins.github.io/)
-- [Hacksplaining](https://gtfobins.github.io/)
-- [ippsec Web](https://ippsec.rocks)
+- [GTFOBins](https://gtfobins.github.io/) - Possible privilege escalation vectors through SUID/GUID binaries.
+- [Hacksplaining](https://gtfobins.github.io/) - Basics of hacking with interactive examples.
+- [ippsec Web](https://ippsec.rocks) - Searcheable directory with HackTheBox Walkthrougs.
 - 
