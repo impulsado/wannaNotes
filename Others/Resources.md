@@ -15,6 +15,9 @@ This compilation includes:
 ## Articles
 - [GTFOBins](https://gtfobins.github.io/) - Possible privilege escalation vectors through SUID/GUID binaries.
 - [Hacksplaining](https://gtfobins.github.io/) - Basics of hacking with interactive examples.
-- [ippsec Web](https://ippsec.rocks) - Searcheable directory with HackTheBox Walkthrougs.
+
 - [BackDoorShell.gitbooks](https://backdoorshell.gitbooks.io/oscp-useful-links/content/) - OSCP Useful Links
-- 
+
+## Walkthroughs and Writeups
+- [ippsec Web](https://ippsec.rocks) - Searcheable directory with HackTheBox Walkthrougs.
+- [snowscan](https://snowscan.io/#) - HTB writeups
