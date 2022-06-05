@@ -1,11 +1,14 @@
-# Principal
-proxy per interceptar tràfic web (Fer explicació)
+# Intro
 
 https://www.youtube.com/watch?v=YmZLdJRBKv0&t=3953s&ab_channel=S4viOnLive 43:07 sudo
 
 Mirar info sobre cookies
 
 Maybe file inclusion? For later?
+# TO DO
+- [ ] More about Cookies
+- [ ] 
+
 
 # Process
 1. Common enumeration.
@@ -22,9 +25,11 @@ Maybe file inclusion? For later?
 4. Disable interception in Burp as it's 
 5. Proxy > Intercept > Intercept in on (Disable)
 
+
 # Cookies 
 Found that admin was id=34322 so change the Guest id to simulate he's the admin.
 ![[Pasted image 20220530192240.png]]
+
 
 # Reverse Shell
 Located in `/usr/share/webshells/php/php-reverse-shell.php`
