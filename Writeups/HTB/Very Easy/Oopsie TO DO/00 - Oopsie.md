@@ -1,13 +1,13 @@
-# Intro
-
-https://www.youtube.com/watch?v=YmZLdJRBKv0&t=3953s&ab_channel=S4viOnLive 43:07 sudo
-
-Mirar info sobre cookies
-
-Maybe file inclusion? For later?
 # TO DO
 - [ ] More about Cookies
-- [ ] 
+- [ ] Esc + Esc = sudo. [Link](https://youtu.be/YmZLdJRBKv0?t=2578https://youtu.be/YmZLdJRBKv0?t=2578)
+- [ ] Check all
+
+
+# Intro
+| Dificulty | OS | Start Date | End Date | 
+|---|---|---|---|
+| Very Easy | Linux | 03/06/2022 | 03/06/2022 |
 
 
 # Process
