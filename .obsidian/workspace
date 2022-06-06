@@ -7,8 +7,12 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md",
+    "Writeups/HTB/Very Easy/Oopsie/20 - Privilege Escalation.md",
+    "Writeups/HTB/Very Easy/Oopsie/15 -  Reverse Shell.md",
+    "Writeups/HTB/Very Easy/Oopsie/10 - Web.md",
+    "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md",
+    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
     "Cheat Sheet/Cheat Sheet.md",
     "Cheat Sheet/Web/Web.md",
     "Cheat Sheet/Personal/Personal.md",
-    "Cheat Sheet/Password Cracking/Password Cracking.md",
-    "Cheat Sheet/Others/Others.md",
-    "Cheat Sheet/Common/Common.md",
-    "Untitled.md",
-    "Cheat Sheet/Personal/Resources.md",
-    "General/TO-DO List.md",
-    "README.md"
+    "Cheat Sheet/Password Cracking/Password Cracking.md"
   ]
 }
