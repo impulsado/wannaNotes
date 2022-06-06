@@ -7,12 +7,8 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Cheat Sheet/Personal/Obsidian/Templates/HTB.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Personal/Obsidian/Templates/HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +84,8 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Obsidian/Templates/HTB2.md",
+    "Untitled.md",
     "Cheat Sheet/Personal/Obsidian/Templates/HTB.md",
     "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
     "Cheat Sheet/Personal/Obsidian/admonition.md",
@@ -96,8 +93,6 @@
     "Cheat Sheet/Personal/Aliases.md",
     "Cheat Sheet/Resources.md",
     "README.md",
-    "General/Obsidian.md",
-    "Cheat Sheet/Personal/tmux.md",
-    "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md"
+    "General/Obsidian.md"
   ]
 }
