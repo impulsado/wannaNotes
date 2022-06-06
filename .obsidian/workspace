@@ -7,8 +7,12 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Cheat Sheet/Personal/Obsidian/Templates/HTB.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cheat Sheet/Personal/Obsidian/Templates/HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,9 +89,9 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Obsidian/Templates/HTB.md",
     "Cheat Sheet/Personal/Obsidian/Templates/HTB2.md",
     "Untitled.md",
-    "Cheat Sheet/Personal/Obsidian/Templates/HTB.md",
     "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
     "Cheat Sheet/Personal/Obsidian/admonition.md",
     "General/TO-DO List.md",
