@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Personal/Obsidian/admonition.md",
+            "file": "Cheat Sheet/Personal/Obsidian/Templates/Untitled.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Personal/Obsidian/admonition.md",
+                "file": "Cheat Sheet/Personal/Obsidian/Templates/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Obsidian/Templates/Untitled.md",
     "Cheat Sheet/Personal/Obsidian/admonition.md",
     "General/TO-DO List.md",
     "Cheat Sheet/Personal/Aliases.md",
@@ -97,7 +98,6 @@
     "General/Obsidian.md",
     "Cheat Sheet/Personal/tmux.md",
     "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
-    "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md",
-    "Writeups/HTB/Very Easy/Oopsie/10 - Web.md"
+    "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md"
   ]
 }
