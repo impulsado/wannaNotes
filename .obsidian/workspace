@@ -7,8 +7,12 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/HTB/Very Easy/Very Easy.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Writeups/HTB/Very Easy/Very Easy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,10 +89,10 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Test-Machine/Test-Machine.md",
-    "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md",
     "Writeups/HTB/Very Easy/Very Easy.md",
     "Writeups/HTB/HTB.md",
+    "Writeups/HTB/Very Easy/Test-Machine/Test-Machine.md",
+    "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md",
     "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
     "Cheat Sheet/Personal/Obsidian/Templates/HTB2.md",
     "Untitled.md",

@@ -1,3 +1,4 @@
 # Index
-[[Very Easy]]
+## Difficulty
+- [[Very Easy]]
 
