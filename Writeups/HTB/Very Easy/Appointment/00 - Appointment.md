@@ -1,3 +1,9 @@
+**Title:** 00 - Appointment
+**Tags:** [[Very Easy]]
+**Topics:** #smb #MSSQL
+
+---
+
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|

@@ -1,3 +1,9 @@
+**Title:** 00 - Archtype
+**Tags:** [[Very Easy]]
+**Topics:** #smb #MSSQL
+
+---
+
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
@@ -179,5 +185,3 @@ Now execute `psexec.py` from impacket to get a shell as the administrator
 The root flag can be found in the Desktop of the Administrator user.
 
 
-# Tags
-#winPEAS #MSSQL #HTB 

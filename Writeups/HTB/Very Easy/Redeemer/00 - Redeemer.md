@@ -1,6 +1,6 @@
 **Title:** 00 - Redeemer
 **Tags:** [[Very Easy]]
-**Topics:** #Redis
+**Topics:** #redis 
 
 ---
 
@@ -37,7 +37,3 @@ $ redis-cli -h @IP -p 6379
 # Resolution
 First I listed keys in the server and i say that there was one call it "flag".
 I searched in google how to get the value of a key. After the research I found that the command was `get flag` and has allowed me to know the flag.
-
-
-# Tags
-#redis #HTB 

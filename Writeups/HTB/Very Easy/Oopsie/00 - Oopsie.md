@@ -1,3 +1,9 @@
+**Title:** 00 - Oopsie
+**Tags:** [[Very Easy]]
+**Topics:** #php #SUID 
+
+---
+
 # Intro
 | Dificulty | OS | Start Date | End Date | 
 |---|---|---|---|
@@ -36,7 +42,3 @@ There is a username and a password. Login as robert and search the ``user.txt``.
 Find the user group and the files that belong to it.
 Found executable file in `/usr/bin/` named `bugtracker` that only `bugtracker` group can 
 execute.
-
-
-# Tags
-#HTB #php #SUID
