@@ -1,3 +1,9 @@
+**Title:** 00 - Redeemer
+**Tags:** [[Very Easy]]
+**Topics:** #Redis
+
+---
+
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|

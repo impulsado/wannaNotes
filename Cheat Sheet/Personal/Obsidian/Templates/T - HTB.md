@@ -1,7 +1,7 @@
 
-Title: {{title}}
-Tags: 
-Topics: 
+**Title:** {{title}}
+**Tags:** 
+**Topics:** 
 
 ---
 

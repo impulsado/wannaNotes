@@ -1,8 +1,9 @@
-Title: 00 - Sequel
-Tags: [[Very Easy]]
-Topics: 
+**Title:** 00 - Sequel
+**Tags:** [[Very Easy]]
+**Topics:** #SQL  #MariaDB
 
 ---
+
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
@@ -34,7 +35,3 @@ Once inside a Database I listed the Tables and made a simple SELECT.
 ```sql
 SHOW tables; /**/ SELECT * FROM tNAME;
 ```
-
-
-# Tags
-#SQL  #HTB 

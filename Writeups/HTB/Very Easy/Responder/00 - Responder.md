@@ -1,3 +1,9 @@
+**Title:** 00 - Responder
+**Tags:** [[Very Easy]]
+**Topics:** #SAMBA #WinRM
+
+---
+
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
