@@ -90,6 +90,7 @@
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
     "Cheat Sheet/Personal/Obsidian/Templates/HTB.md",
+    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
     "Cheat Sheet/Personal/Obsidian/admonition.md",
     "General/TO-DO List.md",
     "Cheat Sheet/Personal/Aliases.md",
@@ -97,7 +98,6 @@
     "README.md",
     "General/Obsidian.md",
     "Cheat Sheet/Personal/tmux.md",
-    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
     "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md"
   ]
 }
