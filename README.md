@@ -25,7 +25,7 @@ In this notes you can find:
 # Download cybersecNotes
 ## Windows
 1. Go to [cybersecNotes Repository](https://github.com/impulsado/cybersecNotes) and Download the code.
-<img src="https://github.com/impulsado/cybersecNotes/blob/main/Photos/Pasted%20image%2020220605121426.png"/> 
+<img src="https://github.com/impulsado/cybersecNotes/blob/main/Photos/Pasted%20image%2020220605121426.png"/>
 
 ## Kali
 1. Clone the repository with this command:
