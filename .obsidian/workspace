@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "General/TO-DO List.md",
+            "file": "Cheat Sheet/Common/Common.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General/TO-DO List.md",
+                "file": "Cheat Sheet/Common/Common.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Cheat Sheet/Common/Common.md",
+    "Untitled.md",
+    "Cheat Sheet/Cheat Sheet.md",
+    "Cheat Sheet/Others/Resources.md",
     "General/TO-DO List.md",
     "README.md",
     "Writeups/Writeups.md",
     "Writeups/HTB/HTB.md",
     "Writeups/HTB/Very Easy/Very Easy.md",
-    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
-    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
-    "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
-    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
-    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md"
+    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md"
   ]
 }
