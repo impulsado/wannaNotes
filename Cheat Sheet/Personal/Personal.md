@@ -1,0 +1,4 @@
+# Personal
+[[Aliases]]
+[[Resources]]
+[[tmux]]
