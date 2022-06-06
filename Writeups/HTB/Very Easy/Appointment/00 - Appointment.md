@@ -1,6 +1,6 @@
 **Title:** 00 - Appointment
 **Tags:** [[Very Easy]]
-**Topics:** #smb #MSSQL
+**Topics:** #SQLi #SQL 
 
 ---
 
@@ -32,7 +32,3 @@ SELECT * FROM members WHERE username = 'admin'--' AND password = '123456aA'
 
 # Links
 [SQL Injection Cheat Sheet](https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/)
-
-
-# Tags
-#SQL #SQL_Injection #HTB

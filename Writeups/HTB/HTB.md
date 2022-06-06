@@ -1,4 +1,4 @@
 # HTB
 ## Difficulty
-- [[Very Easy]]
+ [[Very Easy]]
 
