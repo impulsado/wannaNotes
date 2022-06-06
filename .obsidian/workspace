@@ -7,8 +7,12 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Very Easy.md",
+    "README.md",
+    "General/TO-DO List.md",
+    "Writeups/Writeups.md",
     "Writeups/HTB/HTB.md",
+    "Writeups/HTB/Very Easy/Very Easy.md",
     "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
     "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
     "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
     "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
-    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
-    "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
-    "Writeups/HTB/Very Easy/Responder/00 - Responder.md",
-    "Writeups/HTB/Very Easy/Test-Machine/00 - Test Machine.md"
+    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md"
   ]
 }

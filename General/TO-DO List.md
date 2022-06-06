@@ -1,6 +1,2 @@
 # TO DO List
-Done!!
-
-
-# Tags
-#To-Do #General
+- [ ] Graph View --> Cheat Sheet
