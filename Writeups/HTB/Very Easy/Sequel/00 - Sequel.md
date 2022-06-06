@@ -1,3 +1,8 @@
+Title: 00 - Sequel
+Tags: [[Very Easy]]
+Topics: 
+
+---
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
