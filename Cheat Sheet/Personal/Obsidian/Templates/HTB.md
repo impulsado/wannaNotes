@@ -1,3 +1,0 @@
-{{date:DDMMYYYY}}
-Ta
-# Intro
