@@ -1,4 +1,4 @@
-
+Title: Test-Machine
 Tags: [[Very Easy]]
 Topics: 
 
@@ -7,6 +7,6 @@ Topics:
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
-| Very Easy | ??? | 06062022 | ??? |
+| Very Easy | ??? | 06/06/2022 | ??? |
 
 # Process

@@ -1,5 +1,6 @@
 
-Tags: [[HTB]] [[Very Easy]]
+Title: {{title}}
+Tags: 
 Topics: 
 
 ---
@@ -7,6 +8,6 @@ Topics:
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
-| Very Easy | ??? | {{date:DDMMYYYY}} | ??? |
+| Very Easy | ??? | {{date:DD/MM/YYYY}} | ??? |
 
 # Process
