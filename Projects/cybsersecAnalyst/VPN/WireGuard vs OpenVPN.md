@@ -1,7 +1,9 @@
 **Title:** WireGuard vs OpenVPN
-**Tags:** [VPN]
+**Tags:** [[VPN]]
 **Topics:** 
 
 ---
 
 # WireGuard vs OpenVPN
+## Benchmarking
+In the official WireGuard page, there is a Benchmark beetwen WireGu
