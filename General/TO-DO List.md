@@ -1,2 +1,3 @@
 # TO DO List
-- [ ] Graph View --> Cheat Sheet
+- [x] Graph View --> Cheat Sheet
+- [ ] WireGuard vs OpenVPN
