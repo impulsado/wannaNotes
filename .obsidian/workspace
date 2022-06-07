@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/VPN.md",
+            "file": "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/VPN.md",
+                "file": "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md",
+    "Cheat Sheet/Personal/Obsidian/Templates/T - General.md",
+    "Projects/cybsersecAnalyst/VPN/Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Projects/Projects.md",
     "Projects/Untitled.md",
     "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md",
     "Writeups/HTB/Very Easy/Oopsie/20 - Privilege Escalation.md",
-    "Writeups/HTB/Very Easy/Oopsie/15 -  Reverse Shell.md",
-    "Writeups/HTB/Very Easy/Oopsie/10 - Web.md",
-    "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md",
-    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md"
+    "Writeups/HTB/Very Easy/Oopsie/15 -  Reverse Shell.md"
   ]
 }

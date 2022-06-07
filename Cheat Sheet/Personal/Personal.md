@@ -1,4 +1,4 @@
 # Personal
 [[Aliases]]
-[[Resources]]
+[[Cheat Sheet/Personal/Resources]]
 [[tmux]]
