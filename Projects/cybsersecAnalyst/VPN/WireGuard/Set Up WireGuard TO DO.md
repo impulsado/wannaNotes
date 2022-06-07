@@ -12,6 +12,6 @@
 
 2. Create private key for WireGuard and change the permission:
 ```bash
-# wg genkey | sudo tee /etc/wireguard/private.key
+# wg genkey | tee /etc/wireguard/private.key
 # chmod go= /etc/wireguard/private.key
 ```
