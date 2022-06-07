@@ -7,8 +7,12 @@
         "id": "344e9c8d543a9f0f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
+    "Projects/cybsersecAnalyst/VPN/Resources.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
-    "Projects/cybsersecAnalyst/VPN/Resources.md",
     "Cheat Sheet/Personal/Obsidian/Templates/T - General.md",
     "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md",
     "Writeups/HTB/Very Easy/Very Easy.md",
     "Projects/Projects.md",
     "Projects/Untitled.md",
-    "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md",
-    "Writeups/HTB/Very Easy/Oopsie/20 - Privilege Escalation.md"
+    "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md"
   ]
 }
