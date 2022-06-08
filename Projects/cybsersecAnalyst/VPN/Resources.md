@@ -15,3 +15,7 @@
 ## WireGuard
 [Set Up WireGuard](https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-20-04)
 [WireGuard Installer Script](https://github.com/angristan/wireguard-install)
+
+### Installer Script
+[Variable Expansion](https://stackoverflow.com/questions/8515411/what-is-indirect-expansion-what-does-var-mean)
+[Variable name](https://stackoverflow.com/questions/2634590/using-a-variable-to-refer-to-another-variable-in-bash)
