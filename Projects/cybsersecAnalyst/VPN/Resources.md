@@ -20,3 +20,6 @@
 [Variable Expansion](https://stackoverflow.com/questions/8515411/what-is-indirect-expansion-what-does-var-mean)
 [Variable name](https://stackoverflow.com/questions/2634590/using-a-variable-to-refer-to-another-variable-in-bash)
 [wg commands man](https://git.zx2c4.com/wireguard-tools/about/src/man/wg.8)
+
+## OpenVPN
+[Cipher Vulnerabilty](https://community.openvpn.net/openvpn/wiki/SWEET32)
