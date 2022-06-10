@@ -1,7 +1,6 @@
 ```bash
 #!/bin/bash
 
-
 # wg-setup.sh
 
 # This script configures the device as a WireGuard server and provides the user with the public key of the server.

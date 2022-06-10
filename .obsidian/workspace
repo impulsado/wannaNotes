@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Server Set up  Script.md",
+            "file": "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Server Set up  Script.md",
+                "file": "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "344e9c8d543a9f0f",
   "lastOpenFiles": [
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Server Set up  Script.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set up Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set up  Script.md",
     "Projects/cybsersecAnalyst/VPN/Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Set Up WireGuard TO DO.md",
-    "Cheat Sheet/Personal/Aliases.md",
-    "General/TO-DO List.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Projects/Projects.md"
+    "Cheat Sheet/Personal/Aliases.md"
   ]
 }
