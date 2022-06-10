@@ -1,3 +1,9 @@
+**Title:** Debian WireGuard Server Set up Script
+**Tags:** [[WireGuard]]
+**Topics:** #VPN #WireGuard #Script
+
+---
+
 ```bash
 #!/bin/bash
 

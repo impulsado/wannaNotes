@@ -1,3 +1,9 @@
+**Title:** Windows WireGuard Client Set up Script
+**Tags:** [[WireGuard]]
+**Topics:** #VPN #WireGuard #Script
+
+---
+
 ```powershell
 # new-client.ps1
 

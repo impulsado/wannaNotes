@@ -1,3 +1,9 @@
+**Title:** Windows WireGuard Client Set up Script
+**Tags:** [[WireGuard]]
+**Topics:** #VPN #WireGuard
+
+---
+
 We have a WireGuard Server with 1 network interface and a Server Client on the same network with only 1 interface too. 
 The purpose of the VPN will be to encrypt messages sent over the WireGuard Interface.
 
