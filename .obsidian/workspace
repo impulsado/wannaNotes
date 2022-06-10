@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "344e9c8d543a9f0f",
+        "id": "8a191c5878518a88",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -53,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 529
+    "width": 285
   },
   "right": {
     "id": "8a784ea1809df1a0",
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "344e9c8d543a9f0f",
+  "active": "8a191c5878518a88",
   "lastOpenFiles": [
+    "Writeups/HTB/HTB.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set up Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set up  Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
     "Projects/cybsersecAnalyst/VPN/Resources.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/VPN.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Set Up WireGuard TO DO.md"
+    "Projects/cybsersecAnalyst/VPN/VPN.md"
   ]
 }

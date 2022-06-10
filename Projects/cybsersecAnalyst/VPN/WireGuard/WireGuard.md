@@ -1,5 +1,5 @@
 **Title:** Windows WireGuard Client Set up Script
-**Tags:** [[WireGuard]]
+**Tags:** [[VPN]]
 **Topics:** #VPN #WireGuard
 
 ---
