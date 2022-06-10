@@ -35,38 +35,21 @@ The operation of WireGuard encryption algorithms is different. WireGuard uses a 
 -   [UDP](https://www.geeksforgeeks.org/user-datagram-protocol-udp/) as the Transport Layer protocol.
 -   Perfect Forward Secrecy (PFS) to protect user data.
 
-  
-
 OpenVPN uses certificates for identification and encryption, while WireGuard uses a public key for these tasks. Although, WireGuard allows you to create an additional pre-shared key to add another layer of security.
 
-  
-
 Depending on the needs, in the aspect of the encryption, both have advantages and disadvantages. OpenVPN can operate using several protocols, but at the same time broadens the attack surface.
-
 WireGuard only uses one set of protocols and this leads to a lighter, smaller attack area. On the downside, if a vulnerability is found, you will have to upgrade to a newer version.
 
-  
-
 ## Auditability
-
 Both programs are code, but OpenVPN has hundreds of thousands of lines, while WireGuard has only 4000.
 
 ## Privacy
-
 VPN protocols provide security, not privacy. What determines privacy are the policies of the VPN service, in particular whether it stores logs.
-
-  
 
 OpenVPN's design does not need to store any user information on the VPN server, so it does not compromise user privacy.
 
-  
-
 The main problem with the WireGuard VPN is that it stores the user's IP on the VPN server. WireGuard maps the public keys with the allowed IPs, simplifying some aspects, but making the user's IP stored in the VPN server until is rebooted.
-
 Saving the IP on the server in this way would make WireGuard no longer be considered "no-logs" VPN. 
 
-  
+[//]: This static IP address could also be exposed by a WebRTC leak.
 
-Note: This static IP address could also be exposed by a WebRTC leak.
-
-**
