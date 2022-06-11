@@ -1,3 +1,8 @@
+**Title:** Burp Suite
+**Tags:** [[Web]]
+**Topics:** #Burp_Suite #Cheat_Sheet 
+
+---
 # Burp Suite
 Security testing application that can be used to perform web requests on web  
 applications, mobile apps, and thick clients. Burp offers multiple capabilities such as web crawler, scanner,  proxy, repeater, intruder and many more. 
@@ -7,7 +12,7 @@ More Information [Link](https://www.geeksforgeeks.org/what-is-burp-suite/)
 ## Tools
 ### Spider
 Used to map the target web application. The objective of the mapping is to get a list of endpoints so that their functionality can be observed and potential vulnerabilities can be found.
-```
+```ad-info
 A web crawler (also known as a web spider or web robot) is a program or automated script which browses the World Wide Web in a methodical, automated manner. This process is called Web crawling or spidering. Many legitimate sites, in particular search engines, use spidering as a means of providing up-to-date data.
 ```
 
@@ -28,7 +33,3 @@ The Repeater is used for:
 -   If user-supplied values are being verified, how well is it being done?
 -   What values is the server expecting in an input parameter/request header?
 - [More]
-
-
-# Tags
-#Burp_Suite #Cheat_Sheet 

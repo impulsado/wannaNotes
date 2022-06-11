@@ -1,6 +1,6 @@
 **Title:** John The Reapper
 **Tags:** [[Common]]
-**Topics:** 
+**Topics:** #Cheat_Sheet #john_the_reapper
 
 ---
 # John The Reapper
@@ -17,7 +17,3 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hashfile
 ```bash
 john --incremental hashfile
 ```
-
-
-# Tags
-#Cheat_Sheet #john_the_reapper

@@ -1,3 +1,8 @@
+**Title:** tmux
+**Tags:** [[Personal]]
+**Topics:** #tmux #Cheat_Sheet 
+
+---
 # tmux
 Allows multiple terminal sessions to be accessed simultaneously in a single window.
 More information [Link](https://www.shortcutfoo.com/app/dojos/tmux/cheatsheet)
@@ -41,7 +46,3 @@ Configure [Link](https://youtu.be/cPWEX2446B4)
 | , | Change Window Name |
 | & | Kill Window|
 | m | Mouse Mode |
-
-
-# Tags
-#tmux #Cheat_Sheet 

@@ -1,3 +1,8 @@
+**Title:** Resources
+**Tags:** [[Personal]]
+**Topics:** #resources #General
+
+---
 # Resources
 A collection of links, notes, programs, websites, etc. related to CTFs and cybersecurity.
 
@@ -27,7 +32,3 @@ A collection of links, notes, programs, websites, etc. related to CTFs and cyber
 ## Others
 - [Resources I](https://github.com/Aksheet10/Cyber-Security-Resources#amazing-sites)
 - [Resources II](https://github.com/alex-bellon/cybersecurity-resources)
-
-
-# Tags
-#resources #General
