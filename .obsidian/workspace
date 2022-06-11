@@ -7,8 +7,12 @@
         "id": "f58cb0ebce7b764c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Cheat Sheet/Common/Gobuster.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
+    "Cheat Sheet/Common/Gobuster.md",
+    "Cheat Sheet/Common/Common.md",
     "Writeups/HTB/HTB.md",
+    "Writeups/Writeups.md",
+    "TryHackMe.md",
+    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set up Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set up  Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
-    "Projects/cybsersecAnalyst/VPN/Resources.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set up  Script.md"
   ]
 }

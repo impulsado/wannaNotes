@@ -1,3 +1,4 @@
+
 # DirBuster
 Bruteforce directorys and files in a server or application.
 Common --> `/usr/share/wordlists/dirb/common.txt`
