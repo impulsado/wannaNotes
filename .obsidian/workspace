@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "8a191c5878518a88",
+        "id": "f58cb0ebce7b764c",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -82,8 +82,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8a191c5878518a88",
+  "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
+    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
     "Writeups/HTB/HTB.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
@@ -92,7 +93,6 @@
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
     "Projects/cybsersecAnalyst/VPN/Resources.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/VPN.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md"
   ]
 }
