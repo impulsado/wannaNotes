@@ -1,3 +1,8 @@
+**Title:** nmap
+**Tags:** [[Common]]
+**Topics:** #Cheat_Sheet #nmap
+
+---
 # nmap
 A tool for discovering what services are running on each port for a given host.
 
@@ -29,6 +34,3 @@ Some services run only over UDP, and may be missed by a standard TCP scan. Scan 
 ```bash
 $ nmap -sU a.b.c.d
 ```
-
-
-#Cheat_Sheet #nmap

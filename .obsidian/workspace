@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Common/Gobuster.md",
+            "file": "Cheat Sheet/Password Cracking/John The Reapper.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Common/Gobuster.md",
+                "file": "Cheat Sheet/Password Cracking/John The Reapper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
-    "Cheat Sheet/Common/Gobuster.md",
+    "Cheat Sheet/Password Cracking/John The Reapper.md",
+    "Cheat Sheet/Password Cracking/Password Cracking.md",
+    "Cheat Sheet/Common/smbclient.md",
+    "Cheat Sheet/Common/nmap.md",
+    "Cheat Sheet/Common/netcat.md",
     "Cheat Sheet/Common/Common.md",
+    "Cheat Sheet/Common/Gobuster.md",
     "Writeups/HTB/HTB.md",
     "Writeups/Writeups.md",
-    "TryHackMe.md",
-    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set up Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set up  Script.md"
+    "TryHackMe.md"
   ]
 }

@@ -1,3 +1,8 @@
+**Title:** smbclient
+**Tags:** [[Common]]
+**Topics:** #Cheat_Sheet #smb
+
+---
 # smbclient
 Tool used to connect to Samba servers - Samba is a Windows-based filesharing protocol.
 
@@ -60,7 +65,3 @@ smb: \> dir
 ```bash
 smb: \> lcd LOCAL_DIRECTORY_PATH
 ```
-
-
-# Tags
-#Cheat_Sheet #smb

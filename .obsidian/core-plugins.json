@@ -8,6 +8,7 @@
   "templates",
   "note-composer",
   "command-palette",
+  "slash-command",
   "editor-status",
   "markdown-importer",
   "word-count",

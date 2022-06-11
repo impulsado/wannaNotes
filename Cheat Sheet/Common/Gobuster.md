@@ -1,4 +1,8 @@
+**Title:** Gobuster
+**Tags:** [[Common]]
+**Topics:** #Cheat_Sheet #gobuster #dirbuster
 
+---
 # DirBuster
 Bruteforce directorys and files in a server or application.
 Common --> `/usr/share/wordlists/dirb/common.txt`
@@ -33,5 +37,3 @@ Common --> `/usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt`
 ```bash
 $ gobuster vhost -u @IP/Domain -w /path/to/wordlist
 ```
-
-#Cheat_Sheet #gobuster #dirbuster
