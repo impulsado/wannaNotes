@@ -1,3 +1,8 @@
+**Title:** responder.py Daemon
+**Tags:** [[Troubleshooting]]
+**Topics:** #Troubleshooting 
+
+---
 # setDaemon Deprecated
 In the python 3.10 version there is an error and it does not work correctly.
 `setDaemon` has been deprecated in favor of setting daemon attribute directly.

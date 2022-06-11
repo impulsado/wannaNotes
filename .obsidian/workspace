@@ -7,12 +7,8 @@
         "id": "f58cb0ebce7b764c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Troubleshooting/GitHub Credentials.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Troubleshooting/GitHub Credentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +84,8 @@
   },
   "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
+    "README.md",
+    "Troubleshooting/responder.py Daemon.md",
     "Troubleshooting/GitHub Credentials.md",
     "Troubleshooting/Troubleshooting.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
@@ -96,8 +93,6 @@
     "Projects/cybsersecAnalyst/VPN/VPN.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set up  Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set up Script.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md"
   ]
 }
