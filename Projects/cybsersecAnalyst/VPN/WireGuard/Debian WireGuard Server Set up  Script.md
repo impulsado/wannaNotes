@@ -3,7 +3,6 @@
 **Topics:** #VPN #WireGuard #Script
 
 ---
-
 ```bash
 #!/bin/bash
 

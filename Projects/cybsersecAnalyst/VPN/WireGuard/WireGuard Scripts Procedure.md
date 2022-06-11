@@ -1,3 +1,9 @@
+**Title:** WireGuard Scripts Procedure
+**Tags:** [[WireGuard]]
+**Topics:** #VPN #WireGuard 
+
+---
+# WireGuard Scripts Procedure
 1. To start setup of the devices, you will need to update the packages in the repositories and install the WireGuard program.
 	[//]: When WireGuard is installed, a package called "WireGuard Tools" is also installed.
 	"sudo apt update && sudo apt upgrade"

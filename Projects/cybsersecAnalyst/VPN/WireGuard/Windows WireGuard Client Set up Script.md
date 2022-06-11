@@ -3,7 +3,6 @@
 **Topics:** #VPN #WireGuard #Script
 
 ---
-
 ```powershell
 # new-client.ps1
 
