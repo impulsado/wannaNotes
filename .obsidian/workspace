@@ -7,8 +7,12 @@
         "id": "f58cb0ebce7b764c",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,7 @@
   },
   "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
+    "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md",
     "README.md",
     "Troubleshooting/responder.py Daemon.md",
     "Troubleshooting/GitHub Credentials.md",
@@ -92,7 +98,6 @@
     "Projects/cybsersecAnalyst/VPN/Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md"
   ]
 }
