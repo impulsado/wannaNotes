@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#To-Do",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,14 +90,14 @@
   "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
     "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md",
-    "README.md",
-    "Troubleshooting/responder.py Daemon.md",
-    "Troubleshooting/GitHub Credentials.md",
-    "Troubleshooting/Troubleshooting.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Projects/cybsersecAnalyst/VPN/Resources.md",
-    "Projects/cybsersecAnalyst/VPN/VPN.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md"
+    "Writeups/HTB/Very Easy/Vaccine/15 - SQL Injection.md",
+    "Writeups/HTB/Very Easy/Vaccine/99 - Bounty.md",
+    "Writeups/HTB/Very Easy/Vaccine/05 - Enumeration.md",
+    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
+    "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md",
+    "Writeups/HTB/Very Easy/Oopsie/20 - Privilege Escalation.md",
+    "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md",
+    "Writeups/HTB/Very Easy/Oopsie/15 -  Reverse Shell.md",
+    "Writeups/HTB/Very Easy/Vaccine/10 - Web.md"
   ]
 }
