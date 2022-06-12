@@ -3,5 +3,6 @@
   "livePreview": true,
   "promptDelete": false,
   "attachmentFolderPath": "Photos",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": true
 }

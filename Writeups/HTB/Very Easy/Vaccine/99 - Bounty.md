@@ -10,3 +10,4 @@ users in machine:
 - ftpuser
 - simon
 
+postgres : P@s5w0rd!

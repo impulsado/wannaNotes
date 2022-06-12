@@ -7,7 +7,7 @@
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
-| Very Easy | Linux | 11/06/2022 | ??? |
+| Very Easy | Linux | 11/06/2022 | 12/06/2022 |
 
 # Process
 1. Login as `anonymous` on ftp service >  `get` the .zip and `unzip`.
