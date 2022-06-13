@@ -3,5 +3,9 @@
 **Topics:** #OpenVPN #VPN 
 
 ---
-# OpenVPN Notes
-Use SSL/TLS Encryption. Can use UDP and TCP protocols.
+# TAP vs TUN
+## TAP
+
+
+# OpenVPN
+Use SSL/TLS Encryption. Can use either UDP or TCP protocols.
