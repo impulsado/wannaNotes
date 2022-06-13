@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/HTB/Very Easy/Vaccine/20 - Privilege Escalation.md",
+            "file": "Projects/cybsersecAnalyst/VPN/Resources.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Vaccine/20 - Privilege Escalation.md",
+                "file": "Projects/cybsersecAnalyst/VPN/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/VPN/Resources.md",
     "Writeups/HTB/Very Easy/Vaccine/20 - Privilege Escalation.md",
     "Writeups/HTB/Very Easy/Vaccine/99 - Bounty.md",
     "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md",
@@ -97,7 +98,6 @@
     "Writeups/HTB/Very Easy/Vaccine/15 - SQL Injection.md",
     "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
     "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md",
-    "Writeups/HTB/Very Easy/Oopsie/20 - Privilege Escalation.md",
-    "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md"
+    "Writeups/HTB/Very Easy/Oopsie/20 - Privilege Escalation.md"
   ]
 }

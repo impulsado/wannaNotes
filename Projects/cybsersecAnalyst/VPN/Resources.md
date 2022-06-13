@@ -16,6 +16,7 @@
 [Unofficial WireGuard Documentation](https://github.com/pirate/wireguard-docs)
 [Manual WireGuard Set up](https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-20-04)
 [WireGuard Installer Script](https://github.com/angristan/wireguard-install)
+[WireGuard Unofficial Blog](https://www.procustodibus.com/blog/)
 
 ### Installer Script
 [Variable Expansion](https://stackoverflow.com/questions/8515411/what-is-indirect-expansion-what-does-var-mean)
@@ -25,4 +26,4 @@
 
 
 ## OpenVPN
-[Cipher Vulnerabilty](https://community.openvpn.net/openvpn/wiki/SWEET32)
+[Cipher Vulnerability](https://community.openvpn.net/openvpn/wiki/SWEET32)

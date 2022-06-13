@@ -1,4 +1,4 @@
-Connect throught ssh with postgres user
+Connect through ssh with postgres user
 ```bash
 $ ssh postgres@10.129.181.9
 ```

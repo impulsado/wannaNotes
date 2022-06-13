@@ -4,5 +4,8 @@
   "promptDelete": false,
   "attachmentFolderPath": "Photos",
   "alwaysUpdateLinks": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }
