@@ -14,10 +14,10 @@ Bridge two computers only using the Ethernet cable for the connectivity between 
 
 Bridge two devices through Ethernet to create a virtual host server to divert the information. Used with routing. The downside is that it connects 2 machines, no 2 LAN's.
 
-| TAP | TUN |
+| **TAP** | **TUN** |
 | --- | --- |
 | Allows a client to connect to another LAN. (Access to resources or services) | Connect only to a Server |
-|  | You can access to network resources simulating that they are in the server but is not his function.|
+| The network load is higher because it includes the routes of each network.  | You can access to network resources simulating that they are in the server but is not his function.|
 
 # OpenVPN 
 Use SSL/TLS Encryption. Can use either UDP or TCP protocols.
