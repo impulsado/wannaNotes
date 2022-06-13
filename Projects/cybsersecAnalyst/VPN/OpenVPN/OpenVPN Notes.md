@@ -7,6 +7,7 @@
 Supports SSL/TLS Encryption. Can use either UDP or TCP protocols. Default port 1194.
 OpenVPN uses the OpenSSL library, and because of this it has these cryptographic capabilities.
 Can use conventional encryption using pre-shared keys (Static Key mode) or public key security (SSL/TLS) using client and server certificates.
+
 ## TAP vs TUN
 ### TAP
 > Layer 2
@@ -23,9 +24,6 @@ Bridge two devices through Ethernet to create a virtual host server to divert th
 | Allows a client to connect to another LAN. (Access to resources or services) | Connect only to a Server |
 | The network load is higher because it includes the routes of each network.  | You can access to network resources simulating that they are in the server but is not his function.|
 | Open LAN to the other (Depending on the configuration) and can introduce Security Breaches | Faster and easier to setup |
-
-
-
 
 ## Security and Encryption
 ### TLS Version
@@ -47,3 +45,7 @@ AES-GCM is an [AEAD cipher](https://en.wikipedia.org/wiki/Authenticated_encrypt
 
 ### Diffie-Hellman key exchange
 OpenVPN uses a 2048 bits DH key by default.
+OpenVPN 2.4 added support for ECDH keys. Elliptic curve cryptography is faster, lighter and more secure.
+
+### HMAC digest algorithm
+
