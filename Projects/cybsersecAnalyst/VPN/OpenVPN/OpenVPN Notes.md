@@ -25,3 +25,12 @@ Bridge two devices through Ethernet to create a virtual host server to divert th
 | Open LAN to the other (Depending on the configuration) and can introduce Security Breaches | Faster and easier to setup |
 
 
+
+
+## Security and Encryption
+### TLS Version
+OpenVPN accepts TLS 1.0 by default, which is [20 years old](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.0).
+With `tls-version-min 1.2` we enforce TLS 1.2, which the best protocol available currently for OpenVPN. TLS 1.2 is supported since OpenVPN 2.3.3.
+
+### Certificate
+OpenVPN uses an RSA certificate with a 2048 bits key by default.
