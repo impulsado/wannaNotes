@@ -18,6 +18,7 @@ Bridge two devices through Ethernet to create a virtual host server to divert th
 | --- | --- |
 | Allows a client to connect to another LAN. (Access to resources or services) | Connect only to a Server |
 | The network load is higher because it includes the routes of each network.  | You can access to network resources simulating that they are in the server but is not his function.|
+| Open LAN to the other (Depending on the configuration) and can introduce Security Breaches | Faster and easier to setup |
 
 # OpenVPN 
 Use SSL/TLS Encryption. Can use either UDP or TCP protocols.
