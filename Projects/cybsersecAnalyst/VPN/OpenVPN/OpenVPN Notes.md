@@ -6,7 +6,7 @@
 # OpenVPN 
 Supports SSL/TLS Encryption. Can use either UDP or TCP protocols. Default port 1194.
 OpenVPN uses the OpenSSL library, and because of this it has these cryptographic capabilities.
-Can use conventional encryption using pre-shared 
+Can use conventional encryption using pre-shared keys (Static Key mode) or public key security (SSL/TLS) using client and server certificates.
 ## TAP vs TUN
 ### TAP
 > Layer 2
