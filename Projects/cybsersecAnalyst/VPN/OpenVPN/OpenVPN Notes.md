@@ -48,8 +48,15 @@ OpenVPN uses a 2048 bits DH key by default.
 OpenVPN 2.4 added support for ECDH keys. Elliptic curve cryptography is faster, lighter and more secure.
 
 ### HMAC digest algorithm
-Authenticate data channel packets and (if enabled) tls-auth control channel packets with HMAC using message digest algorithm alg. (The default is SHA1 ). HMAC is a commonly used message authentication algorithm (MAC) that uses a data string, a secure hash algorithm, and a key, to produce a digital signature.
+> Authenticate data channel packets and (if enabled) tls-auth control channel packets with HMAC using message digest algorithm alg. (The default is SHA1 ). HMAC is a commonly used message authentication algorithm (MAC) that uses a data string, a secure hash algorithm, and a key, to produce a digital signature.
+>
+ If an AEAD cipher mode (e.g. GCM) is chosen, the specified --auth 
+ algorithm is ignored for the data channel, and the authentication method 
+ of the AEAD cipher is used instead. Note that alg still specifies the digest 
+ used for tls-auth.
 
-If an AEAD cipher mode (e.g. GCM) is chosen, the specified --auth algorithm is ignored for the data channel, and the authentication method of the AEAD cipher is used instead. Note that alg still specifies the digest used for tls-auth.
+Source: [OpenVPN man --auth alg](https://community.openvpn.net/openvpn/wiki/Openvpn24ManPage)
 
-Source: 
+### TLS-Auth and TLS-crypt
+Provide an additional layer of security and mitigate DoS attacks. They aren't used by default by OpenVPN.
+`tls-crypt` is an OpenVPN 2.4 feature that provides encryption in addition to authentication (unlike `tls-auth`). It is more privacy-friendly.
