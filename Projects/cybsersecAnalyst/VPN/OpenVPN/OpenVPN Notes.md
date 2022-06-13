@@ -21,4 +21,4 @@ Bridge two devices through Ethernet to create a virtual host server to divert th
 | Open LAN to the other (Depending on the configuration) and can introduce Security Breaches | Faster and easier to setup |
 
 # OpenVPN 
-Use SSL/TLS Encryption. Can use either UDP or TCP protocols.
+Use SSL/TLS Encryption. Can use either UDP or TCP protocols. Default port 1194.
