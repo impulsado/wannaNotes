@@ -34,3 +34,11 @@ With `tls-version-min 1.2` we enforce TLS 1.2, which the best protocol availab
 
 ### Certificate
 OpenVPN uses an RSA certificate with a 2048 bits key by default.
+OpenVPN uses `SHA-256` as the signature hash by default.
+
+### Data Channel
+By default, OpenVPN uses `BF-CBC` as the data channel cipher.
+[//]: Blowfish is an old (1993) and weak algorithm. Even the official OpenVPN documentation admits it.
+AES is today's standard. It's the fastest and more secure cipher available today.
+
+AES-256 is 40% slower than AES-128, and there isn't any real reason to use a 256 bits key over a 128 bits key with AES. Moreover, AES-256 is more vulnerable to [Timing attacks](https://en.wikipedia.org/wiki/Timing_attack).
