@@ -42,3 +42,8 @@ By default, OpenVPN uses `BF-CBC` as the data channel cipher.
 AES is today's standard. It's the fastest and more secure cipher available today.
 
 AES-256 is 40% slower than AES-128, and there isn't any real reason to use a 256 bits key over a 128 bits key with AES. Moreover, AES-256 is more vulnerable to [Timing attacks](https://en.wikipedia.org/wiki/Timing_attack).
+
+AES-GCM is an [AEAD cipher](https://en.wikipedia.org/wiki/Authenticated_encryption) which means it simultaneously provides confidentiality, integrity, and authenticity assurances on the data.
+
+### Diffie-Hellman key exchange
+OpenVPN uses a 2048 bits DH key by default.
