@@ -26,4 +26,7 @@
 
 
 ## OpenVPN
+[Official OpenVPN Website](https://openvpn.net/)
 [Cipher Vulnerability](https://community.openvpn.net/openvpn/wiki/SWEET32)
+[OpenVPN man](https://community.openvpn.net/openvpn/wiki/Openvpn24ManPage)
+[OpenVPN Installer Script](https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh)
