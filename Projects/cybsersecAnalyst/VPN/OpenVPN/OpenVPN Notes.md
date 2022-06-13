@@ -12,7 +12,11 @@ Bridge two computers only using the Ethernet cable for the connectivity between 
 ## TUN
 > Layer 3
 
-Bridge two devices through Ethernet to create a virtual host server to divert the information. Used with routing. The downside is that it connects 2 
+Bridge two devices through Ethernet to create a virtual host server to divert the information. Used with routing. The downside is that it connects 2 machines, no 2 LANs.
+
+| TAP | TUN |
+| --- | --- |
+| Allows client to connect to another LAN | |
 
 
 # OpenVPN
