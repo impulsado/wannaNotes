@@ -14,6 +14,18 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "972222bb55908f6f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Cheat Sheet/Common/Gobuster.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/CatSkils/05 - Enumeration.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +99,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f58cb0ebce7b764c",
+  "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Cheat Sheet/Common/Gobuster.md",
     "Writeups/CatSkils/05 - Enumeration.md",
     "Writeups/HTB/Very Easy/Vaccine/05 - Enumeration.md",
     "Writeups/CatSkils/00 - Training.md",
@@ -97,7 +110,6 @@
     "Writeups/HTB/HTB.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/Resources.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md"
+    "Projects/cybsersecAnalyst/VPN/Resources.md"
   ]
 }
