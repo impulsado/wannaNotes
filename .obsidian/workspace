@@ -90,6 +90,7 @@
   "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
     "Writeups/CatSkils/05 - Enumeration.md",
+    "Writeups/HTB/Very Easy/Vaccine/05 - Enumeration.md",
     "Writeups/CatSkils/00 - Training.md",
     "Writeups/CatSkils/99 - Bounty.md",
     "Writeups/CatSkils/CatSkills.md",
@@ -97,7 +98,6 @@
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/Resources.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
-    "Projects/cybsersecAnalyst/VPN/VPN.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md"
   ]
 }
