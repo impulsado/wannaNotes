@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/CatSkils/99 - Bounty.md",
+            "file": "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/CatSkils/99 - Bounty.md",
+                "file": "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,8 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
+    "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
     "Writeups/CatSkils/99 - Bounty.md",
     "Cheat Sheet/Common/Gobuster.md",
     "Writeups/CatSkils/05 - Enumeration.md",
@@ -108,8 +110,6 @@
     "Writeups/CatSkils/00 - Training.md",
     "Writeups/CatSkils/CatSkills.md",
     "Writeups/HTB/HTB.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/Resources.md"
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md"
   ]
 }
