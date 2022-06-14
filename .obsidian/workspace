@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
+            "file": "Cheat Sheet/Personal/Aliases.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
+                "file": "Cheat Sheet/Personal/Aliases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Aliases.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
     "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
@@ -98,7 +99,6 @@
     "Cheat Sheet/Common/Gobuster.md",
     "Writeups/CatSkils/05 - Enumeration.md",
     "Writeups/HTB/Very Easy/Vaccine/05 - Enumeration.md",
-    "Writeups/CatSkils/00 - Training.md",
-    "Writeups/CatSkils/CatSkills.md"
+    "Writeups/CatSkils/00 - Training.md"
   ]
 }
