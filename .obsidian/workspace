@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
+            "file": "Writeups/CatSkils/CatSkills.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
+                "file": "Writeups/CatSkils/CatSkills.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "f58cb0ebce7b764c",
   "lastOpenFiles": [
+    "Writeups/CatSkils/CatSkills.md",
+    "Writeups/HTB/HTB.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/Resources.md",
@@ -96,8 +98,6 @@
     "Projects/cybsersecAnalyst/VPN/VPN.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set up  Script.md",
-    "Cheat Sheet/Personal/Obsidian/Templates/T - General.md",
-    "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set up  Script.md"
   ]
 }
