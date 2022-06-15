@@ -30,3 +30,6 @@
 [Cipher Vulnerability](https://community.openvpn.net/openvpn/wiki/SWEET32)
 [OpenVPN man](https://community.openvpn.net/openvpn/wiki/Openvpn24ManPage)
 [OpenVPN Installer Script](https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh)
+
+### Installer Script
+[Easy RSA Documentation](https://easy-rsa.readthedocs.io/en/latest/#building-the-ca)
