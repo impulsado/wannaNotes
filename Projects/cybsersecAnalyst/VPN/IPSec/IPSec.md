@@ -28,7 +28,11 @@ The tunnels is used for management traffic. This tunnel is used as a secure meth
 ![[Pasted image 20220617083119.png]]
 
 ### IKE phase 2
-Protect user's data that will be sent thought that second tunnel.
+Protect user's data that will be sent thought that second tunnel. Here is only one mode to build the IKE phase 2 tunnel, which is called quick mode.
+Negotiate about:
+- IPSec Protocol: AH or ESP.
+- Encapsulation Mode: Transport or Tunnel mode.
+- Encryption: DES, 3DES or AES.
 ![[Pasted image 20220617083601.png]]
 
 ```ad-important
@@ -43,7 +47,9 @@ AH is obsolete because it does not provide confidentiality and has problems with
 ```
 
 ![[Pasted image 20220617084023.png]]
-
 ![[Pasted image 20220617084002.png]]
 
 ### ESP (Encapsulating Security Payload)
+Provides data confidentiality (encryption) and authentication (data integrity, data origin authentication, and replay protection). ESP can be used with confidentiality only, authentication only, or both confidentiality and authentication.
+![[Pasted image 20220617084729.png]]
+![[Pasted image 20220617084736.png]]
