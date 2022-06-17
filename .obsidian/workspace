@@ -7,7 +7,7 @@
         "id": "972222bb55908f6f",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -84,15 +84,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Writeups/CatSkils/CatSkills.md",
+    "Writeups/CatSkils/99 - Bounty.md",
+    "Writeups/CatSkils/05 - Enumeration.md",
+    "Writeups/CatSkils/00 - Training.md",
+    "Projects/Projects.md",
+    "Cheat Sheet/Personal/Cheat Sheet Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
-    "Projects/cybsersecAnalyst/VPN/Resources.md",
+    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/Debian OpenVPN Server Script.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Scritps Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/System Start-up.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md"
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md"
   ]
 }
