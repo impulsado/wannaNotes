@@ -18,4 +18,10 @@ Use cases:
 
 ## IKE (Internet Key Exchange)
 ### IKE phase 1
-Two peers will negotiate about the encryption, authentication, hashing and other protocols that they want to use and some other parameters that are required.
+Two peers negotiate about the encryption, authentication, hashing and other protocols that they want to use and some other parameters that are required.
+**ISAKMP (Internet Security Association and Key Management Protocol)** session is established.
+[AKA]: IKE phase 1 tunnel.
+[//]: Collection of parameters is called SA (Security Association).
+
+![[Pasted image 20220617083119.png]]
+
