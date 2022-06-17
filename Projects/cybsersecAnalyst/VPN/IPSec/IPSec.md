@@ -30,16 +30,19 @@ The tunnels is used for management traffic. This tunnel is used as a secure meth
 ### IKE phase 2
 Protect user's data that will be sent thought that second tunnel. Here is only one mode to build the IKE phase 2 tunnel, which is called quick mode.
 Negotiate about:
-- IPSec Protocol: AH or ESP.
-- Encapsulation Mode: Transport or Tunnel mode.
-- Encryption: DES, 3DES or AES.
+- **IPSec Protocol:** AH or ESP.
+- **Encapsulation Mode:** Transport or Tunnel mode.
+- **Encryption:** DES, 3DES or AES.
+- **Authentication:** MD5 or SHA
+- **Lifetime:** How long tunnel will be valid. Refresh keying material?
+- **(Optional) DH exchange:** used for PFS (Perfect Forward Secrecy)
 ![[Pasted image 20220617083601.png]]
 
 ```ad-important
 IKE builds the tunnels for us but it doesn’t authenticate or encrypt user data.
 ```
 
-## AH and ESP Protocols
+## IPSec Protocols
 ### AH (Authentication Header) 
 AH offers authentication and integrity, but it doesn’t offer any encryption. It protects the IP packet by calculating a hash value over almost all fields in the IP header. The fields it excludes are the ones that can be changed in transit (TTL and header checksum).
 ```ad-warning
