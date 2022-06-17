@@ -1,6 +1,6 @@
 **Title:** WireGuard Scripts Procedure
 **Tags:** [[WireGuard]]
-**Topics:** #VPN #WireGuard 
+**Topics:** #WireGuard 
 
 ---
 # WireGuard Scripts Procedure
