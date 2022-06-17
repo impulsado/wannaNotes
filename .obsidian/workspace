@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
+            "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/Debian OpenVPN Server Script.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 171
+    "width": 221
   },
   "right": {
     "id": "8a784ea1809df1a0",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
+                "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/Debian OpenVPN Server Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/Debian OpenVPN Server Script.md",
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/System Start-up.md",
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Notes.md",
     "Projects/cybsersecAnalyst/VPN/Resources.md",
     "Cheat Sheet/Personal/Aliases.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
-    "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md"
   ]
 }
