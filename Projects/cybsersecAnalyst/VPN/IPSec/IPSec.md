@@ -37,8 +37,9 @@ IKE builds the tunnels for us but it doesn’t authenticate or encrypt user dat
 
 ## AH (Authentication Header) and ESP (Encapsulating Security Payload)
 ### AH
-AH offers authentication and integrity but it doesn’t offer any encryption. It protects the IP packet by calculating a hash value over almost all fields in the IP header. The fields it excludes are the ones that can be changed in transit (TTL and header checksum).
-```ad-warninga
+AH offers authentication and integrity, but it doesn’t offer any encryption. It protects the IP packet by calculating a hash value over almost all fields in the IP header. The fields it excludes are the ones that can be changed in transit (TTL and header checksum).
+```ad-warning
+AH is deprecated 
 ```
 
 ![[Pasted image 20220617084023.png]]
