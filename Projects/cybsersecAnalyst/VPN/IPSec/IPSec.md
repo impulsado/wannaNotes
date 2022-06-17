@@ -28,4 +28,11 @@ The tunnels is used for management traffic. This tunnel is used as a secure meth
 ![[Pasted image 20220617083119.png]]
 
 ### IKE phase 2
-![[Pasted image 20220617083441.png]]
+Protect user's data that will be sent thought that second tunnel.
+![[Pasted image 20220617083601.png]]
+
+```ad-important
+IKE builds the tunnels for us but it doesn’t authenticate or encrypt user data.
+```
+
+## AH and 
