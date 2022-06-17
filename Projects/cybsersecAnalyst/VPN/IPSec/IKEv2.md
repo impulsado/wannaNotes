@@ -21,6 +21,13 @@ Thanks to the reliability measures implemented in IKEv2, this issue has been fix
 Well-minded architecture and effective message exchange system in IKEv2 allow for better performance.
 
 ## Pros and cons
-| Pros | |
+| **Pros** | **Cons** |
 | --- | --- |
+| Provides very stable connection | Closed-source (except for Linux) |
+| Fast speed | Possibly compromised by the NSA |
+| Compatible with a range of ciphers, including AES-256 | Bad for bypassing firewalls |
+| Good at handling network changes |  |
+| Supports Perfect Forward Secrecy |  |
+
+
 
