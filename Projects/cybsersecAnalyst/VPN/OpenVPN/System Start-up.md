@@ -1,6 +1,6 @@
 **Title:** System Start-up
 **Tags:** [[OpenVPN]]
-**Topics:** #VPN #OpenVPN 
+**Topics:** #OpenVPN 
 
 ---
 # System Start-up

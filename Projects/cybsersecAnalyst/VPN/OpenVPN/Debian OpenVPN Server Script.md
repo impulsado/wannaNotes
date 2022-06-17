@@ -1,3 +1,9 @@
+**Title:** Debian OpenVPN Server Script
+**Tags:** [[OpenVPN]]
+**Topics:** #OpenVPN #Script 
+
+---
+# Debian OpenVPN Server Script
 ```bash
 #!/bin/bash
 
