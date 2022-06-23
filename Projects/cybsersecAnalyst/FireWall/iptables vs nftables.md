@@ -17,3 +17,5 @@ Tables:
 ## nftables
 Nftables (developed by netfilter/IPtables) is a package filtering framework. It was basically built to replace the old IPtables, because IPtables had several problems in terms of performance and scalability.
 Note: Aviable in Linux Kernel since version 3.13
+
+## Difference between nftables and iptables
