@@ -38,5 +38,25 @@
 ## IPSec
 [IPSec Network Lesson](https://networklessons.com/cisco/ccie-routing-switching/ipsec-internet-protocol-security)
 [What's IKEv2](**[https://www.vpnunlimited.com/help/vpn-protocols/ikev2-protocol](https://www.vpnunlimited.com/help/vpn-protocols/ikev2-protocol)**)
+[Official OpenVPN Website](https://openvpn.net/)
+
+
+
+[Cipher Vulnerability](https://community.openvpn.net/openvpn/wiki/SWEET32)
+
+
+
+OpenVPN man
+https://community.openvpn.net/openvpn/wiki/Openvpn24ManPage
+
+OpenVPN Installer Script
+https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh
+
+Easy RSA Documentation
+https://easy-rsa.readthedocs.io/en/latest/#building-the-ca
+
+Assign Static IP
+https://kifarunix.com/assign-static-ip-addresses-for-openvpn-clients/
+
 
 

@@ -17,7 +17,7 @@ apt install -y openvpn wget ca-certificates
 
 # DECLARE VARIABLES
 ####################
-IP="172.25.0.40"
+IP="172.25.0.27"
 vpn_net="10.8.0.0"
 vpn_mask="255.255.255.0"
 PORT="1194"
@@ -25,6 +25,7 @@ PROTOCOL="udp"
 NOGROUP=nogroup
 homeDir="/home/user"
 SERVER_NAME="server"
+CLIENT_IP="10.8.0.66"
 
 # Use default, sane and fast parameters
 CIPHER="AES-128-GCM"
@@ -277,11 +278,11 @@ if [[ ! -d /etc/openvpn/easy-rsa/ ]]; then
 
 	case $CERT_TYPE in
         1)
-            echo "set_var EASYRSA_ALGO ec" >vars
-            echo "set_var EASYRSA_CURVE $CERT_CURVE" >>vars
+            echo "set_var EASYRSA_ALGO ec" >pki/vars
+            echo "set_var EASYRSA_CURVE $CERT_CURVE" >>pki/vars
             ;;
         2)
-            echo "set_var EASYRSA_KEY_SIZE $RSA_KEY_SIZE" >vars
+            echo "set_var EASYRSA_KEY_SIZE $RSA_KEY_SIZE" >pki/vars
             ;;
 	esac
 
@@ -311,7 +312,8 @@ persist-tun
 keepalive 10 120
 topology subnet
 server $vpn_net $vpn_mask
-ifconfig-pool-persist ipp.txt
+# In case it is dhcp
+# ifconfig-pool-persist ipp.txt
 dh none
 ecdh-curve $DH_CURVE
 tls-crypt tls-crypt.key
@@ -405,7 +407,7 @@ function newClient() {
 			./easyrsa build-client-full "$CLIENT" nopass
 			;;
 		2)
-			echo "You will be asked for the client password below"
+			echo " You will be asked for the client password below "
 			./easyrsa build-client-full "$CLIENT"
 			;;
 		esac
@@ -413,6 +415,7 @@ function newClient() {
 	fi
 
 	# Generates the custom client.ovpn
+	echo "ifconfig-push ${CLIENT_IP} ${vpn_mask}" > /etc/openvpn/ccd/${CLIENT}
 	cp /etc/openvpn/client-template.txt "$homeDir/$CLIENT.ovpn"
 	{
 		echo "<ca>"
@@ -431,6 +434,10 @@ function newClient() {
 		cat /etc/openvpn/tls-crypt.key
 		echo "</tls-crypt>"
 	} >>"$homeDir/$CLIENT.ovpn"
+	
+	# ASSIGN STATIC IP
+	
+	#systemctl restart openvpn@server
 
 	echo ""
 	echo "The configuration file has been written to $homeDir/$CLIENT.ovpn."
