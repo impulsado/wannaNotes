@@ -1,6 +1,6 @@
 **Title:** Firewall Resources
 **Tags:** [[Firewall]]
-**Topics:** 
+**Topics:** #resources #FireWall
 
 ---
 # Firewall Resources

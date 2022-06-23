@@ -1,6 +1,6 @@
 **Title:** WireGuard vs OpenVPN
 **Tags:** [[VPN]]
-**Topics:** 
+**Topics:** #VPN 
 
 ---
 # WireGuard vs OpenVPN
