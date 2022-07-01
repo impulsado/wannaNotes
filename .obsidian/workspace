@@ -7,12 +7,8 @@
         "id": "972222bb55908f6f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/cybsersecAnalyst/FireWall/Firewall Resources.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/FireWall/Firewall Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +84,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/FireWall/main.nft.md",
+    "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
     "Projects/cybsersecAnalyst/FireWall/Firewall Resources.md",
+    "Projects/cybsersecAnalyst/FireWall/Firewall.md",
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
     "Troubleshooting/host key verification failed.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IPSec System Start-up.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Procedure (Windows).md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Procedure (Debian).md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Scritps Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md"
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Procedure (Windows).md"
   ]
 }
