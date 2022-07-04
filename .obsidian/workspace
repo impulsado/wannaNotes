@@ -7,8 +7,12 @@
         "id": "972222bb55908f6f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Troubleshooting/host key verification failed.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Troubleshooting/host key verification failed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,12 +89,12 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Troubleshooting/host key verification failed.md",
     "Projects/cybsersecAnalyst/FireWall/main.nft.md",
     "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
     "Projects/cybsersecAnalyst/FireWall/Firewall Resources.md",
     "Projects/cybsersecAnalyst/FireWall/Firewall.md",
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
-    "Troubleshooting/host key verification failed.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IPSec System Start-up.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md",
