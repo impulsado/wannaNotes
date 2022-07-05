@@ -110,4 +110,8 @@ Scapy works with layers. Layers are individual functions linked together with th
 [sendp]: Send Layer2
 ["payload"]: Packet payload
 
-## Altering
+## Altering packet
+> Setting source port
+```python
+packet.sport = 443
+```
