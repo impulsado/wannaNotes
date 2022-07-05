@@ -75,4 +75,17 @@ ls(TCP)
 | chksum : | XShortField | = (None) |
 | urgptr : | ShortField | = (0) |
 | options : | TCPOptionsField | = ({}) |
-## 
+## Basic Packet Crafting
+Scapy works with layers. Layers are individual functions linked together with the "/" character to construct packets.
+
+> Simple Packet
+```python
+Layer2 = Ether()
+Layer3 = IP()
+Layer2=Ether(dst="08:00:27:d4:8f:54")
+Layer3=IP(src="192.168.0.1",dst="192.168.0.1")
+send=sendp(Layer2/Layer3/"Payload", iface="enp0s3")
+```
+[sendp]: Send Layer2
+[payload]: Packet payload
+
