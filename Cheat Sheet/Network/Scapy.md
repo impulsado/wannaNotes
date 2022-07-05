@@ -105,7 +105,7 @@ Scapy works with layers. Layers are individual functions linked together with th
 ###[ Raw ]###
         load= 'Payload'
 
->>> send=sendp(Layer2/Layer3/"Payload", iface="enp0s3")
+>>> send=sendp(packet, iface="enp0s3")
 ```
 [sendp]: Send Layer2
 ["payload"]: Packet payload
