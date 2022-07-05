@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Web/Web.md",
+            "file": "Projects/cybsersecAnalyst/Firewall/Firewall.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Web/Web.md",
+                "file": "Projects/cybsersecAnalyst/Firewall/Firewall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/Firewall/Firewall.md",
+    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
+    "Projects/Projects.md",
+    "Cheat Sheet/Cheat Sheet.md",
     "Cheat Sheet/Web/Web.md",
+    "GENERAL/TO-DO List.md",
     "Cheat Sheet/Web/Burp Suite.md",
     "Cheat Sheet/Personal/tmux.md",
     "Cheat Sheet/Personal/Personal.md",
-    "Cheat Sheet/Personal/Cheat Sheet Resources.md",
-    "Cheat Sheet/Personal/Aliases.md",
-    "Cheat Sheet/Password Cracking/John The Reapper.md",
-    "Cheat Sheet/Password Cracking/Password Cracking.md",
-    "Cheat Sheet/Common/Common.md",
-    "Cheat Sheet/Network/Network.md"
+    "Cheat Sheet/Personal/Cheat Sheet Resources.md"
   ]
 }

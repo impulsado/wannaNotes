@@ -1,2 +1,8 @@
+**Title:** cybersecAnalyst
+**Tags:** [[Projects]]
+**Topics:** #Projects #cybersecAnalyst
+
+---
 # cybsersecAnalyst
-[[VPN]]
+- [[VPN]]
+- [[Firewall]]
