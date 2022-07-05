@@ -1,6 +1,6 @@
 **Title:** John The Reapper
 **Tags:** [[Common]]
-**Topics:** #Cheat_Sheet #john_the_reapper
+**Topics:** #Password_cracking #john_the_reapper
 
 ---
 # John The Reapper

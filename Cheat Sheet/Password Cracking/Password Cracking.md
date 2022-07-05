@@ -1,7 +1,7 @@
 **Title:** Password Cracking
 **Tags:** [[Cheat Sheet]]
-**Topics:** #Cheat_Sheet 
+**Topics:** #Password_cracking #Cheat_Sheet 
 
 ---
 # Password Cracking
-[[John The Reapper]]
+- [[John The Reapper]]

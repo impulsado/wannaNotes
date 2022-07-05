@@ -1,6 +1,6 @@
 **Title:** Resources
 **Tags:** [[Personal]]
-**Topics:** #resources #General
+**Topics:** #resources #Personal 
 
 ---
 # Resources

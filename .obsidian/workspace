@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Password Cracking/Password Cracking.md",
+            "file": "Cheat Sheet/Web/Web.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Password Cracking/Password Cracking.md",
+                "file": "Cheat Sheet/Web/Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
-    "Cheat Sheet/Password Cracking/Password Cracking.md",
+    "Cheat Sheet/Web/Web.md",
+    "Cheat Sheet/Web/Burp Suite.md",
+    "Cheat Sheet/Personal/tmux.md",
+    "Cheat Sheet/Personal/Personal.md",
+    "Cheat Sheet/Personal/Cheat Sheet Resources.md",
+    "Cheat Sheet/Personal/Aliases.md",
     "Cheat Sheet/Password Cracking/John The Reapper.md",
+    "Cheat Sheet/Password Cracking/Password Cracking.md",
     "Cheat Sheet/Common/Common.md",
-    "Cheat Sheet/Network/Network.md",
-    "Cheat Sheet/Network/Scapy.md",
-    "Cheat Sheet/Common/smbclient.md",
-    "Cheat Sheet/Common/nmap.md",
-    "Cheat Sheet/Common/netcat.md",
-    "Cheat Sheet/Common/Gobuster.md",
-    "Troubleshooting/host key verification failed.md"
+    "Cheat Sheet/Network/Network.md"
   ]
 }

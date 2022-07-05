@@ -1,6 +1,6 @@
 **Title:** Aliases
 **Tags:** [[Personal]]
-**Topics:** #aliases #Cheat_Sheet 
+**Topics:**  #Personal #aliases
 
 ---
 # Aliases

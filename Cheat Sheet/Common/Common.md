@@ -4,7 +4,7 @@
 
 ---
 # Common
-[[Gobuster]]
-[[netcat]]
-[[nmap]]
-[[smbclient]]
+- [[Gobuster]]
+- [[netcat]]
+- [[nmap]]
+- [[smbclient]]

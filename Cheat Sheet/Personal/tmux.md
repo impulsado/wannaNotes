@@ -1,6 +1,6 @@
 **Title:** tmux
 **Tags:** [[Personal]]
-**Topics:** #tmux #Cheat_Sheet 
+**Topics:** #tmux #Personal 
 
 ---
 # tmux

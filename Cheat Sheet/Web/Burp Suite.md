@@ -1,6 +1,6 @@
 **Title:** Burp Suite
 **Tags:** [[Web]]
-**Topics:** #Burp_Suite #Cheat_Sheet 
+**Topics:**  #Web #Burp_Suite
 
 ---
 # Burp Suite
