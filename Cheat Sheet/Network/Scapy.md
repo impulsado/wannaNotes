@@ -29,3 +29,19 @@ help(rdpcap)
 ```
 
 ## Layer 2
+```python
+ls(Ehter)
+```
+| Field | Type | Default Value |
+| --- | --- | ---| 
+| dst : | DestMACField | = (None) | 
+| src : | SourceMACField | = (None) | 
+| type : | XShortEnumField | = (0) |
+
+## Layer 3
+```python
+ls(IP)
+```
+| Field | Type | Default Value | 
+| --- | --- | --- |
+| version :BitField = (4) ihl : BitField = (None) tos : XByteField = (0) len : ShortField = (None) id : ShortField = (1) flags : FlagsField = (0) frag : BitField = (0) ttl : ByteField = (64) proto : ByteEnumField = (0) chksum : XShortField = (None) src : Emph = (None) dst : Emph = ('127.0.0.1') options : PacketListField = ([])
