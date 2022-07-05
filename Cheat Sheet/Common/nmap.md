@@ -1,6 +1,6 @@
 **Title:** nmap
 **Tags:** [[Common]]
-**Topics:** #Cheat_Sheet #nmap
+**Topics:** #Common  #nmap
 
 ---
 # nmap

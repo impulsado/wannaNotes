@@ -1,6 +1,6 @@
 **Title:** smbclient
 **Tags:** [[Common]]
-**Topics:** #Cheat_Sheet #smb
+**Topics:** #Common  #smb
 
 ---
 # smbclient

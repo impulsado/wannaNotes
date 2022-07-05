@@ -1,6 +1,6 @@
 **Title:** Gobuster
 **Tags:** [[Common]]
-**Topics:** #Cheat_Sheet #gobuster #dirbuster
+**Topics:** #Common  #gobuster #dirbuster
 
 ---
 # DirBuster

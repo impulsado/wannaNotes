@@ -1,6 +1,6 @@
 **Title:** netcat
 **Tags:** [[Common]]
-**Topics:** #Cheat_Sheet #netcat
+**Topics:** #Common  #netcat
 
 ---
 # netcat
