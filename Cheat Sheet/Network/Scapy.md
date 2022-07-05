@@ -80,12 +80,33 @@ Scapy works with layers. Layers are individual functions linked together with th
 
 > Simple Packet
 ```python
-Layer2 = Ether()
-Layer3 = IP()
-Layer2=Ether(dst="08:00:27:d4:8f:54")
-Layer3=IP(src="192.168.0.1",dst="192.168.0.1")
-send=sendp(Layer2/Layer3/"Payload", iface="enp0s3")
+>>> Layer2=Ether(dst="08:00:27:d4:8f:54")
+>>> Layer3=IP(src="192.168.0.1",dst="192.168.0.1")
+>>> packet=(Layer2/Layer3/"Payload")
+>>> packet.show()
+###[ Ethernet ]###
+  dst= 08:00:27:d4:8f:54
+  src= 08:00:27:b8:90:cf
+  type= IPv4
+###[ IP ]###
+     version= 4
+     ihl= None
+     tos= 0x0
+     len= None
+     id= 1
+     flags=
+     frag= 0
+     ttl= 64
+     proto= hopopt
+     chksum= None
+     src= 192.168.0.1
+     dst= 192.168.0.1
+     \options\
+###[ Raw ]###
+        load= 'Payload'
+
+>>> send=sendp(Layer2/Layer3/"Payload", iface="enp0s3")
 ```
 [sendp]: Send Layer2
-[payload]: Packet payload
+["payload"]: Packet payload
 
