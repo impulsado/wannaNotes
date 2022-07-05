@@ -128,3 +128,5 @@ packet[IP].dst = "1.2.3.4"
 ```
 
 
+Layer3 = IP(dst="192.168.0.1",ttl=64)
+>>> Layer4 = TCP(flags="FS")
