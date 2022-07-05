@@ -59,4 +59,20 @@ ls(IP)
 | options : | PacketListField | = ([]) |
 
 ## Layer 4
-
+```python
+ls(TCP)
+```
+| Field | Type | Default Value |
+| --- | --- | --- |
+| sport : | ShortEnumField | = (20) |
+| dport : | ShortEnumField | = (80) | 
+| seq : | IntField | = (0) |
+| ack : | IntField | = (0) |
+| dataofs : | BitField | = (None) |
+| reserved : | BitField | = (0) |
+| flags : | FlagsField | = (2) |
+| window : | ShortField | = (8192) |
+| chksum : | XShortField | = (None) |
+| urgptr : | ShortField | = (0) |
+| options : | TCPOptionsField | = ({}) |
+## 
