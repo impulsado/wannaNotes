@@ -111,9 +111,10 @@ Scapy works with layers. Layers are individual functions linked together with th
 ["payload"]: Packet payload
 
 ## Altering packet
-> Setting source port
+> Adding Layer 4
 ```python
-packet.sport = 443
+Layer4=TCP(sport=5600,dport=22)
+packet=(Layer2/Layer3/Layer4/"Payload")
 ```
 
 > Setting TCP flags
