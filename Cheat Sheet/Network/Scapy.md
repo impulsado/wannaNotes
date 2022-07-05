@@ -115,3 +115,15 @@ Scapy works with layers. Layers are individual functions linked together with th
 ```python
 packet.sport = 443
 ```
+
+> Setting TCP flags
+```python
+packet[TCP].flags="SA"
+```
+
+> Change destination IP
+```python
+packet[IP].dst = "1.2.3.4"
+```
+
+
