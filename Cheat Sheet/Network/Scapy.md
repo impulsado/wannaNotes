@@ -129,6 +129,6 @@ packet[IP].dst = "1.2.3.4"
 
 
 Layer3 = IP(dst="192.168.0.1", ttl=64)
-Layer4 = TCP(flags="SR")
+Layer4 = TCP(flags="0")
 packet=(Layer3/Layer4/"TEST SCAN 1")
 send(packet, iface="enp0s3")
