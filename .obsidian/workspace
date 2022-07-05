@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Troubleshooting/Troubleshooting.md",
+            "file": "Cheat Sheet/Network/Scapy.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Troubleshooting/Troubleshooting.md",
+                "file": "Cheat Sheet/Network/Scapy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Cheat Sheet/Network/Scapy.md",
+    "Cheat Sheet/Common/Gobuster.md",
+    "Cheat Sheet/Network/Network.md",
+    "README.md",
     "Troubleshooting/Troubleshooting.md",
     "Troubleshooting/responder.py Daemon.md",
     "Troubleshooting/host key verification failed.md",
     "Troubleshooting/GitHub Credentials.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set up Script.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md"
   ]
 }

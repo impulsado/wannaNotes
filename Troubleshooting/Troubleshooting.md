@@ -1,6 +1,6 @@
 **Title:** Troubleshooting
-**Tags:** 
-**Topics:** 
+**Tags:** [[Troubleshooting]]
+**Topics:** #Troubleshooting 
 
 ---
 # Troubleshooting
