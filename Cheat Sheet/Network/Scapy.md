@@ -126,9 +126,3 @@ packet[TCP].flags="SA"
 ```python
 packet[IP].dst = "1.2.3.4"
 ```
-
-
-Layer3 = IP(dst="192.168.0.3", ttl=64)
-Layer4 = TCP(flags="SR")
-packet=(Layer3/Layer4/"TEST SCAN 1")
-send(packet, iface="enp0s3")
