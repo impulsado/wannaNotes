@@ -4,3 +4,6 @@
 
 ---
 # Troubleshooting
+- [[GitHub Credentials]]
+- [[host key verification failed]]
+- [[responder.py Daemon]]
