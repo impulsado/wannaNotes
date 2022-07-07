@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/HTB/Very Easy/Very Easy.md",
+            "file": "Troubleshooting/host key verification failed.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Very Easy.md",
+                "file": "Troubleshooting/host key verification failed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Troubleshooting/host key verification failed.md",
     "Writeups/HTB/Very Easy/Very Easy.md",
     "Writeups/HTB/HTB.md",
     "Writeups/Writeups.md",
@@ -97,7 +98,6 @@
     "Cheat Sheet/Network/Scapy.md",
     "Cheat Sheet/Common/Gobuster.md",
     "Cheat Sheet/Network/Network.md",
-    "README.md",
-    "Troubleshooting/host key verification failed.md"
+    "README.md"
   ]
 }
