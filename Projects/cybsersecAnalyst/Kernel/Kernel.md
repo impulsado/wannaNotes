@@ -46,13 +46,16 @@ TIMESTAMP requests sent to it via broadcast/multicast.
 Default: 1
 
 ## accept_redirects - BOOLEAN
+If the value is 0, ICMP redirects are not accepted to avoid Man in the middle attacks.
+
+> Kernel Documentation
 Accept ICMP redirect messages.
 accept_redirects for the interface will be enabled if:
-- both conf/{all,interface}/accept_redirects are TRUE in the case
- forwarding for the interface is enabled
- or
-- at least one of conf/{all,interface}/accept_redirects is TRUE in the
-case forwarding for the interface is disabled
-	accept_redirects for the interface will be disabled otherwise
-	default TRUE (host)
-		FALSE (router)
+	- both conf/{all,interface}/accept_redirects are TRUE in the case
+	  forwarding for the interface is enabled
+or
+	- at least one of conf/{all,interface}/accept_redirects is TRUE in the
+	  case forwarding for the interface is disabled
+accept_redirects for the interface will be disabled otherwise
+default TRUE (host)
+	FALSE (router)
