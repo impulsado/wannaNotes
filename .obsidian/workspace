@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/Kernel/Kernel.md",
+            "file": "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/Kernel/Kernel.md",
+                "file": "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Projects/cybsersecAnalyst/Kernel/Explanation.md",
@@ -97,7 +98,6 @@
     "Cheat Sheet/Personal/tmux.md",
     "Troubleshooting/host key verification failed.md",
     "Writeups/HTB/Very Easy/Very Easy.md",
-    "Writeups/HTB/HTB.md",
-    "Writeups/Writeups.md"
+    "Writeups/HTB/HTB.md"
   ]
 }

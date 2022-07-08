@@ -111,3 +111,15 @@ Forward Packets between interfaces.
 
 This variable is special, its change resets all configuration parameters to their default state (RFC1122 for hosts, RFC1812 for routers)
 ```
+
+## icmp_ignore_bogus_error_responses -  BOOLEAN
+If the value is 1, it activates the protection against malformed error messages.
+
+```ad-info
+Some routers violate RFC1122 by sending bogus responses to broadcast
+frames.  Such violations are normally logged via a kernel warning.
+If this is set to TRUE, the kernel will not give such warnings, which
+will avoid log file clutter.
+Default: 1
+```
+
