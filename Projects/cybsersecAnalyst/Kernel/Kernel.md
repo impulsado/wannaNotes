@@ -99,3 +99,15 @@ The max value from conf/{all,interface}/rp_filter is used when doing source vali
 
 Default value is 0. Note that some distributions enable it in startup scripts.
 ```
+
+## ip_forward - BOOLEAN
+The value 0 disables packet forwarding.
+
+```ad-info
+0 - disabled (default)
+not 0 - enabled
+
+Forward Packets between interfaces.
+
+This variable is special, its change resets all configuration parameters to their default state (RFC1122 for hosts, RFC1812 for routers)
+```
