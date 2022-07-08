@@ -1,9 +1,9 @@
-**Title:** setup.sh
+**Title:** Default Setup
 **Tags:** [[Personal]]
 **Topics:** #Script #Personal 
 
 ---
-# setup.sh
+# Default Setup
 ```bash
 #!/bin/bash
 
@@ -155,7 +155,7 @@ function printEnd() {
     clear
     echo ""
     echo "=== SSH ==="
-    echo "Port Changed --> 2210"
+    echo "Port Changed --> $usr_port"
     echo "Installed Succesfully!"
     echo ""
     echo "=== TMUX ==="
