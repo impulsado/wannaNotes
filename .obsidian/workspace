@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/Kernel/Kernel.md",
+            "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Windows).md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 181
+    "width": 367.0078125
   },
   "right": {
     "id": "8a784ea1809df1a0",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/Kernel/Kernel.md",
+                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Windows).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Windows).md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Windows Client.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Debian Client.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Debian Server.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Procedure (Debian).md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec System Start-up.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel.md",
-    "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Projects/cybsersecAnalyst/Kernel/Explanation.md",
-    "Projects/cybsersecAnalyst/Firewall/Firewall.md",
-    "Cheat Sheet/Personal/Default Setup.md",
-    "Cheat Sheet/Personal/tmux.md",
-    "Troubleshooting/host key verification failed.md",
-    "Writeups/HTB/Very Easy/Very Easy.md",
-    "Writeups/HTB/HTB.md"
+    "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md"
   ]
 }
