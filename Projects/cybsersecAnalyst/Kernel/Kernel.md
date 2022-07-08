@@ -59,3 +59,6 @@ or
 accept_redirects for the interface will be disabled otherwise
 default TRUE (host)
 	FALSE (router)
+
+
+If the value is 0 it prevents the machine from sending ICMP packets with redirects.
