@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Troubleshooting/host key verification failed.md",
+            "file": "Cheat Sheet/Personal/setup.sh.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 127
+    "width": 181
   },
   "right": {
     "id": "8a784ea1809df1a0",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Troubleshooting/host key verification failed.md",
+                "file": "Cheat Sheet/Personal/setup.sh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/setup.sh.md",
+    "Cheat Sheet/Personal/tmux.md",
     "Troubleshooting/host key verification failed.md",
     "Writeups/HTB/Very Easy/Very Easy.md",
     "Writeups/HTB/HTB.md",
@@ -96,8 +98,6 @@
     "Troubleshooting/Troubleshooting.md",
     "Troubleshooting/responder.py Daemon.md",
     "Cheat Sheet/Network/Scapy.md",
-    "Cheat Sheet/Common/Gobuster.md",
-    "Cheat Sheet/Network/Network.md",
-    "README.md"
+    "Cheat Sheet/Common/Gobuster.md"
   ]
 }
