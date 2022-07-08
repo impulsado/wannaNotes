@@ -60,5 +60,12 @@ accept_redirects for the interface will be disabled otherwise
 default TRUE (host)
 	FALSE (router)
 
-
+## send_redirects - BOOLEAN
 If the value is 0 it prevents the machine from sending ICMP packets with redirects.
+
+> Kernel Documentation
+Send redirects, if router.
+send_redirects for the interface will be enabled if at least one of
+conf/{all,interface}/send_redirects is set to TRUE,
+it will be disabled otherwise
+Default: TRUE
