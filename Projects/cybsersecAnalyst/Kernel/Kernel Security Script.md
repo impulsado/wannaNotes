@@ -38,4 +38,7 @@ done
 for i in /proc/sys/net/ipv4/conf/*/rp_filter; do
     echo 1 > $i
 done
+
+# Disable IPv4 forwarding
+echo 0 > /proc/sys/net/ipv4/ip_forward
 ```

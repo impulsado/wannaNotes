@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
+            "file": "Projects/cybsersecAnalyst/Kernel/Kernel.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
+                "file": "Projects/cybsersecAnalyst/Kernel/Kernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
-    "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel.md",
+    "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Projects/cybsersecAnalyst/Kernel/Explanation.md",
     "Projects/cybsersecAnalyst/Firewall/Firewall.md",
