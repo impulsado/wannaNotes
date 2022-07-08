@@ -21,8 +21,20 @@ function startCheck() {
         echo ""
         exit 1
     fi
+
+    ping -c 1 -q google.com >&/dev/null
+    if [[ $? == 0 ]]; then
+        echo ""
+        echo "Must have internet connection!"
+        echo ""
+        exit 1
+    fi
+
     echo ""
-    read -p "USERNAME: " username
+    echo "!!! Welcome to your new O.S. !!!"
+    echo ""
+    echo ""
+    read -p "Tell me your username: " username
     read -p "Do you want to start? (Y/n) " usr_op
 
     if [[ $usr_op != "Y" ]]; then
@@ -155,7 +167,7 @@ function printEnd() {
     clear
     echo ""
     echo "=== SSH ==="
-    echo "Port Changed --> $usr_port"
+    echo "Port Changed --> 2210"
     echo "Installed Succesfully!"
     echo ""
     echo "=== TMUX ==="
