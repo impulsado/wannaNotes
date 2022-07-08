@@ -38,8 +38,21 @@ Accept source routing (routing extension header).
 Default: 0
 
 ## icmp_echo_ignore_broadcasts - BOOLEAN
+Ignore all broadcast ICMP ECHO.
 
 > Kernel Documentation
 If set non-zero, then the kernel will ignore all ICMP ECHO and
 TIMESTAMP requests sent to it via broadcast/multicast.
 Default: 1
+
+## accept_redirects - BOOLEAN
+Accept ICMP redirect messages.
+accept_redirects for the interface will be enabled if:
+- both conf/{all,interface}/accept_redirects are TRUE in the case
+ forwarding for the interface is enabled
+ or
+- at least one of conf/{all,interface}/accept_redirects is TRUE in the
+case forwarding for the interface is disabled
+	accept_redirects for the interface will be disabled otherwise
+	default TRUE (host)
+		FALSE (router)
