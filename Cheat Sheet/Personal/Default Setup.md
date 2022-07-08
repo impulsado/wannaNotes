@@ -29,7 +29,8 @@ function startCheck() {
         echo ""
         exit 1
     fi
-
+    
+	clear
     echo ""
     echo " Welcome to your new O.S. "
     echo ""
