@@ -17,15 +17,15 @@ apt install -y openvpn wget ca-certificates
 
 # DECLARE VARIABLES
 ####################
-IP="172.25.0.27"
+IP="192.168.0.1"
 vpn_net="10.8.0.0"
 vpn_mask="255.255.255.0"
 PORT="1194"
-PROTOCOL="udp"
+PROTOCOL="tcp"
 NOGROUP=nogroup
 homeDir="/home/user"
 SERVER_NAME="server"
-CLIENT_IP="10.8.0.66"
+CLIENT_IP="10.8.0.256"
 
 # Use default, sane and fast parameters
 CIPHER="AES-128-GCM"
@@ -305,6 +305,7 @@ if [[ ! -d /etc/openvpn/easy-rsa/ ]]; then
 	# Generate server.conf
 	echo "port $PORT
 dev tun
+proto $PROTOCOL
 user nobody
 group $NOGROUP
 persist-key
