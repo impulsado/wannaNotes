@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/Debian OpenVPN Server Script.md",
+            "file": "Projects/cybsersecAnalyst/Firewall/Firewall.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/Debian OpenVPN Server Script.md",
+                "file": "Projects/cybsersecAnalyst/Firewall/Firewall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/Firewall/Firewall.md",
+    "Projects/cybsersecAnalyst/Firewall/iptables vs nftables.md",
+    "Projects/cybsersecAnalyst/Firewall/main.nft.md",
+    "Projects/cybsersecAnalyst/Firewall/Firewall Resources.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/Debian OpenVPN Server Script.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Windows).md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Linux Port Changed).md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Linux Default).md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec System Start-up.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Windows Client.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Script Debian Server.md"
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Linux Port Changed).md"
   ]
 }
