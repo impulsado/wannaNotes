@@ -63,9 +63,33 @@ default TRUE (host)
 ## send_redirects - BOOLEAN
 If the value is 0 it prevents the machine from sending ICMP packets with redirects.
 
-> Kernel Documentation
+```ad-info
+```
 Send redirects, if router.
 send_redirects for the interface will be enabled if at least one of
 conf/{all,interface}/send_redirects is set to TRUE,
 it will be disabled otherwise
 Default: TRUE
+
+## rp_filter - INTEGER
+
+```ad-info
+0 - No source validation.	
+
+1 - Strict mode as defined in RFC3704 Strict Reverse Path
+Each incoming packet is tested against the FIB and if the interface is not the best reverse path the packet check will fail.
+By default failed packets are discarded.
+
+2 - Loose mode as defined in RFC3704 Loose Reverse Path
+Each incoming packet's source address is also tested against the FIB
+and if the source address is not reachable via any interface
+the packet check will fail.
+
+Current recommended practice in RFC3704 is to enable strict mode
+to prevent IP spoofing from DDos attacks. If using asymmetric routing
+or other complicated routing, then loose mode is recommended.
+
+The max value from conf/{all,interface}/rp_filter is used when doing source validation on the {interface}.
+
+Default value is 0. Note that some distributions enable it in startup scripts.
+```
