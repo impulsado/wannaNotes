@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up  Script.md",
+            "file": "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script OLD.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.0078125
+    "width": 409.5078125
   },
   "right": {
     "id": "8a784ea1809df1a0",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up  Script.md",
+                "file": "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script OLD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script OLD.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up Script OLD.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up  Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script OLD.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up Script OLD.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set up Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Scritps Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/Debian OpenVPN Server Script.md"
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md"
   ]
 }

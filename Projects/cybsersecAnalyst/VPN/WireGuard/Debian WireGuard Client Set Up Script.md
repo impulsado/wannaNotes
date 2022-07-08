@@ -3,6 +3,7 @@
 **Topics:** #WireGuard #Script
 
 ---
+# Debian WireGuard Client Set Up Script
 ```bash
 #!/bin/bash
 
