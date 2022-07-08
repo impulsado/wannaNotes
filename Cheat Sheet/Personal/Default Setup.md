@@ -23,7 +23,7 @@ function startCheck() {
     fi
 
     ping -c 1 -q google.com >&/dev/null
-    if [[ $? == 0 ]]; then
+    if [[ $? != 0 ]]; then
         echo ""
         echo "Must have internet connection!"
         echo ""
@@ -31,11 +31,11 @@ function startCheck() {
     fi
 
     echo ""
-    echo "!!! Welcome to your new O.S. !!!"
+    echo " Welcome to your new O.S. "
     echo ""
     echo ""
     read -p "Tell me your username: " username
-    read -p "Do you want to start? (Y/n) " usr_op
+    read -p "Do you want to start? (Y/n) " -e -i Y usr_op
 
     if [[ $usr_op != "Y" ]]; then
         echo ""
@@ -195,3 +195,4 @@ if [[ $usr_op == "Y" ]]; then
     printEnd
 fi
 ```
+
