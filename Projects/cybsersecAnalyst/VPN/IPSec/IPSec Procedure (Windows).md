@@ -1,6 +1,6 @@
-**Title:** IPSec Script Procedure (Windows)
+**Title:** IPSec Procedure (Windows)
 **Tags:** [[IPSec]]
 **Topics:** #IPSec 
 
 ---
-# IPSec Script Procedure (Windows)
+# IPSec Procedure (Windows)
