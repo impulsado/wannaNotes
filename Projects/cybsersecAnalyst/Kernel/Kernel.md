@@ -4,8 +4,8 @@
 
 ---
 # Kernel
+List of Linux Kernel parameters that provide more security against DDoS attacks, Spoofing...
 [Kernel Documentation](https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt)
-
 
 ## tcp_syncookies - INTEGER
 Syncookie allows the server to defer using up any resources until the third packet in the three-way handshake has been received.
