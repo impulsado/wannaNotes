@@ -19,7 +19,6 @@ Tables hold chains. Unlike tables in iptables, there are no built-in tables in n
 | arp | |
 | bridge | |
 
-
 ## Chains
 The purpose of chains is to hold Rules. Unlike chains in iptables, there are no built-in chains in nftables. This means that if no chain uses any types or hooks in the netfilter framework, packets that would flow through those chains will not be touched by nftables, unlike iptables.
 

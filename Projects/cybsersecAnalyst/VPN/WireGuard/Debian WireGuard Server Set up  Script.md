@@ -1,4 +1,4 @@
-**Title:** Debian WireGuard Server Set up Script
+**Title:** Debian WireGuard Server Set Up Script
 **Tags:** [[WireGuard]]
 **Topics:** #WireGuard #Script
 
