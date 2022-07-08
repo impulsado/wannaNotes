@@ -29,10 +29,17 @@ with the current initial RTO of 1second. With this the final timeout
 for a passive TCP connection will happen after 63seconds.
 
 ## accept_source_route - INTEGER
-
+Prevents TCP from having control over the routing of packets.
 
 > Kernel Documentation
 Accept source routing (routing extension header).
 \>= 0: Accept only routing header type 2.
 < 0: Do not accept routing header.
 Default: 0
+
+## icmp_echo_ignore_broadcasts - BOOLEAN
+
+> Kernel Documentation
+If set non-zero, then the kernel will ignore all ICMP ECHO and
+TIMESTAMP requests sent to it via broadcast/multicast.
+Default: 1
