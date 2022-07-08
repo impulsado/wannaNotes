@@ -33,29 +33,26 @@ for a passive TCP connection will happen after 63seconds.
 Prevents TCP from having control over the routing of packets.
 
 ```ad-info
-```
-> Kernel Documentation
 Accept source routing (routing extension header).
 \>= 0: Accept only routing header type 2.
 < 0: Do not accept routing header.
 Default: 0
+```
 
 ## icmp_echo_ignore_broadcasts - BOOLEAN
 Ignore all broadcast ICMP ECHO.
 
 ```ad-info
-```
-> Kernel Documentation
 If set non-zero, then the kernel will ignore all ICMP ECHO and
 TIMESTAMP requests sent to it via broadcast/multicast.
 Default: 1
+```
 
 ## accept_redirects - BOOLEAN
 If the value is 0, ICMP redirects are not accepted to avoid Man in the middle attacks.
 
 ```ad-info
-```
-> Kernel Documentation
+Kernel Documentation
 Accept ICMP redirect messages.
 accept_redirects for the interface will be enabled if:
 	- both conf/{all,interface}/accept_redirects are TRUE in the case
@@ -66,19 +63,21 @@ or
 accept_redirects for the interface will be disabled otherwise
 default TRUE (host)
 	FALSE (router)
+```
 
 ## send_redirects - BOOLEAN
 If the value is 0 it prevents the machine from sending ICMP packets with redirects.
 
 ```ad-info
-```
 Send redirects, if router.
 send_redirects for the interface will be enabled if at least one of
 conf/{all,interface}/send_redirects is set to TRUE,
 it will be disabled otherwise
 Default: TRUE
+```
 
 ## rp_filter - INTEGER
+Protects against spoofing attacks.
 
 ```ad-info
 0 - No source validation.	
