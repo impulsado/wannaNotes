@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/Kernel/Kernel.md",
+            "file": "Cheat Sheet/Personal/Post Installation Script.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/Kernel/Kernel.md",
+                "file": "Cheat Sheet/Personal/Post Installation Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Post Installation Script.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script OLD.md",
@@ -97,7 +98,6 @@
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up Script OLD.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up  Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script OLD.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script OLD.md"
   ]
 }

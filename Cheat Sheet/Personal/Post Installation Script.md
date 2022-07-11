@@ -1,9 +1,9 @@
-**Title:** Default Setup
+**Title:** Post Installation Script
 **Tags:** [[Personal]]
-**Topics:** #Script #Personal 
+**Topics:** #Personal #Script 
 
 ---
-# Default Setup
+# Post Installation Script
 ```bash
 #!/bin/bash
 
@@ -29,14 +29,15 @@ function startCheck() {
         echo ""
         exit 1
     fi
-    
-	clear
+
     echo ""
     echo " Welcome to your new O.S. "
     echo ""
     echo ""
-    read -p "Tell me your username: " username
-    read -p "Do you want to start? (Y/n) " -e -i Y usr_op
+    read -p "Enter your username: " username
+    read -p "Select the apps you want install: " -e -i "bat zoxide fzf nmap tcpdump" usr_apps
+    echo ""
+    read -p "Do you want to start? (Y/n) " -e -i "Y" usr_op
 
     if [[ $usr_op != "Y" ]]; then
         echo ""
@@ -48,15 +49,16 @@ function startCheck() {
 
 function initial() {
     apt update -y && apt upgrade -y
-    apt install -y bat zoxide fzf nmap
+    apt install -y $usr_apps
     echo "$username ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
     rm -d /home/$username/{Documents,Music,Pictures,Public,Templates,Videos}
     mkdir /home/$username/Scripts
+    timedatectl set-timezone Europe/Madrid
     clear
 }
 
 function sshInstall() {
-    read -p "New SSH Port: " usr_port
+    read -p "Choose the new SSH Port: " usr_port
     apt install -y openssh-server
     systemctl enable ssh
     systemctl stop ssh
@@ -168,7 +170,7 @@ function printEnd() {
     clear
     echo ""
     echo "=== SSH ==="
-    echo "Port Changed --> 2210"
+    echo "Port Changed --> $usr_port"
     echo "Installed Succesfully!"
     echo ""
     echo "=== TMUX ==="
@@ -196,4 +198,3 @@ if [[ $usr_op == "Y" ]]; then
     printEnd
 fi
 ```
-
