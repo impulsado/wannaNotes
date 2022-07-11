@@ -12,8 +12,7 @@ Syncookie allows the server to defer using up any resources until the third pack
 
 ```ad-info
 Only valid when the kernel was compiled with CONFIG_SYN_COOKIES
-Send out syncookies when the syn backlog queue of a socket
-overflows. This is to prevent against the common 'SYN flood attack'
+Send out syncookies when the syn backlog queue of a socket overflows. This is to prevent against the common 'SYN flood attack'
 Default: 1
 ```
 More Information: https://lwn.net/Articles/277146/
