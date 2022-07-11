@@ -51,7 +51,6 @@ Default: 1
 If the value is 0, ICMP redirects are not accepted to avoid Man in the middle attacks.
 
 ```ad-info
-Kernel Documentation
 Accept ICMP redirect messages.
 accept_redirects for the interface will be enabled if:
 	- both conf/{all,interface}/accept_redirects are TRUE in the case
@@ -76,7 +75,7 @@ Default: TRUE
 ```
 
 ## rp_filter - INTEGER
-Protects against spoofing attacks.
+Protects against IP spoofing attacks.
 
 ```ad-info
 0 - No source validation.	
