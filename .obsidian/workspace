@@ -7,8 +7,12 @@
         "id": "972222bb55908f6f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/otherProject/otherProject.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5078125
+    "width": 169.0078125
   },
   "right": {
     "id": "8a784ea1809df1a0",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/otherProject/otherProject.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,8 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/otherProject/otherProject.md",
+    "Projects/Projects.md",
     "Projects/cybsersecAnalyst/Firewall/Firewall.md",
     "Cheat Sheet/Personal/Post Installation Script.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel.md",
@@ -91,8 +98,6 @@
     "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script OLD.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up Script OLD.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Server Set Up  Script.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md"
   ]
 }
