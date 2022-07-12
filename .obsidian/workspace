@@ -7,12 +7,8 @@
         "id": "972222bb55908f6f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/otherProject/otherProject.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/otherProject/otherProject.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,14 +85,14 @@
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
     "Projects/otherProject/otherProject.md",
+    "Projects/otherProject/keyloGGer.md",
+    "Projects/otherProject/keyloGGer.md",
+    "Projects/otherProject/keyloGGer.md",
     "Projects/Projects.md",
     "Projects/cybsersecAnalyst/Firewall/Firewall.md",
     "Cheat Sheet/Personal/Post Installation Script.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script OLD.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Windows WireGuard Client Set Up Script OLD.md"
   ]
 }
