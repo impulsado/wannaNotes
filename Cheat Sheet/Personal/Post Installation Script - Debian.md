@@ -10,7 +10,7 @@
 # ===================
 # Author: @impulsado
 # Web: impulsado.org
-# Date:   12/07/2022
+# Date:   08/07/2022
 # ===================
 
 # === FUNCTIONS ===
@@ -35,7 +35,7 @@ function startCheck() {
     echo ""
     echo ""
     read -p "Enter your username: " username
-    read -p "Select the apps you want install: " -e -i "bat zoxide fzf nmap tcpdump" usr_apps
+    read -p "Select the apps you want install: " -e -i "bat zoxide fzf nmap tcpdump neovim" usr_apps
     echo ""
     read -p "Do you want to start? (Y/n) " -e -i "Y" usr_op
 
@@ -63,13 +63,29 @@ function sshInstall() {
     systemctl enable ssh
     systemctl stop ssh
     cat <<EOF > /etc/ssh/sshd_config
-# NEW CONF
+# === NEW SSH CONFIGURATION ===
+# Change default port
 Port $usr_port
+
+# Protocolo 1 is older and less secure
+Protocol 2
+
+# Limit passwords attempts
 MaxAuthTries 3
+
+# Disable root login
 PermitRootLogin no
+
+# Disable empty passwords to login
 PermitEmptyPasswords no
+
+# Banner
+Banner "This system is monitored and logged in real time. 
+In the case of attacks the legal actions will be taken against attacker."
+
+# Disable X11 Forwarding
+X11Forwarding no
 EOF
-    sed -i '/X11Forwarding yes/c\X11Forwarding no'
     systemctl start ssh
     clear
 }
@@ -90,11 +106,11 @@ bind v split-window -h
 
 set -g mouse on
 set -g base-index 1
+set -g default-terminal "screen-256color"
 
 set-option -g automatic-rename on
 set-option -g status-right ''
 set-option -g status-justify centre
-set-option -g status-style bg=black,fg=white
 EOF
     chown $username:$username /home/$username/.tmux.conf
     tmux source-file /home/$username/.tmux.conf
@@ -151,18 +167,20 @@ function secureOS() {
 function printEnd() {
     clear
     echo ""
-    echo "PLEASE README.txt"
+    echo "    cat /home/$username/README.md"
     echo ""
-    cat <<EOF /home/$username/README.txt
-=== SSH ===
-Port Changed --> $usr_port
+    cat <<EOF /home/$username/README.md
+# !! IMPORTANT !!
+Remember that the new SSH port is --> $usr_port
 
-=== TMUX ===
-1. tmux new-session NAME
-1.2. tmux source-file .tmux.conf
-
-=== BASHRC ===
+Before continuing you must execute this commands:
 1. source .bashrc
+2. tmux new-session SESSIONAME
+3. tmux source-file .tmux.conf
+
+
+
+> Author: impulsado
 EOF
 }
 
