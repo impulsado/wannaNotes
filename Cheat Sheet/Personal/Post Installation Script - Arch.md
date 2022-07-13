@@ -1,9 +1,11 @@
-**Title:** Post Installation Script
+**Title:** Post Installation Script - Arch
 **Tags:** [[Personal]]
-**Topics:** #Personal #Script 
+**Topics:** #Script #Personal 
 
 ---
-# Post Installation Script
+# Post Installation Script - Arch
+Thanks to @zenobia for helping me with this script.
+
 ```bash
 #!/bin/bash
 
@@ -48,8 +50,8 @@ function startCheck() {
 }
 
 function initial() {
-    apt update -y && apt upgrade -y
-    apt install -y $usr_apps
+    pacman -Syu
+    pacman -Sy $usr_apps
     echo "$username ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
     rm -d /home/$username/{Documents,Music,Pictures,Public,Templates,Videos}
     mkdir /home/$username/Scripts
@@ -59,7 +61,7 @@ function initial() {
 
 function sshInstall() {
     read -p "Choose the new SSH Port: " usr_port
-    apt install -y openssh-server
+    pacman -Sy openssh
     systemctl enable ssh
     systemctl stop ssh
     cat <<EOF > /etc/ssh/sshd_config
@@ -75,7 +77,7 @@ EOF
 }
 
 function tmuxInstall() {
-    apt install -y tmux git
+    pacman -Sy tmux git
     git clone https://github.com/tmux-plugins/tpm /home/$username/.tmux/plugins/tpm
     touch /home/$username/.tmux.conf
     cat <<EOF > /home/$username/.tmux.conf
@@ -124,10 +126,10 @@ cat <<EOF >> /home/$username/.bashrc
 # === ALIAS ===
 alias ll='ls -la --color=auto'
 alias cat='batcat'
-alias update='sudo apt update -y && sudo apt upgrade -y'
+alias update='sudo pacman -Syu'
 alias poweroff='sudo systemctl poweroff'
 alias restart='sudo systemctl restart'
-alias apt='sudo apt'
+alias pacman='sudo pacman'
 
 
 # === OTHERS ===
