@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/Security/Hardening Services.md",
+            "file": "Projects/cybsersecAnalyst/Hardening Services/SSH.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/Security/Hardening Services.md",
+                "file": "Projects/cybsersecAnalyst/Hardening Services/SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +87,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fb16501202afdbc8",
+  "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/Hardening Services/Hardening Services.md",
     "Troubleshooting/GitHub Credentials.md",
     "Troubleshooting/host key verification failed.md",
     "Troubleshooting/responder.py Daemon.md",
@@ -97,7 +98,6 @@
     "Writeups/Writeups.md",
     "Writeups/HTB/Very Easy/Very Easy.md",
     "Writeups/HTB/HTB.md",
-    "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md",
-    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md"
+    "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md"
   ]
 }
