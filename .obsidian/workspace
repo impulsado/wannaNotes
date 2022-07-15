@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
+            "file": "Projects/cybsersecAnalyst/Security/Hardening Services.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
+                "file": "Projects/cybsersecAnalyst/Security/Hardening Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "972222bb55908f6f",
+  "active": "fb16501202afdbc8",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
-    "Troubleshooting/Troubleshooting.md",
-    "Troubleshooting/responder.py Daemon.md",
-    "Troubleshooting/host key verification failed.md",
     "Troubleshooting/GitHub Credentials.md",
-    "Projects/Projects.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
-    "Projects/cybsersecAnalyst/VPN/VPN.md"
+    "Troubleshooting/host key verification failed.md",
+    "Troubleshooting/responder.py Daemon.md",
+    "Troubleshooting/Troubleshooting.md",
+    "README.md",
+    "Writeups/Writeups.md",
+    "Writeups/HTB/Very Easy/Very Easy.md",
+    "Writeups/HTB/HTB.md",
+    "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md",
+    "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md"
   ]
 }
