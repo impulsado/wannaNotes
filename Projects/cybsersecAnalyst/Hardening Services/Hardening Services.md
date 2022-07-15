@@ -1,6 +1,9 @@
 **Title:** Hardening Services
-**Tags:** 
-**Topics:** 
+**Tags:** [[cybersecAnalyst]]
+**Topics:** #cybersecAnalyst #hardening_services 
 
 ---
 # Hardening Services
+- [[SSH]]
+- [[lighttpd]]
+- 

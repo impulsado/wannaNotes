@@ -4,7 +4,8 @@
 
 ---
 # SSH
-Add this configuration to /etc/
+Add this configuration to /etc/ssh/sshd_config:
+
 ```bash
 # Protocolo 1 is older and less secure
 Protocol 2
