@@ -35,7 +35,14 @@ function startCheck() {
     echo ""
     echo ""
     read -p "Enter your username: " username
-    read -p "Select the apps you want install: " -e -i "bat zoxide fzf nmap tcpdump neovim" usr_apps
+    
+    if [[ $username == "root" ]]; then
+        echo ""
+        echo "Please, enter another username!"
+        echo ""
+    fi
+
+    read -p "Select the apps you want install: " -e -i "bat zoxide fzf nmap tcpdump neovim curlimage.png" usr_apps
     echo ""
     read -p "Do you want to start? (Y/n) " -e -i "Y" usr_op
 
@@ -58,15 +65,11 @@ function initial() {
 }
 
 function sshInstall() {
-    read -p "Choose the new SSH Port: " usr_port
     apt install -y openssh-server
     systemctl enable ssh
     systemctl stop ssh
     cat <<EOF > /etc/ssh/sshd_config
 # === NEW SSH CONFIGURATION ===
-# Change default port
-Port $usr_port
-
 # Protocolo 1 is older and less secure
 Protocol 2
 
@@ -79,12 +82,14 @@ PermitRootLogin no
 # Disable empty passwords to login
 PermitEmptyPasswords no
 
-# Banner
-Banner "This system is monitored and logged in real time. 
-In the case of attacks the legal actions will be taken against attacker."
-
 # Disable X11 Forwarding
 X11Forwarding no
+
+# Period of time before client gets disconnected (Seconds)
+ClientAliveInterval 15
+
+# Server waiting time after a connection request is made (Seconds)
+LoginGraceTime 20
 EOF
     systemctl start ssh
     clear
@@ -120,19 +125,21 @@ EOF
 function bashrc() {
 cat <<EOF >> /home/$username/.bashrc
 # === ALIAS ===
+alias ls='ls --color=auto'
 alias ll='ls -la --color=auto'
 alias cat='batcat'
 alias update='sudo apt update -y && sudo apt upgrade -y'
 alias poweroff='sudo systemctl poweroff'
-alias restart='sudo systemctl restart'
+alias restart='sudo systemctl reboot'
 alias apt='sudo apt'
-
 
 # === OTHERS ===
 export PATH=$PATH:/home/$username/Scripts
+export ZOXIDE_HOME=$HOME/.local/opt/zoxide
+export PATH=$PATH:$ZOXIDE_HOME/bin
+eval "$(zoxide init bash)"
 EOF
-    source /home/$username/.bashrc
-    echo 'eval "$(zoxide init bash)"'>> /home/$username/.bashrc
+    cp /home/$username/.bashrc /root
 }
 
 function secureOS() {
@@ -167,16 +174,18 @@ function secureOS() {
 function printEnd() {
     clear
     echo ""
-    echo "    cat /home/$username/README.md"
+    echo " 1. EXECUTE THIS COMMAND:  source ~/.bashrc"
+    echo ""
+    echo " 2. README:   cat /home/$username/README.md"
     echo ""
     cat <<EOF /home/$username/README.md
 # !! IMPORTANT !!
-Remember that the new SSH port is --> $usr_port
+The system have been configured successfully.
+Remember to take a look to the new aliases created.
 
-Before continuing you must execute this commands:
-1. source .bashrc
-2. tmux new-session SESSIONAME
-3. tmux source-file .tmux.conf
+Before using tmux, you must execute this commands:
+1. tmux new-session SESSIONAME
+2. tmux source-file .tmux.conf
 
 
 
@@ -197,3 +206,4 @@ if [[ $usr_op == "Y" ]]; then
     printEnd
 fi
 ```
+

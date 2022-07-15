@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+            "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+                "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
-    "Cheat Sheet/Personal/Post Installation Script - Debian.md",
-    "Cheat Sheet/Personal/Post Installation Script - Arch.md",
-    "Projects/otherProject/otherProject.md",
-    "Projects/otherProject/keyloGGer.md",
-    "Projects/otherProject/keyloGGer.md",
-    "Projects/otherProject/keyloGGer.md",
+    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
+    "Troubleshooting/Troubleshooting.md",
+    "Troubleshooting/responder.py Daemon.md",
+    "Troubleshooting/host key verification failed.md",
+    "Troubleshooting/GitHub Credentials.md",
     "Projects/Projects.md",
-    "Projects/cybsersecAnalyst/Firewall/Firewall.md",
-    "Projects/cybsersecAnalyst/Kernel/Kernel.md",
-    "Projects/cybsersecAnalyst/Kernel/Kernel Security Script.md"
+    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
+    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
+    "Projects/cybsersecAnalyst/VPN/VPN.md"
   ]
 }
