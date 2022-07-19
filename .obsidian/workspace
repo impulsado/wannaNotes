@@ -7,8 +7,12 @@
         "id": "972222bb55908f6f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Cheat Sheet/Common/Gobuster.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,8 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "Cheat Sheet/Common/Common.md",
+    "Cheat Sheet/Common/Gobuster.md",
     "Projects/cybsersecAnalyst/Hardening Services/Hardening Services.md",
     "Projects/cybsersecAnalyst/Hardening Services/SSH.md",
     "Projects/cybsersecAnalyst/Hardening Services/lighttpd.md",
@@ -91,8 +98,6 @@
     "Troubleshooting/GitHub Credentials.md",
     "Troubleshooting/host key verification failed.md",
     "Troubleshooting/responder.py Daemon.md",
-    "Troubleshooting/Troubleshooting.md",
-    "README.md",
-    "Writeups/Writeups.md"
+    "Troubleshooting/Troubleshooting.md"
   ]
 }
