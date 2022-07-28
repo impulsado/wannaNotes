@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "General/General.md",
+            "file": "Notes/Notes.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General/General.md",
+                "file": "Notes/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "972222bb55908f6f",
+  "active": "fb16501202afdbc8",
   "lastOpenFiles": [
-    "General/Shortcuts.md",
+    "Notes/Web Security/Web Security.md",
+    "Notes/Notes.md",
     "General/General.md",
+    "General/Shortcuts.md",
     "General/TO-DO List.md",
     "Writeups/HTB/HTB.md",
     "Writeups/Writeups.md",
     "README.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Cheat Sheet/Cheat Sheet.md",
-    "Cheat Sheet/Personal/Personal.md",
-    "Cheat Sheet/Common/nmap.md"
+    "Cheat Sheet/Cheat Sheet.md"
   ]
 }
