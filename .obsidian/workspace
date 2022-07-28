@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/Shortcuts.md",
+            "file": "General/General.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/Shortcuts.md",
+                "file": "General/General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
-    "GENERAL/GENERAL.md",
-    "GENERAL/Shortcuts.md",
+    "General/Shortcuts.md",
+    "General/TO-DO List.md",
+    "General/General.md",
+    "GENERAL.md",
+    "Main/GENERAL.md",
     "Cheat Sheet/Common/Gobuster.md",
     "Cheat Sheet/Common/Common.md",
     "Projects/cybsersecAnalyst/Hardening Services/Hardening Services.md",
     "Projects/cybsersecAnalyst/Hardening Services/SSH.md",
-    "Projects/cybsersecAnalyst/Hardening Services/lighttpd.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Troubleshooting/GitHub Credentials.md",
-    "Troubleshooting/host key verification failed.md"
+    "Projects/cybsersecAnalyst/Hardening Services/lighttpd.md"
   ]
 }

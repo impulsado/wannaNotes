@@ -1,6 +1,7 @@
-**Title:** GENERAL
-**Tags:** [[GENERAL]]
-**Topics:** #General
+**Title:** General
+**Tags:** [[General]]
+**Topics:** #General 
 
 ---
-# GENERAL
+# General
+

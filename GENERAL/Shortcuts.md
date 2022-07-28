@@ -1,6 +1,6 @@
 **Title:** Shortcuts
-**Tags:** [[GENERAL]]
-**Topics:** 
+**Tags:** [[General]]
+**Topics:** #General #Shortcuts
 
 ---
 # Shortcuts
