@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "General/Shortcuts.md",
+            "file": "General/General.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General/Shortcuts.md",
+                "file": "General/General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +89,12 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
+    "General/Shortcuts.md",
+    "General/General.md",
     "General/TO-DO List.md",
     "Writeups/HTB/HTB.md",
     "Writeups/Writeups.md",
     "README.md",
-    "General/Shortcuts.md",
-    "General/General.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Cheat Sheet/Cheat Sheet.md",
     "Cheat Sheet/Personal/Personal.md",
