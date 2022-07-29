@@ -12,3 +12,5 @@ HTTP Strict Transport Security is a header that configures the web browser to al
 ## Content Security Policy (CSP)
 Content-Security-Policy is the name of a HTTP response header that modern browsers use to enhance the security of the document (or web page). The Content-Security-Policy header allows you to restrict how resources such as JavaScript, CSS, or pretty much anything that the browser loads. Prevent client-side attacks, such as Cross-Site Scripting and Clickjacking, by restricting the type of content the browser is allowed to include or execute.
 
+## Permission Policy
+Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.
