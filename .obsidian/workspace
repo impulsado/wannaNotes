@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Web Security/Security Headers.md",
+            "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 169.0078125
+    "width": 608.0078125
   },
   "right": {
     "id": "8a784ea1809df1a0",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Web Security/Security Headers.md",
+                "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "972222bb55908f6f",
   "lastOpenFiles": [
-    "Notes/Web Security/Web Security.md",
-    "Notes/Notes.md",
-    "General/General.md",
-    "General/Shortcuts.md",
-    "General/TO-DO List.md",
-    "Writeups/HTB/HTB.md",
-    "Writeups/Writeups.md",
-    "README.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Cheat Sheet/Cheat Sheet.md"
+    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
+    "Projects/cybsersecAnalyst/VPN/VPN.md",
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md",
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Scritps Procedure.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Linux Default).md"
   ]
 }
