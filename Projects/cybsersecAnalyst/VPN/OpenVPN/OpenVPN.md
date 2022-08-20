@@ -1,8 +1,11 @@
-**Title:** OpenVPN
-**Tags:** [[VPN]]
-**Topics:**  #OpenVPN #VPN 
-
 ---
+layout: post
+title: OpenVPN
+date: 2022-08-20
+categories: [cybersecAnalyst,VPN,OpenVPN]
+tags: [OpenVPN]
+---
+
 # OpenVPN
 Supports SSL/TLS Encryption. Can use either UDP or TCP protocols. Default port 1194.
 OpenVPN uses the OpenSSL library, and because of this it has these cryptographic capabilities.

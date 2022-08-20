@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+            "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+                "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+                "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md"
+                "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "450685669f3da97f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
+    "Projects/cybsersecAnalyst/VPN/VPN.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
     "Projects/cybsersecAnalyst/Kernel/Kernel.md",
     "Projects/cybsersecAnalyst/Hardening Services/SSH.md",
     "Projects/cybsersecAnalyst/Hardening Services/lighttpd.md",
-    "Projects/cybsersecAnalyst/Hardening Services/Hardening Services.md",
-    "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
-    "Projects/cybsersecAnalyst/FireWall/Firewall.md",
-    "Projects/cybsersecAnalyst/FireWall/Firewall Resources.md",
-    "Notes/Web Security/Security Headers.md",
-    "Notes/Web Security/Web Security.md"
+    "Projects/cybsersecAnalyst/Hardening Services/Hardening Services.md"
   ]
 }

@@ -2,8 +2,8 @@
 layout: post
 title: IPSec
 date: 2022-08-20
-categories: [cybersecAnalyst,]
-tags:
+categories: [cybersecAnalyst,VPN,IPSec]
+tags: [IPSec]
 ---
 
 # IPSec (Internet Protocol Security)

@@ -1,7 +1,9 @@
-**Title:** WireGuard vs OpenVPN
-**Tags:** [[VPN]]
-**Topics:** #VPN 
-
+---
+layout: post
+title: WireGuard vs OpenVPN
+date: 2022-08-20
+categories: [cybersecAnalyst,VPN]
+tags: [WireGua]
 ---
 # WireGuard vs OpenVPN
 ## Speed Test
