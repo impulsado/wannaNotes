@@ -1,7 +1,9 @@
-**Title:** 00 - Redeemer
-**Tags:** [[Very Easy]]
-**Topics:** #redis 
-
+---
+layout: post
+title: 00 - Redeemer
+date: 2022-08-20
+categories: [Writeups,HTB,Very_Easy,Redeemer]
+tags: [redis]
 ---
 
 # Intro

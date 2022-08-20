@@ -1,3 +1,11 @@
+---
+layout: post
+title: 00 - Sequel
+date: 2022-08-20
+categories: [Writeups,HTB,Very_Easy,Sequel]
+tags: 
+---
+
 **Title:** 00 - Sequel
 **Tags:** [[Very Easy]]
 **Topics:** #SQL  #MariaDB

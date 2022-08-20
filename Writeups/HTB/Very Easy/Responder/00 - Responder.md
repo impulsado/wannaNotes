@@ -1,7 +1,9 @@
-**Title:** 00 - Responder
-**Tags:** [[Very Easy]]
-**Topics:** #SAMBA #WinRM
-
+---
+layout: post
+title: 00 - Responder
+date: 2022-08-20
+categories: [Writeups,HTB,Very_Easy,Responder]
+tags: [SAMBA,WinRM]
 ---
 
 # Intro
