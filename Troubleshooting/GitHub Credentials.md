@@ -1,8 +1,11 @@
-**Title:** GitHub Credentials
-**Tags:** [[Troubleshooting]]
-**Topics:** #Troubleshooting #GitHub
-
 ---
+layout: post
+title: GitHub Credentials
+date: 2022-08-20
+categories: [Troubleshooting]
+tags: [Github]
+---
+
 # GitHub Credentials
 I was having problems verifying my user when committing to GitHub.
 The reason was because they have disabled the use of passwords for LogIn. Now you have to use your personal token.
