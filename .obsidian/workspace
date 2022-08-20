@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "84237dae226a0a7b",
+    "id": "9656d9b1e97c8069",
     "type": "split",
     "children": [
       {
-        "id": "972222bb55908f6f",
+        "id": "450685669f3da97f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
+            "file": "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8d1dddf76bab2425",
+    "id": "dea3da7d94ab6123",
     "type": "split",
     "children": [
       {
-        "id": "084628c8b5c55077",
+        "id": "6504125301e1d4c3",
         "type": "tabs",
         "children": [
           {
-            "id": "fb16501202afdbc8",
+            "id": "7263a25b7c688f6f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "8a99a63bc7c2a0ae",
+            "id": "485fe33c887ff44e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -48,28 +48,36 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "15c75f639ed7a92b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 146.0078125
+    "width": 300
   },
   "right": {
-    "id": "8a784ea1809df1a0",
+    "id": "18e380dabb4bf9b7",
     "type": "split",
     "children": [
       {
-        "id": "9410448794c68d77",
+        "id": "6df6115bc47c364d",
         "type": "tabs",
         "children": [
           {
-            "id": "07c79628dd55aeac",
+            "id": "904e50154ede48ef",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
+                "file": "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -77,6 +85,39 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9ecdb956351b3e74",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fab2b47e6223f565",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0217cad38c9f2eaf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md"
               }
             }
           }
@@ -87,17 +128,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "972222bb55908f6f",
+  "active": "450685669f3da97f",
   "lastOpenFiles": [
-    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Add Client Script.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/Debian WireGuard Client Set Up Script.md",
-    "Projects/cybsersecAnalyst/VPN/VPN.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Scritps Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Linux Default).md"
+    "Cheat Sheet/Personal/Obsidian/admonition.md",
+    "Cheat Sheet/Common/Gobuster.md",
+    "Cheat Sheet/Common/Common.md"
   ]
 }
