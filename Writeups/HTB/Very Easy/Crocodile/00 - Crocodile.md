@@ -1,7 +1,9 @@
-**Title:** 00 - Crocodile
-**Tags:** [[Very Easy]]
-**Topics:** #php #ftp 
-
+---
+layout: post
+title: 00 - Crocodile
+date: 2022-08-20
+categories: [Writeups,HTB,Very_Easy,Crocodile]
+tags: [php,ftp]
 ---
 
 # Intro

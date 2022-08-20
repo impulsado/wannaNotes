@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
+            "file": "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
+                "file": "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
+                "file": "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md"
+                "file": "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "450685669f3da97f",
   "lastOpenFiles": [
-    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
+    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md",
+    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
+    "Writeups/HTB/Very Easy/Oopsie/99 - Bounty.md",
+    "Writeups/HTB/Very Easy/Oopsie/20 - Privilege Escalation.md",
+    "Writeups/HTB/Very Easy/Oopsie/15 -  Reverse Shell.md",
+    "Writeups/HTB/Very Easy/Oopsie/10 - Web.md",
+    "Writeups/HTB/Very Easy/Oopsie/05 - Enumeration.md",
     "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
-    "Writeups/HTB/HTB.md",
-    "Writeups/Writeups.md",
-    "Troubleshooting/host key verification failed.md",
-    "Troubleshooting/GitHub Credentials.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
-    "Projects/cybsersecAnalyst/VPN/VPN.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md"
+    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
+    "Writeups/HTB/HTB.md"
   ]
 }

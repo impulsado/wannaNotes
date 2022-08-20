@@ -1,7 +1,9 @@
-**Title:** 00 - Oopsie
-**Tags:** [[Very Easy]]
-**Topics:** #php #SUID 
-
+---
+layout: post
+title: 00 - Oopsie
+date: 2022-08-20
+categories: [Writeups,HTB,Very_Easy,Oopsie]
+tags: [php,SUID]
 ---
 
 # Intro
