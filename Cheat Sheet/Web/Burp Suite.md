@@ -1,8 +1,11 @@
-**Title:** Burp Suite
-**Tags:** [[Web]]
-**Topics:**  #Web #Burp_Suite
-
 ---
+layout: post
+title: Burp Suite
+date: 2022-08-20
+categories: [Cheatsheet,Web]
+tags: [Burp_suite]
+---
+
 # Burp Suite
 Security testing application that can be used to perform web requests on web  
 applications, mobile apps, and thick clients. Burp offers multiple capabilities such as web crawler, scanner,  proxy, repeater, intruder and many more. 

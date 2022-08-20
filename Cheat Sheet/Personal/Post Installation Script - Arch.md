@@ -1,9 +1,13 @@
-**Title:** Post Installation Script - Arch
-**Tags:** [[Personal]]
-**Topics:** #Script #Personal 
-
 ---
+layout: post
+title: Post Installation Script - Arch
+date: 2022-08-20
+categories: [Cheatsheet,Personal]
+tags: [Script,Post_installation]
+---
+
 # Post Installation Script - Arch
+#### THIS SCRIPT IS OUTDATED!
 Thanks to @zenobia for helping me with this script.
 
 ```bash

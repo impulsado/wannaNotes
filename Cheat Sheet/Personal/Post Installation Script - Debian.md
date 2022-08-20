@@ -6,11 +6,6 @@ categories: [Cheatsheet,Personal]
 tags: [Script,Post_installation]
 ---
 
-**Title:** Post Installation Script - Debian
-**Tags:** [[Personal]]
-**Topics:** #Personal #Script 
-
----
 # Post Installation Script - Debian
 ```bash
 #!/bin/bash
