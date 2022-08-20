@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+            "file": "Writeups/HTB/HTB.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+                "file": "Writeups/HTB/HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+                "file": "Writeups/HTB/HTB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md"
+                "file": "Writeups/HTB/HTB.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "450685669f3da97f",
+  "active": "7263a25b7c688f6f",
   "lastOpenFiles": [
-    "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
-    "Troubleshooting/responder.py Daemon.md",
+    "Writeups/Writeups.md",
     "Troubleshooting/host key verification failed.md",
-    "Troubleshooting/Troubleshooting.md",
     "Troubleshooting/GitHub Credentials.md",
+    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md"
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md",
+    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Scritps Procedure.md"
   ]
 }
