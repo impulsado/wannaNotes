@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+            "file": "Notes/Web Security/Security Headers.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+                "file": "Notes/Web Security/Security Headers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+                "file": "Notes/Web Security/Security Headers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md"
+                "file": "Notes/Web Security/Security Headers.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "450685669f3da97f",
   "lastOpenFiles": [
-    "Cheat Sheet/Personal/Post Installation Script - Arch.md",
+    "Notes/Web Security/Web Security.md",
+    "Cheat Sheet/Web/Burp Suite.md",
+    "Cheat Sheet/Web/Web.md",
+    "Notes/Web Security/Security Headers.md",
+    "Cheat Sheet/Personal/tmux.md",
     "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+    "Cheat Sheet/Personal/Post Installation Script - Arch.md",
     "Cheat Sheet/Personal/Personal.md",
     "Cheat Sheet/Personal/Cheat Sheet Resources.md",
-    "Cheat Sheet/Personal/Aliases.md",
-    "Cheat Sheet/Password Cracking/John The Reapper.md",
-    "Cheat Sheet/Network/Scapy.md",
-    "Cheat Sheet/Common/nmap.md",
-    "Cheat Sheet/Common/netcat.md",
-    "Cheat Sheet/Common/Gobuster.md"
+    "Cheat Sheet/Personal/Aliases.md"
   ]
 }
