@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/HTB/HTB.md",
+            "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/HTB/HTB.md",
+                "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writeups/HTB/HTB.md",
+                "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/HTB/HTB.md"
+                "file": "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7263a25b7c688f6f",
+  "active": "450685669f3da97f",
   "lastOpenFiles": [
+    "Writeups/HTB/Very Easy/Appointment/00 - Appointment.md",
+    "Writeups/HTB/Very Easy/Archetype/00 - Archtype.md",
+    "Writeups/HTB/HTB.md",
     "Writeups/Writeups.md",
     "Troubleshooting/host key verification failed.md",
     "Troubleshooting/GitHub Credentials.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Scritps Procedure.md"
+    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md"
   ]
 }

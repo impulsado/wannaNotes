@@ -1,7 +1,9 @@
-**Title:** 00 - Archtype
-**Tags:** [[Very Easy]]
-**Topics:** #smb #MSSQL
-
+---
+layout: post
+title: 00 - Archtype
+date: 2022-08-20
+categories: [Writeups,HTB,Very_Easy,Archtype]
+tags: [smb,MSSQL]
 ---
 
 # Intro
