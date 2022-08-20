@@ -1,8 +1,11 @@
-**Title:** John The Reapper
-**Tags:** [[Common]]
-**Topics:** #Password_cracking #john_the_reapper
-
 ---
+layout: post
+title: John The Reapper
+date: 2022-08-20
+categories: [Password_Cracking]
+tags: [Jhon_the_reapper]
+---
+
 # John The Reapper
 Advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs.
 
