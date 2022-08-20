@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Web Security/Security Headers.md",
+            "file": "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Web Security/Security Headers.md",
+                "file": "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Web Security/Security Headers.md",
+                "file": "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Web Security/Security Headers.md"
+                "file": "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "450685669f3da97f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/FireWall/Firewall.md",
+    "Projects/cybsersecAnalyst/FireWall/Firewall Resources.md",
+    "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
+    "Notes/Web Security/Security Headers.md",
     "Notes/Web Security/Web Security.md",
     "Cheat Sheet/Web/Burp Suite.md",
     "Cheat Sheet/Web/Web.md",
-    "Notes/Web Security/Security Headers.md",
     "Cheat Sheet/Personal/tmux.md",
     "Cheat Sheet/Personal/Post Installation Script - Debian.md",
-    "Cheat Sheet/Personal/Post Installation Script - Arch.md",
-    "Cheat Sheet/Personal/Personal.md",
-    "Cheat Sheet/Personal/Cheat Sheet Resources.md",
-    "Cheat Sheet/Personal/Aliases.md"
+    "Cheat Sheet/Personal/Post Installation Script - Arch.md"
   ]
 }
