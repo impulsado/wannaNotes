@@ -1,8 +1,11 @@
-**Title:** host key verification failed
-**Tags:** [[Troubleshooting]]
-**Topics:** #ssh #Troubleshooting 
-
 ---
+layout: post
+title: host key verification failed
+date: 2022-08-20
+categories: [Troubleshooting]
+tags: [ssh]
+---
+
 # host key verification failed
 ```bash
    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!    
@@ -21,9 +24,7 @@ Host key verification failed.
 ```
 
 ## Solution
-1. Local machine, run:
+Execute this command:
 ```powershell
 ssh-keygen -R @IP
 ```
-
-2. Done

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Troubleshooting/GitHub Credentials.md",
+            "file": "Troubleshooting/responder.py Daemon.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Troubleshooting/GitHub Credentials.md",
+                "file": "Troubleshooting/responder.py Daemon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Troubleshooting/GitHub Credentials.md",
+                "file": "Troubleshooting/responder.py Daemon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Troubleshooting/GitHub Credentials.md"
+                "file": "Troubleshooting/responder.py Daemon.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "450685669f3da97f",
   "lastOpenFiles": [
+    "Troubleshooting/host key verification failed.md",
+    "Troubleshooting/Troubleshooting.md",
+    "Troubleshooting/GitHub Credentials.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard vs OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
     "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
     "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
     "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
-    "Projects/cybsersecAnalyst/Kernel/Kernel.md",
-    "Projects/cybsersecAnalyst/Hardening Services/SSH.md",
-    "Projects/cybsersecAnalyst/Hardening Services/lighttpd.md"
+    "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md"
   ]
 }
