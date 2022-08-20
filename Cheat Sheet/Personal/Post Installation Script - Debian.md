@@ -1,3 +1,11 @@
+---
+layout: post
+title: Post Installation Script - Debian
+date: 2022-08-20
+categories: [Cheatsheet,Personal]
+tags: [Script,Post_installation]
+---
+
 **Title:** Post Installation Script - Debian
 **Tags:** [[Personal]]
 **Topics:** #Personal #Script 

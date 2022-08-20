@@ -2,7 +2,7 @@
 layout: post
 title: John The Reapper
 date: 2022-08-20
-categories: [Password_Cracking]
+categories: [Cheatsheet,Password_Cracking]
 tags: [Jhon_the_reapper]
 ---
 
