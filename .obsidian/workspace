@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/TO-DO List.md",
+            "file": "Cheat Sheet/Network/Scapy.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/TO-DO List.md",
+                "file": "Cheat Sheet/Network/Scapy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GENERAL/TO-DO List.md",
+                "file": "Cheat Sheet/Network/Scapy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GENERAL/TO-DO List.md"
+                "file": "Cheat Sheet/Network/Scapy.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "450685669f3da97f",
   "lastOpenFiles": [
+    "Cheat Sheet/Common/nmap.md",
+    "Cheat Sheet/Common/netcat.md",
+    "Cheat Sheet/Common/Gobuster.md",
+    "Cheat Sheet/Common/Common.md",
+    "Notes/Web Security/Web Security.md",
+    "Notes/Notes.md",
+    "Notes/Web Security/Security Headers.md",
+    "GENERAL/TO-DO List.md",
     "GENERAL/Shortcuts.md",
-    "GENERAL/GENERAL.md",
-    "Cheat Sheet/Personal/Obsidian/admonition.md",
-    "Cheat Sheet/Web/Burp Suite.md",
-    "Cheat Sheet/Personal/tmux.md",
-    "Cheat Sheet/Personal/Cheat Sheet Resources.md",
-    "Cheat Sheet/Personal/Personal.md",
-    "Cheat Sheet/Personal/Post Installation Script - Arch.md",
-    "Cheat Sheet/Personal/Post Installation Script - Debian.md",
-    "Cheat Sheet/Personal/Aliases.md"
+    "GENERAL/GENERAL.md"
   ]
 }
