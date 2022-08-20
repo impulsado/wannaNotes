@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
+            "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
+                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
+                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md"
+                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "450685669f3da97f",
   "lastOpenFiles": [
+    "Projects/cybsersecAnalyst/VPN/IPSec/IKEv2.md",
+    "Projects/cybsersecAnalyst/Kernel/Kernel.md",
+    "Projects/cybsersecAnalyst/Hardening Services/SSH.md",
+    "Projects/cybsersecAnalyst/Hardening Services/lighttpd.md",
+    "Projects/cybsersecAnalyst/Hardening Services/Hardening Services.md",
+    "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
     "Projects/cybsersecAnalyst/FireWall/Firewall.md",
     "Projects/cybsersecAnalyst/FireWall/Firewall Resources.md",
-    "Projects/cybsersecAnalyst/FireWall/iptables vs nftables.md",
     "Notes/Web Security/Security Headers.md",
-    "Notes/Web Security/Web Security.md",
-    "Cheat Sheet/Web/Burp Suite.md",
-    "Cheat Sheet/Web/Web.md",
-    "Cheat Sheet/Personal/tmux.md",
-    "Cheat Sheet/Personal/Post Installation Script - Debian.md",
-    "Cheat Sheet/Personal/Post Installation Script - Arch.md"
+    "Notes/Web Security/Web Security.md"
   ]
 }

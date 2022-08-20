@@ -1,8 +1,11 @@
-**Title:** Kernel
-**Tags:** [[cybersecAnalyst]]
-**Topics:** #Kernel #cybersecAnalyst 
-
 ---
+layout: post
+title: Kernel
+date: 2022-08-20
+categories: [cybersecAnalyst,Kernel]
+tags: [kernel]
+---
+
 # Kernel
 List of Linux Kernel parameters that provide more security against DDoS attacks, Spoofing...
 [Kernel Documentation](https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt)

@@ -2,8 +2,8 @@
 layout: post
 title: iptables vs nftables
 date: 2022-08-20
-categories: [cybersecAna]
-tags:
+categories: [cybersecAnalyst,Firewall]
+tags: [iptables,nftables]
 ---
 
 # iptables vs nftables
