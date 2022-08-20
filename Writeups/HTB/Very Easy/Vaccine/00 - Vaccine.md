@@ -1,7 +1,9 @@
-**Title:** 00 - Vaccine
-**Tags:** [[Very Easy]]
-**Topics:** #ftp #SQL #SUID 
-
+---
+layout: post
+title: 00 - Vaccine
+date: 2022-08-20
+categories: [Writeups,HTB,Very_Easy,Vaccine]
+tags: [ftp,SQL,SUID]
 ---
 
 # Intro
