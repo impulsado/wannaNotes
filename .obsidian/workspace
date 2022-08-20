@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
+            "file": "Cheat Sheet/Common/Gobuster.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md"
+                "file": "Cheat Sheet/Common/Gobuster.md"
               }
             }
           }
@@ -130,6 +130,8 @@
   },
   "active": "450685669f3da97f",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
+    "Cheat Sheet/Personal/Obsidian/Templates/T - General.md",
     "Cheat Sheet/Personal/Obsidian/admonition.md",
     "Cheat Sheet/Common/Gobuster.md",
     "Cheat Sheet/Common/Common.md"
