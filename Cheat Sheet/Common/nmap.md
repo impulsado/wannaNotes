@@ -1,8 +1,11 @@
-**Title:** nmap
-**Tags:** [[Common]]
-**Topics:** #Common  #nmap
-
 ---
+layout: post
+title: nmap
+date: 2022-08-20
+categories: [Cheatsheet,Common]
+tags: [nmap]
+---
+
 # nmap
 A tool for discovering what services are running on each port for a given host.
 
