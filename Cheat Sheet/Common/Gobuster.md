@@ -5,6 +5,7 @@ date: 2022-08-20
 categories:
 tags:
 ---
+
 # DirBuster
 Bruteforce directorys and files in a server or application.
 Common --> `/usr/share/wordlists/dirb/common.txt`
