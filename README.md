@@ -14,6 +14,10 @@ In this notes you can find:
 
 <br/>
 
+## Website version [LINK](https://notes.impulsado.org/)
+
+<br/>
+
 # Installation
 ## Windows
 1. [Download](https://obsidian.md/) and Install Obsidian.
