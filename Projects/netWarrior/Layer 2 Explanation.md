@@ -1,1 +1,1 @@
-`char sendbuf[BUF_SIZE];` Creates the character variable that will be s
+`char sendbuf[BUF_SIZE];` --> Creates the character variable that will be sent. BUF_SIZE is the maximum size of this variable. (`define BUF_SIZE 1024`)
