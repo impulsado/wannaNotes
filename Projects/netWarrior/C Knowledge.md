@@ -19,5 +19,5 @@ Definition of macros within your source code. These macro definitions allow cons
 `argv` and `argc` are how command line arguments are passed to `main()` in C and C++.
 `argc` is the number of strings in `argv`.
 
-## data types
-`int` Integer (2 Bytes)
+## structures
+Are a way to group several related variables into one place.
