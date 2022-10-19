@@ -12,10 +12,12 @@ Tells the preprocessor to insert the contents of another file into the source co
 Definition of macros within your source code. These macro definitions allow constant values to be declared for use throughout your code.
 
 ## functions
-``int()`` Integer data type.
 ``main() ``First function in the program that is executed.
 `int main()` The function should return an integer value. If all worked, it must return 0.
 
 ## arguments
 `argv` and `argc` are how command line arguments are passed to `main()` in C and C++.
 `argc` is the number of strings in `argv`.
+
+## data types
+`int` Integer (2 Bytes)
