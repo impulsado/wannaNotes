@@ -4,5 +4,5 @@
 
 ---
 # Projects
-[[cybersecAnalyst]]
-- [[]]
+- [[cybersecAnalyst]]
+- [[netWarrior]]
