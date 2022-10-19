@@ -1,0 +1,1 @@
+`char sendbuf[BUF_SIZE];` Creates the character variable that will be s

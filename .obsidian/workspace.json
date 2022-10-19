@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "88157105ae801fa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/netWarrior/Layer 2 Explanation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/netWarrior/C Knowledge.md",
+                "file": "Projects/netWarrior/Layer 2 Explanation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/netWarrior/C Knowledge.md",
+                "file": "Projects/netWarrior/Layer 2 Explanation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/netWarrior/C Knowledge.md"
+                "file": "Projects/netWarrior/Layer 2 Explanation.md"
               }
             }
           }
@@ -139,10 +152,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "3c7f9d14e504efcb",
+  "active": "88157105ae801fa7",
   "lastOpenFiles": [
-    "Projects/netWarrior/netWarrior.md",
     "Projects/netWarrior/C Knowledge.md",
+    "Projects/netWarrior/netWarrior.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
     "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
