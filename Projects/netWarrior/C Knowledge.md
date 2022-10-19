@@ -15,3 +15,7 @@ Definition of macros within your source code. These macro definitions allow cons
 ``int()`` Integer data type.
 ``main() ``First function in the program that is executed.
 `int main()` The function should return an integer value. If all worked, it must return 0.
+
+## arguments
+`argv` and `argc` are how command line arguments are passed to `main()` in C and C++.
+`argc` is the number of strings in `argv`.
