@@ -4,3 +4,5 @@
 
 ---
 # netWarrior
+- [[C Knowledge]]
+- [[Layer 2 Explanation]]

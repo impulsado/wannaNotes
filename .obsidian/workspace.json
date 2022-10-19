@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/netWarrior/Layer 2 Explanation.md",
+                "file": "Projects/Projects.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/netWarrior/Layer 2 Explanation.md",
+                "file": "Projects/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/netWarrior/Layer 2 Explanation.md",
+                "file": "Projects/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/netWarrior/Layer 2 Explanation.md"
+                "file": "Projects/Projects.md"
               }
             }
           }
@@ -154,15 +154,15 @@
   },
   "active": "88157105ae801fa7",
   "lastOpenFiles": [
-    "Projects/netWarrior/C Knowledge.md",
     "Projects/netWarrior/netWarrior.md",
+    "Projects/netWarrior/Layer 2 Explanation.md",
+    "Projects/netWarrior/C Knowledge.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
     "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md",
     "Writeups/HTB/Very Easy/Responder/00 - Responder.md",
     "Writeups/HTB/Very Easy/Sequel/00 - Sequel.md",
     "README.md",
-    "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md",
-    "Writeups/HTB/Very Easy/Crocodile/00 - Crocodile.md"
+    "Writeups/HTB/Very Easy/Vaccine/00 - Vaccine.md"
   ]
 }
