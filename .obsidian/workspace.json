@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/netWarrior/Layer 2.md",
+                "file": "Projects/netWarrior/C Knowledge.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/netWarrior/Layer 2.md",
+                "file": "Projects/netWarrior/C Knowledge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/netWarrior/Layer 2.md",
+                "file": "Projects/netWarrior/C Knowledge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/netWarrior/Layer 2.md"
+                "file": "Projects/netWarrior/C Knowledge.md"
               }
             }
           }
