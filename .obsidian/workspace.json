@@ -35,8 +35,12 @@
             "id": "9fd4427835bbb9b9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -106,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Writeups/TryHackMe/CyberDefense/Introductory Networking.md"
+              }
             }
           }
         ]
@@ -158,6 +166,7 @@
   },
   "active": "7263a25b7c688f6f",
   "lastOpenFiles": [
+    "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
     "Writeups/TryHackMe/CyberDefense/CyberDefense.md",
     "Writeups/TryHackMe/TryHackMe.md",
     "Cheat Sheet/Personal/Post Installation Script - Debian.md",
@@ -166,7 +175,6 @@
     "Notes/Web Security/Web Security.md",
     "Notes/Notes.md",
     "GENERAL/GENERAL.md",
-    "Projects/netWarrior/netWarrior.md",
-    "Projects/netWarrior/C Knowledge.md"
+    "Projects/netWarrior/netWarrior.md"
   ]
 }
