@@ -76,6 +76,45 @@ sendbuf[tx_len++] = ((uint8_t *)&if_mac.ifr_hwaddr.sa_data)[4];
 sendbuf[tx_len++] = ((uint8_t *)&if_mac.ifr_hwaddr.sa_data)[5];
 ```
 
+```c
+/* Ether Type */
+// IP --> 0x08 0x00
+// ARP --> 0x08 0x06
+sendbuf[tx_len++] = 0x08;
+sendbuf[tx_len++] = 0x06;
+
+/* payload */
+// What's inside the packet.
+sendbuf[tx_len++] = 0x20;
+sendbuf[tx_len++] = 0x20;
+sendbuf[tx_len++] = 0x48;
+sendbuf[tx_len++] = 0x6f;
+sendbuf[tx_len++] = 0x6c;
+sendbuf[tx_len++] = 0x61;
+sendbuf[tx_len++] = 0x20;
+sendbuf[tx_len++] = 0x50;
+sendbuf[tx_len++] = 0x61;
+sendbuf[tx_len++] = 0x75;
+```
+
+```c
+memset(&socket_address,0,sizeof(struct ifreq)); // Set all 0 in socket_address mem dir
+
+/* Index of the network device */
+socket_address.sll_ifindex = if_idx.ifr_ifindex;
+
+/* Address length*/
+socket_address.sll_halen = ETH_ALEN;
+
+/* Destination MAC */
+socket_address.sll_addr[0] = MY_DEST_MAC0;
+socket_address.sll_addr[1] = MY_DEST_MAC1;
+socket_address.sll_addr[2] = MY_DEST_MAC2;
+socket_address.sll_addr[3] = MY_DEST_MAC3;
+socket_address.sll_addr[4] = MY_DEST_MAC4;
+socket_address.sll_addr[5] = MY_DEST_MAC5;
+```
+
 ## Important links
 
 https://stackoverflow.com/questions/70995951/meaning-and-purpose-of-sockaddr-ll-in-packet-sockets
