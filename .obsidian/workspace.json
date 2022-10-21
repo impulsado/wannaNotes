@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c387668a8f865256",
+        "id": "cbd96620e485f6e1",
         "type": "tabs",
         "children": [
           {
-            "id": "e8b7482bf8e303b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/TryHackMe/TryHackMe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b27b13a4421f26fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/TryHackMe/CyberDefense/CyberDefense.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fd4427835bbb9b9",
+            "id": "6035f58cfa9a936d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 347
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -164,11 +139,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9fd4427835bbb9b9",
+  "active": "6035f58cfa9a936d",
   "lastOpenFiles": [
-    "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
     "Writeups/TryHackMe/CyberDefense/CyberDefense.md",
     "Writeups/TryHackMe/TryHackMe.md",
+    "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
     "Cheat Sheet/Personal/Post Installation Script - Debian.md",
     "Projects/netWarrior/Layer2.c Explanation.md",
     "Notes/Web Security/Security Headers.md",

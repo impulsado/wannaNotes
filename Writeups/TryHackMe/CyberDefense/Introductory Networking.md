@@ -30,4 +30,6 @@ Open Systems Interconnection. Used to demonstrate the theory behind computer net
 | Data Link | Network Interface |
 | Physical | Network Interface |
 
-Protoco
+Protocol: Set of rules that define how an action is to be carried out. 
+TCP/IP: Transsmision Control Protocol / Internet Protocol.
+To send a packet over TCP connection, you must stablish connection with 
