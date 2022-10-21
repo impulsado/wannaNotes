@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
+                "file": "Writeups/TryHackMe/TryHackMe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
+                "file": "Writeups/TryHackMe/TryHackMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
+                "file": "Writeups/TryHackMe/TryHackMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md"
+                "file": "Writeups/TryHackMe/TryHackMe.md"
               }
             }
           }
