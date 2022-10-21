@@ -49,7 +49,20 @@ if (ioctl(sockfd, SIOCGIFHWADDR, &if_mac) < 0)
 	perror("SIOCGIFHWADDR");
 ```
 
+`memset(sendbuf, 0, BUF_SIZ);` → Set all 0 in sendbuf variable.
 
+```c
+/* @MAC_DEST (6 Bytes) */
+
+// tx_l
+tx_len = 0;
+sendbuf[tx_len++] = MY_DEST_MAC0;
+sendbuf[tx_len++] = MY_DEST_MAC1;
+sendbuf[tx_len++] = MY_DEST_MAC2;
+sendbuf[tx_len++] = MY_DEST_MAC3;
+sendbuf[tx_len++] = MY_DEST_MAC4;
+sendbuf[tx_len++] = MY_DEST_MAC5;
+```
 
 
 ## Important links
