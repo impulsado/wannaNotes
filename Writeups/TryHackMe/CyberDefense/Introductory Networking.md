@@ -20,12 +20,13 @@ Open Systems Interconnection. Used to demonstrate the theory behind computer net
 ![[Pasted image 20221021162942.png]]
 
 ## TCP/IP Model
-| **OSI** | **Definition** |
+| **OSI** | **TCP/IP** |
 | --- | --- |
-| Application |  |
+| Application | Application |
 | Presentation | Application | 
 | Session | Application |
 | Transport | Transport |
 | Network | Internet |
-| Data Link |  |
+| Data Link | Network Interface |
 | Physical | Network Interface |
+
