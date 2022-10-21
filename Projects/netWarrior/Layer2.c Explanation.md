@@ -54,7 +54,7 @@ if (ioctl(sockfd, SIOCGIFHWADDR, &if_mac) < 0)
 ```c
 /* @MAC_DEST (6 Bytes) */
 
-// tx_l
+// tx_len is like a counter that increments when MY_DEST_MACX is added to the sendbuf variable.
 tx_len = 0;
 sendbuf[tx_len++] = MY_DEST_MAC0;
 sendbuf[tx_len++] = MY_DEST_MAC1;
@@ -64,6 +64,17 @@ sendbuf[tx_len++] = MY_DEST_MAC4;
 sendbuf[tx_len++] = MY_DEST_MAC5;
 ```
 
+```c
+/* @MAC_OG (6 Bytes) */
+
+// unit8_t Unsigned Integers of 8 bits
+sendbuf[tx_len++] = ((uint8_t *)&if_mac.ifr_hwaddr.sa_data)[0];
+sendbuf[tx_len++] = ((uint8_t *)&if_mac.ifr_hwaddr.sa_data)[1];
+sendbuf[tx_len++] = ((uint8_t *)&if_mac.ifr_hwaddr.sa_data)[2];
+sendbuf[tx_len++] = ((uint8_t *)&if_mac.ifr_hwaddr.sa_data)[3];
+sendbuf[tx_len++] = ((uint8_t *)&if_mac.ifr_hwaddr.sa_data)[4];
+sendbuf[tx_len++] = ((uint8_t *)&if_mac.ifr_hwaddr.sa_data)[5];
+```
 
 ## Important links
 
