@@ -21,3 +21,58 @@ Definition of macros within your source code. These macro definitions allow cons
 
 ## structures
 Are a way to group several related variables into one place.
+
+## pointer
+Is a variable that contains the memory address of another variable that contains the data in an array. This means that the pointer points to the physical space where the data or variable is located. 
+```c
+#include <stdio.h>
+
+#define SIZE 4
+
+void main() {
+	int c = 2;
+	int *dc = &c;
+
+	printf("\nEl contenido de c es: %i", c);
+	printf("\nEl contenido del puntero a 'c' es: %d", *dc);
+	printf("\nLa dirección de memoria de 'c' es: %p", &c);
+	printf("\nLa dirección de memoria del puntero es: %p", &dc);
+
+	printf("\n");
+	++*dc;
+	printf("\nEl contenido de c es: %i", c);
+	printf("\nEl contenido del puntero a 'c' es: %d", *dc);
+	
+	printf("\n");
+	++c;
+	printf("\nEl contenido de c es: %i", c);
+	printf("\nEl contenido del puntero a 'c' es: %d", *dc);
+
+	printf("\n");
+	++dc;
+	printf("\nEl contenido de c es: %i", c);
+	printf("\nLa dirección de memoria del puntero es: %p", &dc);
+	printf("\nEl contenido del puntero a 'c' es: %d", *dc);
+	
+
+	char a[SIZE] = "ABC";
+}
+```
+
+```
+
+El contenido de c es: 2
+El contenido del puntero a 'c' es: 2
+La dirección de memoria de 'c' es: 0x7fff79054c24
+La dirección de memoria del puntero es: 0x7fff79054c28
+
+El contenido de c es: 3
+El contenido del puntero a 'c' es: 3
+
+El contenido de c es: 4
+El contenido del puntero a 'c' es: 4
+
+El contenido de c es: 4
+La dirección de memoria del puntero es: 0x7fff79054c28
+El contenido del puntero a 'c' es: 2030390312
+```
