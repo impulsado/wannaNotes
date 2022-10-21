@@ -33,8 +33,9 @@ if ((sockfd = socket(PF_PACKET, SOCK_RAW, htons(ETH_P_ALL))) == -1) {
 ```c
 /* Get the index of the interface to send on */
 memset(&if_idx, 0, sizeof(struct ifreq));  // Set all 0 in mem pos of if_idx
-strncpy(if_idx.ifr_name, ifName, IFNAMSIZ-1);
+strncpy(if_idx.ifr_name, ifName, IFNAMSIZ-1);  // Copies ifName to if_idx.ifr_name
 if (ioctl(sockfd, SIOCGIFINDEX, &if_idx) < 0)
+	// ioctl: All
 	perror("SIOCGIFINDEX");
 
 /* Get the MAC address of the interface to send on */
