@@ -115,6 +115,15 @@ socket_address.sll_addr[4] = MY_DEST_MAC4;
 socket_address.sll_addr[5] = MY_DEST_MAC5;
 ```
 
+```c
+/* Send packet */
+if (sendto(sockfd, sendbuf, tx_len, 0, (struct sockaddr*)&socket_address, sizeof(struct sockaddr_ll)) < 0)
+	printf("Send failed\n");
+else
+	printf("OK\n")
+```
+
+
 ## Important links
 
 https://stackoverflow.com/questions/70995951/meaning-and-purpose-of-sockaddr-ll-in-packet-sockets

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/netWarrior/Layer2.c Explanation.md",
+                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/netWarrior/Layer2.c Explanation.md",
+                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/netWarrior/Layer2.c Explanation.md",
+                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/netWarrior/Layer2.c Explanation.md"
+                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md"
               }
             }
           }
@@ -141,15 +141,15 @@
   },
   "active": "e8b7482bf8e303b0",
   "lastOpenFiles": [
+    "Projects/netWarrior/Layer2.c Explanation.md",
+    "Notes/Web Security/Security Headers.md",
+    "Notes/Web Security/Web Security.md",
+    "Notes/Notes.md",
+    "GENERAL/GENERAL.md",
     "Projects/netWarrior/netWarrior.md",
     "Projects/netWarrior/C Knowledge.md",
     "Writeups/Writeups.md",
     "Writeups/TryHackMe/TryHackMe.md",
-    "Writeups/HTB/HTB.md",
-    "Projects/Projects.md",
-    "Projects/netWarrior/Layer 2 Explanation.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Writeups/HTB/Very Easy/Oopsie/00 - Oopsie.md",
-    "Writeups/HTB/Very Easy/Redeemer/00 - Redeemer.md"
+    "Writeups/HTB/HTB.md"
   ]
 }
