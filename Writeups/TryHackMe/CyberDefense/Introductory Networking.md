@@ -17,3 +17,6 @@ Open Systems Interconnection. Used to demonstrate the theory behind computer net
 | Physical | Physical layer. transforms the frame into the protocol through which it will travel. (Common protocol is Ethernet) |
 
 ## Encapsulation
+![[Pasted image 20221021162942.png]]
+
+## TCP/IP Model
