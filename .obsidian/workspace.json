@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+                "file": "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 648.5
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+                "file": "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+                "file": "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheet/Personal/Post Installation Script - Debian.md"
+                "file": "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md"
               }
             }
           }
@@ -141,6 +141,7 @@
   },
   "active": "e8b7482bf8e303b0",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Post Installation Script - Debian.md",
     "Projects/netWarrior/Layer2.c Explanation.md",
     "Notes/Web Security/Security Headers.md",
     "Notes/Web Security/Web Security.md",
@@ -149,7 +150,6 @@
     "Projects/netWarrior/netWarrior.md",
     "Projects/netWarrior/C Knowledge.md",
     "Writeups/Writeups.md",
-    "Writeups/TryHackMe/TryHackMe.md",
-    "Writeups/HTB/HTB.md"
+    "Writeups/TryHackMe/TryHackMe.md"
   ]
 }
