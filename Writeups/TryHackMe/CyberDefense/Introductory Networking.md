@@ -14,4 +14,6 @@ Open Systems Interconnection. Used to demonstrate the theory behind computer net
 | Transport | Choose the protocol (TCP or UDP). TCP is `connection-bassed`. In UDP is the opposite. Packets are thrown to the computer and is not necessary that they all reach the computer. |
 | Network | Responsible for locating the destination of your request. Most common protocol is IP. |
 | Data Link | Focuses on the physical addressing (MAC). It adds the MAC address and it only works on your own network. |
-| Physical | Physical layer. transforms the frame into the protocol through which it will travel. (Common protocol)
+| Physical | Physical layer. transforms the frame into the protocol through which it will travel. (Common protocol is Ethernet) |
+
+## Encapsulation
