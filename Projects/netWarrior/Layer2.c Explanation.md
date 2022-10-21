@@ -35,13 +35,17 @@ if ((sockfd = socket(PF_PACKET, SOCK_RAW, htons(ETH_P_ALL))) == -1) {
 memset(&if_idx, 0, sizeof(struct ifreq));  // Set all 0 in mem pos of if_idx
 strncpy(if_idx.ifr_name, ifName, IFNAMSIZ-1);  // Copies ifName to if_idx.ifr_name
 if (ioctl(sockfd, SIOCGIFINDEX, &if_idx) < 0)
-	// ioctl: All
+	// ioctl: System call tahat allow comunication with driver
+	// SIOCGIFINDEX: Retrieve the interface index of the interface
+	
 	perror("SIOCGIFINDEX");
 
 /* Get the MAC address of the interface to send on */
-memset(&if_mac, 0, sizeof(struct ifreq));
-strncpy(if_mac.ifr_name, ifName, IFNAMSIZ-1);
+memset(&if_mac, 0, sizeof(struct ifreq));  // Set all 0 in mem pos of if_idx
+strncpy(if_mac.ifr_name, ifName, IFNAMSIZ-1);  // Copies ifName to if_mac.ifr_name
 if (ioctl(sockfd, SIOCGIFHWADDR, &if_mac) < 0)
+	// ioctl: System call tahat allow comunication with driver
+	
 	perror("SIOCGIFHWADDR");
 ```
 
