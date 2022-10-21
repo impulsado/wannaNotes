@@ -34,4 +34,5 @@ Protocol: Set of rules that define how an action is to be carried out.
 TCP/IP: Transmission Control Protocol / Internet Protocol.
 To send a packet over a TCP connection, you must establish communication with the other computer. It can be done with `Three-Way Handshake`.
 ### Three-Way Handshake
-1. Client wants to stablish a connection with the server, and it sends a packet with SYN (synchronise) flag. 
+1. Client wants to establish a connection with the server, and it sends a packet with SYN (synchronize) Flag.
+2. Server responds with a SYN-ACK message to the client. Sy
