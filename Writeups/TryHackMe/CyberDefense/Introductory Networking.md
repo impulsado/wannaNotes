@@ -35,4 +35,6 @@ TCP/IP: Transmission Control Protocol / Internet Protocol.
 To send a packet over a TCP connection, you must establish communication with the other computer. It can be done with `Three-Way Handshake`.
 ### Three-Way Handshake
 1. Client wants to establish a connection with the server, and it sends a packet with SYN (synchronize) Flag.
-2. Server responds with a SYN-ACK message to the client. Sy
+2. The server responds with a SYN-ACK message to the client. ACK is used to let know the client that you have received his SYN packet. As this is a TCP protocol, it sends a SYN packet to the client.
+3. The client responds to the Server with an ACK, to let know the server that he had received the SYN packet and the connection is fully established.
+![[Pasted image 20221021165530.png]]
