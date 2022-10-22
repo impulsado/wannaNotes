@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c3946332a051dca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat Sheet/Personal/Dotfiles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
+                "file": "Cheat Sheet/Personal/Dotfiles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writeups/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
+                "file": "Cheat Sheet/Personal/Dotfiles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/TryHackMe/CyberDefense/Windows Fundamentals 1.md"
+                "file": "Cheat Sheet/Personal/Dotfiles.md"
               }
             }
           }
@@ -139,10 +152,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e8b7482bf8e303b0",
+  "active": "6c3946332a051dca",
   "lastOpenFiles": [
-    "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
     "Writeups/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
+    "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
     "Projects/netWarrior/C Knowledge.md",
     "Photos/Pasted image 20221021162942.png",
     "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
