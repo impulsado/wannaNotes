@@ -28,6 +28,7 @@ Permissions are:
 
 ![[Pasted image 20221022184558.png]]
 Another feature of NFTS is ADS (Alternate Data Streams). Allows storing metadata along with the file, and isn't necessary to have separate files.
+These are not vi
 
 ## System32
 `C:\Windows` is known as the folder which contains Windows O.S. files. 
