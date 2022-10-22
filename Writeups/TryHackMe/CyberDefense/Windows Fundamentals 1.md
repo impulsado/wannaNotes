@@ -30,7 +30,8 @@ Permissions are:
 Another feature of NFTS is ADS (Alternate Data Streams). Allows storing metadata along with the file, and isn't necessary to have separate files.
 These are not visible to most Windows Applications.
 
-```UIse
+```
+Use Case #1
 1. Create a .txt file on the desktop with content (hello.txt).
 2. In a cmd execute notepad hola.txt:hidden 
 3. Say yes to it
