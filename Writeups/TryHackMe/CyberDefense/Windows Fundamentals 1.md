@@ -33,13 +33,14 @@ These are not visible to most Windows Applications.
 ```
 Use Case #1
 1. Create a .txt file on the desktop with content (hello.txt).
-2. In a cmd execute notepad hola.txt:hidden 
+2. In a cmd execute notepad hello.txt:hidden 
 3. Say yes to it
 4. Type what you want and save
 5. Try to find the file. It is totally hidden.
 ```
 
-
+Cannot be deleted without deleting the host file. (There are some Third Party 
+programs that are able to do it)
 
 ## System32
 `C:\Windows` is known as the folder which contains Windows O.S. files. 
