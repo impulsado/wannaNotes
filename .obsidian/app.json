@@ -2,5 +2,6 @@
   "promptDelete": false,
   "spellcheckDictionary": [
     "TryHackMe"
-  ]
+  ],
+  "attachmentFolderPath": "Photos"
 }
