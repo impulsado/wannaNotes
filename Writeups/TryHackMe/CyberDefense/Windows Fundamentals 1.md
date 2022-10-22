@@ -27,4 +27,7 @@ Permissions are:
 ![[Pasted image 20221022184558.png]]
 Another feature of NFTS is ADS (Alternate Data Streams).
 
-## Windows "\"" System32
+## System32
+`C:\Windows` is known as the folder which contains Windows O.S. files. 
+It can be located in a different folder or drive.
+Enviroment variables store information about the operating system environment. THis information includes details such as the operating system pat
