@@ -30,6 +30,16 @@ Permissions are:
 Another feature of NFTS is ADS (Alternate Data Streams). Allows storing metadata along with the file, and isn't necessary to have separate files.
 These are not visible to most Windows Applications.
 
+```UIse
+1. Create a .txt file on the desktop with content (hello.txt).
+2. In a cmd execute notepad hola.txt:hidden 
+3. Say yes to it
+4. Type what you want and save
+5. Try to find the file. It is totally hidden.
+```
+
+
+
 ## System32
 `C:\Windows` is known as the folder which contains Windows O.S. files. 
 It can be located in a different folder or drive.
