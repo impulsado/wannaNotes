@@ -4,6 +4,8 @@
 
 ---
 # Windows Fundamentals 1
+## Introduction
+Microsoft will continue to support at least one Windows 10 Semi-Annual Channel until October 14, 2025.
 You can only use BitLocker in Windows 10/11 Pro.
 
 ## File System
@@ -30,4 +32,7 @@ Another feature of NFTS is ADS (Alternate Data Streams).
 ## System32
 `C:\Windows` is known as the folder which contains Windows O.S. files. 
 It can be located in a different folder or drive.
-Enviroment variables store information about the operating system environment. THis information includes details such as the operating system pat
+Environment variables store information about the operating system environment. This information includes details such as the operating system path, location of temporary folders…
+`%windir` → Windows Directory
+
+## User Account Control
