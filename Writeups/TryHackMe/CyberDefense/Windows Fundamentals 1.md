@@ -25,3 +25,6 @@ Permissions are:
 - Write 
 
 ![[Pasted image 20221022184558.png]]
+Another feature of NFTS is ADS (Alternate Data Streams).
+
+## Windows "\"" System32
