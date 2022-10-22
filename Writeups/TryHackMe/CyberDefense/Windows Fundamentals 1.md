@@ -36,3 +36,5 @@ Environment variables store information about the operating system environment. 
 `%windir` → Windows Directory
 
 ## User Account Control
+The Majority of home users are logged in with Administrator privileges. To protect the local user, Microsoft introduced User Account Control (UAC).
+[//]: UAC (by default) doesn't apply for the built-in local administrator account.
