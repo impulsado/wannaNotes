@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "c387668a8f865256",
+        "id": "ce022dfbb1d41d8f",
         "type": "tabs",
         "children": [
           {
-            "id": "e8b7482bf8e303b0",
+            "id": "79527a7c39110639",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
+                "file": "Notes/SC-200/SC-200.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6c3946332a051dca",
+            "id": "1f66fb7b6cf18acd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheet/Personal/Dotfiles.md",
+                "file": "Notes/SC-200/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Personal/Dotfiles.md",
+                "file": "Notes/SC-200/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheet/Personal/Dotfiles.md",
+                "file": "Notes/SC-200/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheet/Personal/Dotfiles.md"
+                "file": "Notes/SC-200/Introduction.md"
               }
             }
           }
@@ -152,8 +152,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6c3946332a051dca",
+  "active": "1f66fb7b6cf18acd",
   "lastOpenFiles": [
+    "Notes/SC-200/SC-200.md",
+    "Cheat Sheet/Personal/Dotfiles.md",
     "Writeups/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
     "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
     "Projects/netWarrior/C Knowledge.md",
@@ -161,8 +163,6 @@
     "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
     "Cheat Sheet/Personal/Post Installation Script - Debian.md",
     "Projects/netWarrior/Layer2.c Explanation.md",
-    "Notes/Web Security/Security Headers.md",
-    "Notes/Web Security/Web Security.md",
-    "Notes/Notes.md"
+    "Notes/Web Security/Security Headers.md"
   ]
 }
