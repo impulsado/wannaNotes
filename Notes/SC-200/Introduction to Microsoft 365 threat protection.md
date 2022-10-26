@@ -41,5 +41,7 @@ Each function/team has a primary focus area and also must collaborate closely wi
 Handling reactive alerts:
 - **Automation**: Near real-time resolution of known incidents with automation. Attacks seen many times.
 - **Triage (Tier 1)**: Rapid remediation of a high volume of well-known incident types that require quick human judgment. Thee are often tasked with approving automated remediation and identifying anything anomalous that can be scaled to Tier 2.
-	- 90% True positive: Recommend setting a quality standard of 90% true positive so analyst aren't required to respond to a high volume of false alarms.
-	- Alert Ratio: 
+	- 90% True positive: Recommend setting a quality standard of 90% true positive, so analyst aren't required to respond to a high volume of false alarms.
+	- Alert Ratio: Most high-quality alerts are being produced by XDR. With remainders from user reported issues, classic log and other sources.
+	- Automation: It helps empower these analysts and reduce the burden of manual effort. 
+	- Tool Integration: Most 
