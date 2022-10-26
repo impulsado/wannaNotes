@@ -64,8 +64,8 @@ This team provides deeper investigation into a lower volume of more complex atta
 	- Other potential process/tool/alerts improvements.
 
 ## Threat intelligence
-Provide contect and insight to support all other functions. This could inclde many different facets:
-- Reactive techincal research for active incidents.
-- Proacrtive research into attacker groups, attack trends...
-- Strategic analysis, research...
-- 
+Threat intelligence teams provide context and insight to support all other functions. This could include many facets:
+- Reactive technical research for active incidents.
+- Proactive research into attacker groups, attack trends…
+- Strategic analysis, research…
+- And more.
