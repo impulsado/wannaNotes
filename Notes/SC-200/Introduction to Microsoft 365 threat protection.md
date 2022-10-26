@@ -36,3 +36,8 @@ Microsoft Sentile integrated in a Modern Security Operations Center:
 ## Security Operations Model - Functions and Tools
 Each function/team has a primary focus area and also must collaborate closely with other functions and outside teams to be effective. 
 ![[Pasted image 20221026183553.png]]
+
+### Triage and Automation
+Handling reactive alerts:
+- **Automation**: Near real-time resolution of known incidents with automation. Attacks seen many times.
+- **Triage (Tier 1)**: Rapid remediation of a high volume of well-known incident types that require quick human judgment.
