@@ -28,3 +28,4 @@ Once the infected device have been remediated, MDE change the status and the cus
 ## Device still compromised
 ![[Pasted image 20221026182651.png]]
 ### Access Restricted
+Conditional access knows about the device risk because MDE has notified. During this time, the device is restricted from accessing corporate resources. It will also block any current access. The device 
