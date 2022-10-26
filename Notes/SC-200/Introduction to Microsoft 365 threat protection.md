@@ -1,4 +1,4 @@
-**Title:** Introduction
+**Title:** Introduction to Microsoft 365 threat protection
 **Tags:** [[SC-200]]
 **Topics:** #SC-200
 
@@ -10,3 +10,8 @@ Extended Detection and Response (XDR) combines signals from:
 - Identity.
 - Email.
 - Applications.
+
+# Explore Extended Detection & Response (XDR)
+The following are examples of XDR use cases:
+
+## Detection of Threat

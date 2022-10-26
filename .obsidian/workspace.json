@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/SC-200/Introduction.md",
+                "file": "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/SC-200/Introduction.md",
+                "file": "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/SC-200/Introduction.md",
+                "file": "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/SC-200/Introduction.md"
+                "file": "Notes/SC-200/Introduction to Microsoft 365 threat protection.md"
               }
             }
           }
