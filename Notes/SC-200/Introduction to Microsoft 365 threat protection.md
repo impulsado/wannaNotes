@@ -16,4 +16,10 @@ The following are examples of XDR use cases:
 
 ## Detection of Threat
 ![[Pasted image 20221026181907.png]]
-Microsoft Defender for Endpoint detects a malicious email. The victiem is unaware that an attacks has taken place but Microsoft Denfeder for Endpoints (MDE) raises an alert to the security team. Disables user  
+Microsoft Defender for Endpoint detects a malicious email. The victim is unaware that an attack has taken place, but Microsoft Defender for Endpoints (MDE) raises an alert to the security team. Disables user access from devices while infected.
+
+### Remediation
+MDE remediates the threat via automated or manual remediation (Security analyst can approve the alert). 
+MDE also adds information to the system remediating across Microsoft MDE customers.
+
+### Share Intelligence and Res
