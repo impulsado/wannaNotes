@@ -33,6 +33,7 @@ Conditional access knows about the device risk because MDE has notified. During 
 # Microsoft Defender in a Security Operations Center (SOC)
 Microsoft Sentile integrated in a Modern Security Operations Center:
 ![[Pasted image 20221026183239.png]]
+
 ## Security Operations Model - Functions and Tools
 Each function/team has a primary focus area and also must collaborate closely with other functions and outside teams to be effective. 
 ![[Pasted image 20221026183553.png]]
@@ -69,3 +70,8 @@ Threat intelligence teams provide context and insight to support all other funct
 - Proactive research into attacker groups, attack trends…
 - Strategic analysis, research…
 - And more.
+
+# Knowledge Check
+Detect Active Directory Domain → Microsoft Defender for Identity.
+Detect Phishing email → Microsoft Defender for Office 365.
+Detect Malware Installation → Microsoft Defender Endpoint.
