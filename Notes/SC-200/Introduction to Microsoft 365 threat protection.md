@@ -44,4 +44,5 @@ Handling reactive alerts:
 	- 90% True positive: Recommend setting a quality standard of 90% true positive, so analyst aren't required to respond to a high volume of false alarms.
 	- Alert Ratio: Most high-quality alerts are being produced by XDR. With remainders from user reported issues, classic log and other sources.
 	- Automation: It helps empower these analysts and reduce the burden of manual effort. 
-	- Tool Integration: Most 
+	- Tool Integration: Most powerful time saving technologies is XDR together into Microsoft 365 Defender, so analysts have a single console for endpoints, Email, Identity and more.
+	- Focus: Teams can't maintain high speed of resolution, so they keep their focus on technical scenarios. Most often this is on user productivity, like email.s, enpoint AV and frints response for user reports.
