@@ -15,3 +15,5 @@ Extended Detection and Response (XDR) combines signals from:
 The following are examples of XDR use cases:
 
 ## Detection of Threat
+![[Pasted image 20221026181907.png]]
+Microsoft Defender for Endpoint detects a malicious email. The victiem is unaware that an attacks has taken place but Microsoft Denfeder for Endpoints (MDE) raises an alert to the security team. Disables user  
