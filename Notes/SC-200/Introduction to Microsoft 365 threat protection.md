@@ -56,8 +56,16 @@ This team provides deeper investigation into a lower volume of more complex atta
 
 ## How it Comes Together
 1. Tier 1 analyst claims a malware alert and investigates.
-2. While most cases are repidlu remediated, they scale some more sophisticated alerts to the Tier 2.
+2. While most cases are rapidly remediated, they scale some more sophisticated alerts to Tier 2.
 3. Investigation verifies that all has been solved and closes the case.
-4. Later Tier 3, may notice this case while reviewinf closed incidents to scan commoliaties or anomalies:
+4. Later, Tier 3, may notice this case while reviewing closed incidents to scan commodities or anomalies:
 	- Detections that may be auto-remediated.
-	- 
+	- Multiple similar incidents with a common root cause.
+	- Other potential process/tool/alerts improvements.
+
+## Threat intelligence
+Provide contect and insight to support all other functions. This could inclde many different facets:
+- Reactive techincal research for active incidents.
+- Proacrtive research into attacker groups, attack trends...
+- Strategic analysis, research...
+- 
