@@ -14,3 +14,4 @@ Includes:
 ## Required roles and permissions
 ![[Pasted image 20221026194424.png]]
 
+# Manage Incidents
