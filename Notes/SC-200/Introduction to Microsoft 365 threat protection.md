@@ -22,4 +22,9 @@ Microsoft Defender for Endpoint detects a malicious email. The victim is unaware
 MDE remediates the threat via automated or manual remediation (Security analyst can approve the alert). 
 MDE also adds information to the system remediating across Microsoft MDE customers.
 
-### Share Intelligence and Res
+### Share Intelligence and Restore Access
+Once the infected device have been remediated, MDE change the status and the customer can access the resources again. Threat signals are used by Microsoft tools securing the attack surface.
+
+## Device still compromised
+![[Pasted image 20221026182651.png]]
+### Access Restricted
