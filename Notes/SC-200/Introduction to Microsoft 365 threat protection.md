@@ -55,4 +55,9 @@ This team provides deeper investigation into a lower volume of more complex atta
 **Incident Management**: This team takes on the non-technical aspects of managing incidents, including coordination with other teams.
 
 ## How it Comes Together
-1. Tier 1 analyst claims a malwar
+1. Tier 1 analyst claims a malware alert and investigates.
+2. While most cases are repidlu remediated, they scale some more sophisticated alerts to the Tier 2.
+3. Investigation verifies that all has been solved and closes the case.
+4. Later Tier 3, may notice this case while reviewinf closed incidents to scan commoliaties or anomalies:
+	- Detections that may be auto-remediated.
+	- 
