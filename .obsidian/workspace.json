@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "22ed5cb8d3a7a2c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
+                "file": "Notes/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
+                "file": "Notes/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/SC-200/Introduction to Microsoft 365 threat protection.md"
+                "file": "Notes/SC-200/Mitigate Incidents using Microsoft 365 Defender.md"
               }
             }
           }
@@ -137,10 +149,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1f66fb7b6cf18acd",
+  "active": "22ed5cb8d3a7a2c2",
   "lastOpenFiles": [
-    "Notes/SC-200/SC-200.md",
     "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
+    "Notes/SC-200/SC-200.md",
     "Cheat Sheet/Personal/Dotfiles.md",
     "Writeups/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
     "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
