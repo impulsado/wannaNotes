@@ -48,4 +48,11 @@ Handling reactive alerts:
 	- **Focus**: Teams can't maintain high speed of resolution, so they keep their focus on technical scenarios. Most frequently this is on user productivity, like emails, endpoint AV and first response for user reports.
 
 ## Investigation and Incident Management (Tier 2)
-Serves as escalation point for issues from Tier 1, and directly monitors alerts that indicate a more sophisticated attacker that trigger behavioral alerts. This team also reviews Tier 1 alert queue
+Serves as escalation point for issues from Tier 1, and directly monitors alerts that indicate a more sophisticated attacker that trigger behavioral alerts. This team also reviews Tier 1 alert queue and proactively hunt using XDR tools.
+
+This team provides deeper investigation into a lower volume of more complex attacks. This team pilots new alert types to document processes for Tier 1 and automation.
+
+**Incident Management**: This team takes on the non-technical aspects of managing incidents, including coordination with other teams.
+
+## How it Comes Together
+1. Tier 1 analyst claims a malwar

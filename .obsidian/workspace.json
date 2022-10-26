@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79527a7c39110639",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SC-200/SC-200.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1f66fb7b6cf18acd",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,12 +137,10 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "1f66fb7b6cf18acd",
   "lastOpenFiles": [
     "Notes/SC-200/SC-200.md",
+    "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
     "Cheat Sheet/Personal/Dotfiles.md",
     "Writeups/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
     "Writeups/TryHackMe/CyberDefense/Introductory Networking.md",
@@ -163,7 +148,6 @@
     "Photos/Pasted image 20221021162942.png",
     "impulsado.github.io/_posts/2022-08-20-Post_Installation_Script_Debian_Ubuntu.md",
     "Cheat Sheet/Personal/Post Installation Script - Debian.md",
-    "Projects/netWarrior/Layer2.c Explanation.md",
-    "Notes/Web Security/Security Headers.md"
+    "Projects/netWarrior/Layer2.c Explanation.md"
   ]
 }
