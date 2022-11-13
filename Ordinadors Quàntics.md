@@ -48,7 +48,6 @@ Moneda en el aire es Cara i Creu.
 - No està obert al públic i encara estan en una fase molt inicial 10 QuBits.
 - Seguretat en internet.
 
-
 # Encriptació Quàntica
 QKD (Quantic Key Distribution).
 Fotons: Unitat d'energia més petita en una onda de llum i que no es pot dividir.
@@ -64,14 +63,22 @@ Polarització: propietat de les ondes que permet que oscil·lin en més d'una or
 ![[Pasted image 20221113120105.png]]
 6. El resultat correcte serà la clau quàntica que faran servir totes dues parts per encriptar i desencriptar la informació.
 ## Per què és tan segur?
-Si un atacant intenta escoltar la cadena de fotons que li envia Alice a Bob, a l'observar aquests fotons, pertorba l'estat quàntic definint un estat. Això provoca que, el missatge que li arriba a Alice no és el que ella va enviar.
+Si un atacant intenta escoltar la cadena de fotons que li envia Alice a Bob, en observar aquests fotons, pertorba l'estat quàntic definint un estat. Això provoca que, el missatge que li arriba a Alice no és el que ella va enviar.
 
 ![[Pasted image 20221113120441.png]]
 ![[Pasted image 20221113120459.png]]
-Quan Bob acaba de llegir tota la cadena, li envia una part a Alice perquè comprovi. Si aquesta detecta que hi ha molts errors o inconcordances, farà saltar l'alarma dient que hi ha algo alterant 
+Quan Bob acaba de llegir tota la cadena, li envia una part a Alice perquè comprovi. Si aquesta detecta que hi ha molts errors o inconcordances farà saltar l'alarma dient que hi ha alguna cosa alterant el missatge.
+
+Tot aquest procediment es repeteix cada poc segons per a major seguretat.
+
+Nota: S'està investigant la teleportació quàntica per transportar aquestes claus.
 # Enllaços
-- ¿Que són els ORDINADORS QUÀNTICS?
+- Que són els ORDINADORS QUÀNTICS?
 https://youtu.be/035rUtCPKWU
 
 - Com es Fabrica un Bit Quàntic
 https://youtu.be/mVu_kOtuybM
+
+- Què és QKD?
+https://youtu.be/UICMBSu5AeA
+
