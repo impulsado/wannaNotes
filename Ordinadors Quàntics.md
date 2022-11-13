@@ -60,8 +60,11 @@ Polarització: propietat de les ondes que permet que oscil·lin en més d'una or
 ![[Pasted image 20221113115814.png]]
 3. Quan Bob acaba de llegir el missatge que li ha enviat Alice, li diu quina cadena aleatòria de detectors ha fet servir per detectar els fotons.
 
-4. Alice compara la seqüencia de Bob amb la seva seqüencia inicial per 
-
+4. Alice compara la seqüència de Bob amb la seva seqüència inicial i li diu quan ha utilitzat el detector de manera incorrecta. D'aquesta manera Bob sap quins són els fotons registrats correctament (Els que ha fet malament no els fa servir).
+![[Pasted image 20221113120105.png]]
+6. El resultat correcte serà la clau quàntica que faran servir totes dues parts per encriptar i desencriptar la informació.
+## Per què és tan segur?
+Si un atacant intenta escoltar la cadena de fotons que li envia Alice a Bob
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
 https://youtu.be/035rUtCPKWU
