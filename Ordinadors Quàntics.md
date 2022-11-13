@@ -72,6 +72,7 @@ Quan Bob acaba de llegir tota la cadena, li envia una part a Alice perquè compr
 Tot aquest procediment es repeteix cada poc segons per a major seguretat.
 
 Nota: S'està investigant la teleportació quàntica per transportar aquestes claus.
+## Problemes actuals
 # Enllaços
 - Que són els ORDINADORS QUÀNTICS?
 https://youtu.be/035rUtCPKWU
