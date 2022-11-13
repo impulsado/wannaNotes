@@ -73,6 +73,12 @@ Tot aquest procediment es repeteix cada poc segons per a major seguretat.
 
 Nota: S'està investigant la teleportació quàntica per transportar aquestes claus.
 ## Problemes actuals
+```
+RSA 2048
+SuperComputer 
+```
+
+
 # Enllaços
 - Que són els ORDINADORS QUÀNTICS?
 https://youtu.be/035rUtCPKWU
