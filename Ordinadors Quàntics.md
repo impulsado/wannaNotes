@@ -17,8 +17,8 @@ Sistema quàntic --> 1 i 0
 Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor quàntic, si no es determina el seu estat, pot fer 4 operacions a la vegada. Aquest és un dels problemes que es troba en el món quàntic, mantenir aquesta sobreposició és un cost molt alt.  
 
 ```Moneda
-Moneda en la mà es Cara o Creu
-Moneda en el aire es Cara i Creu.
+Moneda en la mà  --> Cara o Creu
+Moneda en l'aire --> Cara i Creu.
 ```
 
 
