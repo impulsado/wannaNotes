@@ -31,10 +31,9 @@ Moneda en el aire es Cara i Creu.
 | #QuBits | #bits | RAM |
 | --- | --- | --- |
 | 1 | 2 | 2 bits |
-| 1 | 2 | 2 bits |
-| 1 | 2 | 2 bits |
-
-
+| 3 | 8 | 1 Byte |
+| 33 | 8589934592 | 1 GByte |
+| 43 | 8.8x10^12 | 1 TByte |
 
 # Avantatges i Desavantatges
 ## Avantatges
@@ -49,6 +48,8 @@ Moneda en el aire es Cara i Creu.
 - No està obert al públic i encara estan en una fase molt inicial 10 QuBits.
 - Seguretat en internet.
 
+
+# Encriptació Quàntica
 
 
 # Enllaços
