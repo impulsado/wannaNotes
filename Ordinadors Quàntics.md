@@ -50,7 +50,8 @@ Moneda en el aire es Cara i Creu.
 
 
 # Encriptació Quàntica
-QKD (Quantic Key Distribution)
+QKD (Quantic Key Distribution).
+Fotons: Unitat d'energia més petita en una onda de llum i que no és 
 
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
