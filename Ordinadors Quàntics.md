@@ -23,8 +23,13 @@ Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor q
 
 # Avantatges i Desavantatges
 ## Avantatges
-- Computació ràpida: Són 1000 cops més
+- Computació ràpida: Són 1000 cops més ràpids que els superordinadors actuals.
+- Millora de la simulació: En ser més ràpids, es poden simular més casuístiques.
+- Millora de la privacitat: En tindre una criptogràfica quàntica, és impossible vulnerar. Xina ha dit que és impossible hackejar.
+- Millora de la IA i Machine Learning.
 
+## Desavantatges
+- Nous algoritmes: Els algoritmes actuals no func
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
 https://youtu.be/035rUtCPKWU
