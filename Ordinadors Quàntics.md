@@ -30,10 +30,15 @@ Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor q
 
 ## Desavantatges
 - Nous algoritmes: Els algoritmes actuals no funcionen i són molt dèbils en un món quàntic.
-- La baixa temperatura que necessiten per funcionar (-200 C°).
+- La baixa temperatura que necessiten per funcionar (-200 °C).
 - No està obert al públic i encara estan en una fase molt inicial 10 QuBits.
 - Seguretat en internet.
+
+
+
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
 https://youtu.be/035rUtCPKWU
 
+- Com es Fabrica un Bit Quàntic
+https://youtu.be/mVu_kOtuybM
