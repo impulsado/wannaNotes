@@ -1,11 +1,9 @@
-# Tòpics
+# Índex
 - Base Teòrica
 - Avantatges / Desavantatges
 - Encriptació
 	- Exemples Reals
 - Previsió de Futur
-	- Comercialització
-
 
 # Base Teòrica
 Actualment la tecnologia funciona amb bits. Aquests són 1 i 0 que es formen depenent si els transistors deixen o no, passar electricitat. El conjunt de tots aquests transistors formen els actuals ordinadors, mòbils…
@@ -82,11 +80,11 @@ Nota: L'ordinador quàntic amb més QuBits és de 127 (Eagle IBM)
 Actualment els ordinadors quàntics només són una realitat per aquells que tenen molts recursos i capital. Entre els països més desenvolupats destaquen:
 - **Els Estats Units**: Amb companyies com IBM, Google, Intel… També el mateix govern estatunidenc disposa d'un.
 - **Xina**: Aquest país és una mica un misteri, però l'última notícia que se sap és que, van enviar un missatge encriptat a una distància de 1120 km
-- Pròxims països: Aquests són els països que han demostrat gran interès amb aquesta nova tecnologia i quin serà el capital que destinaran:
-	- Austràlia: 2500 M $
-	- Alemanya: 2000 M €
-	- França: 1800 M €
-	- Espanya: 60 M € (Quantum Spain)
+- **Pròxims països**: Aquests són els països que han demostrat gran interès amb aquesta nova tecnologia i quin serà el capital que destinaran:
+	- Austràlia: 2500 M $ (Silicon Quantum Computing).
+	- Alemanya: 2000 M € (QSolid).
+	- França: 1800 M € (France Quantum).
+	- Espanya: 60 M € (Quantum Spain).
 
 # Enllaços
 - Que són els ORDINADORS QUÀNTICS?
