@@ -74,12 +74,11 @@ Tot aquest procediment es repeteix cada poc segons per a major seguretat.
 Nota: S'està investigant la teleportació quàntica per transportar aquestes claus.
 ## Problemes actuals
 El problema més greu dels ordinadors quàntics és; la facilitat de vulnerar els sistemes d'encriptacions actuals. Per prendre un exemple i poder quantificar-lo, agafarem el protocol RSA de 2048 bits.
-A data actual, un superodinador, tardaria 300 trillons d'anys en c
-```
-RSA 2048-bits
+A data actual, un ordinador normal, tardaria 300 trilions d'anys en desxifrar la clau. Mentre que un Ordinador quàntic amb 4099 QuBits, tardaria 10 segons.
 
-SuperComputer 
-```
+Nota: L'ordinador quàntic amb més QuBits és de 72 (Google Bristlecone)
+
+# Previsió de Futur
 
 
 # Enllaços
@@ -92,3 +91,5 @@ https://youtu.be/mVu_kOtuybM
 - Què és QKD?
 https://youtu.be/UICMBSu5AeA
 
+- Desencriptar RSA 2048-bits
+https://www.quintessencelabs.com/blog/breaking-rsa-encryption-update-state-art#:~:text=It%20would%20take%20a%20classical,RSA%2D2048%20bit%20encryption%20key.
