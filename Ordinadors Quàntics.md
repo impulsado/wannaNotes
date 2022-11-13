@@ -19,9 +19,6 @@ Sistema quàntic --> 1 i 0
 
 Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor quàntic, si no es determina el seu estat, pot fer 4 operacions a la vegada.
 
-```exemple2
-56 bits   --> 7 lletres (8bits = 1byte)
-56 qubits --> 50TB de capacitat
-```
+
 
 ![Photo](https://www.researchgate.net/publication/271532617/figure/fig4/AS:349605003841542@1460363736871/Bits-three-state-systems-cobits-and-qubits-Our-secure-delegated-computing-protocol.png)
