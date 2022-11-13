@@ -22,9 +22,10 @@ Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor q
 
 
 # Avantatges i Desavantatges
-
+## Avantatges
+- Computació ràpida: Són 1000 cops més
 
 # Enllaços
-- ¿Que són els ORDENADORES QUÀNTICS?
+- ¿Que són els ORDINADORS QUÀNTICS?
 https://youtu.be/035rUtCPKWU
 
