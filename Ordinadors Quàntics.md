@@ -18,13 +18,22 @@ Sistema quàntic --> 1 i 0
 
 Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor quàntic, si no es determina el seu estat, pot fer 4 operacions a la vegada. Aquest és un dels problemes que es troba en el món quàntic, mantenir aquesta sobreposició és un cost molt alt.  
 
-```Exemple moneda
+```Moneda
 Moneda en la mà es Cara o Creu
 Moneda en el aire es Cara i Creu.
 ```
 
 
 ![Photo](https://www.researchgate.net/publication/271532617/figure/fig4/AS:349605003841542@1460363736871/Bits-three-state-systems-cobits-and-qubits-Our-secure-delegated-computing-protocol.png)
+
+
+
+| #QuBits | #bits | RAM |
+| --- | --- | --- |
+| 1 | 2 | 2 bits |
+| 1 | 2 | 2 bits |
+| 1 | 2 | 2 bits |
+
 
 
 # Avantatges i Desavantatges
