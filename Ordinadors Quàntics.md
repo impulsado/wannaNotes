@@ -56,8 +56,11 @@ Polarització: propietat de les ondes que permet que oscil·lin en més d'una or
 ![[Pasted image 20221113115440.png]]
 1. Alice envia fotons polaritzats en 4 direccions diferents de manera aleatòria.
 ![[Pasted image 20221113115612.png]]
-2. Bob té 2 detectors per saber interpretar les direccions que li arriben. Ho fa de forma aleatoria.
-3. 
+2. Bob té 2 detectors per saber interpretar les direccions que li arriben. Ho fa de forma aleatòria. (Això fa que tingui un 50% de probabilitats)
+![[Pasted image 20221113115814.png]]
+3. Quan Bob acaba de llegir el missatge que li ha enviat Alice, li diu quina cadena aleatòria de detectors ha fet servir per detectar els fotons.
+
+4. Alice compara la seqüencia de Bob amb la seva seqüencia inicial per 
 
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
