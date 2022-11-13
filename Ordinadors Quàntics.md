@@ -74,7 +74,8 @@ Tot aquest procediment es repeteix cada poc segons per a major seguretat.
 Nota: S'està investigant la teleportació quàntica per transportar aquestes claus.
 ## Problemes actuals
 ```
-RSA 2048
+RSA 2048-bits
+
 SuperComputer 
 ```
 
