@@ -73,6 +73,8 @@ Tot aquest procediment es repeteix cada poc segons per a major seguretat.
 
 Nota: S'està investigant la teleportació quàntica per transportar aquestes claus.
 ## Problemes actuals
+El problema més greu dels ordinadors quàntics és; la facilitat de vulnerar els sistemes d'encriptacions actuals. Per prendre un exemple i poder quantificar-lo, agafarem el protocol RSA de 2048 bits.
+A data actual, un superodinador, tardaria 300 trillons d'anys en c
 ```
 RSA 2048-bits
 
