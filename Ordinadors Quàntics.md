@@ -29,7 +29,10 @@ Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor q
 - Millora de la IA i Machine Learning.
 
 ## Desavantatges
-- Nous algoritmes: Els algoritmes actuals no func
+- Nous algoritmes: Els algoritmes actuals no funcionen i són molt dèbils en un món quàntic.
+- La baixa temperatura que necessiten per funcionar (-200 C°).
+- No està obert al públic i encara estan en una fase molt inicial 10 QuBits.
+- Seguretat en internet.
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
 https://youtu.be/035rUtCPKWU

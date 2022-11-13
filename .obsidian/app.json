@@ -2,7 +2,8 @@
   "promptDelete": false,
   "spellcheckDictionary": [
     "TryHackMe",
-    "QUBITS"
+    "QUBITS",
+    "QuBits"
   ],
   "attachmentFolderPath": "Photos"
 }
