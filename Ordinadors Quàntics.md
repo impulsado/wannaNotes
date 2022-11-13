@@ -76,10 +76,10 @@ Nota: S'està investigant la teleportació quàntica per transportar aquestes cl
 El problema més greu dels ordinadors quàntics és; la facilitat de vulnerar els sistemes d'encriptacions actuals. Per prendre un exemple i poder quantificar-lo, agafarem el protocol RSA de 2048 bits.
 A data actual, un ordinador normal, tardaria 300 trilions d'anys en desxifrar la clau. Mentre que un Ordinador quàntic amb 4099 QuBits, tardaria 10 segons.
 
-Nota: L'ordinador quàntic amb més QuBits és de 72 (Google Bristlecone)
+Nota: L'ordinador quàntic amb més QuBits és de 127 (Eagle IBM)
 
 # Previsió de Futur
-
+Actualment els ordinadors quàntics només són una realitat per aquells que tenen molts recursos i capital. 
 
 # Enllaços
 - Que són els ORDINADORS QUÀNTICS?
