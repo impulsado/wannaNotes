@@ -3,7 +3,11 @@
   "spellcheckDictionary": [
     "TryHackMe",
     "QUBITS",
-    "QuBits"
+    "QuBits",
+    "QKD",
+    "Quantic",
+    "Key",
+    "Distribution"
   ],
   "attachmentFolderPath": "Photos"
 }

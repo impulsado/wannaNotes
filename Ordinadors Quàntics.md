@@ -50,7 +50,7 @@ Moneda en el aire es Cara i Creu.
 
 
 # Encriptació Quàntica
-
+QKD (Quantic Key Distribution)
 
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
