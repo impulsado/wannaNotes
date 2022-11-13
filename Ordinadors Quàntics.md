@@ -65,7 +65,7 @@ Si un atacant intenta escoltar la cadena de fotons que li envia Alice a Bob, en 
 
 ![[Pasted image 20221113120441.png]]
 ![[Pasted image 20221113120459.png]]
-Quan Bob acaba de llegir tota la cadena, li envia una part a Alice perquè comprovi. Si aquesta detecta que hi ha molts errors o inconcordances farà saltar l'alarma dient que hi ha alguna cosa alterant el missatge.
+Quan Bob acaba de llegir tota la cadena, li envia una part a Alice perquè comprovi. Si aquesta detecta que hi ha molts errors o incongruències farà saltar l'alarma dient que hi ha alguna cosa alterant el missatge.
 
 Tot aquest procediment es repeteix cada poc segons per a major seguretat.
 
