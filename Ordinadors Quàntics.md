@@ -51,7 +51,9 @@ Moneda en el aire es Cara i Creu.
 
 # Encriptació Quàntica
 QKD (Quantic Key Distribution).
-Fotons: Unitat d'energia més petita en una onda de llum i que no és 
+Fotons: Unitat d'energia més petita en una onda de llum i que no es pot dividir.
+Polarització: propietat de les ondes que permet que oscil·lin en més d'una orientació. Quan s'observa un fotó s'altera i és determina en una sola direcció.
+
 
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
