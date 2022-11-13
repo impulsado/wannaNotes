@@ -52,8 +52,12 @@ Moneda en el aire es Cara i Creu.
 # Encriptació Quàntica
 QKD (Quantic Key Distribution).
 Fotons: Unitat d'energia més petita en una onda de llum i que no es pot dividir.
-Polarització: propietat de les ondes que permet que oscil·lin en més d'una orientació. Quan s'observa un fotó s'altera i és determina en una sola direcció.
-
+Polarització: propietat de les ondes que permet que oscil·lin en més d'una orientació. Quan s'observa un fotó s'altera i es determina en una sola direcció.
+![[Pasted image 20221113115440.png]]
+1. Alice envia fotons polaritzats en 4 direccions diferents de manera aleatòria.
+![[Pasted image 20221113115612.png]]
+2. Bob té 2 detectors per saber interpretar les direccions que li arriben. Ho fa de forma aleatoria.
+3. 
 
 # Enllaços
 - ¿Que són els ORDINADORS QUÀNTICS?
