@@ -17,8 +17,11 @@ Sistema actual  --> 1 o 0
 Sistema quàntic --> 1 i 0
 ```
 
-Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor quàntic, si no es determina el seu estat, pot fer 4 operacions a la vegada.
-
-
+Un transistor normal pot fer 1 operació a la vegada, mentre que un transistor quàntic, si no es determina el seu estat, pot fer 4 operacions a la vegada. Aquest és un dels problemes que és troba en el món quàntic, mantenir aquesta sobreposició és un cost molt alt.  
 
 ![Photo](https://www.researchgate.net/publication/271532617/figure/fig4/AS:349605003841542@1460363736871/Bits-three-state-systems-cobits-and-qubits-Our-secure-delegated-computing-protocol.png)
+
+# Enllaços
+- ¿Qué son los ORDENADORES CUÁNTICOS?
+https://youtu.be/035rUtCPKWU
+
