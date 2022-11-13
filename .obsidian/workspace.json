@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ec8ae7c8a49067b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Photos/Pasted image 20221113115440.png"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ordinadors Quàntics.md",
+                "file": "Photos/Pasted image 20221113115440.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ordinadors Quàntics.md",
+                "file": "Photos/Pasted image 20221113115440.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ordinadors Quàntics.md"
+                "file": "Photos/Pasted image 20221113115440.png"
               }
             }
           }
@@ -161,7 +171,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7313aed756fc1d84",
+  "active": "5ec8ae7c8a49067b",
   "lastOpenFiles": [
     "Ordinadors Quàntics.md",
     "Notes/SC-200/SC-200.md",
