@@ -7,3 +7,5 @@
 - Previsió de Futur
 	- Comercialització
 
+
+# Base Teòrica
