@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GENERAL/TO-DO List.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/TO-DO List.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GENERAL/TO-DO List.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GENERAL/TO-DO List.md"
+                "file": "Cheat Sheet/Common/Gobuster.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "6e6023676bb85f45",
   "lastOpenFiles": [
+    "GENERAL/TO-DO List.md",
     "GENERAL/Shortcuts.md",
     "GENERAL/GENERAL.md",
     "Photos/Pasted image 20221113120441.png",
@@ -146,7 +147,6 @@
     "Photos/Pasted image 20221113115814.png",
     "Photos/Pasted image 20221113115612.png",
     "Photos/Pasted image 20221113115440.png",
-    "Notes/SC-200/SC-200.md",
-    "Notes/SC-200/Mitigate Incidents using Microsoft 365 Defender.md"
+    "Notes/SC-200/SC-200.md"
   ]
 }
