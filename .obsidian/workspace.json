@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GENERAL/GENERAL.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/GENERAL.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GENERAL/GENERAL.md",
+                "file": "Cheat Sheet/Common/Gobuster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GENERAL/GENERAL.md"
+                "file": "Cheat Sheet/Common/Gobuster.md"
               }
             }
           }
@@ -138,10 +138,10 @@
   },
   "active": "6e6023676bb85f45",
   "lastOpenFiles": [
+    "GENERAL/GENERAL.md",
     "Cheat Sheet/Common/Gobuster.md",
     "GENERAL/TO-DO List.md",
     "GENERAL/Shortcuts.md",
-    "GENERAL/GENERAL.md",
     "Photos/Pasted image 20221113120441.png",
     "Ordinadors Quàntics.md",
     "Photos/Pasted image 20221113120105.png",

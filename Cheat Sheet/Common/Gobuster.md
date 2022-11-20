@@ -7,36 +7,10 @@ tags: [gobuster,dirbuster]
 ---
 
 # DirBuster
-Bruteforce directorys and files in a server or application.
-Common --> `/usr/share/wordlists/dirb/common.txt`
-[//]:  Do not check .git files.
+This project is developed by [@impulsado](https://impulsado.org/).
 
-> Basic
-```bash
-$ gobuster dir -u @IP/Domain -w /path/to/wordlist
-```
+It contains notes related to Cybersecurity along with scripts to configure services, streamline day to day… Everything you read in this project you don't have to believe at first, just like everything you read on the internet. This is only one source of information and should always be contrasted.
 
-## Best Wordlist
-[SecLists](https://github.com/danielmiessler/SecLists) Discovery lists. 
-Common --> `/usr/share/seclists/Discovery/Web-Content/raft-small-words.txt`
-Larger --> `/usr/share/seclists/Discovery/Web-Content/raft-large-words.txt`
-Tomcat --> `/usr/share/seclists/Discovery/Web-Content/tomcat.txt`
+I hope you learn a lot and you can contact me if you need more information or want to support the project in any way (Money is not everything).
 
-
-## Target Extensions
-If site is using X file extension you can use `-x`
-
-> Basic Target php
-```bash
-$ gobuster dir -u @IP/Domain -w /path/to/wordlist -x php
-```
-
-# VHOST Busting
-Brute force Virtual Hosts (subdomains).
-Append subdomains to the beginning of Domain.
-Common --> `/usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt`
-
-> Basic
-```bash
-$ gobuster vhost -u @IP/Domain -w /path/to/wordlist
-```
+Thank you very much.
