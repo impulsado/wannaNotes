@@ -4,57 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ce022dfbb1d41d8f",
+        "id": "6cd6cb5685a3486d",
         "type": "tabs",
         "children": [
           {
-            "id": "1f66fb7b6cf18acd",
+            "id": "6e6023676bb85f45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
+                "file": "GENERAL/TO-DO List.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "22ed5cb8d3a7a2c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/SC-200/SC-200.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7313aed756fc1d84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ordinadors Quàntics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e10131ebd0e036e0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Photos/Pasted image 20221113120441.png"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ordinadors Quàntics.md",
+                "file": "GENERAL/TO-DO List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ordinadors Quàntics.md",
+                "file": "GENERAL/TO-DO List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ordinadors Quàntics.md"
+                "file": "GENERAL/TO-DO List.md"
               }
             }
           }
@@ -171,8 +136,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7313aed756fc1d84",
+  "active": "6e6023676bb85f45",
   "lastOpenFiles": [
+    "GENERAL/Shortcuts.md",
+    "GENERAL/GENERAL.md",
     "Photos/Pasted image 20221113120441.png",
     "Ordinadors Quàntics.md",
     "Photos/Pasted image 20221113120105.png",
@@ -180,8 +147,6 @@
     "Photos/Pasted image 20221113115612.png",
     "Photos/Pasted image 20221113115440.png",
     "Notes/SC-200/SC-200.md",
-    "Notes/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
-    "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
-    "Cheat Sheet/Personal/Dotfiles.md"
+    "Notes/SC-200/Mitigate Incidents using Microsoft 365 Defender.md"
   ]
 }
