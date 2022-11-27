@@ -1,9 +1,7 @@
----
-layout: post
-title: Quantum computers
-date: 2022-11-27
-categories: [Notes,Quantum Computers]
-tags: [Quantum_Computer]
+**Title:** Quantum computers
+**Tags:** [[Notes]]
+**Topics:** #Quantum_Computer 
+
 ---
 # Index
 - Theoretical Bases
@@ -12,7 +10,7 @@ tags: [Quantum_Computer]
 	- Real Examples
 - Future Forecast
 
-# Theoretical Basis
+# Theoretical Bases
 Currently computers works with bits. These are 1's and 0's that are formed depending on whether the transistors allow electricity to pass through. All these transistors together make up today's computers, mobile phones… 
 A quantum system, by superposition, can be in two states at the same time.
 

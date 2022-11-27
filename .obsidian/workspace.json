@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6cd6cb5685a3486d",
+        "id": "168607dcfaebba74",
         "type": "tabs",
         "children": [
           {
-            "id": "6e6023676bb85f45",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "8b37bf4176e3b338",
+            "id": "fbb8e80403a54f0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 200
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -145,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8b37bf4176e3b338",
+  "active": "fbb8e80403a54f0b",
   "lastOpenFiles": [
+    "Notes/Quantum Computers/Quantum computers.md",
+    "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
+    "Projects/authServer/authServer.md",
+    "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
     "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
     "impulsado.github.io/_posts/2022-10-18-tcpdump.md",
-    "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
-    "Notes/Quantum Computers/Quantum computers.md",
     "assets/img/Photos/Snipaste_2022-08-31_18-40-23.png.md",
     "impulsado.github.io/_posts/2022-08-20-Wireguard_vs_OpenVPN.md",
     "impulsado.github.io/_posts/2022-08-20-Vaccine_00.md",
-    "impulsado.github.io/_posts/2022-08-20-tmux.md",
-    "impulsado.github.io/_posts/2022-08-20-smbclient.md",
-    "impulsado.github.io/_posts/2022-08-20-Sequel_00.md"
+    "impulsado.github.io/_posts/2022-08-20-tmux.md"
   ]
 }
