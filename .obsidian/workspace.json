@@ -21,18 +21,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Quantum Computers/Quantum computers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46309166ab860fe4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
                 "mode": "source",
                 "source": false
@@ -40,7 +28,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "46309166ab860fe4",
+  "active": "8b37bf4176e3b338",
   "lastOpenFiles": [
+    "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
+    "impulsado.github.io/_posts/2022-10-18-tcpdump.md",
+    "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
     "Notes/Quantum Computers/Quantum computers.md",
-    "Notes/Web Security/Security Headers.md",
-    "Notes/Web Security/Web Security.md",
-    "about-me.md",
-    "Ordinadors Quàntics.md",
-    "README.md",
-    "SUMMARY.md",
-    "cheat-sheet/gobuster.md",
-    "Projects/authServer/authServer.md",
-    "Cheat Sheet/Common/netcat.md"
+    "assets/img/Photos/Snipaste_2022-08-31_18-40-23.png.md",
+    "impulsado.github.io/_posts/2022-08-20-Wireguard_vs_OpenVPN.md",
+    "impulsado.github.io/_posts/2022-08-20-Vaccine_00.md",
+    "impulsado.github.io/_posts/2022-08-20-tmux.md",
+    "impulsado.github.io/_posts/2022-08-20-smbclient.md",
+    "impulsado.github.io/_posts/2022-08-20-Sequel_00.md"
   ]
 }
