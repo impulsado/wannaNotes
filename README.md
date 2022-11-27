@@ -14,7 +14,7 @@ In these notes, you can find:
 
 <br/>
 
-## [Website version](https://notes.impulsado.org/)
+## [Website version](https://notes.impulsado.org/) 🔐🌐
 
 <br/>
 
