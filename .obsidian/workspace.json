@@ -11,12 +11,8 @@
             "id": "6e6023676bb85f45",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ordinadors Quàntics.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -30,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "46309166ab860fe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 835
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -98,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Quantum Computers/Quantum computers.md",
+                "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Quantum Computers/Quantum computers.md",
+                "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Quantum Computers/Quantum computers.md"
+                "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md"
               }
             }
           }
@@ -149,17 +157,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8b37bf4176e3b338",
+  "active": "46309166ab860fe4",
   "lastOpenFiles": [
-    "cheat-sheet/gobuster.md",
-    "Ordinadors Quàntics.md",
-    "Projects/authServer/authServer.md",
-    "SUMMARY.md",
-    "README.md",
+    "Notes/Quantum Computers/Quantum computers.md",
+    "Notes/Web Security/Security Headers.md",
+    "Notes/Web Security/Web Security.md",
     "about-me.md",
-    "Cheat Sheet/Common/netcat.md",
-    "Cheat Sheet/Common/Gobuster.md",
-    "GENERAL/GENERAL.md",
-    "GENERAL/TO-DO List.md"
+    "Ordinadors Quàntics.md",
+    "README.md",
+    "SUMMARY.md",
+    "cheat-sheet/gobuster.md",
+    "Projects/authServer/authServer.md",
+    "Cheat Sheet/Common/netcat.md"
   ]
 }

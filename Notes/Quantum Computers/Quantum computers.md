@@ -1,3 +1,10 @@
+---
+layout: post
+title: Quantum computers
+date: 2022-11-27
+categories: [Notes,Quantum Computers]
+tags: [Quantum_Computer]
+---
 # Index
 - Theoretical Bases
 - Advantages / Disadvantages
@@ -6,7 +13,7 @@
 - Future Forecast
 
 # Theoretical Basis
-Currently computers works with bits. These are 1's and 0's that are formed depending on whether or not the transistors allow electricity to pass through. All these transistors together make up today's computers, mobile phones...
+Currently computers works with bits. These are 1's and 0's that are formed depending on whether the transistors allow electricity to pass through. All these transistors together make up today's computers, mobile phones… 
 A quantum system, by superposition, can be in two states at the same time.
 
 ```example1
@@ -55,29 +62,29 @@ Alice sends polarized photons in 4 different directions randomly.
 2. Bob has 2 detectors to know how to interpret the directions that arrive to him. He does this randomly (this gives him a 50% chance).
 ![[Pasted image 20221113115814.png]]
 3. When Bob has just read the message sent by Alice, she tells him what random chain of detectors she has used to detect the photons.
-
 4. Alice compares Bob's sequence with his initial sequence and tells him when he has used the detector incorrectly. In this way Bob knows which are the photons registered correctly (the ones he has made wrongly he does not use them).
 ![[Pasted image 20221113120105.png]]
-6. The correct result will be the quantum key that will be used by both parties to encrypt and decrypt the information.
+5. The correct result will be the quantum key that will be used by both parties to encrypt and decrypt the information.
+
 ## Why is it so secure?
 If an attacker tries to listen to the string of photons that Alice sends to Bob, by observing these photons, he disrupts the quantum state by defining a state. As a result, the message that arrives to Alice is not the one she sent.
 
 ![[Pasted image 20221113120441.png]]
 ![[Pasted image 20221113120459.png]]
-When Bob finishes reading the whole string, he sends a part of it to Alice to check. If she detects that there are many errors or inconsistencies, she will raise the alarm saying that there is something altering the message.
-
+When Bob finishes reading the whole string, he sends a part of it to Alice to check. If she detects that there are many errors or inconsistencies, she will raise the alarm, saying that there is something altering the message.
 This procedure is repeated every few seconds for greater security.
 
 Note: Quantum teleportation is being investigated to transport these keys.
+
 ## Current problems
 The biggest problem with quantum computers is how easy it is to crack current encryption systems. To take an example and be able to quantify it, we will take the 2048-bit RSA protocol.
-At the present time, a normal computer would take 300 trillion years to decrypt the key. While a quantum computer with 4099 QuBits would take 10 seconds.
+At the present time, a normal computer would take 300 trillion years to decrypt the key. While a quantum computer with, 4099 QuBits would take 10 seconds.
 
 Note: The quantum computer with the most QuBits is 127 (Eagle IBM).
 
 # Future Forecast
 Currently, quantum computers are only a reality for those who have a lot of resources and capital. Among the most developed countries, the following stand out:
-- **The United States**: With companies such as IBM, Google, Intel... Also the US government itself has one.
+- **The United States**: With companies such as IBM, Google, Intel… Also the US government itself has one.
 - **China**: This country is a bit of a mystery, but the last known news is that they sent an encrypted message to a distance of 1120 km.
 - **Next countries**: These are the countries that have shown great interest in this new technology and how much capital they will allocate:
 	- Australia: 2500 M $ (Silicon Quantum Computing).
