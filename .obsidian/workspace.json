@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md"
+                "file": "README.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "fbb8e80403a54f0b",
   "lastOpenFiles": [
+    "GENERAL/GENERAL.md",
+    "README.md",
+    "GENERAL/Shortcuts.md",
+    "GENERAL/TO-DO List.md",
     "Notes/Quantum Computers/Quantum computers.md",
+    "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
     "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
     "Projects/authServer/authServer.md",
-    "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
     "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
-    "impulsado.github.io/_posts/2022-10-18-tcpdump.md",
-    "assets/img/Photos/Snipaste_2022-08-31_18-40-23.png.md",
-    "impulsado.github.io/_posts/2022-08-20-Wireguard_vs_OpenVPN.md",
-    "impulsado.github.io/_posts/2022-08-20-Vaccine_00.md",
-    "impulsado.github.io/_posts/2022-08-20-tmux.md"
+    "impulsado.github.io/_posts/2022-10-18-tcpdump.md"
   ]
 }
