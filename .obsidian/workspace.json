@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ordinadors Quàntics.md",
+                "file": "Notes/Quantum Computers/Quantum computers.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ordinadors Quàntics.md",
+                "file": "Notes/Quantum Computers/Quantum computers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ordinadors Quàntics.md",
+                "file": "Notes/Quantum Computers/Quantum computers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ordinadors Quàntics.md"
+                "file": "Notes/Quantum Computers/Quantum computers.md"
               }
             }
           }
@@ -151,15 +151,15 @@
   },
   "active": "8b37bf4176e3b338",
   "lastOpenFiles": [
-    "Projects/authServer/authServer.md",
+    "cheat-sheet/gobuster.md",
     "Ordinadors Quàntics.md",
+    "Projects/authServer/authServer.md",
     "SUMMARY.md",
     "README.md",
     "about-me.md",
     "Cheat Sheet/Common/netcat.md",
     "Cheat Sheet/Common/Gobuster.md",
     "GENERAL/GENERAL.md",
-    "GENERAL/TO-DO List.md",
-    "GENERAL/Shortcuts.md"
+    "GENERAL/TO-DO List.md"
   ]
 }
