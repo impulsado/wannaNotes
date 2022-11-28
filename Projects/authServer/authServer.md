@@ -6,6 +6,17 @@ https://www.youtube.com/watch?v=WYufSGgaCZ8&ab_channel=QuickProgramming
 https://youtu.be/t49zjBGD75U
 
 ## MySQL
+```sh
+sudo apt update
+sudo apt install mysql-server
+sudo mysql
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+mysql> 
+mysql> 
+
+```
+
 ```SQL
 TODO;
 ```
