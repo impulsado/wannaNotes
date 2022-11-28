@@ -24,10 +24,10 @@ sudo mysql_secure_installation
 CREATE DATABASE login_db;
 USE login_db;
 CREATE TABLE users (
-    id int,
-    user_id varchar(255),
-    usr_name varchar(255),
-    usr_passwd varchar(255),
+	id BIGINT PRIMARY KEY,
+    user_id BIGINT,
+    usr_name VARCHAR(255),
+    usr_passwd VARCHAR(255),
     date TIMESTAMP
 );
 ```
