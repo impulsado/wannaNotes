@@ -38,5 +38,18 @@ session_start();
 Creates a new session or resumes the current one based on a session identifier passed via GET or POST request, or passed via cookie. ((!!May be will need to secure))
 Sessions are stored in server side, not like cookies that are stored on the client. 
 
+
+### signup.php
+```php
+<?php
+session_start();
+	include("connections.php");
+	include("functions.php");
+
+	$user_data = check_login($con);
+?>
+```
+Every time the client access our
+
 [More info](https://www.php.net/manual/en/function.session-start.php)
 
