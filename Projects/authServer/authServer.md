@@ -36,6 +36,7 @@ session_start();
 ?>
 ```
 Creates a new session or resumes the current one based on a session identifier passed via GET or POST request, or passed via cookie. ((!!May be will need to secure))
+[More info](https://www.php.net/manual/en/function.session-start.php)
 Sessions are stored in server side, not like cookies that are stored on the client. 
 
 
@@ -52,9 +53,21 @@ session_start();
 Every time the client access our website, it will check if it's logged-in. This check will be executed by `check_login()` function created in `functions.php`.
 
 ### connection.php
-```
+```php
+<?php
 
-```
+$db_host = "localhost";
+$db_user = "root";
+$db_passwd = "";
+$db_name = "login_db";
 
-[More info](https://www.php.net/manual/en/function.session-start.php)
+if(!$con = mysqli_connect($db_host,$db_user,$db_passwd,$db_name))
+{
+    die("Failed to Connect!");
+}
+```
+This file will be used to connect with the localhost MySQL database. Once connected, we can delete this file.
+
+
+
 
