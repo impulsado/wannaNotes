@@ -34,9 +34,9 @@ CREATE TABLE users (
     date TIMESTAMP
 );
 
-ALTER TABLE 'users' ADD INDEX('usr_id');
-ALTER TABLE 'users' ADD INDEX('usr_name');
-ALTER TABLE 'users' ADD INDEX('date');
+ALTER TABLE `users` ADD INDEX(`usr_id`);
+ALTER TABLE `users` ADD INDEX(`usr_name`);
+ALTER TABLE `users` ADD INDEX(`date`);
 ```
 
 ## Web
