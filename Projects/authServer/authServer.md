@@ -5,7 +5,12 @@ https://www.youtube.com/watch?v=WYufSGgaCZ8&ab_channel=QuickProgramming
 - Google Authenticator Time-Based PGP
 https://youtu.be/t49zjBGD75U
 
-## Main
+## MySQL
+```SQL
+
+```
+
+## Web
 ### Structure
 ```structure
 - /var/www/html/authServer
