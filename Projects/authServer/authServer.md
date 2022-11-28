@@ -1,4 +1,4 @@
-## BrainStorm
+## Resources
 - Simple singup and login system with PHP and MySQL Database
 https://www.youtube.com/watch?v=WYufSGgaCZ8&ab_channel=QuickProgramming
 
@@ -10,6 +10,7 @@ https://youtu.be/t49zjBGD75U
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y mysql-server php apache2
 ```
+
 ## MySQL
 ```SQL
 sudo mysql
@@ -97,6 +98,12 @@ if(!$con = mysqli_connect($db_host,$db_user,$db_passwd,$db_name))
 }
 ```
 This file will be used to connect with the localhost MySQL database. Once connected, we can delete this file.
+
+### functions.php
+```php
+<?php
+
+```
 
 
 
