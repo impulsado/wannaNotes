@@ -28,7 +28,7 @@ CREATE TABLE users (
     user_id varchar(255),
     usr_name varchar(255),
     usr_passwd varchar(255),
-    City varchar(255)
+    date TIMESTAMP
 );
 ```
 
