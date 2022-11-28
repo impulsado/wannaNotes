@@ -19,6 +19,7 @@ mysql> exit;
 
 mysql -u root -p
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+mysql> exit;
 
 sudo mysql_secure_installation
 ```
