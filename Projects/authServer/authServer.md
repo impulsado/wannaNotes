@@ -5,16 +5,12 @@ https://www.youtube.com/watch?v=WYufSGgaCZ8&ab_channel=QuickProgramming
 - Google Authenticator Time-Based PGP
 https://youtu.be/t49zjBGD75U
 
-## System
+## System setup
 ```sh
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y mysql-server php apache2
 ```
 ## MySQL
-```sh
-
-```
-
 ```SQL
 sudo mysql
 
