@@ -24,10 +24,10 @@ CREATE DATABASE login_db;
 USE login_db;
 
 CREATE TABLE users (
-	id INT AUTO_INCREMENT PRIMARY KEY,
-    usr_id INT,
-    usr_name VARCHAR(100) NOT NULL,
-    usr_passwd VARCHAR(100) NOT NULL,
+	id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    usr_id BIGINT,
+    usr_name VARCHAR(100),
+    usr_passwd VARCHAR(100),
     date TIMESTAMP
 );
 
