@@ -12,21 +12,20 @@ sudo apt install -y mysql-server php apache2
 ```
 ## MySQL
 ```sh
-sudo mysql
 
-mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-mysql> exit;
-
-mysql -u root -p
-mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
-mysql> exit;
-
-sudo mysql_secure_installation
 ```
 
 ```SQL
+sudo mysql
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+
 CREATE DATABASE login_db;
+
 USE login_db;
+
 CREATE TABLE users (
 	id INT AUTO_INCREMENT PRIMARY KEY,
     usr_id INT,
@@ -34,6 +33,7 @@ CREATE TABLE users (
     usr_passwd VARCHAR(100) NOT NULL,
     date TIMESTAMP
 );
+
 ALTER TABLE 'users' ADD INDEX('usr_id');
 ALTER TABLE 'users' ADD INDEX('usr_name');
 ALTER TABLE 'users' ADD INDEX('date');
