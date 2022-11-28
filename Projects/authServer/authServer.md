@@ -25,11 +25,14 @@ CREATE DATABASE login_db;
 USE login_db;
 CREATE TABLE users (
 	id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id BIGINT,
-    usr_name VARCHAR(255) NOT NULL,
-    usr_passwd VARCHAR(255) NOT NULL,
+    usr_id INT,
+    usr_name VARCHAR(100) NOT NULL,
+    usr_passwd VARCHAR(100) NOT NULL,
     date TIMESTAMP
 );
+ALTER TABLE 'users' ADD INDEX('usr_id');
+ALTER TABLE 'users' ADD INDEX('usr_name');
+ALTER TABLE 'users' ADD INDEX('date');
 ```
 
 ## Web
