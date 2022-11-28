@@ -22,7 +22,14 @@ sudo mysql_secure_installation
 
 ```SQL
 CREATE DATABASE login_db;
-USE log
+USE login_db;
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
 ```
 
 ## Web
