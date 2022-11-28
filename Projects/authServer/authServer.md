@@ -12,13 +12,17 @@ sudo apt install mysql-server
 sudo mysql
 
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-mysql> 
-mysql> 
+mysql> exit;
 
+mysql -u root -p
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+
+sudo mysql_secure_installation
 ```
 
 ```SQL
-TODO;
+CREATE DATABASE login_db;
+USE log
 ```
 
 ## Web
