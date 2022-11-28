@@ -8,7 +8,7 @@ https://youtu.be/t49zjBGD75U
 ## System setup
 ```sh
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y mysql-server php apache2
+sudo apt install -y mysql-server php apache2 openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip
 ```
 
 ## MySQL
