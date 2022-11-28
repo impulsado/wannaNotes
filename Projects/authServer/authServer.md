@@ -51,5 +51,10 @@ session_start();
 ```
 Every time the client access our website, it will check if it's logged-in. This check will be executed by `check_login()` function created in `functions.php`.
 
+### connection.php
+```
+
+```
+
 [More info](https://www.php.net/manual/en/function.session-start.php)
 
