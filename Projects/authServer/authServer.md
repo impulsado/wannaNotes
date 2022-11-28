@@ -5,10 +5,13 @@ https://www.youtube.com/watch?v=WYufSGgaCZ8&ab_channel=QuickProgramming
 - Google Authenticator Time-Based PGP
 https://youtu.be/t49zjBGD75U
 
+## System
+```sh
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y mysql-server php apache2
+```
 ## MySQL
 ```sh
-sudo apt update
-sudo apt install mysql-server
 sudo mysql
 
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
