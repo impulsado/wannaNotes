@@ -41,4 +41,4 @@ Describes 18 phases of attack based on Tactics Techniques and Procedures. Can be
 ## CYCLE 1: In
 Series of phases for an attacker to gain access to a system or network environment.
 - **Reconnaissance**: Performs research on the target using publicly available information (Foot printing).
-- 
+- **Weaponization**: Setting up the needed infrastructure to host the “Command and Control Center” (C2). Allow the attacker to send commands remotely. 
