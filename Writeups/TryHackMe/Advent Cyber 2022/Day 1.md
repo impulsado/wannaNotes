@@ -15,4 +15,7 @@ International Organization of Standardization develops frameworks for different 
 (27001 & 27002 → Cybersecurity (Information Security Management Systems))
 
 ## MITARE ATT&CK Framework
-Tactics Techniques Procedures --> Hek
+Tactics Techniques Procedures → Help to identify adversary plans of attack.
+MITARE is a knowledge base of TTPs. Highlights the detailed approach when looking at an attack.
+
+# Cyber Kill Chain
