@@ -7,8 +7,12 @@ Frameworks help organizations remove the guesswork of securing their data, becau
 
 ## NIST Cybersecurity Framework
 Developed by National Institute of Standards and Technology. Provides detailed guidance.
-Framework focueses on:
+Framework focuses on:
 `Identify` → `Protect` → `Detect` → `Respond` → `Recover`
 
 ## ISO 27000 Series
-International Organization of Standar
+International Organization of Standardization develops frameworks for different industries and sectors.
+(27001 & 27002 → Cybersecurity (Information Security Management Systems))
+
+## MITARE ATT&CK Framework
+Tactics Techniques Procedures --> Hek
