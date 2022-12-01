@@ -15,7 +15,9 @@
     "Weaponization",
     "xfiltration:",
     "II,",
-    "storages"
+    "storages",
+    "PII",
+    "Exfiltration"
   ],
   "attachmentFolderPath": "Photos"
 }

@@ -61,5 +61,6 @@ Gain more access and privileges to assets within the network.
 Confidentially, Integrity and Availability (CIA) are compromised during CYCLE 3. Allow the attacker to cause as much damage as possible and disappear without being detected.
 - **Collection**: Attacker collets all useful data. PII, Transactions, Secrets.…
 - **Exfiltration**: Must get his information out without triggering suspicion.
-- **Impact**: When a company is attacked, their reputation, financial and social damage is being impacted to.
-- Objectives: Degining attacker objectives tends to help security teams to undersatnd the attack and 
+- **Impact**: When a company is attacked, their reputation, financial and social damage is being impacted too.
+- **Objectives**: Defining attacker objectives tends to help security teams to understand the attack and defend their assets.
+
