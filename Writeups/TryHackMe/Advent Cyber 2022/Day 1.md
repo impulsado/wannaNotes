@@ -50,7 +50,9 @@ Series of phases for an attacker to gain access to a system or network environme
 
 ## CYCLE 2: Through
 Gain more access and privileges to assets within the network.
-- Pivoting: Access other systems in the network.
-- Discovery: Seek to gather information about the system/organization. 
-- Privilege Escalation: Access to higher privileged user on the compromised system. Done by exploiting identified vulnerabilities or misconfigurations.
-- Execu
+- **Pivoting**: Access other systems in the network.
+- **Discovery**: Seek to gather information about the system/organization. 
+- **Privilege Escalation**: Access to higher privileged user on the compromised system. Done by exploiting identified vulnerabilities or misconfigurations.
+- **Execution**: With elevated privileges, malicious code may be downloaded and executed.
+- **Credential Access**: If the attacker has access to information, it can contain login credentials.
+- **Lateral Movement**: With extracted credentials, can access other systems or data storages.
