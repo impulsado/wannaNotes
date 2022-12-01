@@ -19,3 +19,16 @@ Tactics Techniques Procedures → Help to identify adversary plans of attack.
 MITARE is a knowledge base of TTPs. Highlights the detailed approach when looking at an attack.
 
 # Cyber Kill Chain
+Describes the structure of an attack and consists.
+Consists of:
+- Recon
+- Weaponizations
+- Delivery
+- Exploitation
+- Installation
+- Command & Control 
+- Actions on Objectives.
+
+![[Pasted image 20221201154720.png]]
+
+# Unified Kill Chain
