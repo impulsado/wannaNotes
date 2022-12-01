@@ -32,3 +32,7 @@ Consists of:
 ![[Pasted image 20221201154720.png]]
 
 # Unified Kill Chain
+Unification of MITREATT&CK and Cyber Kill Chain frameworks.
+Provides a model to defend against cyberattacks from the adversary's perspective. Offers security teams a blueprint for analyzing and comparing threat intelligence.
+
+Describes 18 phases of atta
