@@ -47,3 +47,10 @@ Series of phases for an attacker to gain access to a system or network environme
 - **Persistence**: Leave behind a fallback presence on the network or asset to make sure they have a point of access to their target (Backdoor).
 - **Defense Evasion**: Attacker must remain anonymous throughout their exploits. Disable and avoid security mechanisms.
 - **Command & Control**: Communication channel between the compromised system and the attacker infrastructure.
+
+## CYCLE 2: Through
+Gain more access and privileges to assets within the network.
+- Pivoting: Access other systems in the network.
+- Discovery: Seek to gather information about the system/organization. 
+- Privilege Escalation: Access to higher privileged user on the compromised system. Done by exploiting identified vulnerabilities or misconfigurations.
+- Execu
