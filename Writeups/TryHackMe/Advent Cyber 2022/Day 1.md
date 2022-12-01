@@ -44,5 +44,6 @@ Series of phases for an attacker to gain access to a system or network environme
 - **Weaponization**: Setting up the needed infrastructure to host the “Command and Control Center” (C2). Allow the attacker to send commands remotely. 
 - **Delivery**: Payloads are malicious instruments delivered to the target. (Through Phishing…)
 - **Social Engineering**: Attacker will trick their target into performing untrusted and unsafe actions.
-- Persistence: Leave behind a fallback presence on the network or asset to make sure they have a point of access to their target (Backdoor).
-- Defence Evasion: 
+- **Persistence**: Leave behind a fallback presence on the network or asset to make sure they have a point of access to their target (Backdoor).
+- **Defense Evasion**: Attacker must remain anonymous throughout their exploits. Disable and avoid security mechanisms.
+- **Command & Control**: Communication channel between the compromised system and the attacker infrastructure.
