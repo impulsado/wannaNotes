@@ -56,3 +56,8 @@ Gain more access and privileges to assets within the network.
 - **Execution**: With elevated privileges, malicious code may be downloaded and executed.
 - **Credential Access**: If the attacker has access to information, it can contain login credentials.
 - **Lateral Movement**: With extracted credentials, can access other systems or data storages.
+
+## CYCLE 3: Out
+Confidentially, Integrity and Availability (CIA) are compromised during CYCLE 3. Allow the attacker to cause as much damage as possible and disappear without being detected.
+- Collection: Attacker collets all usefull data. PII, Transactions, Secrets...
+- 
