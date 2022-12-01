@@ -42,3 +42,7 @@ Describes 18 phases of attack based on Tactics Techniques and Procedures. Can be
 Series of phases for an attacker to gain access to a system or network environment.
 - **Reconnaissance**: Performs research on the target using publicly available information (Foot printing).
 - **Weaponization**: Setting up the needed infrastructure to host the “Command and Control Center” (C2). Allow the attacker to send commands remotely. 
+- **Delivery**: Payloads are malicious instruments delivered to the target. (Through Phishing…)
+- **Social Engineering**: Attacker will trick their target into performing untrusted and unsafe actions.
+- Persistence: Leave behind a fallback presence on the network or asset to make sure they have a point of access to their target (Backdoor).
+- Defence Evasion: 
