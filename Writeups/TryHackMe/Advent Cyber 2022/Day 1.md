@@ -33,6 +33,12 @@ Consists of:
 
 # Unified Kill Chain
 Unification of MITREATT&CK and Cyber Kill Chain frameworks.
+
 Provides a model to defend against cyberattacks from the adversary's perspective. Offers security teams a blueprint for analyzing and comparing threat intelligence.
 
-Describes 18 phases of atta
+Describes 18 phases of attack based on Tactics Techniques and Procedures. Can be combined to form overreaching goals.
+
+## CYCLE 1: In
+Series of phases for an attacker to gain access to a system or network environment.
+- **Reconnaissance**: Performs research on the target using publicly available information (Foot printing).
+- 
