@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e16cdce19fc398d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/authServer/authServer.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/authServer/authServer.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/authServer/authServer.md"
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Untitled.md"
               }
             }
           }
@@ -137,8 +150,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fbb8e80403a54f0b",
+  "active": "e16cdce19fc398d7",
   "lastOpenFiles": [
+    "Projects/authServer/authServer.md",
     "README.md",
     "GENERAL/GENERAL.md",
     "GENERAL/Shortcuts.md",
@@ -146,7 +160,6 @@
     "Notes/Quantum Computers/Quantum computers.md",
     "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md",
     "Notes/SC-200/Introduction to Microsoft 365 threat protection.md",
-    "Projects/authServer/authServer.md",
     "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
     "impulsado.github.io/_posts/2022-10-18-tcpdump.md"
   ]
