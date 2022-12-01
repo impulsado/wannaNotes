@@ -6,4 +6,9 @@ Guide for setting up programs and improve the security posture of the organizati
 Frameworks help organizations remove the guesswork of securing their data, because there are processes and structures established.
 
 ## NIST Cybersecurity Framework
+Developed by National Institute of Standards and Technology. Provides detailed guidance.
+Framework focueses on:
+`Identify` → `Protect` → `Detect` → `Respond` → `Recover`
 
+## ISO 27000 Series
+International Organization of Standar
