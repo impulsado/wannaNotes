@@ -18,4 +18,14 @@ Nov 13 00:00:00 sshd: Invalid user from 18.32.1.2 port 22
 
 ## Common Locations
 ### Windows
-Windows Feature is a app
+Windows Feature is an application that allows to access historical records.
+| Category | Description | Example |
+| ---  | --- | --- |
+| Application | Related to applications on the system | ""
+| Security
+| Setup
+| System
+
+
+
+### Linux
