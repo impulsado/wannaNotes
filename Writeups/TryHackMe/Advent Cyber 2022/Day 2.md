@@ -24,6 +24,11 @@ Windows Feature is an application that allows to access historical records.
 | Application | Related to applications on the system | "word.exe" was restarted. |
 | Security | System's security. E.j. Wrong cred. | "impu" successfully logged in. |
 | Setup | System maintenance | System must be restarted to apply new security configuration |
-| System | System itself | System has been shuted down. |
+| System | System itself | System has been shut down. |
 
 ### Linux
+Located in `/var/log`.
+
+| Category | Description | File | Example |
+| Authentication | Authentication (log in). | auth.log | Failed password for root from 192.16
+| Package Managment | 
