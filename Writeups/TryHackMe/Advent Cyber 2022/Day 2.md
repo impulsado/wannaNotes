@@ -11,3 +11,4 @@ Useful for:
 - Password changes.
 - Application errors.
 
+Format:
