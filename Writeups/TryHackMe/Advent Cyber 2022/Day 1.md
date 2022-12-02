@@ -1,5 +1,5 @@
 **Title:** Day 1
-**Tags:** 
+**Tags:** [[Advent Cyber 2022]]
 **Topics:** #TryHackMe #KillChain #ISO
 
 ---
