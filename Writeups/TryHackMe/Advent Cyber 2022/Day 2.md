@@ -21,11 +21,9 @@ Nov 13 00:00:00 sshd: Invalid user from 18.32.1.2 port 22
 Windows Feature is an application that allows to access historical records.
 | Category | Description | Example |
 | ---  | --- | --- |
-| Application | Related to applications on the system | ""
-| Security
-| Setup
-| System
-
-
+| Application | Related to applications on the system | "word.exe" was restarted. |
+| Security | System's security. E.j. Wrong cred. | "impu" successfully logged in. |
+| Setup | System maintenance | System must be restarted to apply new security configuration |
+| System | System itself | System has been shuted down. |
 
 ### Linux
