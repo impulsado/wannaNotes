@@ -12,3 +12,10 @@ Useful for:
 - Application errors.
 
 Format:
+```log
+Nov 13 00:00:00 sshd: Invalid user from 18.32.1.2 port 22
+```
+
+## Common Locations
+### Windows
+Windows Feature is a app
