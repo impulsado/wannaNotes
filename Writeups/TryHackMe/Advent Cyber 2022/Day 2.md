@@ -4,8 +4,10 @@
 
 ---
 # Log Files
-Usefull for:
-- Login attemps or failures.
-- Traffic on a network
+Useful for:
+- Login attempts or failures.
+- Traffic on a network.
 - List of accessed things.
-- 
+- Password changes.
+- Application errors.
+
