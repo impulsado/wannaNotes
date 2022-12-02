@@ -42,9 +42,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e9e54cbbcb0e0e05",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +135,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +156,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -162,11 +166,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4056edd2373490d8",
+  "active": "e9e54cbbcb0e0e05",
   "lastOpenFiles": [
+    "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 1.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
-    "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
     "Projects/authServer/authServer.md",
     "README.md",
     "GENERAL/GENERAL.md",

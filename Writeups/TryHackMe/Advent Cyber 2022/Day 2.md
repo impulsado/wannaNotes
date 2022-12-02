@@ -30,7 +30,8 @@ Windows Feature is an application that allows to access historical records.
 Located in `/var/log`.
 
 | Category | Description | File | Example |
+| --- | --- | --- | --- |
 | Authentication | Authentication (log in). | auth.log | Failed password for root from 192.168.1.2 port 22 |
-| Package Managment | Package managment. Installing packages. Useful for debugging | dpkg.log | 2022-12-06 installed apache2 |
+| Package Management | Package management. Installing packages. Useful for debugging | dpkg.log | 2022-12-06 installed apache2 |
 | Syslog | Events related to thing happening in the system's background | syslog | 2022-12-06 Finished daily update |
-| Kernel | Kernel events on the system. Changes or the output from devices. | kern
+| Kernel | Kernel events on the system. Changes or the output from devices. | kern.log | 2022-12-06 USB has been removed. |
