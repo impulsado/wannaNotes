@@ -1,3 +1,8 @@
+**Title:** Day 1
+**Tags:** 
+**Topics:** #TryHackMe #KillChain #ISO
+
+---
 # Security Frameworks
 Documented processes that define polices and procedures organizations should follow to establish and manage security controls.
 
