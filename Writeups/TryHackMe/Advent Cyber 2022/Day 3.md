@@ -15,3 +15,8 @@ Using Google search engine to search for relevant data, e.j: Employees in a comp
 - `cache`: Latest cached version by Google search engine.
 
 ### WHOIS Lookup
+Store public domain information, e.j; Domain owner, billing address. Can be used for spear phishing. Now we can use Domain Privacy in some domains.
+
+### Robots.txt
+File used to allow or disallow indexing of the website URLs. All websites have one located in the main URL.
+They can show admin panels or logs folder
