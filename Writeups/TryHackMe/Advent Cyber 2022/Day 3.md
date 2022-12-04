@@ -22,8 +22,8 @@ File used to allow or disallow indexing of the website URLs. All websites have o
 They can show admin panels or logs folders.
 
 ### Breached Database Search
-Leaked data is publicly available. These searches allow the client search if theis mail has been leaked.
+Leaked data is publicly available. These searches allow the client search if their mail has been leaked.
 
 ### Searching GitHub Repos
-Develop
+Developers misconfigured the repository and set privacy option to visible, making public the source code of the program. Sometimes this code includes hard-coded passwords.
 
