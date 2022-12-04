@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "45d5f134a75f934a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md"
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md"
               }
             }
           }
@@ -137,10 +150,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7a2e6a49360c5e03",
+  "active": "45d5f134a75f934a",
   "lastOpenFiles": [
-    "Writeups/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md",
+    "Writeups/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 1.md",
     "Projects/authServer/authServer.md",
