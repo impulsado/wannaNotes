@@ -16,4 +16,10 @@ Based on the degree of intrusiveness:
 Discover and map complete networks, including computers, open ports, IPs and Services. Once the network is mapped, the attacker can decide where to start.
 
 ### Port Scanning
-Exa
+Examine open ports in a network. Port scanning can fall into these three categories:
+- **Closed Ports**: Not listening
+- **Open Ports**: Accepts connections.
+- **Filtered Ports**: Port is open, but host is not accepting connections.
+
+### Vulnerability Scanning
+Identifies vulnerabilities on hosts. The toolcan be free or paid. Uses a pre-build database of vulnerabilities. E
