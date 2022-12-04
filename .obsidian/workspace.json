@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4056edd2373490d8",
+            "id": "7a2e6a49360c5e03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md"
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md"
               }
             }
           }
@@ -137,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4056edd2373490d8",
+  "active": "7a2e6a49360c5e03",
   "lastOpenFiles": [
-    "Writeups/TryHackMe/Advent Cyber 2022/Day 1.md",
-    "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
+    "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md",
+    "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
+    "Writeups/TryHackMe/Advent Cyber 2022/Day 1.md",
     "Projects/authServer/authServer.md",
     "README.md",
     "GENERAL/GENERAL.md",
     "GENERAL/Shortcuts.md",
     "GENERAL/TO-DO List.md",
-    "Notes/Quantum Computers/Quantum computers.md",
-    "impulsado.github.io/_posts/2022-11-27-Quantum Computers.md"
+    "Notes/Quantum Computers/Quantum computers.md"
   ]
 }
