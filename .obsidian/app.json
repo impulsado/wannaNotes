@@ -17,7 +17,8 @@
     "II,",
     "storages",
     "PII",
-    "Exfiltration"
+    "Exfiltration",
+    "OSINT"
   ],
   "attachmentFolderPath": "Photos"
 }
