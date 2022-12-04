@@ -25,6 +25,6 @@ Examine open ports in a network. Port scanning can fall into these three categor
 Identifies vulnerabilities on hosts. The tool can be free or paid. Uses a pre-build database of vulnerabilities. E.j: Nessus / Acunetix.
 
 ## Scanning Tools
-### Network
 - `nmap`: Most popular. Have scripts to gather version information or common vulnerabilities.
-- 
+- `Nikto`: Scan websites for vulnerabilities. It looks for subdomains, outdated servers, debug messages…
+
