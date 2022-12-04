@@ -4,4 +4,8 @@
 
 ---
 # OSINT
+Gathering and analyzing publicly available data for intelligence purposes. Information colledted from the internet.
 
+## OSINT Techniques
+### Google Dorks
+Using Google 
