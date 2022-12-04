@@ -1,6 +1,6 @@
 **Title:** Day 2
 **Tags:** [[Advent Cyber 2022]]
-**Topics:** #TryHackMe 
+**Topics:** #TryHackMe #Logs
 
 ---
 # Log Files
