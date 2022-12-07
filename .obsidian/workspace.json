@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8071fd585bcd63cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 6.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md"
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 6.md"
               }
             }
           }
@@ -150,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "45d5f134a75f934a",
+  "active": "8071fd585bcd63cb",
   "lastOpenFiles": [
+    "Writeups/TryHackMe/Advent Cyber 2022/Day 5.md",
+    "Writeups/TryHackMe/Advent Cyber 2022/Day 4.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 3.md",
-    "Writeups/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 2.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 1.md",
+    "Writeups/TryHackMe/Advent Cyber 2022/Day 6.md",
+    "Writeups/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
     "Projects/authServer/authServer.md",
     "README.md",
-    "GENERAL/GENERAL.md",
-    "GENERAL/Shortcuts.md",
-    "GENERAL/TO-DO List.md",
-    "Notes/Quantum Computers/Quantum computers.md"
+    "GENERAL/GENERAL.md"
   ]
 }
