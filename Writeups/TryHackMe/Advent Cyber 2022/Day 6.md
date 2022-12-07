@@ -28,7 +28,8 @@ Extract email header information to expose email file details. Two main concerns
 
 ## OSINT Webs
 | Tool | Purpose |
-| VirusTotal | A service that provides a cloud-based detection toolset and sandbox environment. |
+| --- | --- |
+| [VirusTotal](https://www.virustotal.com/gui/home/upload) | A service that provides a cloud-based detection toolset and sandbox environment. |
 | InQuest | A service provides network and file analysis by using threat analytics. |  
 | IPinfo.io | A service that provides detailed information about an IP address by focusing on geolocation data and service provider. |
 | Talos Reputation | An IP reputation check service is provided by Cisco Talos. |
