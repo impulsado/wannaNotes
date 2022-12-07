@@ -24,3 +24,4 @@ Extract email header information to expose email file details. Two main concerns
 | X-Spam Status | Spam score. |
 | X-Mailer | Email client name. |
 
+[//]: We will need an email header parser tool (Or a configured text editor). Tool → emlAnalyzer. Text editor --> Sublime text.
