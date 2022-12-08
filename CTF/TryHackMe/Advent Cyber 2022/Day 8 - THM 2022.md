@@ -48,6 +48,7 @@ A contract can consecutively make new calls to a function while and old function
 ### The Re-entrancy Attack
  Re-entrancy occurs when a malicious contract uses a fallback function to continue depleting a contract's total balance due to flawed logic after an initial withdraw function occurs.
 
- ### Practical Application
+### Practical Application
 [Remix IDE](https://remix.ethereum.org/) Offers a safe and controlled environment to test and deploy contracts as if they were in a public blockchain.
 
+1. Import the Solidity smart contracts. ``File explorer`` → ``default_workspace`` → ``Load a local file into the current workspace.``
