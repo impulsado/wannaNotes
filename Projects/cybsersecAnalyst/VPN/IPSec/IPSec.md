@@ -28,7 +28,7 @@ The tunnels is used for management traffic. This tunnel is used as a secure meth
 [AKA]: IKE phase 1 tunnel.
 [//]: Collection of parameters is called SA (Security Association).
 
-![[Pasted image 20220617083119.png]]
+![[Assets/Pasted image 20220617083119.png]]
 
 ### IKE phase 2
 Protect user's data that will be sent thought that second tunnel. Here is only one mode to build the IKE phase 2 tunnel, which is called quick mode.
@@ -39,7 +39,7 @@ Negotiate about:
 - **Authentication:** MD5 or SHA
 - **Lifetime:** How long tunnel will be valid. Refresh keying material?
 - **(Optional) DH exchange:** used for PFS (Perfect Forward Secrecy)
-![[Pasted image 20220617083601.png]]
+![[Assets/Pasted image 20220617083601.png]]
 
 ```ad-important
 IKE builds the tunnels for us but it doesn’t authenticate or encrypt user data.
@@ -52,10 +52,10 @@ AH offers authentication and integrity, but it doesn’t offer any encryption. I
 AH is obsolete because it does not provide confidentiality and has problems with NAT/PAT.
 ```
 
-![[Pasted image 20220617084023.png]]
-![[Pasted image 20220617084002.png]]
+![[Assets/Pasted image 20220617084023.png]]
+![[Assets/Pasted image 20220617084002.png]]
 
 ### ESP (Encapsulating Security Payload)
 Provides data confidentiality (encryption) and authentication (data integrity, data origin authentication, and replay protection). ESP can be used with confidentiality only, authentication only, or both confidentiality and authentication.
-![[Pasted image 20220617084729.png]]
-![[Pasted image 20220617084736.png]]
+![[Assets/Pasted image 20220617084729.png]]
+![[Assets/Pasted image 20220617084736.png]]

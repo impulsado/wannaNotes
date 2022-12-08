@@ -54,21 +54,21 @@ Coin in the air --> Heads and Tails.
 QKD (Quantum Key Distribution).
 Photons: Smallest unit of energy in a light wave that cannot be divided.
 Polarization: property of waves that allows them to oscillate in more than one orientation. When a photo is observed, it alters and is determined in only one direction.
-![[Pasted image 20221113115440.png]]
+![[Assets/Pasted image 20221113115440.png]]
 Alice sends polarized photons in 4 different directions randomly.
-![[Pasted image 20221113115612.png]]
+![[Assets/Pasted image 20221113115612.png]]
 2. Bob has 2 detectors to know how to interpret the directions that arrive to him. He does this randomly (this gives him a 50% chance).
-![[Pasted image 20221113115814.png]]
+![[Assets/Pasted image 20221113115814.png]]
 3. When Bob has just read the message sent by Alice, she tells him what random chain of detectors she has used to detect the photons.
 4. Alice compares Bob's sequence with his initial sequence and tells him when he has used the detector incorrectly. In this way Bob knows which are the photons registered correctly (the ones he has made wrongly he does not use them).
-![[Pasted image 20221113120105.png]]
+![[Assets/Pasted image 20221113120105.png]]
 5. The correct result will be the quantum key that will be used by both parties to encrypt and decrypt the information.
 
 ## Why is it so secure?
 If an attacker tries to listen to the string of photons that Alice sends to Bob, by observing these photons, he disrupts the quantum state by defining a state. As a result, the message that arrives to Alice is not the one she sent.
 
-![[Pasted image 20221113120441.png]]
-![[Pasted image 20221113120459.png]]
+![[Assets/Pasted image 20221113120441.png]]
+![[Assets/Pasted image 20221113120459.png]]
 When Bob finishes reading the whole string, he sends a part of it to Alice to check. If she detects that there are many errors or inconsistencies, she will raise the alarm, saying that there is something altering the message.
 This procedure is repeated every few seconds for greater security.
 

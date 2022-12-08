@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/TryHackMe/CyberDefense/CyberDefense.md",
+                "file": "GENERAL/TO-DO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/TryHackMe/CyberDefense/CyberDefense.md",
+                "file": "GENERAL/TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/TryHackMe/CyberDefense/CyberDefense.md",
+                "file": "GENERAL/TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/TryHackMe/CyberDefense/CyberDefense.md"
+                "file": "GENERAL/TO-DO.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "51315a016d3ade6d",
   "lastOpenFiles": [
+    "GENERAL/GENERAL.md",
+    "CTF/HTB/Very Easy/Vaccine/20 - Privilege Escalation.md",
+    "CTF/HTB/Very Easy/Vaccine/15 - SQL Injection.md",
+    "CTF/HTB/Very Easy/Vaccine/05 - Enumeration.md",
+    "CTF/HTB/Very Easy/Crocodile/00 - Crocodile.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
+    "CTF/TryHackMe/CyberDefense/CyberDefense.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
-    "CTF/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
-    "CTF/TryHackMe/CyberDefense/Introductory Networking.md",
-    "CTF/TryHackMe/CyberDefense/CyberDefense.md",
-    "CTF/TryHackMe/TryHackMe.md",
-    "CTF/HTB/HTB.md",
-    "CTF/CTF.md",
-    "Projects/Projects.md",
-    "Theory/Web Security/Web Security.md"
+    "CTF/TryHackMe/CyberDefense/Windows Fundamentals 1.md"
   ]
 }

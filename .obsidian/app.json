@@ -19,7 +19,8 @@
     "PII",
     "Exfiltration",
     "OSINT",
-    "CyberChef"
+    "CyberChef",
+    "authServer"
   ],
   "attachmentFolderPath": "Photos",
   "alwaysUpdateLinks": true

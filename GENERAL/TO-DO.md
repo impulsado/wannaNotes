@@ -1,9 +1,9 @@
-**Title:** TO-DO List
+**Title:** TO-DO
 **Tags:** [[General]]
 **Topics:** #General #TODO
 
 ---
-# TO-DO List
+# TO-DO
 - [ ] Hashcat in Cheat Sheet
 - [ ] sqlmap
-- [ ] cybersecAnalyst
+- [ ] authServer

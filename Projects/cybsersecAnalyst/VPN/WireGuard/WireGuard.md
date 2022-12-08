@@ -14,4 +14,4 @@ The way it works is as follows:
 
 3. To finish the configuration process, the server executes the "add-client.sh" script. It adds the previously created user as an allowed user. This is achieved by entering the public and pre-shared key together with the IP of the client's wireguard interface.
 
-![[Pasted image 20220610142403.png]]
+![[Assets/Pasted image 20220610142403.png]]

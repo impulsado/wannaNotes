@@ -1,11 +1,11 @@
 # main
 There is a login page where you can enter as Guest.
-![[Pasted image 20220530185246.png]]
+![[Assets/Pasted image 20220530185246.png]]
 
 
 Can upload files but only as Admin. 
 [??]:  Maybe reverse shell?
-![[Pasted image 20220605174444.png]]
+![[Assets/Pasted image 20220605174444.png]]
 
 # Manipulate cookies
 In the URL there is `id=2`  so changing it to `id=1` shows new information.
