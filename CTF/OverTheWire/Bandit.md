@@ -79,6 +79,10 @@ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m' #ROT13
 
 ## Level 12 --> Level 13
 ```sh
+mkdir /tmp/impu && cd $_
+mv ~/data.txt .
+xxd -r data.txt data1.gz
+gzip -d data1.gz
 
 ```
 
