@@ -275,11 +275,11 @@ sudo mount -a
 2.. Open Portainer and search for Samba template.
 
 3.. Configure Samba template like this:
-![Photo](/assets/img/Photos/Snipaste_2022-09-08_09-19-11.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-08_09-19-11.png)
 
 4.. Wait a little bit and try to connect to Samba:
 <br/>
-![Photo](/assets/img/Photos/Snipaste_2022-09-08_09-20-08.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-08_09-20-08.png)
 
 <br/>
 
@@ -359,7 +359,7 @@ services:
     restart: unless-stopped
 ```
 
-![Photo](/assets/img/Photos/Snipaste_2022-09-09_09-34-03.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-09_09-34-03.png)
 
 3.. Now you can access to the Dashboard (IP:4000)
 
@@ -370,7 +370,6 @@ services:
 - [ ] Backups
 - [ ] Manage Logs
 - [ ] Fail2Ban
-
 
 <br/>
 
