@@ -49,11 +49,13 @@ cat /var/lib/dpkg/info/bandit7.password
 
 ## Level 7 --> Level 8
 ```sh
-
+cat data.txt | grep millionth | awk '{print $2}'
+# TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 ```
 
-## Level X --> Level Y
+## Level 8 --> Level 9
 ```sh
+
 ```
 
 ## Level X --> Level Y
