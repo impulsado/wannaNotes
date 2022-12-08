@@ -7,3 +7,4 @@
 - [[cybersecAnalyst]]
 - [[netWarrior]]
 - [[authServer]]
+- [[homeLab]]
