@@ -83,7 +83,13 @@ mkdir /tmp/impu && cd $_
 mv ~/data.txt .
 xxd -r data.txt data1.gz
 gzip -d data1.gz
-bzip2 -d data1
+bzip2 -d data
+mv data data.gz
+gzip -d data.gz
+tar xvf data
+tar xvf data5.bin
+bzip2 -d data6.bin
+
 ```
 
 ## Level X --> Level Y
