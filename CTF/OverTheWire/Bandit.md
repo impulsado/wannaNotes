@@ -62,10 +62,10 @@ sort data.txt | uniq -u  # Need to sort bc uniq only detects duplicated lines th
 ## Level 9 --> Level 10
 ```sh
 strings data.txt | grep =
-#
+# G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 ```
 
-## Level X --> Level Y
+## Level 10 --> Level 11
 ```sh
 ```
 
