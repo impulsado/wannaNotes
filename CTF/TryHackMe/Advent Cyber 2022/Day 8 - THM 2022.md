@@ -19,3 +19,6 @@ Commonly used as the backbone of DeFi applications (Decentralized Finance applic
 Smart contract is a program stored on a blockchain that runs when pre-determined conditions are met. It defines the details of the exchange.
 [//]: Wait for conditions and execute actions (Traditional logic).
 
+### Functionality
+Similar to object-oriented programming concepts.
+Imagine a contract was a class.
