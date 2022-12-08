@@ -49,7 +49,7 @@ cat /var/lib/dpkg/info/bandit7.password
 
 ## Level 7 --> Level 8
 ```sh
-cat data.txt | grep millionth | awk '{print $2}'
+cat data.txt | grep millionth
 # TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 ```
 
@@ -73,7 +73,8 @@ base64 -d data.txt
 
 ## Level 11 --> Level 12
 ```sh
-
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m' #ROT13
+# JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 ```
 
 ## Level X --> Level Y
