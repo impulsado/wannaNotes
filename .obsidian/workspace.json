@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e4f04b8d60f61753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/OverTheWire/Bandit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 207.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/OverTheWire/OverTheWire.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/OverTheWire/OverTheWire.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/OverTheWire/OverTheWire.md"
+                "file": "CTF/OverTheWire/Bandit.md"
               }
             }
           }
@@ -149,8 +162,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "805a2e7d5104e6bf",
+  "active": "e4f04b8d60f61753",
   "lastOpenFiles": [
+    "CTF/OverTheWire/Bandit/Bandit.md",
+    "CTF/OverTheWire/OverTheWire.md",
     "README.md",
     "Assets/Snipaste_2022-11-27_22-11-54.jpg",
     "GENERAL/TO-DO.md",
@@ -158,8 +173,6 @@
     "CTF/HTB/Very Easy/Vaccine/20 - Privilege Escalation.md",
     "CTF/HTB/Very Easy/Vaccine/15 - SQL Injection.md",
     "CTF/HTB/Very Easy/Vaccine/05 - Enumeration.md",
-    "CTF/HTB/Very Easy/Crocodile/00 - Crocodile.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
-    "CTF/TryHackMe/CyberDefense/CyberDefense.md"
+    "CTF/HTB/Very Easy/Crocodile/00 - Crocodile.md"
   ]
 }
