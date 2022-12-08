@@ -18,7 +18,7 @@ In these notes, you can find:
 
 <br/>
 
-# Installation
+# Obsidian Installation
 ## Windows
 1. [Download](https://obsidian.md/) and Install Obsidian.
 
