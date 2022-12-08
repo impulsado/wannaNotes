@@ -30,7 +30,7 @@ Extract email header information to expose email file details. Two main concerns
 | Tool | Purpose |
 | --- | --- |
 | [VirusTotal](https://www.virustotal.com/gui/home/upload) | A service that provides a cloud-based detection toolset and sandbox environment. |
-| [InQuest](https://inquest.net/cloud/saas-email-security) | A service provides network and file analysis by using threat analytics. |  
+| [InQuest](https://labs.inquest.net/) | A service provides network and file analysis by using threat analytics. |  
 | [IPinfo.io](https://ipinfo.io/) | A service that provides detailed information about an IP address by focusing on geolocation data and service provider. |
 | [Talos Reputation](https://www.talosintelligence.com/reputation) | An IP reputation check service is provided by Cisco Talos. |
 | [Urlscan.io](https://urlscan.io/) | A service that analyzes websites by simulating regular user behaviour. |
