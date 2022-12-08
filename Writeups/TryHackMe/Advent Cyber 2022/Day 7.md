@@ -28,3 +28,7 @@ Web-based application used to slice, dice, encode, decode, parse and analyze dat
 ![[Pasted image 20221208101200.png]]
 
 8. Extract URLs and split with "@".
+![[Pasted image 20221208101411.png]]
+
+9. Defang URL to make them unlickable.
+![[Pasted image 20221208101417.png]]
