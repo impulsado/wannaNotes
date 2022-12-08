@@ -9,7 +9,7 @@ This is my documentation for the "homeLab" project. Here you will be able to con
 If there is any doubt or error in the documentation, do not hesitate to contact me: [Instagram](https://www.instagram.com/impulsado)
 
 
-![Photo](/assets/img/Photos/Snipaste_2022-09-09_10-54-10.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-09_10-54-10.png)
 
 <br/>
 
@@ -49,8 +49,8 @@ sudo apt update -y && sudo apt upgrade -y
 curl -L https://install.pivpn.io | bash
 ```
 
-![Photo](/assets/img/Photos/Snipaste_2022-09-05_13-03-04.png)
-![Photo](/assets/img/Photos/Snipaste_2022-09-05_13-05-27.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-05_13-03-04.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-05_13-05-27.png)
 
 
 2.. Create a new user and copy the file to the device we want to use it.
@@ -64,10 +64,10 @@ sudo pivpn -a
 sudo chown -R pi:pi ~/configs
 ```
 
-![Photo](/assets/img/Photos/Snipaste_2022-09-06_09-29-35.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-06_09-29-35.png)
 
 3.. To make this work, we need to create a new Port Forwading rule in our Router:
-![Photo](/assets/img/Photos/Snipaste_2022-09-06_09-56-22.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-06_09-56-22.png)
 
 <br/>
 
@@ -83,14 +83,14 @@ curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/s
 ```
 
 2.. Navigate to AdGuard Home Administrator Dashboard and finish the setup. (IP:3000)
-![Photo](/assets/img/Photos/Snipaste_2022-08-29_21-04-38.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-08-29_21-04-38.png)
 
 3.. Now it's time to configure AdGuard Home. First, we will setup our device and test that AdGuard is working properly.
 To configure your device, navigate to "Setup Guide" in the Header.
 ![Photo](/assets/img/Photos/Snipaste_2022-08-29_21-17-02.png)
 
 4.. Once we have checked that, at least, one device is working properly, we will add more blocklists to the filter. Navigate to: Filters > DNS Blocklists > Add Blocklists > Choose from the list.
-![Photo](/assets/img/Photos/Snipaste_2022-08-31_18-40-23.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-08-31_18-40-23.png)
 
 5.. Select all the options and click Save.
 
@@ -125,15 +125,15 @@ sudo docker run -d -p 9000:9000 -p 9443:9443 --name=portainer --restart=always -
 
 2.. Once installed, open your web browser and navigate to the Protainer Dashboard. 
 To do that, you will need to write down the IP:Port. In out case, port is mapped to 9000.
-![Photo](/assets/img/Photos/Snipaste_2022-08-28_22-13-53.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-08-28_22-13-53.png)
 
 3.. Before installing anything else, let's change the templates shown in "App Templates".
 To do that, you will need to change the URL to https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/template/portainer-v2-arm64.json
-![Photo](/assets/img/Photos/Snipaste_2022-08-28_22-23-28.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-08-28_22-23-28.png)
 
 4.. Finally, let's configure the IP to which the shortcuts will open to point to the raspberry pi (192.168.1.81) and not to its local one (127.0.0.1).
 Navigate to Environment > local. In Public IP, write down Raspberry Pi IP.
-![Photo](/assets/img/Photos/Snipaste_2022-08-29_07-05-41.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-08-29_07-05-41.png)
 
 <br/>
 
@@ -145,17 +145,17 @@ Dynamic DNS (DDNS) is a service that keeps the DNS updated with a web property's
 
 2.. Create a new Token > Create Custom Token.
 
-![Photo](/assets/img/Photos/Snipaste_2022-09-06_11-14-15.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-06_11-14-15.png)
 
 3.. From the Templates list, select Cloudfare DDNS and configure it:
 
-![Photo](/assets/img/Photos/Snipaste_2022-09-06_11-20-00.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-06_11-20-00.png)
 
 4.. Finally, check in Cloudfare that we can see our "local" entry pointing to our Public IP.
 
 > We must change the option to DNS Only because we will use NGINX in the future.
 
-![Photo](/assets/img/Photos/Snipaste_2022-09-06_11-22-05.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-06_11-22-05.png)
 
 
 <br/>
@@ -232,16 +232,16 @@ services:
 ```
 
 2.. After installing it, access to portainer and add the Vaultwarden container to the NGINX network.
-![Photo](/assets/img/Photos/Snipaste_2022-09-07_09-14-25.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-07_09-14-25.png)
 
 3.. Now access to NGINX dashboard and create a new Certificate to the Vaultwarden container. Navigate to: SSL certificate > "Add SSL certificate"
-![Photo](/assets/img/Photos/Snipaste_2022-09-07_09-21-47.png)
-![Photo](/assets/img/Photos/Snipaste_2022-09-07_09-16-42.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-07_09-21-47.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-07_09-16-42.png)
 
 4.. Now add a new "Proxy Host".
 
-![Photo](/assets/img/Photos/Snipaste_2022-09-07_09-50-15.png)
-![Photo](/assets/img/Photos/Snipaste_2022-09-07_09-50-36.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-07_09-50-15.png)
+![Photo](impulsado.github.io/assets/img/Photos/Snipaste_2022-09-07_09-50-36.png)
 
 5.. Finally, access to the website and create an account. Remember that the email domain must be one of the previously authorized ones. (e.g. example.com = mail@example.com).
 

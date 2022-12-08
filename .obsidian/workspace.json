@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
+                "file": "Projects/homeLab/homeLab.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
+                "file": "Projects/homeLab/homeLab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
+                "file": "Projects/homeLab/homeLab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md"
+                "file": "Projects/homeLab/homeLab.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "1c2904d8091c473f",
   "lastOpenFiles": [
-    "assets/img/Photos/Snipaste_2022-09-09_10-54-10.png.md",
+    "assets/img/Photos/Snipaste_2022-09-07_09-21-47.png.md",
     "Projects/homeLab/homeLab.md",
+    "assets/img/Photos/Snipaste_2022-08-29_21-17-02.png.md",
     "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
+    "assets/img/Photos/Snipaste_2022-09-09_10-54-10.png.md",
     "README.md",
     "CTF/OverTheWire/Bandit.md",
     "CTF/CTF.md",
     "assets/img/Photos/SpiderFoot-1.png.md",
-    "impulsado.github.io/_posts/2022-10-18-Spiderfoot.md",
-    "CTF/OverTheWire/OverTheWire.md",
-    "CTF/OverTheWire/Bandit/Bandit.md"
+    "impulsado.github.io/_posts/2022-10-18-Spiderfoot.md"
   ]
 }
