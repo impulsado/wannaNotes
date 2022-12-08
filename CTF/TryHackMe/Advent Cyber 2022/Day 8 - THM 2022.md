@@ -35,7 +35,11 @@ We control “Contract A” and “Contract B” wanted to deposit 1 ETH, and th
 
 3. “Contract B” calls withdraw() of “Contract A”.
 
-4. "Contract A" authorizes the deposit if the pre-determined conditions for withdrawal are met.
+4. “Contract A” authorizes the deposit if the pre-determined conditions for withdrawal are met.
 ![[Pasted image 20221208214734.png]]
 
-5. "Contract B" can execute other functions after the ETH is sent from "Contract 
+5. “Contract B” can execute other functions after the ETH is sent from “Contract A” but before the function resolves.
+![[Pasted image 20221208214840.png]]
+
+### Vulnerabilities in Smart Contracts
+Logic issues or poor exception handling.
