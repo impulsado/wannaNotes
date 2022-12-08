@@ -30,7 +30,8 @@ cat inhere/.hidden
 
 ## Level 4 --> Level 5
 ```sh
-
+cat inhere/-file07
+# lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 ```
 
 
