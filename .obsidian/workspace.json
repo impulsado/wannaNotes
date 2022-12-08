@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GENERAL/TO-DO.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 207.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/TO-DO.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GENERAL/TO-DO.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GENERAL/TO-DO.md"
+                "file": "README.md"
               }
             }
           }
@@ -138,15 +139,15 @@
   },
   "active": "51315a016d3ade6d",
   "lastOpenFiles": [
+    "Assets/Snipaste_2022-11-27_22-11-54.jpg",
+    "README.md",
+    "GENERAL/TO-DO.md",
     "GENERAL/GENERAL.md",
     "CTF/HTB/Very Easy/Vaccine/20 - Privilege Escalation.md",
     "CTF/HTB/Very Easy/Vaccine/15 - SQL Injection.md",
     "CTF/HTB/Very Easy/Vaccine/05 - Enumeration.md",
     "CTF/HTB/Very Easy/Crocodile/00 - Crocodile.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
-    "CTF/TryHackMe/CyberDefense/CyberDefense.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
-    "CTF/TryHackMe/CyberDefense/Windows Fundamentals 1.md"
+    "CTF/TryHackMe/CyberDefense/CyberDefense.md"
   ]
 }

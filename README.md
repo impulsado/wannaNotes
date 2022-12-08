@@ -32,7 +32,7 @@ In these notes, you can find:
 # Download wannaNotes
 ## Windows
 1. Go to [wannaNotes Repository](https://github.com/impulsado/wannaNotes) and Download the code.
-<img src="https://github.com/impulsado/wannaNotes/blob/main/Photos/Snipaste_2022-11-27_22-11-54.jpg"/>
+<img src="https://raw.githubusercontent.com/impulsado/wannaNotes/main/Assets/Snipaste_2022-11-27_22-11-54.jpg"/>
 
 ## Kali
 1. Clone the repository with this command:
