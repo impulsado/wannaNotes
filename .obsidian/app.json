@@ -18,7 +18,8 @@
     "storages",
     "PII",
     "Exfiltration",
-    "OSINT"
+    "OSINT",
+    "CyberChef"
   ],
   "attachmentFolderPath": "Photos"
 }
