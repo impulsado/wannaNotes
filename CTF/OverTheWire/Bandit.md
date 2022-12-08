@@ -44,11 +44,12 @@ find inhere/* -type f -size 1033c -exec cat {} \;
 ```sh
 find / -user bandit7 -group bandit6 -size 33c -type f 2>/dev/null
 cat /var/lib/dpkg/info/bandit7.password
-# 
+# z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 ```
 
-## Level X --> Level Y
+## Level 7 --> Level 8
 ```sh
+
 ```
 
 ## Level X --> Level Y
