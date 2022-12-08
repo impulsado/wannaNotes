@@ -1,4 +1,4 @@
-**Title:** Day 2
+**Title:** Day 2 - THM 2022
 **Tags:** [[Advent Cyber 2022]]
 **Topics:** #TryHackMe #Logs
 

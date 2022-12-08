@@ -1,4 +1,4 @@
-**Title:** Day 1
+**Title:** Day 1 - THM 2022
 **Tags:** [[Advent Cyber 2022]]
 **Topics:** #TryHackMe #KillChain #ISO
 

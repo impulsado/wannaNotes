@@ -1,4 +1,4 @@
-**Title:** Day 6
+**Title:** Day 6 - THM 2022
 **Tags:** [[Advent Cyber 2022]]
 **Topics:** #TryHackMe #Email
 

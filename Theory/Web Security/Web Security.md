@@ -1,5 +1,5 @@
 **Title:** Web Security
-**Tags:** [[Notes]]
+**Tags:** [[Theory]]
 **Topics:** #Notes #Web_Security
 
 ---

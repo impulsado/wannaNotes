@@ -21,5 +21,6 @@
     "OSINT",
     "CyberChef"
   ],
-  "attachmentFolderPath": "Photos"
+  "attachmentFolderPath": "Photos",
+  "alwaysUpdateLinks": true
 }

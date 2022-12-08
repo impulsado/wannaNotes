@@ -1,5 +1,5 @@
 **Title:** Quantum computers
-**Tags:** [[Notes]]
+**Tags:** [[Theory]]
 **Topics:** #Quantum_Computer 
 
 ---
