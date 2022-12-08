@@ -18,6 +18,18 @@ cat <-
 
 ## Level 2 --> Level 3
 ```sh
+cat "spaces in this filename"
+# aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+```
+
+## Level 3 --> Level 4
+```sh
+cat inhere/.hidden
+# 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+```
+
+## Level 4 --> Level 5
+```sh
 
 ```
 
