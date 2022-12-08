@@ -28,5 +28,14 @@ Once a contract is deployed on a blockchain, another contract can use its functi
 ### Example
 We control “Contract A” and “Contract B” wanted to deposit 1 ETH, and then withdraw 1 ETH from “Contract A”
 
-1. "Contract B" calls deposit() of "Contract A"
-2. "Contract A" 
+1. “Contract B” calls deposit() of “Contract A”
+
+2. “Contract A” authorizes the deposit after checking if any pre-determined conditions need to be met.
+![[Pasted image 20221208214554.png]]
+
+3. “Contract B” calls withdraw() of “Contract A”.
+
+4. "Contract A" authorizes the deposit if the pre-determined conditions for withdrawal are met.
+![[Pasted image 20221208214734.png]]
+
+5. "Contract B" can execute other functions after the ETH is sent from "Contract 

@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68a3217e4a676f51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -150,12 +136,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "68a3217e4a676f51",
+  "active": "1c2904d8091c473f",
   "lastOpenFiles": [
+    "CTF/OverTheWire/Bandit.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 6 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
-    "CTF/OverTheWire/Bandit.md",
     "Projects/authServer/authServer.md",
     "Projects/homeLab/homeLab.md",
     "assets/img/Photos/Snipaste_2022-09-07_09-21-47.png.md",
