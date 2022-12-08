@@ -14,3 +14,8 @@ Blockchain is a digital database or ledger distributed among nodes of a peer-to-
 [//]: Cryptography is employed to negotiate transactions and provide utility to the blockchain.
 
 ## Smart Contracts
+### Introduction
+Commonly used as the backbone of DeFi applications (Decentralized Finance applications) to support a cryptocurrency on a blockchain.
+Smart contract is a program stored on a blockchain that runs when pre-determined conditions are met. It defines the details of the exchange.
+[//]: Wait for conditions and execute actions (Traditional logic).
+
