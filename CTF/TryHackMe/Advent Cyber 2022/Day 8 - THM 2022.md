@@ -43,3 +43,7 @@ We control “Contract A” and “Contract B” wanted to deposit 1 ETH, and th
 
 ### Vulnerabilities in Smart Contracts
 Logic issues or poor exception handling.
+A contract can consecutively make new calls to a function while and old functions are still executing. An attacker can continuously attempt to call the "withdraw" function before it can clear the balance.
+
+### The Re-entrancy Attack
+ Re-entrancy occurs when a malicious contract uses a fallback function to continue depleting a contract's total balance due to flawed logic after an initial withdraw function occurs.

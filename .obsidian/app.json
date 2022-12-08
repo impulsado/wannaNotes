@@ -20,7 +20,8 @@
     "Exfiltration",
     "OSINT",
     "CyberChef",
-    "authServer"
+    "authServer",
+    "Re-entrancy"
   ],
   "attachmentFolderPath": "Photos",
   "alwaysUpdateLinks": true
