@@ -21,4 +21,5 @@ Smart contract is a program stored on a blockchain that runs when pre-determined
 
 ### Functionality
 Similar to object-oriented programming concepts.
-Imagine a contract was a class.
+Imagine a contract was a class. Some fields of that class you may want to be private, preventing access or modification unless conditions are met. Those fields should be private and only accessed or modified from functions defined in the contract.
+[//]: Commonly, has several functions that act similarly to accessors and mutators (Check balance, deposit, withdraw, ...)
