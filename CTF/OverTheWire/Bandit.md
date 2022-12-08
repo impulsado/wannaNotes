@@ -93,7 +93,7 @@ tar xvf data6.bin.out
 mv data8m.bin data6
 gzip -d data8.gz
 cat data8
-# Use fi
+# Use "file file_name" to know which file it is. 
 # wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 ```
 
