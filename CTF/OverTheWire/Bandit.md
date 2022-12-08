@@ -112,7 +112,8 @@ telnet localhost 30000
 
 ## Level 15 --> Level 16
 ```sh
-
+openssl s_client -connect localhost:30001
+# JQttfApK4SeyHwDlI9SXGR50qclOAil1
 ```
 
 ## Level X --> Level Y
