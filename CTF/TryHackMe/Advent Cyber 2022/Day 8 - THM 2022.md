@@ -57,4 +57,6 @@ A contract can consecutively make new calls to a function while and old function
 2. Now compile the contracts. `Solidity compiler` → Select `0.8.10+commitfcxxxxxx`.
 ![[Pasted image 20221208220312.png]]
 
-3. Once contracts are compiled we must deploy them. 
+3. Once contracts are compiled, we must deploy them. 
+![[Pasted image 20221208221110.png]]
+
