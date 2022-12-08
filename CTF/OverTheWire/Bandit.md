@@ -55,8 +55,8 @@ cat data.txt | grep millionth | awk '{print $2}'
 
 ## Level 8 --> Level 9
 ```sh
-awk '!seen[$0]++' data.txt
-# NhJGfaoUwxXBdUftTTQKiip5zvCZMFnO
+sort data.txt | uniq -u
+# EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 ```
 
 ## Level X --> Level Y
