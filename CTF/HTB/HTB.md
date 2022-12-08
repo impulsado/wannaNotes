@@ -1,5 +1,5 @@
 **Title:** HTB
-**Tags:** [[Writeups]]
+**Tags:** [[CTF]]
 **Topics:** #HTB #Writeups
 
 ---

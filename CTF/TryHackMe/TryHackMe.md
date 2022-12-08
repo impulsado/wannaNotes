@@ -1,5 +1,5 @@
 **Title:** TryHackMe
-**Tags:** [[Writeups]]
+**Tags:** [[CTF]]
 **Topics:** #TryHackMe #Writeups 
 
 ---
