@@ -52,3 +52,7 @@ A contract can consecutively make new calls to a function while and old function
 [Remix IDE](https://remix.ethereum.org/) Offers a safe and controlled environment to test and deploy contracts as if they were in a public blockchain.
 
 1. Import the Solidity smart contracts. ``File explorer`` → ``default_workspace`` → ``Load a local file into the current workspace.``
+![[Pasted image 20221208220043.png]]
+
+2. Now compile the contracts. `Solidity compiler` → Select `0.8.10+commitfcxxxxxx`.
+3. 
