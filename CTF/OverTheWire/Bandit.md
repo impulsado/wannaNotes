@@ -106,11 +106,13 @@ cat /etc/bandit_pass/bandit14
 
 ## Level 14 --> Level 15
 ```sh
-
+telnet localhost 30000
+# jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
 ```
 
-## Level X --> Level Y
+## Level 15 --> Level 16
 ```sh
+
 ```
 
 ## Level X --> Level Y
