@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/authServer/authServer.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/authServer/authServer.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/authServer/authServer.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/authServer/authServer.md"
+                "file": "CTF/OverTheWire/Bandit.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "1c2904d8091c473f",
   "lastOpenFiles": [
+    "Projects/authServer/authServer.md",
     "CTF/OverTheWire/Bandit.md",
     "Projects/homeLab/homeLab.md",
     "assets/img/Photos/Snipaste_2022-09-07_09-21-47.png.md",
@@ -146,7 +147,6 @@
     "assets/img/Photos/Snipaste_2022-09-09_10-54-10.png.md",
     "README.md",
     "CTF/CTF.md",
-    "assets/img/Photos/SpiderFoot-1.png.md",
-    "impulsado.github.io/_posts/2022-10-18-Spiderfoot.md"
+    "assets/img/Photos/SpiderFoot-1.png.md"
   ]
 }
