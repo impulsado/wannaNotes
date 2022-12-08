@@ -21,4 +21,10 @@ Web-based application used to slice, dice, encode, decode, parse and analyze dat
 5. Decode base64.
 ![[Pasted image 20221208100951.png]]
 
-6. Decode UTF-16. We can see a poweshell script 
+6. Decode UTF-16. We can see a PowerShell script. It uses Unicode `UTF-16LE` by default, and we will use a function to get the result in `UTF-16E`.
+![[Pasted image 20221208101136.png]]
+
+7. Find and remove common patterns.
+![[Pasted image 20221208101200.png]]
+
+8. Extract URLs and split with "@".
