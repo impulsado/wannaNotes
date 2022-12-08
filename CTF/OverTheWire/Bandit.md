@@ -67,11 +67,13 @@ strings data.txt | grep =
 
 ## Level 10 --> Level 11
 ```sh
-
+base64 -d data.txt
+# 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 ```
 
-## Level X --> Level Y
+## Level 11 --> Level 12
 ```sh
+
 ```
 
 ## Level X --> Level Y
