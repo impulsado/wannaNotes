@@ -99,11 +99,14 @@ cat data8
 
 ## Level 13 --> Level 14
 ```sh
-
+ssh bandit14@bandit.labs.overthewire.org -p2220 -i sshkey.private
+cat /etc/bandit_pass/bandit14
+# fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
 ```
 
-## Level X --> Level Y
+## Level 14 --> Level 15
 ```sh
+
 ```
 
 ## Level X --> Level Y
