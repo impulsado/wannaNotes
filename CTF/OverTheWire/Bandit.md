@@ -61,7 +61,8 @@ sort data.txt | uniq -u  # Need to sort bc uniq only detects duplicated lines th
 
 ## Level 9 --> Level 10
 ```sh
-
+strings data.txt | grep =
+#
 ```
 
 ## Level X --> Level Y
