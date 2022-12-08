@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "681e6e24c31c2faf",
+        "id": "bef32a918aeb5fd6",
         "type": "tabs",
         "children": [
           {
-            "id": "cbe31a6ba8538f43",
+            "id": "51315a016d3ade6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11905efe569046da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 7.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5,
-    "collapsed": true
+    "width": 207.5
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 7.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 7.md",
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 7.md"
+                "file": "Writeups/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md"
               }
             }
           }
@@ -150,12 +136,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "11905efe569046da",
+  "active": "51315a016d3ade6d",
   "lastOpenFiles": [
-    "Writeups/TryHackMe/Advent Cyber 2022/Day 1.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
-    "Writeups/TryHackMe/TryHackMe.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 7.md",
+    "Writeups/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
+    "Writeups/TryHackMe/TryHackMe.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 6.md",
     "Writeups/TryHackMe/Advent Cyber 2022/Day 5.md",
     "Notes/Web Security/Web Security.md",
