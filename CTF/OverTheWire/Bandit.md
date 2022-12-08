@@ -55,8 +55,8 @@ cat data.txt | grep millionth | awk '{print $2}'
 
 ## Level 8 --> Level 9
 ```sh
-sort data.txt | uniq -u
-# EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+sort data.txt | uniq -u  # Need sort bc uniq only detects duplicated lines that are adjacent. 
+# UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 ```
 
 ## Level X --> Level Y
