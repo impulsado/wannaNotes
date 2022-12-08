@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "68a3217e4a676f51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md",
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md",
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md"
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md"
               }
             }
           }
@@ -137,17 +150,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1c2904d8091c473f",
+  "active": "68a3217e4a676f51",
   "lastOpenFiles": [
-    "Projects/authServer/authServer.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 6 - THM 2022.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
     "CTF/OverTheWire/Bandit.md",
+    "Projects/authServer/authServer.md",
     "Projects/homeLab/homeLab.md",
     "assets/img/Photos/Snipaste_2022-09-07_09-21-47.png.md",
     "assets/img/Photos/Snipaste_2022-08-29_21-17-02.png.md",
     "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
-    "assets/img/Photos/Snipaste_2022-09-09_10-54-10.png.md",
-    "README.md",
-    "CTF/CTF.md",
-    "assets/img/Photos/SpiderFoot-1.png.md"
+    "assets/img/Photos/Snipaste_2022-09-09_10-54-10.png.md"
   ]
 }
