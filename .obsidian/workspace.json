@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/homeLab/homeLab.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/homeLab/homeLab.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/homeLab/homeLab.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/homeLab/homeLab.md"
+                "file": "CTF/OverTheWire/Bandit.md"
               }
             }
           }
@@ -138,8 +139,8 @@
   },
   "active": "1c2904d8091c473f",
   "lastOpenFiles": [
-    "assets/img/Photos/Snipaste_2022-09-07_09-21-47.png.md",
     "Projects/homeLab/homeLab.md",
+    "assets/img/Photos/Snipaste_2022-09-07_09-21-47.png.md",
     "assets/img/Photos/Snipaste_2022-08-29_21-17-02.png.md",
     "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
     "assets/img/Photos/Snipaste_2022-09-09_10-54-10.png.md",
