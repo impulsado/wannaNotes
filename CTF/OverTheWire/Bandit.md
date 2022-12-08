@@ -89,7 +89,11 @@ gzip -d data.gz
 tar xvf data
 tar xvf data5.bin
 bzip2 -d data6.bin
-
+tar xvf data6.bin.out
+mv data8m.bin data6
+gzip -d data8.gz
+cat data8
+# wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 ```
 
 ## Level X --> Level Y
