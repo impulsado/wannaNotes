@@ -118,6 +118,9 @@ openssl s_client -connect localhost:30001
 
 ## Level X → Level Y
 ```sh
+31691/tcp open     unknown
+31790/tcp open     unknown
+31960/tcp open     unknown
 ```
 
 ## Level X → Level Y
