@@ -120,7 +120,12 @@ proxychains -q nmap -n -sT -Pn -p 22,80,443,5432 10.10.40.65
 ```
 
 # Challenge
-## Port scanning
+## Enumeration
 ```sh
-
+└─# nmap -p- 10.10.40.65 -Pn -n -v
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 02:C2:4A:6E:C9:01 (Unknown)
 ```
+
+## Web
