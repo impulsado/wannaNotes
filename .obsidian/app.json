@@ -29,7 +29,8 @@
     "Metasploit",
     "Meterpreter",
     "nmap",
-    "arp-scan"
+    "arp-scan",
+    "ProxyChain"
   ],
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true
