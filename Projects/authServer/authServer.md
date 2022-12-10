@@ -12,6 +12,10 @@ sudo apt install -y mysql-server php apache2 openssl php-common php-curl php-jso
 ```
 
 ## MySQL
+```ad-important
+REMOVE usr_id
+```
+
 ```SQL
 sudo mysql
 
