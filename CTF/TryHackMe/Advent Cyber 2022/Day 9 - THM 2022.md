@@ -48,3 +48,18 @@ resolve remote_service1 remote_service2
 ## Pivoting
 Once a system is compromised, it can allow the attacker to find more systems on the network and exploit them. We can use nmap or arp-scan to find more machines and services.
 ![[Pasted image 20221210101259.png]]
+
+
+## Using Metasploit
+1. Open Metasploit with `msfconsole` command.
+2. Select the most usefull Metasploit module for this at
+```Metasploit
+# To search for a module, use the ‘search’ command:
+msf6 > search laravel
+
+# Load a module with the ‘use’ command
+msf6 > use multi/php/ignition_laravel_debug_rce
+
+# view the information about the module, including the module options, description, CVE details, etc
+msf6 exploit(multi/php/ignition_laravel_debug_rce) > info
+```
