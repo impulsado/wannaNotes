@@ -1,6 +1,6 @@
 **Title:** Day 7 - THM 2022
 **Tags:** [[Advent Cyber 2022]]
-**Topics:** #TryHackMe #CyberChef
+**Topics:** #THM_Advent_2022 #CyberChef
 
 ---
 # CyberChef

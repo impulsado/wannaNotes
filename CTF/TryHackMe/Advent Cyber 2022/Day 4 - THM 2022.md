@@ -1,6 +1,6 @@
 **Title:** Day 4 - THM 2022
 **Tags:** [[Advent Cyber 2022]]
-**Topics:** #TryHackMe #Scanning
+**Topics:** #THM_Advent_2022 #Scanning
 
 ---
 # Scanning

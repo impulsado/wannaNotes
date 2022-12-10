@@ -1,6 +1,6 @@
 **Title:** Day 8 - THM 2022
 **Tags:** [[Advent Cyber 2022]]
-**Topics:** #TryHackMe #Smart_Contracts
+**Topics:** #THM_Advent_2022 #Smart_Contracts
 
 ---
 # Blockchain

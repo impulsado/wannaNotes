@@ -1,6 +1,6 @@
 **Title:** Day 3 - THM 2022
 **Tags:** [[Advent Cyber 2022]]
-**Topics:** #TryHackMe #OSINT
+**Topics:** #THM_Advent_2022 #OSINT
 
 ---
 # OSINT
