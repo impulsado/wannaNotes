@@ -129,3 +129,11 @@ MAC Address: 02:C2:4A:6E:C9:01 (Unknown)
 ```
 
 ## Web
+![[Pasted image 20221210103547.png]]
+
+Now we can see that the server is running Laravel (Common Web Application development framework).
+The application may be vulnerable to a remote code execution exploit. We can use Metasploit to verify it.
+
+```sh
+
+```
