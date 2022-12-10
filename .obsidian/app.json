@@ -26,7 +26,8 @@
     "default_workspace",
     "run a",
     "post-expoiltation",
-    "Metasploit"
+    "Metasploit",
+    "Meterpreter"
   ],
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true
