@@ -44,3 +44,7 @@ ipconfig
 # Resolve a set of host names on the target to IP addresses - useful for pivoting
 resolve remote_service1 remote_service2
 ```
+
+## Pivoting
+Once a system is compromised, it can allow the attacker to find more systems on the network and exploit them. We can use nmap or arp-scan to find more machines and services.
+![[Pasted image 20221210101259.png]]

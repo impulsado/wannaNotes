@@ -27,7 +27,9 @@
     "run a",
     "post-expoiltation",
     "Metasploit",
-    "Meterpreter"
+    "Meterpreter",
+    "nmap",
+    "arp-scan"
   ],
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true
