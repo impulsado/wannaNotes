@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8be0c193c2d2c0ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md",
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md",
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md"
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md"
               }
             }
           }
@@ -136,15 +150,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "53f8fda03d2bfa70",
+  "active": "8be0c193c2d2c0ee",
   "lastOpenFiles": [
+    "CTF/OverTheWire/Bandit.md",
     "Assets/img/Photos/SpiderFoot-1.png.md",
     "Assets/img/Photos/Snipaste_2022-09-09_10-54-10.png.md",
     "Assets/img/Photos/Snipaste_2022-09-07_09-21-47.png.md",
     "Assets/img/Photos/Snipaste_2022-08-29_21-17-02.png.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
     "Assets/Pasted image 20221208214554.png",
-    "CTF/OverTheWire/Bandit.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 6 - THM 2022.md",
     "Projects/authServer/authServer.md"
