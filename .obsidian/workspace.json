@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md",
+                "file": "Projects/authServer/authServer.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md",
+                "file": "Projects/authServer/authServer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md",
+                "file": "Projects/authServer/authServer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md"
+                "file": "Projects/authServer/authServer.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "8be0c193c2d2c0ee",
   "lastOpenFiles": [
+    "CTF/TryHackMe/Advent Cyber 2022/Day 9 - THM 2022.md",
     "CTF/OverTheWire/Bandit.md",
     "Assets/img/Photos/SpiderFoot-1.png.md",
     "Assets/img/Photos/Snipaste_2022-09-09_10-54-10.png.md",
@@ -146,7 +147,6 @@
     "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md",
     "Assets/Pasted image 20221208214554.png",
     "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 6 - THM 2022.md",
-    "Projects/authServer/authServer.md"
+    "CTF/TryHackMe/Advent Cyber 2022/Day 6 - THM 2022.md"
   ]
 }
