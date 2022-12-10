@@ -5,3 +5,4 @@
 ---
 # Concepts
 ## Docker
+Package applications and the associated dependencies into a single unit called “image”. This image can be shared and run as a container (Locally or remotely on a production server).
