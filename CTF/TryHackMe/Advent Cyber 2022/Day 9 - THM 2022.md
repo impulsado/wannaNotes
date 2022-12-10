@@ -86,4 +86,20 @@ run
 ```
 
 ## Meterpreter to pivot
-Metasploit has an internal routing table that can be modified with `route` command. This f 
+Metasploit has an internal routing table that can be modified with `route` command. This determines where to send network traffic through.
+```Metasploit Commands
+# Example usage
+route [add/remove] subnet netmask [comm/sid]
+
+# Configure the routing table to send packets destined for 172.17.0.1 to the latest opened session
+route add 172.17.0.1/32 -1
+
+# Configure the routing table to send packets destined for 172.28.101.48/29 subnet to the latest opened session
+route add 172.28.10.48/29 -1
+
+# Output the routing table
+route print
+```
+
+## Socks Proxy
+Intermediate server that supports relaying networking traffic between two mach
