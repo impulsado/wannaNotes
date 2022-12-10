@@ -109,4 +109,18 @@ use auxiliary/server/socks_proxy
 run srvhost=127.0.0.1 srvport=9050 version=4a
 ```
 
-Tools such as `curl` supports sending requests through a socks proxu server via ``
+Tools such as `curl` supports sending requests through a socks proxy server via `--proxy` flag.
+```sh
+curl --proxy socks4a://localhost:9050 http://10.10.40.65
+```
+
+ProxyChain can intercept the tool's request to open a new network connection and route the request through a socks proxy instead.
+```sh
+proxychains -q nmap -n -sT -Pn -p 22,80,443,5432 10.10.40.65
+```
+
+# Challenge
+## Port scanning
+```sh
+
+```
