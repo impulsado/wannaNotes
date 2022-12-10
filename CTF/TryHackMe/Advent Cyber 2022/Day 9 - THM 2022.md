@@ -161,4 +161,4 @@ msf6 exploit(multi/php/ignition_laravel_debug_rce) > sessions -u -1
 ```
 ![[Pasted image 20221210104759.png]]
 
-[//]:  `sessions -i 2`sessions -i 2
+[//]:  To connect to a session again, use `sessions -i 2`
