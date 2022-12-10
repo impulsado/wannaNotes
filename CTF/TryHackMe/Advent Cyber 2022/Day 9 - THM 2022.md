@@ -84,3 +84,6 @@ show options
 check
 run
 ```
+
+## Meterpreter to pivot
+Metasploit has an internal routing table that can be modified with `route` command. This f 
