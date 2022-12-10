@@ -24,7 +24,9 @@
     "Re-entrancy",
     "Re-entrancy",
     "default_workspace",
-    "run a"
+    "run a",
+    "post-expoiltation",
+    "Metasploit"
   ],
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true
