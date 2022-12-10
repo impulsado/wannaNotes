@@ -102,4 +102,11 @@ route print
 ```
 
 ## Socks Proxy
-Intermediate server that supports relaying networking traffic between two mach
+Intermediate server that supports relaying networking traffic between two machines. Allows the implementation of pivoting technique. You can run Socks Proxy locally or in the compromised system. This can be achieved using `auxiliary/server/socks_proxy` module.
+
+```Metasploit Commands
+use auxiliary/server/socks_proxy
+run srvhost=127.0.0.1 srvport=9050 version=4a
+```
+
+Tools such as `curl` supports sending requests through a socks proxu server via ``
