@@ -108,3 +108,8 @@ This file will be used to connect with the localhost MySQL database. Once connec
 <?php
 
 ```
+
+### login.php
+- Validate data function
+https://github.com/codingWithElias/Login-System-PHP-and-MYSQL/blob/master/login.php
+
