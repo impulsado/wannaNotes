@@ -108,6 +108,10 @@ This file will be used to connect with the localhost MySQL database. Once connec
 <?php
 
 ```
+- isset vs empty vs is_null
+https://phppot.com/php/isset-vs-empty-vs-is_null/
+
+
 
 ### login.php
 - Validate data function
