@@ -1,12 +1,9 @@
----
-layout: post
-title: tmux
-date: 2022-08-20
-categories: [Cheatsheet,Personal]
-tags: [tmux]
----
+**Title:** Tmux
+**Tags:** [[Linux]]
+**Topics:** #tmux 
 
-# tmux
+---
+# Tmux
 Allows multiple terminal sessions to be accessed simultaneously in a single window.
 More information [Link](https://www.shortcutfoo.com/app/dojos/tmux/cheatsheet)
 

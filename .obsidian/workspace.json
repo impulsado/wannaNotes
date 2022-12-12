@@ -11,15 +11,36 @@
             "id": "65420ce17fdfb594",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e43ee68cbc6b0ef7",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheet/Personal/Aliases.md",
+                "file": "Cheat Sheet/Linux/tmux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e03b806c1e17d72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat Sheet/Web/Burp Suite.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Personal/Aliases.md",
+                "file": "Cheat Sheet/Web/Burp Suite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheet/Personal/Aliases.md",
+                "file": "Cheat Sheet/Web/Burp Suite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheet/Personal/Aliases.md"
+                "file": "Cheat Sheet/Web/Burp Suite.md"
               }
             }
           }
@@ -136,17 +157,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "65420ce17fdfb594",
+  "active": "5e03b806c1e17d72",
   "lastOpenFiles": [
+    "Cheat Sheet/Linux/Linux.md",
+    "Cheat Sheet/Linux/tmux.md",
+    "Cheat Sheet/Personal/Personal.md",
+    "Cheat Sheet/Personal/Cheat Sheet Resources.md",
+    "Cheat Sheet/Personal/tmux.md",
+    "Cheat Sheet/Personal/Aliases.md",
+    "Cheat Sheet/Personal/Post Installation Script - Debian.md",
+    "Cheat Sheet/Personal/Post Installation Script - Arch.md",
     "Cheat Sheet/Personal/Obsidian/admonition.md",
-    "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md",
-    "Cheat Sheet/Personal/Obsidian/Templates/T - General.md",
-    "Cheat Sheet/Personal/Dotfiles.md",
-    "Cheat Sheet/Password Cracking/Password Cracking.md",
-    "Cheat Sheet/Password Cracking/John The Reapper.md",
-    "Cheat Sheet/Network/Scapy.md",
-    "Cheat Sheet/Network/nmap.md",
-    "Cheat Sheet/Network/netcat.md",
-    "Cheat Sheet/Common/smbclient.md"
+    "Cheat Sheet/Personal/Obsidian/Templates/T - HTB.md"
   ]
 }

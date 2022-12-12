@@ -5,7 +5,11 @@ date: 2022-08-20
 categories: [Cheatsheet,Personal]
 tags: [aliases]
 ---
+**Title:** Aliases
+**Tags:** [[Personal]]
+**Topics:** #aliases 
 
+---
 # Aliases
 These are some examples of personal aliases I've used. They allow me to quickly navigate to certain respositories and quickly open files.
 
