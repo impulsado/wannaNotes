@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ce05bc4226a37fc2",
+        "id": "0df185c3a3510ac4",
         "type": "tabs",
         "children": [
           {
-            "id": "5f84d312be376669",
+            "id": "02c968fd875964cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/authServer/authServer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b98bc11c9537d7ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 11 - THM 2022.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 11 - THM 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 11 - THM 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 11 - THM 2022.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b98bc11c9537d7ea",
+  "active": "02c968fd875964cd",
   "lastOpenFiles": [
+    "Cheat Sheet/Personal/Obsidian/Templates/T - General.md",
     "Projects/authServer/authServer.md",
+    "impulsado.github.io/_posts/2022-08-20-CheatSheet_Resources.md",
+    "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 11 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 10 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 2 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 3 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 4 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 5 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 6 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 8 - THM 2022.md"
+    "CTF/TryHackMe/Advent Cyber 2022/Day 4 - THM 2022.md"
   ]
 }
