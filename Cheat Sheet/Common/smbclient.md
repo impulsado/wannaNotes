@@ -4,8 +4,6 @@
 
 ---
 # smbclient
-
-# smbclient
 Tool used to connect to Samba servers - Samba is a Windows-based filesharing protocol.
 
 ## Basic Syntax

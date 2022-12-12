@@ -5,7 +5,12 @@ date: 2022-08-20
 categories: [Writeups,HTB,Very_Easy,Oopsie]
 tags: [php,SUID]
 ---
+**Title:** 00 - Oopsie
+**Tags:** [[Very Easy]]
+**Topics:** #PHP #SUID 
 
+---
+# 00 - Oopsie
 # Intro
 | Dificulty | OS | Start Date | End Date | 
 |---|---|---|---|

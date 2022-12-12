@@ -5,7 +5,12 @@ date: 2022-08-20
 categories: [Writeups,HTB,Very_Easy,Crocodile]
 tags: [php,ftp]
 ---
+**Title:** 00 - Crocodile
+**Tags:** [[Very Easy]]
+**Topics:** #PHP#FTP
 
+---
+# 00 - Crocodile
 # Intro
 | Dificulty | OS | Start Date | End Date | 
 |---|---|---|---|

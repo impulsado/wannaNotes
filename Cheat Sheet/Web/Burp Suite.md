@@ -1,10 +1,3 @@
----
-layout: post
-title: Burp Suite
-date: 2022-08-20
-categories: [Cheatsheet,Web]
-tags: [Burp_suite]
----
 **Title:** Burp Suite
 **Tags:** [[Web]]
 **Topics:** #Burp_suite 

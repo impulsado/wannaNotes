@@ -1,10 +1,9 @@
+**Title:** 00 - Appointment
+**Tags:** [[Very Easy]]
+**Topics:** #SQL_Injection 
+
 ---
-layout: post
-title: 00 - Appointment
-date: 2022-08-20
-categories: [Writeups,HTB,Very_Easy,Appointment]
-tags: [SQL_Injection]
----
+# 00 - Appointment
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
