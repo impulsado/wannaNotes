@@ -1,11 +1,8 @@
----
-layout: post
-title: WireGuard vs OpenVPN
-date: 2022-08-20
-categories: [cybersecAnalyst,VPN]
-tags: [WireGuard,OpenVPN]
----
+**Title:** WireGuard vs OpenVPN
+**Tags:** [[VPN]]
+**Topics:** #WireGuard #OpenVPN 
 
+---
 # WireGuard vs OpenVPN
 ## Speed Test
 In the official [WireGuard page](https://www.wireguard.com/), there is a Benchmark between WireGuard, IPsec and OpenVPN. In terms of throughput, WireGuard wins with a difference of 753 mbps over OpenVPN. But it only beats IPsec by 130 mbps.

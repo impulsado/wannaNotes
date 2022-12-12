@@ -1,5 +1,5 @@
 **Title:** OpenVPN
-**Tags:** [[cybersecAnalyst]]
+**Tags:** [[VPN]]
 **Topics:** #OpenVPN 
 
 ---

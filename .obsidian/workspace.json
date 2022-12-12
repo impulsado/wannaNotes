@@ -19,28 +19,12 @@
             "id": "e43ee68cbc6b0ef7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheat Sheet/Linux/tmux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e03b806c1e17d72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -157,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5e03b806c1e17d72",
+  "active": "e43ee68cbc6b0ef7",
   "lastOpenFiles": [
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard.md",
-    "Projects/cybsersecAnalyst/VPN/WireGuard/WireGuard Scripts Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN Scritps Procedure.md",
-    "Projects/cybsersecAnalyst/VPN/OpenVPN/OpenVPN System Start-up.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec System Start-up.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Windows).md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Linux Port Changed).md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec Procedure (Linux Default).md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md"
+    "Cheat Sheet/Linux/tmux.md",
+    "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
+    "README.md",
+    "Troubleshooting/Troubleshooting.md",
+    "Troubleshooting/responder.py Daemon.md",
+    "Troubleshooting/host key verification failed.md",
+    "Troubleshooting/GitHub Credentials.md",
+    "Theory/Theory.md",
+    "Theory/Web Security/Web Security.md",
+    "Theory/Web Security/Security Headers.md"
   ]
 }

@@ -1,11 +1,8 @@
----
-layout: post
-title: host key verification failed
-date: 2022-08-20
-categories: [Troubleshooting]
-tags: [ssh]
----
+**Title:** host key verification failed
+**Tags:** [[Troubleshooting]]
+**Topics:** #SSH
 
+---
 # host key verification failed
 ```bash
    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!    

@@ -6,4 +6,3 @@
 # VPN
 - [[IPSec]]
 - [[OpenVPN]]
-- [[WireGuard]]
