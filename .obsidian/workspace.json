@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md",
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md",
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md",
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/OverTheWire/Bandit.md"
+                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "65420ce17fdfb594",
   "lastOpenFiles": [
-    "CTF/OverTheWire/OverTheWire.md",
     "CTF/OverTheWire/Bandit.md",
+    "CTF/OverTheWire/OverTheWire.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 11 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 10 - THM 2022.md",
