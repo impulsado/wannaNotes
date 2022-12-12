@@ -1,10 +1,3 @@
----
-layout: post
-title: Aliases
-date: 2022-08-20
-categories: [Cheatsheet,Personal]
-tags: [aliases]
----
 **Title:** Aliases
 **Tags:** [[Personal]]
 **Topics:** #aliases 

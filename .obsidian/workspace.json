@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+                "file": "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+                "file": "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
+                "file": "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md"
+                "file": "CTF/HTB/Very Easy/Appointment/00 - Appointment.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "e43ee68cbc6b0ef7",
   "lastOpenFiles": [
+    "Cheat Sheet/Password Cracking/John The Reapper.md",
+    "Cheat Sheet/Personal/Personal.md",
+    "Cheat Sheet/Personal/Cheat Sheet Resources.md",
+    "Cheat Sheet/Personal/Aliases.md",
+    "Cheat Sheet/Web/Burp Suite.md",
+    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
     "Cheat Sheet/Linux/tmux.md",
     "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md",
     "README.md",
-    "Troubleshooting/Troubleshooting.md",
-    "Troubleshooting/responder.py Daemon.md",
-    "Troubleshooting/host key verification failed.md",
-    "Troubleshooting/GitHub Credentials.md",
-    "Theory/Theory.md",
-    "Theory/Web Security/Web Security.md",
-    "Theory/Web Security/Security Headers.md"
+    "Troubleshooting/Troubleshooting.md"
   ]
 }
