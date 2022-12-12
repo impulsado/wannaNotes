@@ -1,11 +1,8 @@
----
-layout: post
-title: Firewall
-date: 2022-08-20
-categories: [cybersecAnalyst,Firewall]
-tags: [Firewall]
----
+**Title:** Firewall
+**Tags:** [[cybersecAnalyst]]
+**Topics:** #Firewall 
 
+---
 # Firewall
 nftables is a netfilter project that aims to replace the existing {ip,ip6,arp,eb}tables framework. It provides a new packet filtering framework, a new user-space utility (nft), and a compatibility layer for {ip,ip6}tables. It uses the existing hooks, connection tracking system, user-space queueing component, and logging subsystem of netfilter.
 

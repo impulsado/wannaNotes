@@ -5,7 +5,11 @@ date: 2022-08-20
 categories: [cybersecAnalyst,Firewall]
 tags: [iptables,nftables]
 ---
+**Title:** iptables vs nftables
+**Tags:** [[Firewall]]
+**Topics:**
 
+---
 # iptables vs nftables
 ## iptables
 IPtables is a command line utility that is used for configuring firewall rules, usually in combination with a frontend. IPtables is able to inspect, modify or drop network packets. The “tables” consist of “chains” which contain “rules” that are processed in the defined order.
