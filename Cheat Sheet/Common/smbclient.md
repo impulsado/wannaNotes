@@ -1,10 +1,9 @@
+**Title:** smbclient
+**Tags:** [[Common]]
+**Topics:** #SAMBA #smb 
+
 ---
-layout: post
-title: smbclient
-date: 2022-08-20
-categories: [Cheatsheet,Common]
-tags: [SAMBA,smb]
----
+# smbclient
 
 # smbclient
 Tool used to connect to Samba servers - Samba is a Windows-based filesharing protocol.
