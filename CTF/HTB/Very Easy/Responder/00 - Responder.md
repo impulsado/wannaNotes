@@ -1,11 +1,9 @@
----
-layout: post
-title: 00 - Responder
-date: 2022-08-20
-categories: [Writeups,HTB,Very_Easy,Responder]
-tags: [SAMBA,WinRM]
----
+**Title:** 00 - Responder
+**Tags:** [[Very Easy]]
+**Topics:** #SAMBA #WinRM 
 
+---
+# 00 - Responder
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|

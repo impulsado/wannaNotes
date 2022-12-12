@@ -1,3 +1,9 @@
+**Title:** authServer
+**Tags:** [[Projects]]
+**Topics:** #PHP #MySQL #HTML
+
+---
+# authServer
 ## Resources
 - Simple singup and login system with PHP and MySQL Database
 https://www.youtube.com/watch?v=WYufSGgaCZ8&ab_channel=QuickProgramming

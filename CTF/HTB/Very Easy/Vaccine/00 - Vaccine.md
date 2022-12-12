@@ -5,7 +5,12 @@ date: 2022-08-20
 categories: [Writeups,HTB,Very_Easy,Vaccine]
 tags: [ftp,SQL,SUID]
 ---
+**Title:** 00 - Vaccine
+**Tags:** [[Very Easy]]
+**Topics:** #FTP #SQL #SUID
 
+---
+# 00 - Vaccine
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|

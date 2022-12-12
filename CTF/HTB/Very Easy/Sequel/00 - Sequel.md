@@ -5,7 +5,12 @@ date: 2022-08-20
 categories: [Writeups,HTB,Very_Easy,Sequel]
 tags: [SQL,MariaDB]
 ---
+**Title:** 00 - Sequel
+**Tags:** [[Very Easy]]
+**Topics:** #SQL #MariaDB 
 
+---
+# 00 - Sequel
 # Intro
 | Dificulty | OS | Start Date | End Date |
 |---|---|---|---|
