@@ -1,12 +1,8 @@
+**Title:** IKEv2
+**Tags:** [[IPSec]]
+**Topics:** #IKE #IKEv2 
 
 ---
-layout: post
-title: IKEv2
-date: 2022-08-20
-categories: [cybersecAnalyst,VPN]
-tags: [IKE,IKEv2]
----
-
 # IKE and IKEv2
 IKE is an IPSec-based tunneling protocol that provides a secure VPN communication channel and defines automatic means of negotiation and authentication for IPSec security associations in a protected manner.
 1998 → IKE

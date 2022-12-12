@@ -1,11 +1,8 @@
----
-layout: post
-title: IPSec
-date: 2022-08-20
-categories: [cybersecAnalyst,VPN,IPSec]
-tags: [IPSec]
----
+**Title:** IPSec
+**Tags:** [[cybersecAnalyst]]
+**Topics:** #IPSec 
 
+---
 # IPSec (Internet Protocol Security)
 IPSec (Internet Protocol Security) is a framework that helps us to protect IP traffic on the network layer.
 

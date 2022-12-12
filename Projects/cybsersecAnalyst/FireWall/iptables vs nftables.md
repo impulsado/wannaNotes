@@ -7,7 +7,7 @@ tags: [iptables,nftables]
 ---
 **Title:** iptables vs nftables
 **Tags:** [[Firewall]]
-**Topics:**
+**Topics:** #iptables #nftables 
 
 ---
 # iptables vs nftables
