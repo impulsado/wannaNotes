@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
+                "file": "CTF/OverTheWire/Bandit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md"
+                "file": "CTF/OverTheWire/Bandit.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "65420ce17fdfb594",
   "lastOpenFiles": [
-    "CTF/TryHackMe/Advent Cyber 2022/Day 11 - THM 2022.md",
+    "CTF/OverTheWire/OverTheWire.md",
+    "CTF/OverTheWire/Bandit.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 11 - THM 2022.md",
     "CTF/TryHackMe/Advent Cyber 2022/Day 10 - THM 2022.md",
     "Cheat Sheet/Personal/Obsidian/Templates/T - General.md",
     "Projects/authServer/authServer.md",
     "impulsado.github.io/_posts/2022-08-20-CheatSheet_Resources.md",
     "Cheat Sheet/Personal/Obsidian/Templates/T - Jekyll.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 2 - THM 2022.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 3 - THM 2022.md"
+    "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md"
   ]
 }
