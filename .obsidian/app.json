@@ -30,7 +30,9 @@
     "Meterpreter",
     "nmap",
     "arp-scan",
-    "ProxyChain"
+    "ProxyChain",
+    "CAPA",
+    "ProcMon"
   ],
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true
