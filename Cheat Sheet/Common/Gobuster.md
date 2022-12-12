@@ -1,11 +1,8 @@
----
-layout: post
-title: Gobuster
-date: 2022-08-20
-categories: [Cheatsheet,Common]
-tags: [gobuster,dirbuster]
----
+**Title:** Gobuster
+**Tags:** [[Common]]
+**Topics:** #gobuster #dirbuster 
 
+---
 # DirBuster
 Bruteforce directorys and files in a server or application.
 Common --> `/usr/share/wordlists/dirb/common.txt`

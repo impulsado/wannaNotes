@@ -32,7 +32,8 @@
     "arp-scan",
     "ProxyChain",
     "CAPA",
-    "ProcMon"
+    "ProcMon",
+    "Tags"
   ],
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true

@@ -1,11 +1,8 @@
----
-layout: post
-title: netcat
-date: 2022-08-20
-categories: [Cheatsheet,Common]
-tags: [netcat]
----
+**Title:** netcat
+**Tags:** [[Network]]
+**Topics:** #netcat 
 
+---
 # netcat
 Netcat is a tool that reads and writes data across network connections, using TCP or UDP protocol. More information [Link](https://blog.ikuamike.io/posts/2021/netcat/)
 
