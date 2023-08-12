@@ -11,8 +11,12 @@
             "id": "e43ee68cbc6b0ef7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Projects/projectTF/git knowledge.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -60,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "9b16f004c1524350",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/projectTF/git knowledge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projects/projectTF/git knowledge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/projectTF/git knowledge.md"
+              }
             }
           }
         ]
@@ -128,8 +144,22 @@
     "width": 300,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "e43ee68cbc6b0ef7",
   "lastOpenFiles": [
+    "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
+    "Projects/projectTF/git knowledge.md",
+    "Projects/projectTF/projectTF.md",
+    "Projects/projectTF",
     "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
     "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
     "Cheat Sheet/Password Cracking/John The Reapper.md",
