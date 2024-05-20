@@ -6,6 +6,7 @@
 # Introductory Networking
 ## The OSI Model
 Open Systems Interconnection. Used to demonstrate the theory behind computer networking. TCP/IP is more compact and more real. 
+
 | **OSI** | **Definition** |
 | --- | --- |
 | Application | Provides networking options to the programs. Provides an interface. |
@@ -20,18 +21,18 @@ Open Systems Interconnection. Used to demonstrate the theory behind computer net
 ![[Pasted image 20221021162942.png]]
 
 ## TCP/IP Model
-| **OSI** | **TCP/IP** |
-| --- | --- |
-| Application | Application |
-| Presentation | Application | 
-| Session | Application |
-| Transport | Transport |
-| Network | Internet |
-| Data Link | Network Interface |
-| Physical | Network Interface |
+| **OSI**      | **TCP/IP**        |
+| ------------ | ----------------- |
+| Application  | Application       |
+| Presentation | Application       |
+| Session      | Application       |
+| Transport    | Transport         |
+| Network      | Internet          |
+| Data Link    | Network Interface |
+| Physical     | Network Interface |
 
-Protocol: Set of rules that define how an action is to be carried out. 
-TCP/IP: Transmission Control Protocol / Internet Protocol.
+**Protocol**: Set of rules that define how an action is to be carried out. 
+**TCP/IP**: Transmission Control Protocol / Internet Protocol.
 To send a packet over a TCP connection, you must establish communication with the other computer. It can be done with `Three-Way Handshake`.
 
 ### Three-Way Handshake

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/Web Security/Security Headers.md",
+                "file": "CTF/TryHackMe/TryHackMe.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory/Web Security/Security Headers.md",
+                "file": "CTF/TryHackMe/TryHackMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theory/Web Security/Security Headers.md",
+                "file": "CTF/TryHackMe/TryHackMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory/Web Security/Security Headers.md"
+                "file": "CTF/TryHackMe/TryHackMe.md"
               }
             }
           }
@@ -156,8 +156,17 @@
   },
   "active": "e43ee68cbc6b0ef7",
   "lastOpenFiles": [
-    "Theory/Web Security/Web Security.md",
+    "CTF/CTF.md",
+    "CTF/OverTheWire/OverTheWire.md",
+    "CTF/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
+    "CTF/TryHackMe/CyberDefense/CyberDefense.md",
+    "CTF/TryHackMe/CyberDefense/Introductory Networking.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 12 - THM 2022.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
+    "CTF/OverTheWire/Bandit.md",
     "Theory/Web Security/Security Headers.md",
+    "Theory/Web Security/Web Security.md",
     "Theory/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
     "Projects/authServer/authServer.md",
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
@@ -166,7 +175,6 @@
     "Projects/netWarrior/Layer2.c Explanation.md",
     "Projects/netWarrior/C Knowledge.md",
     "Projects/projectTF/git knowledge.md",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
     "Projects/projectTF/projectTF.md",
     "Projects/projectTF",
     "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
@@ -174,10 +182,6 @@
     "Cheat Sheet/Password Cracking/John The Reapper.md",
     "Cheat Sheet/Personal/Personal.md",
     "Cheat Sheet/Personal/Cheat Sheet Resources.md",
-    "Cheat Sheet/Personal/Aliases.md",
-    "Cheat Sheet/Web/Burp Suite.md",
-    "Projects/cybsersecAnalyst/VPN/IPSec/IPSec.md",
-    "Cheat Sheet/Linux/tmux.md",
-    "impulsado.github.io/_posts/2022-08-28-HomeLab_Project.md"
+    "Cheat Sheet/Personal/Aliases.md"
   ]
 }
