@@ -6,4 +6,4 @@
 # CTF
 - [[HTB]]
 - [[TryHackMe]]
-- OverTheWire
+- [[OverTheWire]]
