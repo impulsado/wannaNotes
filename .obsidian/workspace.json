@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/projectTF/git knowledge.md",
+                "file": "Theory/Web Security/Security Headers.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/projectTF/git knowledge.md",
+                "file": "Theory/Web Security/Security Headers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/projectTF/git knowledge.md",
+                "file": "Theory/Web Security/Security Headers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/projectTF/git knowledge.md"
+                "file": "Theory/Web Security/Security Headers.md"
               }
             }
           }
@@ -156,8 +156,17 @@
   },
   "active": "e43ee68cbc6b0ef7",
   "lastOpenFiles": [
-    "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
+    "Theory/Web Security/Web Security.md",
+    "Theory/Web Security/Security Headers.md",
+    "Theory/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
+    "Projects/authServer/authServer.md",
+    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
+    "Projects/cybsersecAnalyst/VPN/VPN.md",
+    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
+    "Projects/netWarrior/Layer2.c Explanation.md",
+    "Projects/netWarrior/C Knowledge.md",
     "Projects/projectTF/git knowledge.md",
+    "CTF/TryHackMe/Advent Cyber 2022/Day 1 - THM 2022.md",
     "Projects/projectTF/projectTF.md",
     "Projects/projectTF",
     "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
