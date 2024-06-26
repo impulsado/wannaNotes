@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/Theory.md",
+                "file": "Cheat Sheet/Network/nmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory/Theory.md",
+                "file": "Cheat Sheet/Network/nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theory/Theory.md",
+                "file": "Cheat Sheet/Network/nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory/Theory.md"
+                "file": "Cheat Sheet/Network/nmap.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "e43ee68cbc6b0ef7",
   "lastOpenFiles": [
+    "Theory/Theory.md",
+    "Cheat Sheet/Network/nmap.md",
     "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
     "CTF/HTB/Very Easy/Very Easy.md",
     "CTF/HTB/HTB.md",
@@ -180,8 +182,6 @@
     "Projects/netWarrior/C Knowledge.md",
     "Projects/projectTF/git knowledge.md",
     "Projects/projectTF/projectTF.md",
-    "Projects/projectTF",
-    "CTF/TryHackMe/Advent Cyber 2022/Day 7 - THM 2022.md",
-    "Cheat Sheet/Password Cracking/John The Reapper.md"
+    "Projects/projectTF"
   ]
 }

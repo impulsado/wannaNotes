@@ -10,7 +10,7 @@ A tool for discovering what services are running on each port for a given host.
 ### General Purpose
 It shows ports as it finds them with the `-v` flag, tries to enumerate service versions and runs some default scripts, and then outputs the results with nmap format.
 ```bash
-$ namp -v -p- -sC -sV -oA nmap @IP/Domain
+$ nmap -v -p- -sC -sV -oA @IP/Domain
 ```
 [-p-]: Check all ports (65535)
 
