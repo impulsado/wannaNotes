@@ -10,10 +10,12 @@ A tool for discovering what services are running on each port for a given host.
 ### General Purpose
 It shows ports as it finds them with the `-v` flag, tries to enumerate service versions and runs some default scripts, and then outputs the results with nmap format.
 ```bash
-$ nmap -v -p- -sC -sV -oA @IP/Domain
+$ nmap -v -p- -sC -sV @IP/Domain
 ```
 [-p-]: Check all ports (65535)
-
+[-sC]: Run default scripts.
+[-sV]: Enumerate service versions.
+[-oA]:
 ### Extra
 `nmap` is capable of running several scripts for enumerating extra information about a service. Specify the `-sC` flag to run default scripts:
 ```bash
