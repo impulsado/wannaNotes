@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4155b3a61690d391",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e43ee68cbc6b0ef7",
+  "active": "4155b3a61690d391",
   "lastOpenFiles": [
     "Cheat Sheet/Network/nmap.md",
     "Theory/Theory.md",
