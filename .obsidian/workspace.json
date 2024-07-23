@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GENERAL/TO-DO.md",
+                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/TO-DO.md",
+                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GENERAL/TO-DO.md",
+                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GENERAL/TO-DO.md"
+                "file": "Projects/ILEARNYOU/ILEARNYOU.md"
               }
             }
           }
@@ -154,9 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7263a25b7c688f6f",
+  "active": "163bf6a04ecb1f08",
   "lastOpenFiles": [
-    "Projects/Untitled",
+    "GENERAL/TO-DO.md",
+    "Projects/ILEARNYOU/ILEARNYOU.md",
+    "Projects/ILEARNYOU",
     "GENERAL/GENERAL.md",
     "Projects/authServer/authServer.md",
     "Cheat Sheet/Common/smbclient.md",
@@ -181,7 +183,6 @@
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
     "Projects/cybsersecAnalyst/cybersecAnalyst.md",
-    "Projects/netWarrior/Layer2.c Explanation.md",
     "Projects/projectTF"
   ]
 }
