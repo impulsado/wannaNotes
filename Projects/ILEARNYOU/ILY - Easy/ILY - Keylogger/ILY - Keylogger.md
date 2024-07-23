@@ -37,8 +37,8 @@ for (char key = 8; key<=173; key++) {
 ```
 
 ### void save(const string& input);
-Firstly we need to create a new datatype to work with files. For this reason we must include `#include <iostream>` and `#include <fstream>`.
-Due of how "fstream" is defined, its more convenient to use `fstream`.
+Firstly, we need to create a new datatype to work with files. For this reason, we must include `#include <iostream>` and `#include <fstream>`.
+Given of how "fstream" is defined, its more convenient to use `fstream`.
 
 ```ad-info
 **fstream**
@@ -46,7 +46,7 @@ This data type represents the file stream generally, and has the capabilities of
 ```
 
 Afterward we will have to open the file to append the `input` in it. 
-`fstream` will create the file if it does not exist and if any problem happens, we will append the input. Its a good practice to close the file every time.
+`fstream` will create the file if it does not exist, and if any problem occurs, we will append the input. It is good practice to close the file every time after performing file operations.
 
 ```c++
 void save(const string& input) {

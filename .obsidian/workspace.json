@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 400.5
   },
   "right": {
     "id": "18e380dabb4bf9b7",
@@ -156,8 +156,10 @@
   },
   "active": "163bf6a04ecb1f08",
   "lastOpenFiles": [
-    "Projects/authServer/authServer.md",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/Untitled.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/keylogger.cpp",
+    "Projects/authServer/authServer.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Easy.md",
     "Projects/ILEARNYOU/ILEARNYOU.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger",
