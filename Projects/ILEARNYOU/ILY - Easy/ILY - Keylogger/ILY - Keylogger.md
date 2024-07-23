@@ -12,7 +12,10 @@ Now that we are checking all the possible characters, its important to determine
 Theres when the `GetAsyncKeyState()` comes in place.
 `GetKeyState()` will return that a key has been pressed only if it happens in the same "instant", otherwise it will not detect it. This isn't really convinient in our case so we will use `GetAsyncKeyState()` instead, because it can retrieve the state of a key pressed at any time.
 
-Its important to know how `GetAsyncKeyState()` works and which is the best way to implement it.
+Its important to know how `GetAsyncKeyState()` works and which is the best way to implement it. You will see three types of implementations:
+- `GetAsyncKeyState(key) == 0xFFFF8001` Verify if a a key has been pressed and released.
+- `GetAsyncKeyState(key) & 0x0001`Verify if a key has been pressed since the last call.
+- ``
 ```c++
 for (char key = 8; key<=173; key++) {
 	if (GetAsyncKeyState(key) == 0xFFFF8001) {
