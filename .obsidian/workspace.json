@@ -156,11 +156,12 @@
   },
   "active": "163bf6a04ecb1f08",
   "lastOpenFiles": [
-    "GENERAL/TO-DO.md",
+    "Projects/Projects.md",
+    "Projects/authServer/authServer.md",
     "Projects/ILEARNYOU/ILEARNYOU.md",
+    "GENERAL/TO-DO.md",
     "Projects/ILEARNYOU",
     "GENERAL/GENERAL.md",
-    "Projects/authServer/authServer.md",
     "Cheat Sheet/Common/smbclient.md",
     "Cheat Sheet/Network/nmap.md",
     "Theory/Theory.md",
@@ -182,7 +183,6 @@
     "Theory/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
     "Projects/cybsersecAnalyst/VPN/VPN.md",
-    "Projects/cybsersecAnalyst/cybersecAnalyst.md",
     "Projects/projectTF"
   ]
 }
