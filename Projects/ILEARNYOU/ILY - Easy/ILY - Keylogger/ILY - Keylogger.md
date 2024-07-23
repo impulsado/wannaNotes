@@ -45,7 +45,8 @@ Due of how "fstream" is defined, its more convenient to use `fstream`.
 This data type represents the file stream generally, and has the capabilities of both ofstream and ifstream which means it can create files, write information to files, and read information from files.
 ```
 
-Afterwar
+Afterward we will have to open the file to append the `input` in it. 
+`fstream` will create the file if it does not exist and if any problem happens, we will append the input. Its a good practice to close the file every time.
 
 ```c++
 void save(const string& input) {
