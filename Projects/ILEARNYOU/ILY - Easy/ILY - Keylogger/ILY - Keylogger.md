@@ -37,6 +37,16 @@ for (char key = 8; key<=173; key++) {
 ```
 
 ### void save(const string& input);
+Firstly we need to create a new datatype to work with files. For this reason we must include `#include <iostream>` and `#include <fstream>`.
+Due of how "fstream" is defined, its more convenient to use `fstream`.
+
+```ad-info
+**fstream**
+This data type represents the file stream generally, and has the capabilities of both ofstream and ifstream which means it can create files, write information to files, and read information from files.
+```
+
+Afterwar
+
 ```c++
 void save(const string& input) {
     fstream LogFile;
