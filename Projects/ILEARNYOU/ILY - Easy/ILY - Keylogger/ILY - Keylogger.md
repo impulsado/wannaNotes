@@ -1,6 +1,6 @@
 **Title:** ILY - Keylogger
-**Tags:** [[]]
-**Topics:** [[]]
+**Tags:** [[ILY - Easy]]
+**Topics:**
 
 ---
 # ILY - Keylogger

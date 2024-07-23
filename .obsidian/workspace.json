@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ILEARNYOU/Easy/ILY - Keylogger.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ILEARNYOU/Easy/ILY - Keylogger.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ILEARNYOU/Easy/ILY - Keylogger.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ILEARNYOU/Easy/ILY - Keylogger.md"
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md"
               }
             }
           }
@@ -156,11 +156,14 @@
   },
   "active": "163bf6a04ecb1f08",
   "lastOpenFiles": [
-    "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
-    "Projects/ILEARNYOU/Easy/ILY - Keylogger.md",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - Easy.md",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
     "Projects/ILEARNYOU/ILEARNYOU.md",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger",
+    "CTF/HTB/Very Easy/Very Easy.md",
+    "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
     "CTF/TryHackMe/TryHackMe.md",
-    "Projects/ILEARNYOU/Easy",
+    "Projects/ILEARNYOU/ILY - Easy",
     "Projects/Projects.md",
     "Projects/authServer/authServer.md",
     "GENERAL/TO-DO.md",
@@ -169,7 +172,6 @@
     "Cheat Sheet/Common/smbclient.md",
     "Cheat Sheet/Network/nmap.md",
     "Theory/Theory.md",
-    "CTF/HTB/Very Easy/Very Easy.md",
     "CTF/HTB/HTB.md",
     "CTF/OverTheWire/OverTheWire.md",
     "CTF/OverTheWire/Bandit.md",
@@ -182,8 +184,6 @@
     "CTF/TryHackMe/Advent Cyber 2022/Advent Cyber 2022.md",
     "Theory/Web Security/Security Headers.md",
     "Theory/Web Security/Web Security.md",
-    "Theory/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
-    "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
     "Projects/projectTF"
   ]
 }
