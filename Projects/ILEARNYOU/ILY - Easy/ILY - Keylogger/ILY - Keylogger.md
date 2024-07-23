@@ -10,7 +10,9 @@ Is not possible to know which key has been pressed after it happened, so the onl
 
 Now that we are checking all the possible characters, its important to determine how are we going to get that "alarm" informing us that a key in the keyboard has been pressed.
 Theres when the `GetAsyncKeyState()` comes in place.
-`GetKeyState()` will return that a key has been pressed only if it happens in the same "instant", otherwise it will not detect it. This isn't really convinient in our case so we will use
+`GetKeyState()` will return that a key has been pressed only if it happens in the same "instant", otherwise it will not detect it. This isn't really convinient in our case so we will use `GetAsyncKeyState()` instead, because it can retrieve the state of a key pressed at any time.
+
+Its important to know how `GetAsyncKeyState()` works and which is the best way to implement it.
 ```c++
 for (char key = 8; key<=173; key++) {
 	if (GetAsyncKeyState(key) == 0xFFFF8001) {
