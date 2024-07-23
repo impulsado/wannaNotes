@@ -6,24 +6,23 @@
 # ILY - Keylogger
 # General
 ## startLogging()
-Is not possible to know which key has been pressed after it happened, so the only way to know it is to check all possible valid keys in the ASCII symbols every time. Due to or goal, grab passwords and usernames, the last valid symbol is the "¡" that has the number 173.
+It is not possible to know which key has been pressed after it happened, so the only way to detect it is to check all possible valid keys in the ASCII symbols every time. Due to our goal of capturing passwords and usernames, the last valid symbol is "¡", which has the number 173.
 
-Now that we are checking all the possible characters, its important to determine how are we going to get that "alarm" informing us that a key in the keyboard has been pressed.
-Theres when the `GetAsyncKeyState()` comes in place.
-`GetKeyState()` will return that a key has been pressed only if it happens in the same "instant", otherwise it will not detect it. This isn't really convinient in our case so we will use `GetAsyncKeyState()` instead, because it can retrieve the state of a key pressed at any time.
+Now that we are checking all possible characters, it is important to determine how we are going to get that "alarm" informing us that a key on the keyboard has been pressed. This is where `GetAsyncKeyState()` comes into play.
 
-Its important to know how `GetAsyncKeyState()` works and which is the best way to implement it. You will see three types of implementations:
-- `GetAsyncKeyState(key) == 0xFFFF8001` Verify if a key has been pressed and released.
-- `GetAsyncKeyState(key) & 0x0001` Verify if a key has been pressed since the last call.
-- `GetAsyncKeyState(key) & 0x8000` Verify if a key is actually pressed.
+`GetKeyState()` will return that a key has been pressed only if it happens in the same "instant"; otherwise, it will not detect it. This isn't really convenient in our case, so we will use `GetAsyncKeyState()` instead, because it can retrieve the state of a key pressed at any time.
+
+It's important to understand how `GetAsyncKeyState()` works and the best way to implement it. You will see three types of implementations:
+- `GetAsyncKeyState(key) == -32767`: Verifies if a key has been pressed and released.
+- `GetAsyncKeyState(key) & 0x0001`: Verifies if a key has been pressed since the last call.
+- `GetAsyncKeyState(key) & 0x8000`: Verifies if a key is currently being pressed.
 [//]: Note that (0xFFFF8001)Hexa == (-32767)Ca2
 
 ```ad-question
-I do not understand why the keylogger only works correctly when I set `0xFFFF8001` and why it's able to capture the key while I maintainit pressed.
+I do not understand why the keylogger only works correctly when I set `0xFFFF8001` and why it captures the key while I maintain it pressed.
 ```
 
-Finally, just for readability purpose, we want to process special caracters to log them in a special format. Otherwise we h
-
+Finally, for readability purposes, we want to process special characters to log them in a special format. Otherwise, we just log the key directly.
 
 ```c++
 for (char key = 8; key<=173; key++) {
@@ -36,4 +35,4 @@ for (char key = 8; key<=173; key++) {
 }
 ```
 
-# First Iteration
+
