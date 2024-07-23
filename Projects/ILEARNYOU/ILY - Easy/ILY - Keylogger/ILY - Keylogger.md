@@ -17,7 +17,8 @@ Its important to know how `GetAsyncKeyState()` works and which is the best way t
 - `GetAsyncKeyState(key) & 0x0001` Verify if a key has been pressed since the last call.
 - `GetAsyncKeyState(key) & 0x8000` Verify if a key is actually pressed.
 [//]: Note that (0xFFFF8001)Hexa == (-32767)Ca2
-In our case, due the fact that is quite 
+```ad-
+```
 
 ```c++
 for (char key = 8; key<=173; key++) {
