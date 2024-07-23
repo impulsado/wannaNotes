@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
+                "file": "Projects/ILEARNYOU/Easy/ILY - Keylogger.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
+                "file": "Projects/ILEARNYOU/Easy/ILY - Keylogger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
+                "file": "Projects/ILEARNYOU/Easy/ILY - Keylogger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ILEARNYOU/ILEARNYOU.md"
+                "file": "Projects/ILEARNYOU/Easy/ILY - Keylogger.md"
               }
             }
           }
@@ -156,22 +156,24 @@
   },
   "active": "163bf6a04ecb1f08",
   "lastOpenFiles": [
+    "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
+    "Projects/ILEARNYOU/Easy/ILY - Keylogger.md",
+    "Projects/ILEARNYOU/ILEARNYOU.md",
+    "CTF/TryHackMe/TryHackMe.md",
+    "Projects/ILEARNYOU/Easy",
     "Projects/Projects.md",
     "Projects/authServer/authServer.md",
-    "Projects/ILEARNYOU/ILEARNYOU.md",
     "GENERAL/TO-DO.md",
     "Projects/ILEARNYOU",
     "GENERAL/GENERAL.md",
     "Cheat Sheet/Common/smbclient.md",
     "Cheat Sheet/Network/nmap.md",
     "Theory/Theory.md",
-    "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
     "CTF/HTB/Very Easy/Very Easy.md",
     "CTF/HTB/HTB.md",
     "CTF/OverTheWire/OverTheWire.md",
     "CTF/OverTheWire/Bandit.md",
     "CTF/CTF.md",
-    "CTF/TryHackMe/TryHackMe.md",
     "CTF/TryHackMe/CyberDefense/Windows Fundamentals 1.md",
     "CTF/TryHackMe/CyberDefense/CyberDefense.md",
     "CTF/TryHackMe/CyberDefense/Introductory Networking.md",
@@ -182,7 +184,6 @@
     "Theory/Web Security/Web Security.md",
     "Theory/SC-200/Mitigate Incidents using Microsoft 365 Defender.md",
     "Projects/cybsersecAnalyst/VPN/VPN Resources.md",
-    "Projects/cybsersecAnalyst/VPN/VPN.md",
     "Projects/projectTF"
   ]
 }

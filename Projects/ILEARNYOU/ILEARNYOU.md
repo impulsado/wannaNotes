@@ -1,4 +1,10 @@
-Project that aims to understand how malware works.
+**Title:** ILEARNYOU
+**Tags:** [[Projects]]
+**Topics:** #Windows #CPP
+
+---
+# ILEARNYOU
+This project aims to understand how malware works.
 There will be a series of malware code to start learning how do they work along notes to understand in depth the concepts.
 
 ## Walkthrough
