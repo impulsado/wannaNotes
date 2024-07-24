@@ -1,7 +1,4 @@
 # wannaNotes
-<img width="40" src="https://user-images.githubusercontent.com/72570835/160851125-da20806b-a367-4e2c-8253-bdd620191ac5.jpg"/> CREATE BY [**impulsado**](https://www.instagram.com/impulsado/)
-
-<br/>
 As a cybersecurity enthusiast I like to take notes using Markdown (Obsidian). <br/>
 In order to get the most out of the experience, install Obsidian and configure it
 <br/>
@@ -11,10 +8,6 @@ In these notes, you can find:
 - Cheat Sheets
 - Projects
 -  [...]
-
-<br/>
-
-## [Website version](https://notes.impulsado.org/) 🔐🌐
 
 <br/>
 
@@ -44,6 +37,7 @@ $ git clone https://github.com/impulsado/wannaNotes.git
 
 # Import to Obsidian
 1. Once you have cloned the repository, open Obsidian and click “Open folder as vault".
-2. Select “wannaNotes” folder.<br/>
+2. Select “wannaNotes” folder.
+<br/>
 
 More about [Obsidian](https://www.youtube.com/results?search_query=obsidian+note+taking)
