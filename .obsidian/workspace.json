@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger - Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger - Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger - Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md"
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger - Code.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "163bf6a04ecb1f08",
   "lastOpenFiles": [
-    "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/Untitled.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger - Code.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/keylogger.cpp",
     "Projects/authServer/authServer.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Easy.md",
