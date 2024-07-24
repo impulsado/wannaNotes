@@ -47,3 +47,11 @@ $ git clone https://github.com/impulsado/wannaNotes.git
 More about [Obsidian](https://www.youtube.com/results?search_query=obsidian+note+taking)
 
 # 🤝 Contributing
+**Contributions are welcome!** <br>
+If you see that any of the information I show is incorrect or partially correct, please feel free to submit a `pull-request`.  <br>
+Think that you may be helping more people in the future.
+
+# 📧 Contact
+If you have any questions or suggestions, feel free to reach out: 
+- **Email**: [your-email@example.com](mailto:impulsado@protonmail.com) 
+- **Twitter**: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
