@@ -53,5 +53,5 @@ Think that you may be helping more people in the future.
 
 # 📧 Contact
 If you have any questions or suggestions, feel free to reach out: 
-- **Email**: [your-email@example.com](mailto:impulsado@protonmail.com) 
-- **Twitter**: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
+- **Telegram**: [@impulsado](https://t.me/impulsado)
+- **Email**: [impulsado@protonmail.com](mailto:impulsado@protonmail.com) 
