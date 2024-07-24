@@ -37,5 +37,6 @@
     "ILEARNYOU"
   ],
   "attachmentFolderPath": "Assets",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true
 }

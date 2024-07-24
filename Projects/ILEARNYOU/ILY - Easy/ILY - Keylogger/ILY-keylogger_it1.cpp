@@ -1,11 +1,3 @@
-**Title:** ILY - Keylogger - Code
-**Tags:** [[ILY - Keylogger]]
-**Topics:** 
-
----
-# ILY - Keylogger - Code
-# First Iteration
-```c++
 #include <iostream>
 #include <windows.h>
 #include <fstream>
@@ -115,4 +107,3 @@ int main() {
     
     return 0;
 }
-```
