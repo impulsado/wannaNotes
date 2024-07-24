@@ -1,5 +1,5 @@
 # wannaNotes
-A comprehensive compilation of my personal cybersecurity knowledge. <br>
+A comprehensive compilation of my ``personal cybersecurity knowledge``. <br>
 I like information to be <u>accessible and useful</u>, so I hope **wannaNotes** saves you the silence. <br>
 
 <div align="center">
@@ -39,7 +39,9 @@ To make the most of these notes, I recommend using [Obsidian](https://obsidian.m
 ```bash
 $ git clone https://github.com/impulsado/wannaNotes.git
 ```
+
 <br>
+
 ## Import to Obsidian
 1. Once you have cloned the repository, open **Obsidian** and click “Open folder as vault".
 2. Select “wannaNotes” folder.
