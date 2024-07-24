@@ -1,5 +1,5 @@
 **Title:** ILY - ScreenCapture
-**Tags:** 
+**Tags:** [[ILY - Easy]]
 **Topics:** 
 
 ---
