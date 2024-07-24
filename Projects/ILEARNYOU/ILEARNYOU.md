@@ -9,7 +9,7 @@ There will be a series of malware code to start learning how do they work along 
 
 ## Walkthrough
 ### Easy (Collect info)
-- [ ] Keylogger
+- [x] Keylogger
 - [ ] Screen Capture
 - [ ] Webcam Capture
 - [ ] Credential Grabber
