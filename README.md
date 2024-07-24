@@ -6,17 +6,22 @@ I like information to be <u>accessible and useful</u>, so I hope **wannaNotes** 
   <img src="./logo.jpg" alt="wannaNotes Logo">
 </div>
 
-## 📋 What You'll Find
+# 📋 What You'll Find
 - **CTF Write-ups:** Detailed walkthroughs of Capture The Flag challenges. 
 - **Cheat Sheets:** Handy reference guides for various tools and techniques. 
 - **Projects:** Documentation and notes from my cybersecurity projects.
-- ****
+- **Theory:** Theory on the concepts involved.
+- **Troubleshooting:** Solutions to common errors in the industry.
 - **[...]**: More valuable resources to come!
 
 <br/>
 
-# Obsidian Installation
-## Windows
+# 🚀 Getting Started
+To make the most of these notes, I recommend using [Obsidian](https://obsidian.md/). <br>
+**Obsidian** is a powerful ``Markdown`` editor that offers a rich set of features for organizing and visualizing your notes.
+
+## Obsidian Installation
+### Windows
 1. [Download](https://obsidian.md/) and Install Obsidian.
 
 ## Kali
