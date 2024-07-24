@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ILEARNYOU/ILEARNYOU.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ILEARNYOU/ILEARNYOU.md"
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md"
               }
             }
           }
@@ -156,13 +156,15 @@
   },
   "active": "163bf6a04ecb1f08",
   "lastOpenFiles": [
+    "Projects/ILEARNYOU/ILEARNYOU.md",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Easy.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY-keylogger_it1.cpp",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger - Code.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/keylogger.cpp",
     "Projects/authServer/authServer.md",
-    "Projects/ILEARNYOU/ILEARNYOU.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger",
     "CTF/HTB/Very Easy/Very Easy.md",
     "CTF/HTB/Very Easy/Appointment/00 - Appointment.md",
