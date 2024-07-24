@@ -1,7 +1,6 @@
 # wannaNotes
-
-Welcome to **WannaNotes** – your go-to repository for comprehensive cybersecurity ``notes``, ``cheat sheets``, and ``projects`` write-ups. <br/>
-As a cybersecurity enthusiast, I believe in the power of organized and accessible knowledge, and I've curated this collection to help you on your journey.
+A comprehensive collection of cybersecurity ``notes``, ``CTF write-ups``, and ``cheat sheets``. <br/>
+I believe in the power of organized and accessible knowledge, so feel-free to 
 
 In these notes, you can find:
 - CTFs Write-ups
