@@ -1,7 +1,8 @@
 # wannaNotes
-A comprehensive collection of cybersecurity ``notes``, ``CTF write-ups``, and ``cheat sheets``. <br/>
-I believe in the power of organized and accessible knowledge, so feel-free to 
+A comprehensive compilation of my personal cybersecurity knowledge. <br/>
+I like information to be <u>accessible and useful</u>, so I hope **wannaNotes** saves you the silence. <br/>
 
+##
 In these notes, you can find:
 - CTFs Write-ups
 - Cheat Sheets
