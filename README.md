@@ -1,13 +1,17 @@
 # wannaNotes
-A comprehensive compilation of my personal cybersecurity knowledge. <br/>
-I like information to be <u>accessible and useful</u>, so I hope **wannaNotes** saves you the silence. <br/>
+A comprehensive compilation of my personal cybersecurity knowledge. <br>
+I like information to be <u>accessible and useful</u>, so I hope **wannaNotes** saves you the silence. <br>
 
-##
-In these notes, you can find:
-- CTFs Write-ups
-- Cheat Sheets
-- Projects
--  [...]
+<div align="center">
+  <img src="./logo.jpg" alt="wannaNotes Logo">
+</div>
+
+## 📋 What You'll Find
+- **CTF Write-ups:** Detailed walkthroughs of Capture The Flag challenges. 
+- **Cheat Sheets:** Handy reference guides for various tools and techniques. 
+- **Projects:** Documentation and notes from my cybersecurity projects.
+- ****
+- **[...]**: More valuable resources to come!
 
 <br/>
 
