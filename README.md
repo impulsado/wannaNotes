@@ -1,4 +1,5 @@
 # wannaNotes
+Welcome to **WannaNotes** – your go-to repository for comprehensive cybersecurity notes, cheat sheets, and project write-ups.
 As a cybersecurity enthusiast I like to take notes using Markdown (Obsidian). <br/>
 In order to get the most out of the experience, install Obsidian and configure it
 <br/>
