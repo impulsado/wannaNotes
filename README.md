@@ -14,7 +14,7 @@ I like information to be <u>accessible and useful</u>, so I hope **wannaNotes** 
 - **Troubleshooting:** Solutions to common errors in the industry.
 - **[...]**: More valuable resources to come!
 
-<br/>
+<br>
 
 # 🚀 Getting Started
 To make the most of these notes, I recommend using [Obsidian](https://obsidian.md/). <br>
@@ -28,7 +28,9 @@ To make the most of these notes, I recommend using [Obsidian](https://obsidian.m
 1. [Download](https://obsidian.md/) the AppImage and put it in the Directory you want.
 2. Execute the command `/path/to/Obsidian-X.X.X.AppImage --no-sanbox`<br>
 [//]: You can create an alias for this. 
+
 <br>
+
 ## Download wannaNotes
 ### Windows
 1. Go to [wannaNotes Repository](https://github.com/impulsado/wannaNotes) and Download the code.

@@ -1,9 +1,14 @@
 **Title:** ILY - Keylogger
 **Tags:** [[ILY - Easy]]
-**Topics:**
+**Topics:** #CPP #Keylogger
 
 ---
 # ILY - Keylogger
+
+```ad-important
+
+```
+
 # General
 ## First Iteration
 ### void startLogging();

@@ -1,6 +1,6 @@
 **Title:** ILY - ScreenCapture
 **Tags:** [[ILY - Easy]]
-**Topics:** 
+**Topics:** #CPP #GDI #ScreenCapture
 
 ---
 # ILY - ScreenCapture
