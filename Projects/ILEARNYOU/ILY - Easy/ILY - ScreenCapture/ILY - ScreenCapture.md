@@ -27,7 +27,12 @@ void GetLocalTime(
 );
 ```
 
-# wstring vs str
+# wstring vs string
+- `wstring`: Unicode format.
+- `string`: ASCII or multibyte format.
+[//]: ASCII ⊆ Unicode
+
+Most Windows API need to retrieve wstrings due to Unicode can represent more languages symbols. That's why we must convert the filePath from string to wstring.
 
 # Bitmap
 - Explanation:
