@@ -51,7 +51,7 @@ void CaptureScreen(const wstring& filePath) {
  * @brief Create the folder for the screenshots
  * 
  * @pre True
- * @post If it does not exists, screenshot folder is created
+ * @post If it does not exists, screenshots folder is created
  */
 void createFolder(string name) {
     fs::create_directory(name);
@@ -90,16 +90,22 @@ string createName() {
 
 // g++ .\ILY-ScreenCapture_it1.cpp -o .\ILY-ScreenCapture_it1.exe -lgdi32 -lgdiplus -lole32
 int main() {
+    // Folder for the screenshots configuration
     string folder = "screenshots";
     createFolder(folder);
     
     while (true) {
+        // Create screenshot name
         string name = createName();
         string fullname = ".\\" + folder + "\\" + name;
         wstring filePath;
         filePath.assign(fullname.begin(),fullname.end());  // string to wstring
+        
+        // Take the screenshot and save it
         CaptureScreen(filePath);
-        Sleep(1000*30);  // Execution delay of 30 seg
+        
+        // Set the execution delay
+        Sleep(1000*30);
     }
 
     return 0;
