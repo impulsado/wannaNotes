@@ -37,9 +37,13 @@ Most Windows API need to retrieve wstrings due to Unicode can represent more lan
 # Bitmap
 A bitmap is a data structure that represents a digital image as a grid of pixels. Each pixel in the bitmap corresponds to a tiny dot on the screen, and the collection of these dots forms the complete image. The color of each pixel is typically stored as a combination of red, green, and blue (RGB) values.
 
+``` Bitmap
+| File Header | DIB Header | Pixel Array |
 ```
-| File Header | DIB Header | Color Table | Pixel Array |
-```
+- `File Header`: Store general information about the bitmap image.
+- `DIB Header`: Store detailed information (Width, height,...).
+- `Pixel Array`: Actual values of the pixels.
+
 
 - Explanation:
 https://youtu.be/kpHFFFu9qeU?si=W8q9Q7fSfGTCT9M6
