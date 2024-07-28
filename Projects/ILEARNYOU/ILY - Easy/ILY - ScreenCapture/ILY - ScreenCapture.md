@@ -27,6 +27,8 @@ void GetLocalTime(
 );
 ```
 
+# wstring vs str
+
 # Bitmap
 - Explanation:
 https://youtu.be/kpHFFFu9qeU?si=W8q9Q7fSfGTCT9M6
