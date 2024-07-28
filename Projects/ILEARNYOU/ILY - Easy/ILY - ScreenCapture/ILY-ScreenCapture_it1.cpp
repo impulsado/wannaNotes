@@ -54,34 +54,18 @@ void CaptureScreen(const wstring& filePath) {
  * @post Returns a string with the fileName formated with time-hour
  */
 string createName() {
-    SYSTEMTIME st;  // create the struct for the system time 
-	
+    SYSTEMTIME st;  // Creates a struct for the information
     GetLocalTime(&st);
-	
-    int year = st.wYear;  // extract year from system time
-	int month = st.wMonth; // extract month from system time
-	int day = st.wDay; // extract year day system time
-	int hour = st.wHour; // extract year hours system time
-	int minute = st.wMinute; // extract minute from system time
-	int second = st.wSecond; // extract secibd from system time
+    
+    string yearS = to_string(st.wYear) + "_";
+    string monthS = to_string(st.wMonth) + "-";
+    string dayS = to_string(st.wDay) + "-";
+    string hourS = to_string(st.wHour) + "H-";
+    string minuteS = to_string(st.wMinute) + "M-";
+    string secondS = to_string(st.wSecond) + "S";
+    string extensionS = ".jpg";
 
-    string yearS = to_string(year);
-	yearS += "_";
-	string monthS = to_string(month);
-	monthS += "-";
-	string dayS = to_string(day);
-	dayS += "-";
-	string hourS = to_string(hour);
-	hourS += "H-";
-	string minuteS = to_string(minute);
-	minuteS += "M-";
-	string secondS = to_string(second);
-	secondS += "S.jpg";
-
-	string name;
-	name = dayS+monthS+yearS+hourS+minuteS+secondS;  // create complete string of date and time
-
-    return name;
+    return dayS + monthS + yearS + hourS + minuteS + secondS + extensionS;
 }
 
 // g++ .\ILY-ScreenCapture_it1.cpp -o .\ILY-ScreenCapture_it1.exe -lgdi32 -lgdiplus -lole32
