@@ -47,16 +47,6 @@ void CaptureScreen(const wstring& filePath) {
     ReleaseDC(NULL, hScreenDC);
 }
 
-/**
- * @brief Create the folder for the screenshots
- * 
- * @pre True
- * @post If it does not exists, screenshots folder is created
- */
-void createFolder(string name) {
-    fs::create_directory(name);
-}
-
 string createName() {
     SYSTEMTIME st;  // create object of system time 
 	
@@ -92,14 +82,14 @@ string createName() {
 int main() {
     // Folder for the screenshots configuration
     string folder = "screenshots";
-    createFolder(folder);
+    fs::create_directory(folder);
     
     while (true) {
         // Create screenshot name
         string name = createName();
         string fullname = ".\\" + folder + "\\" + name;
         wstring filePath;
-        filePath.assign(fullname.begin(),fullname.end());  // string to wstring
+        filePath.assign(fullname.begin(), fullname.end());  // string to wstring
         
         // Take the screenshot and save it
         CaptureScreen(filePath);
