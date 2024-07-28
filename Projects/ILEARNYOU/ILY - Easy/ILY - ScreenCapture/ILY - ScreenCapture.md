@@ -35,5 +35,7 @@ void GetLocalTime(
 Most Windows API need to retrieve wstrings due to Unicode can represent more languages symbols. That's why we must convert the filePath from string to wstring.
 
 # Bitmap
+A bitmap is a Micro data structure that represents a digital image as a grid of pixels. Each pixel in the bitmap corresponds to a tiny dot on the screen, and the collection of these dots forms the complete image. The color of each pixel is typically stored as a combination of red, green, and blue (RGB) values.
+
 - Explanation:
 https://youtu.be/kpHFFFu9qeU?si=W8q9Q7fSfGTCT9M6
