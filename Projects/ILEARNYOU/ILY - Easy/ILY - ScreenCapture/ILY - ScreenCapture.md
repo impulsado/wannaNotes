@@ -44,6 +44,6 @@ A bitmap is a data structure that represents a digital image as a grid of pixels
 - `DIB Header`: Store detailed information (Width, height,...).
 - `Pixel Array`: Actual values of the pixels.
 
+![[Pasted image 20240728084042.png]]
 
-- Explanation:
-https://youtu.be/kpHFFFu9qeU?si=W8q9Q7fSfGTCT9M6
+# Device Context (DC)
