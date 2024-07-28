@@ -47,8 +47,14 @@ void CaptureScreen(const wstring& filePath) {
     ReleaseDC(NULL, hScreenDC);
 }
 
+/**
+ * @brief
+ * 
+ * @pre True
+ * @post Returns a string with the fileName formated with time-hour
+ */
 string createName() {
-    SYSTEMTIME st;  // create object of system time 
+    SYSTEMTIME st;  // create the struct for the system time 
 	
     GetLocalTime(&st);
 	

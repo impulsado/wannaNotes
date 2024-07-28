@@ -20,7 +20,12 @@ typedef struct _SYSTEMTIME {
 ```
 So it makes us easier to get the information for later extract whatever we prefer. 
 
-Along with this struct, Windows also has a function called ``
+Along with this struct, Windows also has a function called `GetLocalTime()` that we pass a pointer to a `SYSTIME` struct and the function sets the information to it.
+```c++
+void GetLocalTime(
+  LPSYSTEMTIME lpSystemTime
+);
+```
 
 # Bitmap
 - Explanation:
