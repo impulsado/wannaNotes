@@ -64,7 +64,14 @@ void save(const string& input) {
 ### Detect Upper and Lower cases
 ``GetKeyState(VK_CAPITAL)`` returns a short where the least significant bit (LSB) represents the toggle state. If the LSB is 1, Caps Lock is active.
 ```c++
-(GetKeyState(VK_CAPITAL) & 1)
+bool isCapsLock() { 
+	return (GetKeyState(VK_CAPITAL) & 1) != 0; 
+}
 ```
 
-``GetKeyState(VK_SHIFT)`` returns a short where the most significant bit (MSB) is set if the key is currently being pressed. The value 0x8000 corresponds to this MSB, indicating the physical press of the key.
+``GetKeyState(VK_SHIFT)`` Returns a short where the most significant bit (MSB) is set if the key is currently being pressed. The value 0x8000 corresponds to this MSB, indicating the physical press of the key.
+```c++
+bool isShift() { 
+	return (GetKeyState(VK_SHIFT) & 0x8000) != 0; 
+}
+```
