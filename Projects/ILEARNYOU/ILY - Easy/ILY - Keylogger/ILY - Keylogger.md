@@ -9,11 +9,11 @@
 ### void startLogging();
 It is not possible to know which key has been pressed after it happened, so the only way to detect it is to check all possible valid keys in the ASCII symbols every time. Due to our goal of capturing passwords and usernames, the last valid symbol is "¡", which has the number 173 in the ASCII standard.
 
-Now that we are checking all possible characters, it is important to determine how we are going to get that "alarm" informing us that a key on the keyboard has been pressed. This is where `GetAsyncKeyState()` comes into play.
+Now that we are checking all possible characters, it is important to determine how we are going to get that “alarm” informing us that a key on the keyboard has been pressed. This is where `GetAsyncKeyState()` comes into play.
 
-`GetKeyState()` will return that a key has been pressed only if it happens in the same "instant"; otherwise, it will not detect it. This isn't really convenient in our case, so we will use `GetAsyncKeyState()` instead, because it can retrieve the state of a key pressed at any time.
+`GetKeyState()` Will return that a key has been pressed only if it happens in the same “instant”; otherwise, it will not detect it. This isn't really convenient in our case, so we will use `GetAsyncKeyState()` instead, because it can retrieve the state of a key pressed at any time.
 
-It's important to understand how `GetAsyncKeyState()` works and the best way to implement it. You will see three types of implementations:
+It's essential to understand how `GetAsyncKeyState()` works and the best way to implement it. You will see three types of implementations:
 - `GetAsyncKeyState(key) == -32767`: Verifies if a key has been pressed and released.
 - `GetAsyncKeyState(key) & 0x0001`: Verifies if a key has been pressed since the last call.
 - `GetAsyncKeyState(key) & 0x8000`: Verifies if a key is currently being pressed.
@@ -38,7 +38,6 @@ for (char key = 8; key<=173; key++) {
 
 ### void save(const string& input);
 Firstly, we need to create a new datatype to work with files. For this reason, we must include `#include <iostream>` and `#include <fstream>`.
-Given of how "fstream" is defined, its more convenient to use `fstream`.
 
 ```ad-info
 **fstream**
@@ -46,7 +45,7 @@ This data type represents the file stream generally, and has the capabilities of
 ```
 
 Afterward we will have to open the file to append the `input` in it. 
-`fstream` will create the file if it does not exist, and if any problem occurs, we will append the input. It is good practice to close the file every time after performing file operations.
+`fstream` will create the file if it does not exist, and if any no problem occurs, we will append the input. It is good practice to close the file every time after performing file operations.
 
 ```c++
 void save(const string& input) {
@@ -60,3 +59,5 @@ void save(const string& input) {
 	}
 }
 ```
+
+## Second Iteration
