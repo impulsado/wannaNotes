@@ -1,3 +1,4 @@
+```c++
 #include <iostream>
 #include <windows.h>
 #include <fstream>
@@ -107,3 +108,4 @@ int main() {
     
     return 0;
 }
+```

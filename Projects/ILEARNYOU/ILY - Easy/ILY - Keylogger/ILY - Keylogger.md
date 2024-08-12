@@ -4,15 +4,10 @@
 
 ---
 # ILY - Keylogger
-
-```ad-important
-
-```
-
 # General
 ## First Iteration
 ### void startLogging();
-It is not possible to know which key has been pressed after it happened, so the only way to detect it is to check all possible valid keys in the ASCII symbols every time. Due to our goal of capturing passwords and usernames, the last valid symbol is "¡", which has the number 173.
+It is not possible to know which key has been pressed after it happened, so the only way to detect it is to check all possible valid keys in the ASCII symbols every time. Due to our goal of capturing passwords and usernames, the last valid symbol is "¡", which has the number 173 in the ASCII standard.
 
 Now that we are checking all possible characters, it is important to determine how we are going to get that "alarm" informing us that a key on the keyboard has been pressed. This is where `GetAsyncKeyState()` comes into play.
 

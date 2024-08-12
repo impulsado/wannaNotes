@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md",
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md"
+                "file": "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md"
               }
             }
           }
@@ -156,9 +156,10 @@
   },
   "active": "163bf6a04ecb1f08",
   "lastOpenFiles": [
-    "Assets/Pasted image 20240728084042.png",
+    "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger - Code_V1.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - Keylogger/ILY - Keylogger.md",
     "Projects/ILEARNYOU/ILY - Easy/ILY - ScreenCapture/ILY - ScreenCapture.md",
+    "Assets/Pasted image 20240728084042.png",
     "README.md",
     "logo.jpg",
     "Projects/ILEARNYOU/ILEARNYOU.md",
