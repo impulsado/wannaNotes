@@ -77,7 +77,6 @@ bool isShift() {
 ```
 
 ### Clipboard Monitoring
-
 The clipboard monitoring functionality is designed to capture and log text data from the system clipboard periodically. This process involves checking the clipboard contents at regular intervals and logging any changes. Here’s a detailed explanation of how the clipboard monitoring is implemented:
 
 #### Function: `getClipboardText()`
