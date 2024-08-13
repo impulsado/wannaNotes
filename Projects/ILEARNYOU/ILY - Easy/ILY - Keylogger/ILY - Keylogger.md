@@ -144,6 +144,11 @@ void clipboardLogger(int key) {
 #### Function: `save(const string& input, int key)`
 If we want to encrypt the logfile we will need to modify how `save()` works. In the `main()` function it's set the "PIN" to make the shift as the Caesar cipher.
 
+Using **binary mode** when opening files in C++ ensures that the file is read and written byte-for-byte without any translation or modification of the data. Each byte is processed exactly as it appears, preserving the original data format.
+
+In **text mode**  newline characters (`\n`) are translated into a carriage return and newline sequence (`\r\n`) when writing to a file, and vice versa when reading from a file.
+In **binary mode** (`ios::binary`), the file is read and written exactly as-is, with no interpretation or conversion of any characters.
+
 The loop `for (char c : input) { ... }` iterates over each character in the input string. For each character, a shift value is calculated using `int shift = 1 + key % 10;`, which ensures a shift between 0 and 9. This shift value is added to the character's ASCII code (`c + shift`) before writing it to the file.
 
 ```c++
@@ -169,3 +174,5 @@ void save(const string& input, int key) {
     outFile.close();
 }
 ```
+
+#### Function: ``
