@@ -63,6 +63,7 @@ void save(const string& input) {
 
 ## Second Iteration
 ### Detect Upper and Lower cases
+#### Function: `isCapsLock()` and `isShift()`
 ``GetKeyState(VK_CAPITAL)`` returns a short where the least significant bit (LSB) represents the toggle state. If the LSB is 1, Caps Lock is active.
 ```c++
 bool isCapsLock() { 
@@ -78,7 +79,9 @@ bool isShift() {
 ```
 
 ### Clipboard Monitoring
-The clipboard monitoring functionality is designed to capture and log text data from the system clipboard periodically. This process involves checking the clipboard contents at regular intervals and logging any changes. Here’s a detailed explanation of how the clipboard monitoring is implemented:
+The clipboard monitoring functionality is designed to capture and log text data from the system clipboard periodically. This process involves checking the clipboard contents at regular intervals and logging any changes. 
+[//]: Note that is not necessary to check the clipboard as frequent as the key status, so we will have to implement threats.
+
 
 #### Function: `getClipboardText()`
 The `getClipboardText` function retrieves the text currently stored in the system clipboard. It utilizes the Windows API to access the clipboard and fetches any Unicode text available.
