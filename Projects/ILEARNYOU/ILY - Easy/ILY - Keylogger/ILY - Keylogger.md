@@ -176,8 +176,11 @@ void save(const string& input, int key) {
 ```
 
 #### Function: `decrypt(const string& filename, int key)`
-**Decryption and Writing**:
-- The `while (file.get(c)) { ... }` loop reads each character from the encrypted file. For each character, it calculates the shift value using `int shift = 1 + key % 10;`, then decrypts the character by subtracting this shift from its ASCII code (`c - shift`) before writing the result to the new file.
+Now we need to implement the decryption protocol of the logfile. To simplify the work, the keylogger also decrypts the logfile when executed as: `.\keylogger.exe -d PIN`
+
+How the parameters are treated is done in the ``main()`` function.
+
+The `while (file.get(c)) { ... }` loop reads each character from the encrypted file. For each character, it calculates the shift value using `int shift = 1 + key % 10;`, then decrypts the character by subtracting this shift from its ASCII code (`c - shift`) before writing the result to the new file.
 
 ```c++
 void decrypt(const string& filename, int key) {
