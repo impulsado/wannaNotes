@@ -175,4 +175,34 @@ void save(const string& input, int key) {
 }
 ```
 
-#### Function: ``
+#### Function: `decrypt(const string& filename, int key)`
+**Decryption and Writing**:
+- The `while (file.get(c)) { ... }` loop reads each character from the encrypted file. For each character, it calculates the shift value using `int shift = 1 + key % 10;`, then decrypts the character by subtracting this shift from its ASCII code (`c - shift`) before writing the result to the new file.
+
+```c++
+void decrypt(const string& filename, int key) {
+    ifstream file(filename, ios::binary);
+    ofstream decrypted("decrypted.txt");
+
+    if (!file.is_open()) {
+        cout << "Error opening file." << endl;
+        return;
+    }
+
+    if (!decrypted.is_open()) {
+        cout << "Error creating file." << endl;
+        return;
+    }
+
+    char c;
+    while (file.get(c)) {
+        int shift = 1 + key % 10;  // Calculate the shift
+        decrypted.put(c - shift);  // Decrypt and write to the new file
+    }
+
+    cout << "File decrypted successfully." << endl;
+
+    file.close();
+    decrypted.close();
+}
+```
