@@ -141,4 +141,5 @@ void clipboardLogger(int key) {
 ```
 
 ### Encrypt and decrypt the logfile
-#### Function: `save(void save(const string& input, int key))`
+#### Function: `save(const string& input, int key)`
+If we want to encrypt the logfile we will need to modify how save 
