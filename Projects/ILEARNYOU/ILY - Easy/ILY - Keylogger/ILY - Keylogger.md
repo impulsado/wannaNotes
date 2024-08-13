@@ -6,7 +6,8 @@
 # ILY - Keylogger
 # General
 ## First Iteration
-### void startLogging();
+### Keylogger
+#### Function: ``startLogging()``
 It is not possible to know which key has been pressed after it happened, so the only way to detect it is to check all possible valid keys in the ASCII symbols every time. Due to our goal of capturing passwords and usernames, the last valid symbol is "¡", which has the number 173 in the ASCII standard.
 
 Now that we are checking all possible characters, it is important to determine how we are going to get that “alarm” informing us that a key on the keyboard has been pressed. This is where `GetAsyncKeyState()` comes into play.
@@ -80,7 +81,6 @@ bool isShift() {
 The clipboard monitoring functionality is designed to capture and log text data from the system clipboard periodically. This process involves checking the clipboard contents at regular intervals and logging any changes. Here’s a detailed explanation of how the clipboard monitoring is implemented:
 
 #### Function: `getClipboardText()`
-
 The `getClipboardText` function retrieves the text currently stored in the system clipboard. It utilizes the Windows API to access the clipboard and fetches any Unicode text available.
 
 - **Opening the Clipboard**: The function begins by calling `OpenClipboard(nullptr)`. This function attempts to open the clipboard for examination and prevents other applications from modifying it until it is closed.
