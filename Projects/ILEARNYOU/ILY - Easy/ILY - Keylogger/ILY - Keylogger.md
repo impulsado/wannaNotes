@@ -12,12 +12,12 @@ It is not possible to know which key has been pressed after it happened, so the 
 
 Now that we are checking all possible characters, it is important to determine how we are going to get that “alarm” informing us that a key on the keyboard has been pressed. This is where `GetAsyncKeyState()` comes into play.
 
-`GetKeyState()` Will return that a key has been pressed only if it happens in the same “instant”; otherwise, it will not detect it. This isn't really convenient in our case, so we will use `GetAsyncKeyState()` instead, because it can retrieve the state of a key pressed at any time.
+`GetKeyState()` Will return that a key has been pressed only if it happens in the same “instant”; otherwise, it will not detect it. This isn't really convenient in our case, so we will use `GetAsyncKeyState()` instead, because it can retrieve the state of a key pressed at any time (Because its Async).
 
 It's essential to understand how `GetAsyncKeyState()` works and the best way to implement it. You will see three types of implementations:
-- `GetAsyncKeyState(key) == -32767`: Verifies if a key has been pressed and released.
 - `GetAsyncKeyState(key) & 0x0001`: Verifies if a key has been pressed since the last call.
 - `GetAsyncKeyState(key) & 0x8000`: Verifies if a key is currently being pressed.
+- `GetAsyncKeyState(key) == -32767`: Verifies if a key has been pressed and released.
 [//]: Note that (0xFFFF8001)Hexa == (-32767)Ca2
 
 ```ad-question
