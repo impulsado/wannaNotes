@@ -1,0 +1,120 @@
+# =============================================================================
+# BGP Hijack Lab - BGP Route Hijack Demonstration
+# =============================================================================
+
+name: bgp-hijack
+
+topology:
+  nodes:
+    # =========================================================================
+    # TorHost (AS 65001) - ISP hosting the legitimate Tor Relay server
+    # Announces the 1.1.1.0/24 network
+    # =========================================================================
+    TorHost:
+      kind: linux
+      image: quay.io/frrouting/frr:10.5.0
+      binds:
+        - configs/TorHost/frr.conf:/etc/frr/frr.conf
+        - configs/TorHost/daemons:/etc/frr/daemons
+        - configs/TorHost/vtysh.conf:/etc/frr/vtysh.conf
+      exec:
+        # Point-to-point link to Transit (10.0.1.0/30)
+        - ip addr add 10.0.1.1/30 dev eth1
+        # Network where the Tor Relay lives (1.1.1.0/24)
+        - ip addr add 1.1.1.1/24 dev eth2
+        - sysctl -w net.ipv4.ip_forward=1
+
+    # =========================================================================
+    # Transit (AS 65002) - Transit ISP (backbone)
+    # Only forwards routes; does not originate its own prefixes
+    # =========================================================================
+    Transit:
+      kind: linux
+      image: quay.io/frrouting/frr:10.5.0
+      binds:
+        - configs/Transit/frr.conf:/etc/frr/frr.conf
+        - configs/Transit/daemons:/etc/frr/daemons
+        - configs/Transit/vtysh.conf:/etc/frr/vtysh.conf
+      exec:
+        # Link to TorHost (10.0.1.0/30)
+        - ip addr add 10.0.1.2/30 dev eth1
+        # Link to ClientISP (10.0.2.0/30)
+        - ip addr add 10.0.2.1/30 dev eth2
+        - sysctl -w net.ipv4.ip_forward=1
+
+    # =========================================================================
+    # ClientISP (AS 65003) - Victim client ISP
+    # Peers with Transit (upstream) and EvilISP (malicious peer)
+    # =========================================================================
+    ClientISP:
+      kind: linux
+      image: quay.io/frrouting/frr:10.5.0
+      binds:
+        - configs/ClientISP/frr.conf:/etc/frr/frr.conf
+        - configs/ClientISP/daemons:/etc/frr/daemons
+        - configs/ClientISP/vtysh.conf:/etc/frr/vtysh.conf
+      exec:
+        # Link to Transit (10.0.2.0/30)
+        - ip addr add 10.0.2.2/30 dev eth1
+        # Link to EvilISP - the attacker (10.0.3.0/30)
+        - ip addr add 10.0.3.1/30 dev eth2
+        # Client network (2.2.2.0/24)
+        - ip addr add 2.2.2.1/24 dev eth3
+        - sysctl -w net.ipv4.ip_forward=1
+
+    # =========================================================================
+    # EvilISP (AS 65100) - Malicious ISP running the BGP hijack
+    # Initially announces NOTHING. The hijack is triggered manually.
+    # =========================================================================
+    EvilISP:
+      kind: linux
+      image: quay.io/frrouting/frr:10.5.0
+      binds:
+        - configs/EvilISP/frr.conf:/etc/frr/frr.conf
+        - configs/EvilISP/daemons:/etc/frr/daemons
+        - configs/EvilISP/vtysh.conf:/etc/frr/vtysh.conf
+        - configs/EvilISP/hijack.vty:/etc/frr/hijack.vty
+        - configs/EvilISP/unhijack.vty:/etc/frr/unhijack.vty
+      exec:
+        # Link to ClientISP (10.0.3.0/30)
+        - ip addr add 10.0.3.2/30 dev eth1
+        # Fake Tor Relay IP (to intercept traffic)
+        - ip addr add 1.1.1.10/32 dev lo
+        # Blackhole route required so FRR accepts advertising the prefix
+        - ip route add blackhole 1.1.1.0/25
+        - sysctl -w net.ipv4.ip_forward=1
+
+    # =========================================================================
+    # Tor-Relay - Legitimate server (hijack victim)
+    # =========================================================================
+    Tor-Relay:
+      kind: linux
+      image: alpine:3.20
+      exec:
+        - ip addr add 1.1.1.10/24 dev eth1
+        - ip route replace default via 1.1.1.1
+
+    # =========================================================================
+    # Client - End user who will be the attack victim
+    # =========================================================================
+    Client:
+      kind: linux
+      image: alpine:3.20
+      exec:
+        - ip addr add 2.2.2.10/24 dev eth1
+        - ip route replace default via 2.2.2.1
+
+  # ==========================================================================
+  # NETWORK LINKS
+  # ==========================================================================
+  links:
+    # TorHost <-> Transit (backbone)
+    - endpoints: [ "TorHost:eth1", "Transit:eth1" ]
+    # Transit <-> ClientISP
+    - endpoints: [ "Transit:eth2", "ClientISP:eth1" ]
+    # ClientISP <-> EvilISP (attacker connection)
+    - endpoints: [ "ClientISP:eth2", "EvilISP:eth1" ]
+    # TorHost <-> Tor-Relay (legitimate server)
+    - endpoints: [ "TorHost:eth2", "Tor-Relay:eth1" ]
+    # ClientISP <-> Client (end user)
+    - endpoints: [ "ClientISP:eth3", "Client:eth1" ]
