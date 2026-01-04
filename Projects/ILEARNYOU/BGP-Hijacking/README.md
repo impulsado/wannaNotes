@@ -1,6 +1,6 @@
 # BGP Hijack Lab - BGP Route Hijack Demonstration
 
-# [YouTube Video]()
+# [YouTube Video](https://youtu.be/6ecVpzv35j4)
 
 ## Description
 
